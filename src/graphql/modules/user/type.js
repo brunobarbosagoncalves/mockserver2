@@ -1,13 +1,25 @@
-const userType = `
+import mutation from './mutation'
+import query from './query'
+
+export default `
+
+    type Query{
+        ${query}
+    }
+    type Mutation{
+        ${mutation}
+    }
+
     #Definition user type
     type User{
-        #Id of user
         id: ID!
         name: String!
         email: String!
-        photo: String
-        createdAt: String!
-        updatedAt: String!
+        createdAt: String
+        updatedAt: String
+        deletedAt: String
+        posts: [Post]!
+        
     }
 
     #Definition user input create
@@ -21,12 +33,11 @@ const userType = `
     input UserUpdateInput{
         name: String!
         email: String!
-        photo: String!
     }
 
-    #Definition user input update password
     input UserUpdatePasswordInput{
         password: String!
+        newpassword: String!
     }
+
 `
-export default userType

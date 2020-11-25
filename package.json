@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "set NODE_ENV=development && nodemon --exec babel-node src/server/index.js",
     "prod": "set NODE_ENV=production && pm2 start --watch --interpreter babel-node src/server/index.js",
-    "test": "set NODE_ENV=test && echo \"Error: no test specified\" && exit 1"
+    "test": "set NODE_ENV=test && echo \"Error: no test specified\" && exit 1",
+    "db-run-migration": "set NODE_ENV=development && sequelize --options-path=.sequelizerc.js db:migrate",
+    "db-run-seeder": "set NODE_ENV=development && sequelize --options-path=.sequelizerc.js db:seed:all",
+    "db-run-migration-undo-all": "set NODE_ENV=development && sequelize --options-path=.sequelizerc.js db:migrate:undo:all"
   },
   "repository": {
     "type": "git",
@@ -45,13 +48,16 @@
     "compression": "^1.7.4",
     "connect-rid": "^0.0.1",
     "cors": "^2.8.5",
+    "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
     "graphql": "^15.4.0",
+    "graphql-fields": "^2.0.3",
     "graphql-tools": "^7.0.1",
     "helmet": "^4.2.0",
     "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
     "pm2": "^4.5.0",
     "sequelize": "^6.3.5"
   }

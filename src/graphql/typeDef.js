@@ -1,7 +1,6 @@
-import userType from './modules/user/userType'
+import { mergeTypeDefs } from '@graphql-tools/merge'
 
-const typeDefs = `
-    ${userType}
-`
+import userType from './modules/user/type'
+import postType from './modules/post/type'
 
-export default typeDefs
+export default mergeTypeDefs([userType, postType])
