@@ -4,13 +4,14 @@ export default {
   User: {
     posts: async (
       parent,
-      { limit = 0, offset = 10 },
-      { db: { postModel }, graphqlFields },
+      { limit = 10, offset = 0 },
+      { db: { postModel }, graphqlFields, postLoader },
       info
     ) => {
-      const userId = parent.id
+      return postLoader.loadMany([{ id: parent.id, config: {} }])
+
       return postModel.findAll({
-        where: { userId },
+        where: { userId: parent.id },
         attributes: graphqlFields(info, ['id', 'userId'], ['user']),
         limit,
         offset
@@ -20,7 +21,7 @@ export default {
   Query: {
     users: async (
       parent,
-      { limit = 0, offset = 10 },
+      { limit = 10, offset = 0 },
       { db: { userModel }, graphqlFields },
       info
     ) =>

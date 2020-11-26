@@ -9,7 +9,7 @@ export default {
   Query: {
     posts: async (
       parent,
-      { limit = 0, offset = 10 },
+      { limit = 10, offset = 0 },
       { db: { postModel }, graphqlFields },
       info
     ) =>

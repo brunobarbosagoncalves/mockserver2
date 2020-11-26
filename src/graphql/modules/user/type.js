@@ -18,7 +18,7 @@ export default `
         createdAt: String
         updatedAt: String
         deletedAt: String
-        posts: [Post]!
+        posts: [Post]  
         
     }
 
