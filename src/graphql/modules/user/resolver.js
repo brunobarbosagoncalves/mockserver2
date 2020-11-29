@@ -8,7 +8,7 @@ export default {
       { db: { postModel }, graphqlFields, postLoader },
       info
     ) => {
-      return postLoader.loadMany([{ id: parent.id, config: {} }])
+      return postLoader.loadMany([{ id: parent.id, config: { limit, offset } }])
 
       return postModel.findAll({
         where: { userId: parent.id },
@@ -63,7 +63,7 @@ export default {
 
     updateUserPassword: async (
       parent,
-      { id, input: { password, newpassword } },
+      { id, input: { password, passwordNew } },
       { db: { userModel }, errorHandler },
       info
     ) => {
@@ -71,7 +71,7 @@ export default {
 
       return userModel
         .update(
-          { password: newpassword },
+          { password: passwordNew },
           { where: { id, password: hashPassword } }
         )
         .then((response) => {

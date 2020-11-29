@@ -19,7 +19,6 @@ export default `
         updatedAt: String
         deletedAt: String
         posts: [Post]  
-        
     }
 
     #Definition user input create
@@ -37,7 +36,7 @@ export default `
 
     input UserUpdatePasswordInput{
         password: String!
-        newpassword: String!
+        passwordNew: String!
     }
 
 `

@@ -1,13 +1,18 @@
 export default (error) => {
   try {
-    if (error.name.test(new RegExp('/^.*sequelize.*error$/gmi'))) {
-      console.log('IIFFFFF--------')
-      return {
-        name: error.name,
-        errors: Object.entries(error.errors.ValidationErrorItem).map(
-          (erroItem) => ''
-        )
+    if (error.origin === 'graphql') {
+      const errorFormated = {
+        origin: 'graphql',
+        message: error.message || '',
+        statusCode: null,
+        statusName: null,
+        path: `${JSON.stringify(error.path)} > ${JSON.stringify(
+          error.locations
+        )}`,
+        brute: JSON.stringify(error)
       }
+
+      console.log(errorFormated)
     }
   } catch (error) {
     return error
