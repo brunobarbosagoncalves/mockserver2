@@ -1,5 +1,5 @@
 module.exports = {
   compilerOptions: {
-    baseUrl: "./src"
+    baseUrl: './src'
   }
 }

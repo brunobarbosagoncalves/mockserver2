@@ -14,7 +14,6 @@ import cors from 'cors'
 import helmet from 'helmet'
 
 //local
-import api from '~/services/api'
 import routes from '~/server/routes'
 import checkToken from '~/server/middlewares/checkToken'
 
@@ -43,8 +42,7 @@ class Server {
   async routes() {
     this.server.use('/', routes.publicRoute)
 
-    this.server.use('/protected', checkToken, routes.publicRoute)
-    this.server.use('/graphql', /*checkToken,*/ routes.graphql)
+    this.server.use('/protected', /*checkToken,*/ routes.publicRoute)
 
     this.server.use('*', (_, res) =>
       res.status(404).send({ message: 'Page not found' })
@@ -52,8 +50,8 @@ class Server {
   }
 
   start() {
-    this.server.listen(process.env.PORT, () => {
-      console.log(`Server run on port ${process.env.PORT}`)
+    this.server.listen(process.env.port, () => {
+      console.log(`Server run on port ${process.env.port}`)
     })
   }
 }
