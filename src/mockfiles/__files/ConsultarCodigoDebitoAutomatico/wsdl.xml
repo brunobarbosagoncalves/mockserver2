@@ -1,0 +1,36 @@
+<WL5G3N0:definitions xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://alsb.telemar/xsd/ConsultarCodigoDebitoAutomatico" xmlns:WL5G3N2="http://alsb.telemar/wsdl/ConsultarCodigoDebitoAutomatico" xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://alsb.telemar/wsdl/ConsultarCodigoDebitoAutomatico">
+<WL5G3N0:types>
+<xsd:schema xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://alsb.telemar/wsdl/ConsultarCodigoDebitoAutomatico" xmlns:tnsXsd="http://alsb.telemar/xsd/ConsultarCodigoDebitoAutomatico" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:import namespace="http://alsb.telemar/xsd/ConsultarCodigoDebitoAutomatico" schemaLocation="http://soapx28:27205/ContaSemPapel/ConsultarCodigoDebitoAutomaticoProxySoap?SCHEMA%2FContaSemPapel%2FSchemas%2FConsultarCodigoDebitoAutomatico%2FConsultarCodigoDebitoAutomatico"/>
+</xsd:schema>
+</WL5G3N0:types>
+<WL5G3N0:message name="ConsultarCodigoDebitoAutomaticoRequest">
+<WL5G3N0:part element="WL5G3N1:ConsultarCodigoDebitoAutomaticoRequest" name="ConsultarCodigoDebitoAutomaticoRequest"/>
+</WL5G3N0:message>
+<WL5G3N0:message name="ConsultarCodigoDebitoAutomaticoResponse">
+<WL5G3N0:part element="WL5G3N1:ConsultarCodigoDebitoAutomaticoResponse" name="ConsultarCodigoDebitoAutomaticoResponse"/>
+</WL5G3N0:message>
+<WL5G3N0:portType name="ConsultarCodigoDebitoAutomatico">
+<WL5G3N0:operation name="ConsultarCodigoDebitoAutomatico">
+<WL5G3N0:input message="WL5G3N2:ConsultarCodigoDebitoAutomaticoRequest"/>
+<WL5G3N0:output message="WL5G3N2:ConsultarCodigoDebitoAutomaticoResponse"/>
+</WL5G3N0:operation>
+</WL5G3N0:portType>
+<WL5G3N0:binding name="ConsultarCodigoDebitoAutomaticoSOAP" type="WL5G3N2:ConsultarCodigoDebitoAutomatico">
+<WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<WL5G3N0:operation name="ConsultarCodigoDebitoAutomatico">
+<WL5G3N3:operation soapAction="http://alsb.telemar/ContaSemPapel/ConsultarCodigoDebitoAutomatico"/>
+<WL5G3N0:input>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:input>
+<WL5G3N0:output>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:output>
+</WL5G3N0:operation>
+</WL5G3N0:binding>
+<WL5G3N0:service name="ConsultarCodigoDebitoAutomaticoSOAPQSService">
+<WL5G3N0:port binding="WL5G3N2:ConsultarCodigoDebitoAutomaticoSOAP" name="ConsultarCodigoDebitoAutomaticoSOAPQSPort">
+<WL5G3N3:address location="http://digpx12.interno:8070/ContaSemPapel/ConsultarCodigoDebitoAutomaticoProxySoap"/>
+</WL5G3N0:port>
+</WL5G3N0:service>
+</WL5G3N0:definitions>

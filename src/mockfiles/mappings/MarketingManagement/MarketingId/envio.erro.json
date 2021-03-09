@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+      "method": "POST",
+      "urlPattern": "/api/marketing-management/v1/marketingid",
+      "headers": {
+        "authorization": {
+            "matches": "(.+)"
+        }
+      }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+          "Authorization, Origin, X-Requested-With, Content-Type, Accept, authorization"
+      },
+      "bodyFileName": "MarketingManagement/MarketingId/envio.sucesso.json"
+    }
+  }
+  

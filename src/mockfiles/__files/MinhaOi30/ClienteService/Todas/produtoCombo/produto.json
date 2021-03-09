@@ -1,0 +1,247 @@
+{
+   "nome": "ECILDA MACIEL DUTRA",
+   "cpf": "81824386168",
+   "dataNascimento": "30/07/1977",
+   "crmsCadastro": [
+   "CDI"
+   ],
+   "emailContrato": "",
+   "produtos": [
+   {
+   "numeroTerminal": "65984191760",
+   "idContaFatura": "2817780626",
+   "CRMOrigem": "SBL63",
+   "fgInadimplente": "N",
+   "indicInternet": "N",
+   "tipoTerminal": "M",
+   "tipoPlano": "POS",
+   "plano": {
+   "codigoPlano": "Móvel1-9PO1L0F-1",
+   "nomePlano": "PLANO OI CONTA TOTAL 200 MAIS"
+   },
+   "statusTerminal": "Ativo",
+   "produtosCombo": [
+   {
+   "numeroTerminal": "65984191760",
+   "CRMOrigem": "SBL63",
+   "tpPlano": "POS",
+   "plano": {
+   "codigoPlano": "Móvel1-9PO1L0F-1",
+   "nomePlano": "PLANO OI CONTA TOTAL 200 MAIS"
+   },
+   "statusTerminal": "Ativo",
+   "indicInternet": "N"
+   },
+   {
+   "numeroTerminal": "65984140506",
+   "CRMOrigem": "SBL63",
+   "tpPlano": "POS",
+   "plano": {
+   "codigoPlano": "Móvel1-9PO1L0F-1",
+   "nomePlano": "PLANO OI CONTA TOTAL 200 MAIS"
+   },
+   "statusTerminal": "Ativo",
+   "indicInternet": "N"
+   }
+   ],
+   "faturas": [
+   {
+   "dataVencimento": "2017-12-11",
+   "valor": "262.47",
+   "codigoDeBarras": "84620000002-0  62470313281-8  77806260850-1  73232600000-5",
+   "status": "Paga",
+   "tem14Meses": false,
+   "idFatura": "651760-1",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "850732326",
+   "anoMesReferencia": "201711",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2018-01-11",
+   "valor": "262.27",
+   "codigoDeBarras": "84640000002-8  62270313281-2  77806260867-5  20039200000-2",
+   "status": "Paga",
+   "tem14Meses": false,
+   "idFatura": "651760-2",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "867200392",
+   "anoMesReferencia": "201712",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2018-03-11",
+   "valor": "7.62",
+   "codigoDeBarras": "84640000000-2  07620313281-6  77806260900-4  14526100000-7",
+   "status": "Paga",
+   "tem14Meses": false,
+   "idFatura": "651760-3",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "900145261",
+   "anoMesReferencia": "201802",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2018-04-11",
+   "valor": "271.65",
+   "codigoDeBarras": "84620000002-0  71650313281-4  77806260916-0  79634500000-7",
+   "status": "Paga",
+   "tem14Meses": false,
+   "idFatura": "651760-4",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "916796345",
+   "anoMesReferencia": "201803",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2018-05-11",
+   "valor": "285.71",
+   "codigoDeBarras": "84650000002-7  85710313281-0  77806260934-3  54512300000-6",
+   "status": "Paga",
+   "tem14Meses": false,
+   "idFatura": "651760-5",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "934545123",
+   "anoMesReferencia": "201804",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2018-06-11",
+   "valor": "311.31",
+   "codigoDeBarras": "84670000003-3  11310313281-8  77806260952-5  96023300000-4",
+   "status": "Paga",
+   "tem14Meses": false,
+   "idFatura": "651760-6",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "952960233",
+   "anoMesReferencia": "201805",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2018-07-11",
+   "valor": "274.60",
+   "codigoDeBarras": "84660000002-6  74600313281-6  77806260974-9  97171300000-0",
+   "status": "Paga",
+   "tem14Meses": false,
+   "idFatura": "651760-7",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "974971713",
+   "anoMesReferencia": "201806",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2018-08-11",
+   "valor": "276.48",
+   "codigoDeBarras": "84680000002-4  76480313281-1  77806260993-9  77572600000-0",
+   "status": "Paga",
+   "tem14Meses": false,
+   "idFatura": "651760-8",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "993775726",
+   "anoMesReferencia": "201807",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2018-09-11",
+   "valor": "267.37",
+   "codigoDeBarras": "84650000002-7  67370313281-5  77806260010-2  95626200100-4",
+   "status": "Paga",
+   "tem14Meses": false,
+   "idFatura": "651760-9",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "10956262",
+   "anoMesReferencia": "201808",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2018-10-11",
+   "valor": "270.10",
+   "codigoDeBarras": "84680000002-4  70100313281-1  77806260032-6  46069200100-7",
+   "status": "Paga",
+   "tem14Meses": false,
+   "idFatura": "651760-10",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "32460692",
+   "anoMesReferencia": "201809",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2018-11-11",
+   "valor": "268.43",
+   "codigoDeBarras": "84670000002-5  68430313281-6  77806260051-6  37081000100-5",
+   "status": "Paga",
+   "tem14Meses": false,
+   "idFatura": "651760-11",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "51370810",
+   "anoMesReferencia": "201810",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2018-12-11",
+   "valor": "268.41",
+   "codigoDeBarras": "84670000002-5  68410313281-8  77806260070-6  24785000100-6",
+   "status": "Em Aberto",
+   "tem14Meses": false,
+   "idFatura": "651760-12",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "70247850",
+   "anoMesReferencia": "201811",
+   "vencida": true
+   },
+   {
+   "dataVencimento": "2019-01-11",
+   "valor": "268.51",
+   "codigoDeBarras": "84640000002-8  68510313281-5  77806260089-6  10956200100-7",
+   "status": "Em Aberto",
+   "tem14Meses": false,
+   "idFatura": "651760-13",
+   "ajustada": false,
+   "faturaExtra": false,
+   "faturaGerada": true,
+   "interina": false,
+   "numeroFatura": "89109562",
+   "anoMesReferencia": "201812",
+   "vencida": false
+   }
+   ],
+   "dacc": false
+   }
+   ]
+   }

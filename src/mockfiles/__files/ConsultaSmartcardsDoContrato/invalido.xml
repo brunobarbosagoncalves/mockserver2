@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"/>
+   <env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+      <con:consultarSmartCardsDoContratoResponse xmlns:con="http://alsb.telemar/xsd/consultarSmartCardsDoContrato">
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>1</code>
+            <reason>Erro</reason>
+            <detail>Objeto de entrada inválido</detail>
+         </esb:ResponseControl>
+      </con:consultarSmartCardsDoContratoResponse>
+   </env:Body>
+</soapenv:Envelope>

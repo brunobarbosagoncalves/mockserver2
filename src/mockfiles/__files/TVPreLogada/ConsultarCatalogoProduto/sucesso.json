@@ -1,0 +1,3048 @@
+{
+  "ConsultarCatalogoProdutoResponse": {
+    "MessageHeader": {
+      "Response": {
+        "Return": {
+          "Type": "S",
+          "Description": "Sucesso",
+          "NativeReturn": {
+            "Type": "T",
+            "Description": "Sucesso: Sucesso",
+            "AppId": "SINN",
+            "Code": "00"
+          },
+          "Code": "00000"
+        }
+      },
+      "CorrelationId": "",
+      "Timestamp": "2018-08-13T16:05:30.4-03:00",
+      "BusinessId": "",
+      "Credentials": {
+        "AppToken": "",
+        "AppId": "API007",
+        "UserId": "",
+        "UserToken": ""
+      },
+      "TransactionId": "ccdf5b40-d6fa-4ff0-804d-55bf54029941"
+    },
+    "ListaCatalogosProdutos": {
+      "CatalogoProduto": {
+        "idCatalogo": "13177104693",
+        "descricaoCatalogoProduto": "",
+        "Opcionais": {
+          "ItemCatalogoProduto": [
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "4242719970"
+                },
+                {
+                  "codigoPacote": "1398008219"
+                },
+                {
+                  "codigoPacote": "4242719946"
+                }
+              ],
+              "codigoPacote": "1655576483",
+              "ListaPontosAtivos": "",
+              "prioridade": "310",
+              "valorOferta": "10000",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "1 canal em HD",
+              "meta": "https://minha.oi.com.br/ArquivosEstaticos/MinhaOi/images/tvprepago/combate.png",
+              "Requeridos": [
+                {
+                  "codigoPacote": "13134341343"
+                },
+                {
+                  "codigoPacote": "1398008205"
+                },
+                {
+                  "codigoPacote": "13134343262"
+                },
+                {
+                  "codigoPacote": "5002524317"
+                },
+                {
+                  "codigoPacote": "1398008211"
+                },
+                {
+                  "codigoPacote": "7043621200"
+                },
+                {
+                  "codigoPacote": "5002524315"
+                },
+                {
+                  "codigoPacote": "6962524877"
+                },
+                {
+                  "codigoPacote": "8395198072"
+                },
+                {
+                  "codigoPacote": "6962524880"
+                },
+                {
+                  "codigoPacote": "1398008228"
+                },
+                {
+                  "codigoPacote": "11398284273"
+                },
+                {
+                  "codigoPacote": "5002524318"
+                },
+                {
+                  "codigoPacote": "1398008195"
+                },
+                {
+                  "codigoPacote": "5002524309"
+                },
+                {
+                  "codigoPacote": "11398284460"
+                },
+                {
+                  "codigoPacote": "1398008203"
+                },
+                {
+                  "codigoPacote": "7043519129"
+                },
+                {
+                  "codigoPacote": "11398288872"
+                },
+                {
+                  "codigoPacote": "6962524876"
+                },
+                {
+                  "codigoPacote": "1398008201"
+                },
+                {
+                  "codigoPacote": "7043522410"
+                },
+                {
+                  "codigoPacote": "7043621002"
+                },
+                {
+                  "codigoPacote": "7043466245"
+                },
+                {
+                  "codigoPacote": "5002524312"
+                },
+                {
+                  "codigoPacote": "11398283584"
+                },
+                {
+                  "codigoPacote": "1430448131"
+                },
+                {
+                  "codigoPacote": "1398008198"
+                },
+                {
+                  "codigoPacote": "11398283748"
+                },
+                {
+                  "codigoPacote": "7043522242"
+                },
+                {
+                  "codigoPacote": "1398008167"
+                },
+                {
+                  "codigoPacote": "5002524314"
+                },
+                {
+                  "codigoPacote": "8395197739"
+                },
+                {
+                  "codigoPacote": "1430448148"
+                },
+                {
+                  "codigoPacote": "6962524875"
+                },
+                {
+                  "codigoPacote": "11398283426"
+                },
+                {
+                  "codigoPacote": "1398008166"
+                },
+                {
+                  "codigoPacote": "5002524311"
+                },
+                {
+                  "codigoPacote": "11398283334"
+                },
+                {
+                  "codigoPacote": "8395198253"
+                },
+                {
+                  "codigoPacote": "1398008220"
+                },
+                {
+                  "codigoPacote": "10127246956"
+                },
+                {
+                  "codigoPacote": "6962524873"
+                },
+                {
+                  "codigoPacote": "13134341126"
+                },
+                {
+                  "codigoPacote": "5002524316"
+                },
+                {
+                  "codigoPacote": "7043574867"
+                },
+                {
+                  "codigoPacote": "1398008207"
+                },
+                {
+                  "codigoPacote": "1430448152"
+                },
+                {
+                  "codigoPacote": "11398283917"
+                },
+                {
+                  "codigoPacote": "13134342940"
+                },
+                {
+                  "codigoPacote": "8395197897"
+                },
+                {
+                  "codigoPacote": "7043466173"
+                },
+                {
+                  "codigoPacote": "6962524874"
+                },
+                {
+                  "codigoPacote": "7043587707"
+                },
+                {
+                  "codigoPacote": "13134343097"
+                },
+                {
+                  "codigoPacote": "7043494261"
+                },
+                {
+                  "codigoPacote": "1430448130"
+                },
+                {
+                  "codigoPacote": "1430448146"
+                },
+                {
+                  "codigoPacote": "4242707802"
+                },
+                {
+                  "codigoPacote": "1398008183"
+                },
+                {
+                  "codigoPacote": "5002524310"
+                },
+                {
+                  "codigoPacote": "1398008196"
+                },
+                {
+                  "codigoPacote": "11398284092"
+                },
+                {
+                  "codigoPacote": "6962524871"
+                },
+                {
+                  "codigoPacote": "6962524872"
+                },
+                {
+                  "codigoPacote": "6962524878"
+                },
+                {
+                  "codigoPacote": "7043494182"
+                },
+                {
+                  "codigoPacote": "5002524313"
+                },
+                {
+                  "codigoPacote": "4242707803"
+                },
+                {
+                  "codigoPacote": "4242707804"
+                },
+                {
+                  "codigoPacote": "6962524879"
+                },
+                {
+                  "codigoPacote": "7043550638"
+                },
+                {
+                  "codigoPacote": "1398008179"
+                },
+                {
+                  "codigoPacote": "4242707805"
+                },
+                {
+                  "codigoPacote": "10127246547"
+                },
+                {
+                  "codigoPacote": "1398008209"
+                },
+                {
+                  "codigoPacote": "1430448132"
+                },
+                {
+                  "codigoPacote": "7043589798"
+                },
+                {
+                  "codigoPacote": "7043494350"
+                },
+                {
+                  "codigoPacote": "7043466117"
+                },
+                {
+                  "codigoPacote": "13134340878"
+                },
+                {
+                  "codigoPacote": "13134340661"
+                }
+              ],
+              "idItemCatalogo": "1135",
+              "nomeItemCatalogo": "Combate BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": {
+                "codigoPacote": "1398008219"
+              },
+              "codigoPacote": "1398041498",
+              "ListaPontosAtivos": "",
+              "prioridade": "312",
+              "valorOferta": "1490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "1 canal em HD",
+              "meta": "https://minha.oi.com.br/ArquivosEstaticos/MinhaOi/images/tvprepago/sexprive.png",
+              "Requeridos": [
+                {
+                  "codigoPacote": "13134341343"
+                },
+                {
+                  "codigoPacote": "1398008205"
+                },
+                {
+                  "codigoPacote": "13134343262"
+                },
+                {
+                  "codigoPacote": "5002524317"
+                },
+                {
+                  "codigoPacote": "1398008211"
+                },
+                {
+                  "codigoPacote": "7043621200"
+                },
+                {
+                  "codigoPacote": "5002524315"
+                },
+                {
+                  "codigoPacote": "6962524877"
+                },
+                {
+                  "codigoPacote": "8395198072"
+                },
+                {
+                  "codigoPacote": "6962524880"
+                },
+                {
+                  "codigoPacote": "1398008228"
+                },
+                {
+                  "codigoPacote": "11398284273"
+                },
+                {
+                  "codigoPacote": "5002524318"
+                },
+                {
+                  "codigoPacote": "1398008195"
+                },
+                {
+                  "codigoPacote": "5002524309"
+                },
+                {
+                  "codigoPacote": "11398284460"
+                },
+                {
+                  "codigoPacote": "1398008203"
+                },
+                {
+                  "codigoPacote": "7043519129"
+                },
+                {
+                  "codigoPacote": "11398288872"
+                },
+                {
+                  "codigoPacote": "6962524876"
+                },
+                {
+                  "codigoPacote": "1398008201"
+                },
+                {
+                  "codigoPacote": "7043522410"
+                },
+                {
+                  "codigoPacote": "7043621002"
+                },
+                {
+                  "codigoPacote": "7043466245"
+                },
+                {
+                  "codigoPacote": "5002524312"
+                },
+                {
+                  "codigoPacote": "11398283584"
+                },
+                {
+                  "codigoPacote": "1430448131"
+                },
+                {
+                  "codigoPacote": "1398008198"
+                },
+                {
+                  "codigoPacote": "11398283748"
+                },
+                {
+                  "codigoPacote": "7043522242"
+                },
+                {
+                  "codigoPacote": "1398008167"
+                },
+                {
+                  "codigoPacote": "5002524314"
+                },
+                {
+                  "codigoPacote": "8395197739"
+                },
+                {
+                  "codigoPacote": "1430448148"
+                },
+                {
+                  "codigoPacote": "6962524875"
+                },
+                {
+                  "codigoPacote": "11398283426"
+                },
+                {
+                  "codigoPacote": "1398008166"
+                },
+                {
+                  "codigoPacote": "5002524311"
+                },
+                {
+                  "codigoPacote": "11398283334"
+                },
+                {
+                  "codigoPacote": "8395198253"
+                },
+                {
+                  "codigoPacote": "1398008220"
+                },
+                {
+                  "codigoPacote": "10127246956"
+                },
+                {
+                  "codigoPacote": "6962524873"
+                },
+                {
+                  "codigoPacote": "13134341126"
+                },
+                {
+                  "codigoPacote": "5002524316"
+                },
+                {
+                  "codigoPacote": "7043574867"
+                },
+                {
+                  "codigoPacote": "1398008207"
+                },
+                {
+                  "codigoPacote": "1430448152"
+                },
+                {
+                  "codigoPacote": "11398283917"
+                },
+                {
+                  "codigoPacote": "13134342940"
+                },
+                {
+                  "codigoPacote": "8395197897"
+                },
+                {
+                  "codigoPacote": "7043466173"
+                },
+                {
+                  "codigoPacote": "6962524874"
+                },
+                {
+                  "codigoPacote": "7043587707"
+                },
+                {
+                  "codigoPacote": "13134343097"
+                },
+                {
+                  "codigoPacote": "7043494261"
+                },
+                {
+                  "codigoPacote": "1430448130"
+                },
+                {
+                  "codigoPacote": "1430448146"
+                },
+                {
+                  "codigoPacote": "4242707802"
+                },
+                {
+                  "codigoPacote": "1398008183"
+                },
+                {
+                  "codigoPacote": "5002524310"
+                },
+                {
+                  "codigoPacote": "1398008196"
+                },
+                {
+                  "codigoPacote": "11398284092"
+                },
+                {
+                  "codigoPacote": "6962524871"
+                },
+                {
+                  "codigoPacote": "6962524872"
+                },
+                {
+                  "codigoPacote": "6962524878"
+                },
+                {
+                  "codigoPacote": "7043494182"
+                },
+                {
+                  "codigoPacote": "5002524313"
+                },
+                {
+                  "codigoPacote": "4242707803"
+                },
+                {
+                  "codigoPacote": "4242707804"
+                },
+                {
+                  "codigoPacote": "6962524879"
+                },
+                {
+                  "codigoPacote": "7043550638"
+                },
+                {
+                  "codigoPacote": "1398008179"
+                },
+                {
+                  "codigoPacote": "4242707805"
+                },
+                {
+                  "codigoPacote": "10127246547"
+                },
+                {
+                  "codigoPacote": "1398008209"
+                },
+                {
+                  "codigoPacote": "1430448132"
+                },
+                {
+                  "codigoPacote": "7043589798"
+                },
+                {
+                  "codigoPacote": "7043494350"
+                },
+                {
+                  "codigoPacote": "7043466117"
+                },
+                {
+                  "codigoPacote": "13134340878"
+                },
+                {
+                  "codigoPacote": "13134340661"
+                }
+              ],
+              "idItemCatalogo": "1168",
+              "nomeItemCatalogo": "Sexy Privê BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": {
+                "codigoPacote": "1398008219"
+              },
+              "codigoPacote": "1655576512",
+              "ListaPontosAtivos": "",
+              "prioridade": "315",
+              "valorOferta": "1990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "1 canal em HD",
+              "meta": "https://minha.oi.com.br/ArquivosEstaticos/MinhaOi/images/tvprepago/sexyhot.png",
+              "Requeridos": [
+                {
+                  "codigoPacote": "13134341343"
+                },
+                {
+                  "codigoPacote": "1398008205"
+                },
+                {
+                  "codigoPacote": "13134343262"
+                },
+                {
+                  "codigoPacote": "5002524317"
+                },
+                {
+                  "codigoPacote": "1398008211"
+                },
+                {
+                  "codigoPacote": "7043621200"
+                },
+                {
+                  "codigoPacote": "5002524315"
+                },
+                {
+                  "codigoPacote": "6962524877"
+                },
+                {
+                  "codigoPacote": "8395198072"
+                },
+                {
+                  "codigoPacote": "6962524880"
+                },
+                {
+                  "codigoPacote": "1398008228"
+                },
+                {
+                  "codigoPacote": "11398284273"
+                },
+                {
+                  "codigoPacote": "5002524318"
+                },
+                {
+                  "codigoPacote": "1398008195"
+                },
+                {
+                  "codigoPacote": "5002524309"
+                },
+                {
+                  "codigoPacote": "11398284460"
+                },
+                {
+                  "codigoPacote": "1398008203"
+                },
+                {
+                  "codigoPacote": "7043519129"
+                },
+                {
+                  "codigoPacote": "11398288872"
+                },
+                {
+                  "codigoPacote": "6962524876"
+                },
+                {
+                  "codigoPacote": "1398008201"
+                },
+                {
+                  "codigoPacote": "7043522410"
+                },
+                {
+                  "codigoPacote": "7043621002"
+                },
+                {
+                  "codigoPacote": "7043466245"
+                },
+                {
+                  "codigoPacote": "5002524312"
+                },
+                {
+                  "codigoPacote": "11398283584"
+                },
+                {
+                  "codigoPacote": "1430448131"
+                },
+                {
+                  "codigoPacote": "1398008198"
+                },
+                {
+                  "codigoPacote": "11398283748"
+                },
+                {
+                  "codigoPacote": "7043522242"
+                },
+                {
+                  "codigoPacote": "1398008167"
+                },
+                {
+                  "codigoPacote": "5002524314"
+                },
+                {
+                  "codigoPacote": "8395197739"
+                },
+                {
+                  "codigoPacote": "1430448148"
+                },
+                {
+                  "codigoPacote": "6962524875"
+                },
+                {
+                  "codigoPacote": "11398283426"
+                },
+                {
+                  "codigoPacote": "1398008166"
+                },
+                {
+                  "codigoPacote": "5002524311"
+                },
+                {
+                  "codigoPacote": "11398283334"
+                },
+                {
+                  "codigoPacote": "8395198253"
+                },
+                {
+                  "codigoPacote": "1398008220"
+                },
+                {
+                  "codigoPacote": "10127246956"
+                },
+                {
+                  "codigoPacote": "6962524873"
+                },
+                {
+                  "codigoPacote": "13134341126"
+                },
+                {
+                  "codigoPacote": "5002524316"
+                },
+                {
+                  "codigoPacote": "7043574867"
+                },
+                {
+                  "codigoPacote": "1398008207"
+                },
+                {
+                  "codigoPacote": "1430448152"
+                },
+                {
+                  "codigoPacote": "11398283917"
+                },
+                {
+                  "codigoPacote": "13134342940"
+                },
+                {
+                  "codigoPacote": "8395197897"
+                },
+                {
+                  "codigoPacote": "7043466173"
+                },
+                {
+                  "codigoPacote": "6962524874"
+                },
+                {
+                  "codigoPacote": "7043587707"
+                },
+                {
+                  "codigoPacote": "13134343097"
+                },
+                {
+                  "codigoPacote": "7043494261"
+                },
+                {
+                  "codigoPacote": "1430448130"
+                },
+                {
+                  "codigoPacote": "1430448146"
+                },
+                {
+                  "codigoPacote": "4242707802"
+                },
+                {
+                  "codigoPacote": "1398008183"
+                },
+                {
+                  "codigoPacote": "5002524310"
+                },
+                {
+                  "codigoPacote": "1398008196"
+                },
+                {
+                  "codigoPacote": "11398284092"
+                },
+                {
+                  "codigoPacote": "6962524871"
+                },
+                {
+                  "codigoPacote": "6962524872"
+                },
+                {
+                  "codigoPacote": "6962524878"
+                },
+                {
+                  "codigoPacote": "7043494182"
+                },
+                {
+                  "codigoPacote": "5002524313"
+                },
+                {
+                  "codigoPacote": "4242707803"
+                },
+                {
+                  "codigoPacote": "4242707804"
+                },
+                {
+                  "codigoPacote": "6962524879"
+                },
+                {
+                  "codigoPacote": "7043550638"
+                },
+                {
+                  "codigoPacote": "1398008179"
+                },
+                {
+                  "codigoPacote": "4242707805"
+                },
+                {
+                  "codigoPacote": "10127246547"
+                },
+                {
+                  "codigoPacote": "1398008209"
+                },
+                {
+                  "codigoPacote": "1430448132"
+                },
+                {
+                  "codigoPacote": "7043589798"
+                },
+                {
+                  "codigoPacote": "7043494350"
+                },
+                {
+                  "codigoPacote": "7043466117"
+                },
+                {
+                  "codigoPacote": "13134340878"
+                },
+                {
+                  "codigoPacote": "13134340661"
+                }
+              ],
+              "idItemCatalogo": "1137",
+              "nomeItemCatalogo": "Sexy Hot BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": {
+                "codigoPacote": "1398008219"
+              },
+              "codigoPacote": "1655576498",
+              "ListaPontosAtivos": "",
+              "prioridade": "316",
+              "valorOferta": "1990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "1 canal em HD",
+              "meta": "https://minha.oi.com.br/ArquivosEstaticos/MinhaOi/images/tvprepago/playboy-tv.png",
+              "Requeridos": [
+                {
+                  "codigoPacote": "13134341343"
+                },
+                {
+                  "codigoPacote": "1398008205"
+                },
+                {
+                  "codigoPacote": "13134343262"
+                },
+                {
+                  "codigoPacote": "5002524317"
+                },
+                {
+                  "codigoPacote": "1398008211"
+                },
+                {
+                  "codigoPacote": "7043621200"
+                },
+                {
+                  "codigoPacote": "5002524315"
+                },
+                {
+                  "codigoPacote": "6962524877"
+                },
+                {
+                  "codigoPacote": "8395198072"
+                },
+                {
+                  "codigoPacote": "6962524880"
+                },
+                {
+                  "codigoPacote": "1398008228"
+                },
+                {
+                  "codigoPacote": "11398284273"
+                },
+                {
+                  "codigoPacote": "5002524318"
+                },
+                {
+                  "codigoPacote": "1398008195"
+                },
+                {
+                  "codigoPacote": "5002524309"
+                },
+                {
+                  "codigoPacote": "11398284460"
+                },
+                {
+                  "codigoPacote": "1398008203"
+                },
+                {
+                  "codigoPacote": "7043519129"
+                },
+                {
+                  "codigoPacote": "11398288872"
+                },
+                {
+                  "codigoPacote": "6962524876"
+                },
+                {
+                  "codigoPacote": "1398008201"
+                },
+                {
+                  "codigoPacote": "7043522410"
+                },
+                {
+                  "codigoPacote": "7043621002"
+                },
+                {
+                  "codigoPacote": "7043466245"
+                },
+                {
+                  "codigoPacote": "5002524312"
+                },
+                {
+                  "codigoPacote": "11398283584"
+                },
+                {
+                  "codigoPacote": "1430448131"
+                },
+                {
+                  "codigoPacote": "1398008198"
+                },
+                {
+                  "codigoPacote": "11398283748"
+                },
+                {
+                  "codigoPacote": "7043522242"
+                },
+                {
+                  "codigoPacote": "1398008167"
+                },
+                {
+                  "codigoPacote": "5002524314"
+                },
+                {
+                  "codigoPacote": "8395197739"
+                },
+                {
+                  "codigoPacote": "1430448148"
+                },
+                {
+                  "codigoPacote": "6962524875"
+                },
+                {
+                  "codigoPacote": "11398283426"
+                },
+                {
+                  "codigoPacote": "1398008166"
+                },
+                {
+                  "codigoPacote": "5002524311"
+                },
+                {
+                  "codigoPacote": "11398283334"
+                },
+                {
+                  "codigoPacote": "8395198253"
+                },
+                {
+                  "codigoPacote": "1398008220"
+                },
+                {
+                  "codigoPacote": "10127246956"
+                },
+                {
+                  "codigoPacote": "6962524873"
+                },
+                {
+                  "codigoPacote": "13134341126"
+                },
+                {
+                  "codigoPacote": "5002524316"
+                },
+                {
+                  "codigoPacote": "7043574867"
+                },
+                {
+                  "codigoPacote": "1398008207"
+                },
+                {
+                  "codigoPacote": "1430448152"
+                },
+                {
+                  "codigoPacote": "11398283917"
+                },
+                {
+                  "codigoPacote": "13134342940"
+                },
+                {
+                  "codigoPacote": "8395197897"
+                },
+                {
+                  "codigoPacote": "7043466173"
+                },
+                {
+                  "codigoPacote": "6962524874"
+                },
+                {
+                  "codigoPacote": "7043587707"
+                },
+                {
+                  "codigoPacote": "13134343097"
+                },
+                {
+                  "codigoPacote": "7043494261"
+                },
+                {
+                  "codigoPacote": "1430448130"
+                },
+                {
+                  "codigoPacote": "1430448146"
+                },
+                {
+                  "codigoPacote": "4242707802"
+                },
+                {
+                  "codigoPacote": "1398008183"
+                },
+                {
+                  "codigoPacote": "5002524310"
+                },
+                {
+                  "codigoPacote": "1398008196"
+                },
+                {
+                  "codigoPacote": "11398284092"
+                },
+                {
+                  "codigoPacote": "6962524871"
+                },
+                {
+                  "codigoPacote": "6962524872"
+                },
+                {
+                  "codigoPacote": "6962524878"
+                },
+                {
+                  "codigoPacote": "7043494182"
+                },
+                {
+                  "codigoPacote": "5002524313"
+                },
+                {
+                  "codigoPacote": "4242707803"
+                },
+                {
+                  "codigoPacote": "4242707804"
+                },
+                {
+                  "codigoPacote": "6962524879"
+                },
+                {
+                  "codigoPacote": "7043550638"
+                },
+                {
+                  "codigoPacote": "1398008179"
+                },
+                {
+                  "codigoPacote": "4242707805"
+                },
+                {
+                  "codigoPacote": "10127246547"
+                },
+                {
+                  "codigoPacote": "1398008209"
+                },
+                {
+                  "codigoPacote": "1430448132"
+                },
+                {
+                  "codigoPacote": "7043589798"
+                },
+                {
+                  "codigoPacote": "7043494350"
+                },
+                {
+                  "codigoPacote": "7043466117"
+                },
+                {
+                  "codigoPacote": "13134340878"
+                },
+                {
+                  "codigoPacote": "13134340661"
+                }
+              ],
+              "idItemCatalogo": "1138",
+              "nomeItemCatalogo": "Playboy TV BRI"
+            }
+          ]
+        },
+        "Obrigatorios": {
+          "ItemCatalogoProduto": [
+            {
+              "periodoVigenciaItemCatalogo": "15",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "128575836"
+                },
+                {
+                  "codigoPacote": "380177528"
+                },
+                {
+                  "codigoPacote": "89106"
+                },
+                {
+                  "codigoPacote": "476542869"
+                },
+                {
+                  "codigoPacote": "2910133"
+                },
+                {
+                  "codigoPacote": "324399629"
+                },
+                {
+                  "codigoPacote": "89121"
+                },
+                {
+                  "codigoPacote": "462529019"
+                },
+                {
+                  "codigoPacote": "89111"
+                },
+                {
+                  "codigoPacote": "1013485584"
+                },
+                {
+                  "codigoPacote": "88835"
+                },
+                {
+                  "codigoPacote": "2749168796"
+                },
+                {
+                  "codigoPacote": "579072621"
+                },
+                {
+                  "codigoPacote": "380177480"
+                },
+                {
+                  "codigoPacote": "89126"
+                },
+                {
+                  "codigoPacote": "380177513"
+                },
+                {
+                  "codigoPacote": "2503661974"
+                },
+                {
+                  "codigoPacote": "462528950"
+                },
+                {
+                  "codigoPacote": "2910122"
+                },
+                {
+                  "codigoPacote": "462528881"
+                },
+                {
+                  "codigoPacote": "2910198"
+                },
+                {
+                  "codigoPacote": "88845"
+                },
+                {
+                  "codigoPacote": "128575813"
+                }
+              ],
+              "codigoPacote": "7043494350",
+              "ListaPontosAtivos": "",
+              "prioridade": "100",
+              "valorOferta": "4490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "125 canais e 27 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1110",
+              "nomeItemCatalogo": "Oi TV Start HD"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "15",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "128575836"
+                },
+                {
+                  "codigoPacote": "380177528"
+                },
+                {
+                  "codigoPacote": "89106"
+                },
+                {
+                  "codigoPacote": "476542869"
+                },
+                {
+                  "codigoPacote": "2910133"
+                },
+                {
+                  "codigoPacote": "324399629"
+                },
+                {
+                  "codigoPacote": "89121"
+                },
+                {
+                  "codigoPacote": "462529019"
+                },
+                {
+                  "codigoPacote": "89111"
+                },
+                {
+                  "codigoPacote": "1013485584"
+                },
+                {
+                  "codigoPacote": "88835"
+                },
+                {
+                  "codigoPacote": "2749168796"
+                },
+                {
+                  "codigoPacote": "579072621"
+                },
+                {
+                  "codigoPacote": "380177480"
+                },
+                {
+                  "codigoPacote": "89126"
+                },
+                {
+                  "codigoPacote": "380177513"
+                },
+                {
+                  "codigoPacote": "2503661974"
+                },
+                {
+                  "codigoPacote": "462528950"
+                },
+                {
+                  "codigoPacote": "2910122"
+                },
+                {
+                  "codigoPacote": "462528881"
+                },
+                {
+                  "codigoPacote": "2910198"
+                },
+                {
+                  "codigoPacote": "88845"
+                },
+                {
+                  "codigoPacote": "128575813"
+                }
+              ],
+              "codigoPacote": "7043519129",
+              "ListaPontosAtivos": "",
+              "prioridade": "101",
+              "valorOferta": "5990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "160 canais e 54 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1111",
+              "nomeItemCatalogo": "Oi TV Mix HD"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "128575836"
+                },
+                {
+                  "codigoPacote": "380177528"
+                },
+                {
+                  "codigoPacote": "89106"
+                },
+                {
+                  "codigoPacote": "476542869"
+                },
+                {
+                  "codigoPacote": "2910133"
+                },
+                {
+                  "codigoPacote": "324399629"
+                },
+                {
+                  "codigoPacote": "89121"
+                },
+                {
+                  "codigoPacote": "462529019"
+                },
+                {
+                  "codigoPacote": "89111"
+                },
+                {
+                  "codigoPacote": "1013485584"
+                },
+                {
+                  "codigoPacote": "88835"
+                },
+                {
+                  "codigoPacote": "2749168796"
+                },
+                {
+                  "codigoPacote": "579072621"
+                },
+                {
+                  "codigoPacote": "380177480"
+                },
+                {
+                  "codigoPacote": "89126"
+                },
+                {
+                  "codigoPacote": "380177513"
+                },
+                {
+                  "codigoPacote": "2503661974"
+                },
+                {
+                  "codigoPacote": "462528950"
+                },
+                {
+                  "codigoPacote": "2910122"
+                },
+                {
+                  "codigoPacote": "462528881"
+                },
+                {
+                  "codigoPacote": "2910198"
+                },
+                {
+                  "codigoPacote": "88845"
+                },
+                {
+                  "codigoPacote": "128575813"
+                }
+              ],
+              "codigoPacote": "7043494350",
+              "ListaPontosAtivos": "",
+              "prioridade": "102",
+              "valorOferta": "6990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "125 canais e 27 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1112",
+              "nomeItemCatalogo": "Oi TV Start HD"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "128575836"
+                },
+                {
+                  "codigoPacote": "380177528"
+                },
+                {
+                  "codigoPacote": "89106"
+                },
+                {
+                  "codigoPacote": "476542869"
+                },
+                {
+                  "codigoPacote": "2910133"
+                },
+                {
+                  "codigoPacote": "324399629"
+                },
+                {
+                  "codigoPacote": "89121"
+                },
+                {
+                  "codigoPacote": "462529019"
+                },
+                {
+                  "codigoPacote": "89111"
+                },
+                {
+                  "codigoPacote": "1013485584"
+                },
+                {
+                  "codigoPacote": "88835"
+                },
+                {
+                  "codigoPacote": "2749168796"
+                },
+                {
+                  "codigoPacote": "579072621"
+                },
+                {
+                  "codigoPacote": "380177480"
+                },
+                {
+                  "codigoPacote": "89126"
+                },
+                {
+                  "codigoPacote": "380177513"
+                },
+                {
+                  "codigoPacote": "2503661974"
+                },
+                {
+                  "codigoPacote": "462528950"
+                },
+                {
+                  "codigoPacote": "2910122"
+                },
+                {
+                  "codigoPacote": "462528881"
+                },
+                {
+                  "codigoPacote": "2910198"
+                },
+                {
+                  "codigoPacote": "88845"
+                },
+                {
+                  "codigoPacote": "128575813"
+                }
+              ],
+              "codigoPacote": "7043519129",
+              "ListaPontosAtivos": "",
+              "prioridade": "103",
+              "valorOferta": "9490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "160 canais e 54 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1113",
+              "nomeItemCatalogo": "Oi TV Mix HD"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "128575836"
+                },
+                {
+                  "codigoPacote": "380177528"
+                },
+                {
+                  "codigoPacote": "89106"
+                },
+                {
+                  "codigoPacote": "476542869"
+                },
+                {
+                  "codigoPacote": "2910133"
+                },
+                {
+                  "codigoPacote": "324399629"
+                },
+                {
+                  "codigoPacote": "89121"
+                },
+                {
+                  "codigoPacote": "462529019"
+                },
+                {
+                  "codigoPacote": "89111"
+                },
+                {
+                  "codigoPacote": "1013485584"
+                },
+                {
+                  "codigoPacote": "88835"
+                },
+                {
+                  "codigoPacote": "2749168796"
+                },
+                {
+                  "codigoPacote": "579072621"
+                },
+                {
+                  "codigoPacote": "380177480"
+                },
+                {
+                  "codigoPacote": "89126"
+                },
+                {
+                  "codigoPacote": "380177513"
+                },
+                {
+                  "codigoPacote": "2503661974"
+                },
+                {
+                  "codigoPacote": "462528950"
+                },
+                {
+                  "codigoPacote": "2910122"
+                },
+                {
+                  "codigoPacote": "462528881"
+                },
+                {
+                  "codigoPacote": "2910198"
+                },
+                {
+                  "codigoPacote": "88845"
+                },
+                {
+                  "codigoPacote": "128575813"
+                }
+              ],
+              "codigoPacote": "7043574867",
+              "ListaPontosAtivos": "",
+              "prioridade": "104",
+              "valorOferta": "11490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "185 canais e 64 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1117",
+              "nomeItemCatalogo": "Oi TV Total HD"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "15",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "1398008166"
+                },
+                {
+                  "codigoPacote": "1398008205"
+                },
+                {
+                  "codigoPacote": "1398008220"
+                },
+                {
+                  "codigoPacote": "1398008211"
+                },
+                {
+                  "codigoPacote": "1398008228"
+                },
+                {
+                  "codigoPacote": "1398008207"
+                },
+                {
+                  "codigoPacote": "1430448152"
+                },
+                {
+                  "codigoPacote": "1398008195"
+                },
+                {
+                  "codigoPacote": "1398008203"
+                },
+                {
+                  "codigoPacote": "1398008201"
+                },
+                {
+                  "codigoPacote": "1430448130"
+                },
+                {
+                  "codigoPacote": "1430448146"
+                },
+                {
+                  "codigoPacote": "1398008219"
+                },
+                {
+                  "codigoPacote": "1398008183"
+                },
+                {
+                  "codigoPacote": "1398008196"
+                },
+                {
+                  "codigoPacote": "4242707802"
+                },
+                {
+                  "codigoPacote": "1398008198"
+                },
+                {
+                  "codigoPacote": "1430448138"
+                },
+                {
+                  "codigoPacote": "1430448131"
+                },
+                {
+                  "codigoPacote": "4242707803"
+                },
+                {
+                  "codigoPacote": "4242707804"
+                },
+                {
+                  "codigoPacote": "4242707805"
+                },
+                {
+                  "codigoPacote": "1398008167"
+                },
+                {
+                  "codigoPacote": "1398008179"
+                },
+                {
+                  "codigoPacote": "1398008209"
+                },
+                {
+                  "codigoPacote": "1430448132"
+                },
+                {
+                  "codigoPacote": "1430448148"
+                }
+              ],
+              "codigoPacote": "5002524310",
+              "ListaPontosAtivos": "",
+              "prioridade": "105",
+              "valorOferta": "4490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "82 canais e 6 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1121",
+              "nomeItemCatalogo": "Oi TV Simples HD BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "1398008166"
+                },
+                {
+                  "codigoPacote": "1398008205"
+                },
+                {
+                  "codigoPacote": "1398008220"
+                },
+                {
+                  "codigoPacote": "1398008211"
+                },
+                {
+                  "codigoPacote": "1398008228"
+                },
+                {
+                  "codigoPacote": "1398008207"
+                },
+                {
+                  "codigoPacote": "1430448152"
+                },
+                {
+                  "codigoPacote": "1398008195"
+                },
+                {
+                  "codigoPacote": "1398008203"
+                },
+                {
+                  "codigoPacote": "1398008201"
+                },
+                {
+                  "codigoPacote": "1430448130"
+                },
+                {
+                  "codigoPacote": "1430448146"
+                },
+                {
+                  "codigoPacote": "1398008219"
+                },
+                {
+                  "codigoPacote": "1398008183"
+                },
+                {
+                  "codigoPacote": "1398008196"
+                },
+                {
+                  "codigoPacote": "4242707802"
+                },
+                {
+                  "codigoPacote": "1398008198"
+                },
+                {
+                  "codigoPacote": "1430448138"
+                },
+                {
+                  "codigoPacote": "1430448131"
+                },
+                {
+                  "codigoPacote": "4242707803"
+                },
+                {
+                  "codigoPacote": "4242707804"
+                },
+                {
+                  "codigoPacote": "4242707805"
+                },
+                {
+                  "codigoPacote": "1398008167"
+                },
+                {
+                  "codigoPacote": "1398008179"
+                },
+                {
+                  "codigoPacote": "1398008209"
+                },
+                {
+                  "codigoPacote": "1430448132"
+                },
+                {
+                  "codigoPacote": "1430448148"
+                }
+              ],
+              "codigoPacote": "5002524310",
+              "ListaPontosAtivos": "",
+              "prioridade": "106",
+              "valorOferta": "6490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "82 canais e 6 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1122",
+              "nomeItemCatalogo": "Oi TV Simples HD BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "15",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "1398008166"
+                },
+                {
+                  "codigoPacote": "1398008205"
+                },
+                {
+                  "codigoPacote": "1398008220"
+                },
+                {
+                  "codigoPacote": "1398008211"
+                },
+                {
+                  "codigoPacote": "1398008228"
+                },
+                {
+                  "codigoPacote": "1398008207"
+                },
+                {
+                  "codigoPacote": "1430448152"
+                },
+                {
+                  "codigoPacote": "1398008195"
+                },
+                {
+                  "codigoPacote": "1398008203"
+                },
+                {
+                  "codigoPacote": "1398008201"
+                },
+                {
+                  "codigoPacote": "1430448130"
+                },
+                {
+                  "codigoPacote": "1430448146"
+                },
+                {
+                  "codigoPacote": "1398008219"
+                },
+                {
+                  "codigoPacote": "1398008183"
+                },
+                {
+                  "codigoPacote": "1398008196"
+                },
+                {
+                  "codigoPacote": "4242707802"
+                },
+                {
+                  "codigoPacote": "1398008198"
+                },
+                {
+                  "codigoPacote": "1430448138"
+                },
+                {
+                  "codigoPacote": "1430448131"
+                },
+                {
+                  "codigoPacote": "4242707803"
+                },
+                {
+                  "codigoPacote": "4242707804"
+                },
+                {
+                  "codigoPacote": "4242707805"
+                },
+                {
+                  "codigoPacote": "1398008167"
+                },
+                {
+                  "codigoPacote": "1398008179"
+                },
+                {
+                  "codigoPacote": "1398008209"
+                },
+                {
+                  "codigoPacote": "1430448132"
+                },
+                {
+                  "codigoPacote": "1430448148"
+                }
+              ],
+              "codigoPacote": "5002524313",
+              "ListaPontosAtivos": "",
+              "prioridade": "107",
+              "valorOferta": "5490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "138 canais e 21 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1123",
+              "nomeItemCatalogo": "Oi TV Mais HD BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "1398008166"
+                },
+                {
+                  "codigoPacote": "1398008205"
+                },
+                {
+                  "codigoPacote": "1398008220"
+                },
+                {
+                  "codigoPacote": "1398008211"
+                },
+                {
+                  "codigoPacote": "1398008228"
+                },
+                {
+                  "codigoPacote": "1398008207"
+                },
+                {
+                  "codigoPacote": "1430448152"
+                },
+                {
+                  "codigoPacote": "1398008195"
+                },
+                {
+                  "codigoPacote": "1398008203"
+                },
+                {
+                  "codigoPacote": "1398008201"
+                },
+                {
+                  "codigoPacote": "1430448130"
+                },
+                {
+                  "codigoPacote": "1430448146"
+                },
+                {
+                  "codigoPacote": "1398008219"
+                },
+                {
+                  "codigoPacote": "1398008183"
+                },
+                {
+                  "codigoPacote": "1398008196"
+                },
+                {
+                  "codigoPacote": "4242707802"
+                },
+                {
+                  "codigoPacote": "1398008198"
+                },
+                {
+                  "codigoPacote": "1430448138"
+                },
+                {
+                  "codigoPacote": "1430448131"
+                },
+                {
+                  "codigoPacote": "4242707803"
+                },
+                {
+                  "codigoPacote": "4242707804"
+                },
+                {
+                  "codigoPacote": "4242707805"
+                },
+                {
+                  "codigoPacote": "1398008167"
+                },
+                {
+                  "codigoPacote": "1398008179"
+                },
+                {
+                  "codigoPacote": "1398008209"
+                },
+                {
+                  "codigoPacote": "1430448132"
+                },
+                {
+                  "codigoPacote": "1430448148"
+                }
+              ],
+              "codigoPacote": "5002524313",
+              "ListaPontosAtivos": "",
+              "prioridade": "108",
+              "valorOferta": "8490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "138 canais e 21 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1124",
+              "nomeItemCatalogo": "Oi TV Mais HD BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "15",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "6962524876"
+                },
+                {
+                  "codigoPacote": "6962524871"
+                },
+                {
+                  "codigoPacote": "6962524878"
+                },
+                {
+                  "codigoPacote": "6962524872"
+                },
+                {
+                  "codigoPacote": "6962524873"
+                },
+                {
+                  "codigoPacote": "6962524877"
+                },
+                {
+                  "codigoPacote": "6962524879"
+                },
+                {
+                  "codigoPacote": "6962524880"
+                },
+                {
+                  "codigoPacote": "6962524874"
+                },
+                {
+                  "codigoPacote": "6962524875"
+                }
+              ],
+              "codigoPacote": "1398008211",
+              "ListaPontosAtivos": "",
+              "prioridade": "109",
+              "valorOferta": "3990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "76 canais SD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1128",
+              "nomeItemCatalogo": "Oi TV Simples BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "6962524876"
+                },
+                {
+                  "codigoPacote": "6962524871"
+                },
+                {
+                  "codigoPacote": "6962524878"
+                },
+                {
+                  "codigoPacote": "6962524872"
+                },
+                {
+                  "codigoPacote": "6962524873"
+                },
+                {
+                  "codigoPacote": "6962524877"
+                },
+                {
+                  "codigoPacote": "6962524879"
+                },
+                {
+                  "codigoPacote": "6962524880"
+                },
+                {
+                  "codigoPacote": "6962524874"
+                },
+                {
+                  "codigoPacote": "6962524875"
+                }
+              ],
+              "codigoPacote": "1398008211",
+              "ListaPontosAtivos": "",
+              "prioridade": "110",
+              "valorOferta": "5490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "76 canais SD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1129",
+              "nomeItemCatalogo": "Oi TV Simples BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "15",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "6962524876"
+                },
+                {
+                  "codigoPacote": "6962524871"
+                },
+                {
+                  "codigoPacote": "6962524878"
+                },
+                {
+                  "codigoPacote": "6962524872"
+                },
+                {
+                  "codigoPacote": "6962524873"
+                },
+                {
+                  "codigoPacote": "6962524877"
+                },
+                {
+                  "codigoPacote": "6962524879"
+                },
+                {
+                  "codigoPacote": "6962524880"
+                },
+                {
+                  "codigoPacote": "6962524874"
+                },
+                {
+                  "codigoPacote": "6962524875"
+                }
+              ],
+              "codigoPacote": "1398008205",
+              "ListaPontosAtivos": "",
+              "prioridade": "111",
+              "valorOferta": "4990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "117 canais SD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1130",
+              "nomeItemCatalogo": "Oi TV Mais BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "6962524876"
+                },
+                {
+                  "codigoPacote": "6962524871"
+                },
+                {
+                  "codigoPacote": "6962524878"
+                },
+                {
+                  "codigoPacote": "6962524872"
+                },
+                {
+                  "codigoPacote": "6962524873"
+                },
+                {
+                  "codigoPacote": "6962524877"
+                },
+                {
+                  "codigoPacote": "6962524879"
+                },
+                {
+                  "codigoPacote": "6962524880"
+                },
+                {
+                  "codigoPacote": "6962524874"
+                },
+                {
+                  "codigoPacote": "6962524875"
+                }
+              ],
+              "codigoPacote": "1398008205",
+              "ListaPontosAtivos": "",
+              "prioridade": "112",
+              "valorOferta": "7490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "117 canais SD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1131",
+              "nomeItemCatalogo": "Oi TV Mais BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "128575836"
+                },
+                {
+                  "codigoPacote": "380177528"
+                },
+                {
+                  "codigoPacote": "89106"
+                },
+                {
+                  "codigoPacote": "476542869"
+                },
+                {
+                  "codigoPacote": "2910133"
+                },
+                {
+                  "codigoPacote": "324399629"
+                },
+                {
+                  "codigoPacote": "89121"
+                },
+                {
+                  "codigoPacote": "462529019"
+                },
+                {
+                  "codigoPacote": "89111"
+                },
+                {
+                  "codigoPacote": "1013485584"
+                },
+                {
+                  "codigoPacote": "88835"
+                },
+                {
+                  "codigoPacote": "2749168796"
+                },
+                {
+                  "codigoPacote": "579072621"
+                },
+                {
+                  "codigoPacote": "380177480"
+                },
+                {
+                  "codigoPacote": "89126"
+                },
+                {
+                  "codigoPacote": "380177513"
+                },
+                {
+                  "codigoPacote": "2503661974"
+                },
+                {
+                  "codigoPacote": "462528950"
+                },
+                {
+                  "codigoPacote": "2910122"
+                },
+                {
+                  "codigoPacote": "462528881"
+                },
+                {
+                  "codigoPacote": "2910198"
+                },
+                {
+                  "codigoPacote": "88845"
+                },
+                {
+                  "codigoPacote": "128575813"
+                }
+              ],
+              "codigoPacote": "7043522242",
+              "ListaPontosAtivos": "",
+              "prioridade": "200",
+              "valorOferta": "12990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "170 canais e 60 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1114",
+              "nomeItemCatalogo": "Oi TV Mix HBOMax HD"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "128575836"
+                },
+                {
+                  "codigoPacote": "380177528"
+                },
+                {
+                  "codigoPacote": "89106"
+                },
+                {
+                  "codigoPacote": "476542869"
+                },
+                {
+                  "codigoPacote": "2910133"
+                },
+                {
+                  "codigoPacote": "324399629"
+                },
+                {
+                  "codigoPacote": "89121"
+                },
+                {
+                  "codigoPacote": "462529019"
+                },
+                {
+                  "codigoPacote": "89111"
+                },
+                {
+                  "codigoPacote": "1013485584"
+                },
+                {
+                  "codigoPacote": "88835"
+                },
+                {
+                  "codigoPacote": "2749168796"
+                },
+                {
+                  "codigoPacote": "579072621"
+                },
+                {
+                  "codigoPacote": "380177480"
+                },
+                {
+                  "codigoPacote": "89126"
+                },
+                {
+                  "codigoPacote": "380177513"
+                },
+                {
+                  "codigoPacote": "2503661974"
+                },
+                {
+                  "codigoPacote": "462528950"
+                },
+                {
+                  "codigoPacote": "2910122"
+                },
+                {
+                  "codigoPacote": "462528881"
+                },
+                {
+                  "codigoPacote": "2910198"
+                },
+                {
+                  "codigoPacote": "88845"
+                },
+                {
+                  "codigoPacote": "128575813"
+                }
+              ],
+              "codigoPacote": "7043522410",
+              "ListaPontosAtivos": "",
+              "prioridade": "201",
+              "valorOferta": "13990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "166 canais e 60 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1115",
+              "nomeItemCatalogo": "Oi TV Mix Telecine HD"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "128575836"
+                },
+                {
+                  "codigoPacote": "380177528"
+                },
+                {
+                  "codigoPacote": "89106"
+                },
+                {
+                  "codigoPacote": "476542869"
+                },
+                {
+                  "codigoPacote": "2910133"
+                },
+                {
+                  "codigoPacote": "324399629"
+                },
+                {
+                  "codigoPacote": "89121"
+                },
+                {
+                  "codigoPacote": "462529019"
+                },
+                {
+                  "codigoPacote": "1013485584"
+                },
+                {
+                  "codigoPacote": "89111"
+                },
+                {
+                  "codigoPacote": "88835"
+                },
+                {
+                  "codigoPacote": "380177480"
+                },
+                {
+                  "codigoPacote": "579072621"
+                },
+                {
+                  "codigoPacote": "2749168796"
+                },
+                {
+                  "codigoPacote": "89126"
+                },
+                {
+                  "codigoPacote": "380177513"
+                },
+                {
+                  "codigoPacote": "2503661974"
+                },
+                {
+                  "codigoPacote": "2910122"
+                },
+                {
+                  "codigoPacote": "462528950"
+                },
+                {
+                  "codigoPacote": "462528881"
+                },
+                {
+                  "codigoPacote": "2910198"
+                },
+                {
+                  "codigoPacote": "88845"
+                },
+                {
+                  "codigoPacote": "128575813"
+                }
+              ],
+              "codigoPacote": "7043550638",
+              "ListaPontosAtivos": "",
+              "prioridade": "202",
+              "valorOferta": "17490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "176 canais e 66 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1116",
+              "nomeItemCatalogo": "Oi TV Mix Cinema HD"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "128575836"
+                },
+                {
+                  "codigoPacote": "380177528"
+                },
+                {
+                  "codigoPacote": "89106"
+                },
+                {
+                  "codigoPacote": "476542869"
+                },
+                {
+                  "codigoPacote": "2910133"
+                },
+                {
+                  "codigoPacote": "324399629"
+                },
+                {
+                  "codigoPacote": "89121"
+                },
+                {
+                  "codigoPacote": "462529019"
+                },
+                {
+                  "codigoPacote": "89111"
+                },
+                {
+                  "codigoPacote": "1013485584"
+                },
+                {
+                  "codigoPacote": "88835"
+                },
+                {
+                  "codigoPacote": "2749168796"
+                },
+                {
+                  "codigoPacote": "579072621"
+                },
+                {
+                  "codigoPacote": "380177480"
+                },
+                {
+                  "codigoPacote": "89126"
+                },
+                {
+                  "codigoPacote": "380177513"
+                },
+                {
+                  "codigoPacote": "2503661974"
+                },
+                {
+                  "codigoPacote": "462528950"
+                },
+                {
+                  "codigoPacote": "2910122"
+                },
+                {
+                  "codigoPacote": "462528881"
+                },
+                {
+                  "codigoPacote": "2910198"
+                },
+                {
+                  "codigoPacote": "88845"
+                },
+                {
+                  "codigoPacote": "128575813"
+                }
+              ],
+              "codigoPacote": "7043587707",
+              "ListaPontosAtivos": "",
+              "prioridade": "203",
+              "valorOferta": "14990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "195 canais e 70 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1118",
+              "nomeItemCatalogo": "Oi TV Total HBOMax HD"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "128575836"
+                },
+                {
+                  "codigoPacote": "380177528"
+                },
+                {
+                  "codigoPacote": "89106"
+                },
+                {
+                  "codigoPacote": "476542869"
+                },
+                {
+                  "codigoPacote": "2910133"
+                },
+                {
+                  "codigoPacote": "324399629"
+                },
+                {
+                  "codigoPacote": "89121"
+                },
+                {
+                  "codigoPacote": "462529019"
+                },
+                {
+                  "codigoPacote": "89111"
+                },
+                {
+                  "codigoPacote": "1013485584"
+                },
+                {
+                  "codigoPacote": "88835"
+                },
+                {
+                  "codigoPacote": "2749168796"
+                },
+                {
+                  "codigoPacote": "579072621"
+                },
+                {
+                  "codigoPacote": "380177480"
+                },
+                {
+                  "codigoPacote": "89126"
+                },
+                {
+                  "codigoPacote": "380177513"
+                },
+                {
+                  "codigoPacote": "2503661974"
+                },
+                {
+                  "codigoPacote": "462528950"
+                },
+                {
+                  "codigoPacote": "2910122"
+                },
+                {
+                  "codigoPacote": "462528881"
+                },
+                {
+                  "codigoPacote": "2910198"
+                },
+                {
+                  "codigoPacote": "88845"
+                },
+                {
+                  "codigoPacote": "128575813"
+                }
+              ],
+              "codigoPacote": "7043589798",
+              "ListaPontosAtivos": "",
+              "prioridade": "204",
+              "valorOferta": "15990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "191 canais e 70 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1119",
+              "nomeItemCatalogo": "Oi TV Total Telecine HD"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "128575836"
+                },
+                {
+                  "codigoPacote": "380177528"
+                },
+                {
+                  "codigoPacote": "89106"
+                },
+                {
+                  "codigoPacote": "476542869"
+                },
+                {
+                  "codigoPacote": "2910133"
+                },
+                {
+                  "codigoPacote": "324399629"
+                },
+                {
+                  "codigoPacote": "89121"
+                },
+                {
+                  "codigoPacote": "462529019"
+                },
+                {
+                  "codigoPacote": "89111"
+                },
+                {
+                  "codigoPacote": "1013485584"
+                },
+                {
+                  "codigoPacote": "88835"
+                },
+                {
+                  "codigoPacote": "2749168796"
+                },
+                {
+                  "codigoPacote": "579072621"
+                },
+                {
+                  "codigoPacote": "380177480"
+                },
+                {
+                  "codigoPacote": "89126"
+                },
+                {
+                  "codigoPacote": "380177513"
+                },
+                {
+                  "codigoPacote": "2503661974"
+                },
+                {
+                  "codigoPacote": "462528950"
+                },
+                {
+                  "codigoPacote": "2910122"
+                },
+                {
+                  "codigoPacote": "462528881"
+                },
+                {
+                  "codigoPacote": "2910198"
+                },
+                {
+                  "codigoPacote": "88845"
+                },
+                {
+                  "codigoPacote": "128575813"
+                }
+              ],
+              "codigoPacote": "7043621002",
+              "ListaPontosAtivos": "",
+              "prioridade": "205",
+              "valorOferta": "19490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "201 canais e 76 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1120",
+              "nomeItemCatalogo": "Oi TV Total Cinema HD"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "1398008166"
+                },
+                {
+                  "codigoPacote": "1398008205"
+                },
+                {
+                  "codigoPacote": "1398008220"
+                },
+                {
+                  "codigoPacote": "1398008211"
+                },
+                {
+                  "codigoPacote": "1398008228"
+                },
+                {
+                  "codigoPacote": "1398008207"
+                },
+                {
+                  "codigoPacote": "1430448152"
+                },
+                {
+                  "codigoPacote": "1398008195"
+                },
+                {
+                  "codigoPacote": "1398008203"
+                },
+                {
+                  "codigoPacote": "1398008201"
+                },
+                {
+                  "codigoPacote": "1430448130"
+                },
+                {
+                  "codigoPacote": "1430448146"
+                },
+                {
+                  "codigoPacote": "1398008219"
+                },
+                {
+                  "codigoPacote": "1398008183"
+                },
+                {
+                  "codigoPacote": "1398008196"
+                },
+                {
+                  "codigoPacote": "4242707802"
+                },
+                {
+                  "codigoPacote": "1398008198"
+                },
+                {
+                  "codigoPacote": "1430448138"
+                },
+                {
+                  "codigoPacote": "1430448131"
+                },
+                {
+                  "codigoPacote": "4242707803"
+                },
+                {
+                  "codigoPacote": "4242707804"
+                },
+                {
+                  "codigoPacote": "4242707805"
+                },
+                {
+                  "codigoPacote": "1398008167"
+                },
+                {
+                  "codigoPacote": "1398008179"
+                },
+                {
+                  "codigoPacote": "1398008209"
+                },
+                {
+                  "codigoPacote": "1430448132"
+                },
+                {
+                  "codigoPacote": "1430448148"
+                }
+              ],
+              "codigoPacote": "5002524314",
+              "ListaPontosAtivos": "",
+              "prioridade": "206",
+              "valorOferta": "12490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "151 canais e 24 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1125",
+              "nomeItemCatalogo": "Oi TV Mais HBO/MAX HD BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "1398008166"
+                },
+                {
+                  "codigoPacote": "1398008205"
+                },
+                {
+                  "codigoPacote": "1398008220"
+                },
+                {
+                  "codigoPacote": "1398008211"
+                },
+                {
+                  "codigoPacote": "1398008228"
+                },
+                {
+                  "codigoPacote": "1398008207"
+                },
+                {
+                  "codigoPacote": "1430448152"
+                },
+                {
+                  "codigoPacote": "1398008195"
+                },
+                {
+                  "codigoPacote": "1398008203"
+                },
+                {
+                  "codigoPacote": "1398008201"
+                },
+                {
+                  "codigoPacote": "1430448130"
+                },
+                {
+                  "codigoPacote": "1430448146"
+                },
+                {
+                  "codigoPacote": "1398008219"
+                },
+                {
+                  "codigoPacote": "1398008183"
+                },
+                {
+                  "codigoPacote": "1398008196"
+                },
+                {
+                  "codigoPacote": "4242707802"
+                },
+                {
+                  "codigoPacote": "1398008198"
+                },
+                {
+                  "codigoPacote": "1430448138"
+                },
+                {
+                  "codigoPacote": "1430448131"
+                },
+                {
+                  "codigoPacote": "4242707803"
+                },
+                {
+                  "codigoPacote": "4242707804"
+                },
+                {
+                  "codigoPacote": "4242707805"
+                },
+                {
+                  "codigoPacote": "1398008167"
+                },
+                {
+                  "codigoPacote": "1398008179"
+                },
+                {
+                  "codigoPacote": "1398008209"
+                },
+                {
+                  "codigoPacote": "1430448132"
+                },
+                {
+                  "codigoPacote": "1430448148"
+                }
+              ],
+              "codigoPacote": "5002524316",
+              "ListaPontosAtivos": "",
+              "prioridade": "207",
+              "valorOferta": "12990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "150 canais e 27 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1126",
+              "nomeItemCatalogo": "Oi TV Mais Telecine HD BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "1398008166"
+                },
+                {
+                  "codigoPacote": "1398008205"
+                },
+                {
+                  "codigoPacote": "1398008220"
+                },
+                {
+                  "codigoPacote": "1398008211"
+                },
+                {
+                  "codigoPacote": "1398008228"
+                },
+                {
+                  "codigoPacote": "1398008207"
+                },
+                {
+                  "codigoPacote": "1430448152"
+                },
+                {
+                  "codigoPacote": "1398008195"
+                },
+                {
+                  "codigoPacote": "1398008203"
+                },
+                {
+                  "codigoPacote": "1398008201"
+                },
+                {
+                  "codigoPacote": "1430448130"
+                },
+                {
+                  "codigoPacote": "1430448146"
+                },
+                {
+                  "codigoPacote": "1398008219"
+                },
+                {
+                  "codigoPacote": "1398008183"
+                },
+                {
+                  "codigoPacote": "1398008196"
+                },
+                {
+                  "codigoPacote": "4242707802"
+                },
+                {
+                  "codigoPacote": "1430448131"
+                },
+                {
+                  "codigoPacote": "1430448138"
+                },
+                {
+                  "codigoPacote": "1398008198"
+                },
+                {
+                  "codigoPacote": "4242707803"
+                },
+                {
+                  "codigoPacote": "4242707804"
+                },
+                {
+                  "codigoPacote": "4242707805"
+                },
+                {
+                  "codigoPacote": "1398008167"
+                },
+                {
+                  "codigoPacote": "1398008179"
+                },
+                {
+                  "codigoPacote": "1398008209"
+                },
+                {
+                  "codigoPacote": "1430448132"
+                },
+                {
+                  "codigoPacote": "1430448148"
+                }
+              ],
+              "codigoPacote": "5002524315",
+              "ListaPontosAtivos": "",
+              "prioridade": "208",
+              "valorOferta": "16490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "163 canais e 30 HD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1127",
+              "nomeItemCatalogo": "Oi TV Mais Cinema HD BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "6962524876"
+                },
+                {
+                  "codigoPacote": "6962524871"
+                },
+                {
+                  "codigoPacote": "6962524878"
+                },
+                {
+                  "codigoPacote": "6962524872"
+                },
+                {
+                  "codigoPacote": "6962524873"
+                },
+                {
+                  "codigoPacote": "6962524877"
+                },
+                {
+                  "codigoPacote": "6962524879"
+                },
+                {
+                  "codigoPacote": "6962524880"
+                },
+                {
+                  "codigoPacote": "6962524874"
+                },
+                {
+                  "codigoPacote": "6962524875"
+                }
+              ],
+              "codigoPacote": "1398008196",
+              "ListaPontosAtivos": "",
+              "prioridade": "209",
+              "valorOferta": "10990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "130 canais SD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1132",
+              "nomeItemCatalogo": "Oi TV Mais HBO Max BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "6962524876"
+                },
+                {
+                  "codigoPacote": "6962524871"
+                },
+                {
+                  "codigoPacote": "6962524878"
+                },
+                {
+                  "codigoPacote": "6962524872"
+                },
+                {
+                  "codigoPacote": "6962524873"
+                },
+                {
+                  "codigoPacote": "6962524877"
+                },
+                {
+                  "codigoPacote": "6962524879"
+                },
+                {
+                  "codigoPacote": "6962524880"
+                },
+                {
+                  "codigoPacote": "6962524874"
+                },
+                {
+                  "codigoPacote": "6962524875"
+                }
+              ],
+              "codigoPacote": "1398008209",
+              "ListaPontosAtivos": "",
+              "prioridade": "210",
+              "valorOferta": "11990",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "129 canais SD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1133",
+              "nomeItemCatalogo": "Oi TV Mais Telecine BRI"
+            },
+            {
+              "periodoVigenciaItemCatalogo": "30",
+              "tipoItemCatalogo": "Rotativo",
+              "metodoPagamento": "CC",
+              "Excludentes": [
+                {
+                  "codigoPacote": "6962524876"
+                },
+                {
+                  "codigoPacote": "6962524871"
+                },
+                {
+                  "codigoPacote": "6962524878"
+                },
+                {
+                  "codigoPacote": "6962524872"
+                },
+                {
+                  "codigoPacote": "6962524873"
+                },
+                {
+                  "codigoPacote": "6962524877"
+                },
+                {
+                  "codigoPacote": "6962524879"
+                },
+                {
+                  "codigoPacote": "6962524880"
+                },
+                {
+                  "codigoPacote": "6962524874"
+                },
+                {
+                  "codigoPacote": "6962524875"
+                }
+              ],
+              "codigoPacote": "1398008195",
+              "ListaPontosAtivos": "",
+              "prioridade": "211",
+              "valorOferta": "15490",
+              "Escolhas": "",
+              "descricaoItemCatalogo": "142 canais SD",
+              "meta": "minhaOi.com.br/imagens/mais.png",
+              "idItemCatalogo": "1134",
+              "nomeItemCatalogo": "Oi TV Mais Cinema BRI"
+            }
+          ]
+        },
+        "nomeComercial": "Venda Pré Paga Pré Login"
+      }
+    }
+  }
+}

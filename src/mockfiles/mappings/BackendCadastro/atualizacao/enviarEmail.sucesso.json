@@ -1,0 +1,16 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/atualizacao/enviaremail"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin"
+        },
+        "body": "{ \"mensagem\": \"E-mail enviado com sucesso\" }"
+    }
+}

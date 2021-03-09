@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WL5G3N0:definitions name="ConsultarViabilidadeVeloxOSB" targetNamespace="http://osb.telemar/wsdl/ConsultarViabilidadeVeloxOSB/" xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://osb.telemar/xsd/ConsultarViabilidadeVelox" xmlns:WL5G3N2="http://osb.telemar/wsdl/ConsultarViabilidadeVeloxOSB/" xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/">
+  <WL5G3N0:types>
+    <xsd:schema xmlns:elem="http://osb.telemar/xsd/ConsultarViabilidadeVelox" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ConsultarViabilidadeVeloxOSB/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:import namespace="http://osb.telemar/xsd/ConsultarViabilidadeVelox" schemaLocation="http://soamc.intranet:80/ClienteOperacao/v2.0/ConsultarViabilidadeVeloxProxySoap?SCHEMA%2FClienteOperacao%2FConsultarViabilidadeVelox%2Fv2.0%2FInterfaces%2FSchemas%2FConsultarViabilidadeVelox"/>
+    </xsd:schema>
+  </WL5G3N0:types>
+  <WL5G3N0:message name="ConsultarViabilidadeVeloxRequest">
+    <WL5G3N0:part element="WL5G3N1:ConsultarViabilidadeVeloxRequest" name="ConsultarViabilidadeVeloxRequest"/>
+  </WL5G3N0:message>
+  <WL5G3N0:message name="ConsultarViabilidadeVeloxResponse">
+    <WL5G3N0:part element="WL5G3N1:ConsultarViabilidadeVeloxResponse" name="ConsultarViabilidadeVeloxResponse"/>
+  </WL5G3N0:message>
+  <WL5G3N0:portType name="ConsultarViabilidadeVeloxOSB">
+    <WL5G3N0:operation name="ConsultarViabilidadeVelox">
+      <WL5G3N0:input message="WL5G3N2:ConsultarViabilidadeVeloxRequest"/>
+      <WL5G3N0:output message="WL5G3N2:ConsultarViabilidadeVeloxResponse"/>
+    </WL5G3N0:operation>
+  </WL5G3N0:portType>
+  <WL5G3N0:binding name="ConsultarViabilidadeVeloxOSBSoap" type="WL5G3N2:ConsultarViabilidadeVeloxOSB">
+    <WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <WL5G3N0:operation name="ConsultarViabilidadeVelox">
+      <WL5G3N3:operation soapAction="http://osb.telemar/wsdl/ConsultarViabilidadeVelox"/>
+      <WL5G3N0:input>
+        <WL5G3N3:body use="literal"/>
+      </WL5G3N0:input>
+      <WL5G3N0:output>
+        <WL5G3N3:body use="literal"/>
+      </WL5G3N0:output>
+    </WL5G3N0:operation>
+  </WL5G3N0:binding>
+  <WL5G3N0:service name="ConsultarViabilidadeVelox">
+    <WL5G3N0:port binding="WL5G3N2:ConsultarViabilidadeVeloxOSBSoap" name="ConsultarViabilidadeVeloxOSBSoap">
+      <WL5G3N3:address location="http://soapx51a:27209/ClienteOperacao/v2.0/ConsultarViabilidadeVeloxProxySoap"/>
+    </WL5G3N0:port>
+  </WL5G3N0:service>
+</WL5G3N0:definitions>

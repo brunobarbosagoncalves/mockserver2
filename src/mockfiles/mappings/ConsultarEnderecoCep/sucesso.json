@@ -1,0 +1,18 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "POST",
+        "url": "/api/atendimento/consultarenderecocep"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+            "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "bodyFileName":
+        "ConsultarEnderecoCep/sucesso.json"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/ura/enviarconfirmacao",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"cpf\":\"22222222222\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 500,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept"
+        },
+        "body": "{ \"mensagem\": \"Erro ao reenviar e-mail de cadastro.\" }"
+    }
+}

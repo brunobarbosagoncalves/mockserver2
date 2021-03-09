@@ -1,0 +1,33 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroClienteSSO/v1" xmlns:esb="http://alsb.telemar/soap/esbUser"/>
+   <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <v1:ConsultarCadastroClienteResponse xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroClienteSSO/v1">
+         <v1:GrupoResponse>
+            <v1:DadosCliente>
+               <v1:cpf/>
+               <v1:login/>
+               <v1:ipUltimoAcesso/>
+               <v1:ipCriacao/>
+               <v1:dataCriacao/>
+               <v1:dataUltimoAcesso/>
+               <v1:tipoUsuario/>
+               <v1:nome/>
+               <v1:tipoCliente/>
+               <v1:dataNascimento/>
+               <v1:email/>
+               <v1:flagIptinEmail/>
+               <v1:numeroSMS/>
+               <v1:flagOptionSMS/>
+               <v1:flagReplicacaoManual/>
+               <v1:sexo/>
+               <v1:ListaProdutos/>
+            </v1:DadosCliente>
+         </v1:GrupoResponse>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0001</code>
+            <reason>CPF do Titular não encontrado</reason>
+            <detail>CPF do Titular não encontrado</detail>
+         </esb:ResponseControl>
+      </v1:ConsultarCadastroClienteResponse>
+   </soap:Body>
+</soapenv:Envelope>

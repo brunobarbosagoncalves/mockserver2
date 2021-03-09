@@ -1,0 +1,15 @@
+{
+    "nome": "Controle",
+    "oferta": "Você está cadastrado no Oi Mais Controle Intermediário. Você tem todo mês disponível: Franquia de  minutos ilimitados para todo Brasil (local e DDD) usando o 31. Franquia de 3GB para navegar na internet com rede 4G e acesso exclusivo aos aplicativos Oi Jornais, Oi Revistas e Oi Gastronomia. O plano também possui SMS ilimitado para Oi e 500 para outras operadoras.",
+    "expirado": false,
+    "dataAdesao": "11/01/2018",
+    "conta": {
+        "deveAderirContaOnline": true,
+        "dacc": false,
+        "vencidas": 1,
+        "aVencer": 1,
+        "quatorzeMeses": 0,
+        "naoEmitidas": 0
+    },
+    "boleto": "<html><body>boleto</body></html>"
+}

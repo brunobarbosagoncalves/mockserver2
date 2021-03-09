@@ -1,0 +1,17 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/api/usuarionaologado/terminais"
+    },
+    "response": {
+        "status": 200,
+        "headers":
+        {
+            "Content-Type" : "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{ \"terminais\": [ { \"id\": 0, \"terminal\": \"021*****9900\" }, { \"id\": 1, \"terminal\": \"021*****8800\" }, { \"id\": 2, \"terminal\": \"021*****7700\" } ] }"
+    }
+}

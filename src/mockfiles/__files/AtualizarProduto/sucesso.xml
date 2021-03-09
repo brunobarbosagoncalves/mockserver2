@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <v1:AtualizarProdutoResponse xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/AtualizarProduto/V1">
+         <v1:GrupoResponse>
+            <v1:statusReplicacao>SAC_CDI_SUCESSO</v1:statusReplicacao>
+            <v1:Protocolo>20164111701410</v1:Protocolo>
+            <v1:nomeServico/>
+            <v1:code/>
+         </v1:GrupoResponse>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0000</code>
+            <reason>Sucesso</reason>
+            <detail>Sucesso</detail>
+         </esb:ResponseControl>
+      </v1:AtualizarProdutoResponse>
+   </soap:Body>
+</soapenv:Envelope>

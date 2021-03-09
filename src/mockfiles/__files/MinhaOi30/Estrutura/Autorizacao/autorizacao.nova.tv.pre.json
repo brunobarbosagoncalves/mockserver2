@@ -1,0 +1,18 @@
+{
+    "produto": {
+        "plano": "Oi TV Livre HD",
+        "terminal": "00000000008",
+        "token": "00000000008",
+        "nome": "Oi TV Livre HD",
+        "status": "active",
+        "categoria": "tv",
+        "fibra": false,
+        "cingapura": false,
+        "tipoFaturamento": "pre",
+        "tipoVignette": "ptv",
+        "tipo": "tv-pre",
+        "tipoTerminal": "contrato",
+        "oferta": "Oi TV Livre HD"
+    },
+    "nova": true
+}

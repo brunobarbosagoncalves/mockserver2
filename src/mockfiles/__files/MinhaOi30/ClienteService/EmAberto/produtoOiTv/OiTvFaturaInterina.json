@@ -1,0 +1,69 @@
+{
+  "nome": "ANTONIO SILVINO DA SILVA",
+  "cpf": "00361057830",
+  "dataNascimento": "04/08/1950",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "19097508",
+      "idContaFatura": "19097508",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv1398008205",
+        "nomePlano": "OI TV MAIS BRI"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "19097508",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv1398008205",
+            "nomePlano": "OI TV MAIS BRI"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Boleto",
+          "status": "Em Aberto",
+          "valor": "84.6",
+          "dataVencimento": "2018-08-12",
+          "idExtrato": "6492812064",
+          "mesReferencia": "2018-07-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1908-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Em Aberto",
+          "valor": "133.18",
+          "dataVencimento": "2018-07-12",
+          "idExtrato": "7495442063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1908-2",
+          "interina": true
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

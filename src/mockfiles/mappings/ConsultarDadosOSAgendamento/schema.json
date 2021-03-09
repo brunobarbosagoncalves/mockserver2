@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/ClienteOperacao/ConsultarDadosOSAgendamento/v1/ConsultarDadosOSAgendamentoProxySoap?SCHEMA%2FClienteOperacao%2FConsultarDadosOSAgendamento%2FV1%2FInterfaces%2FSchemas%2FConsultarDadosOSAgendamento"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarDadosOSAgendamento/schema.xml"
+    }
+}

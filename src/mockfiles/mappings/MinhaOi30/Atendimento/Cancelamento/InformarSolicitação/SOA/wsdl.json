@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/ClienteAprovisionamento/InformarSolicitacaoCancelamento/V1/InformarSolicitacaoCancelamentoProxySoap?wsdl"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "MinhaOi30/Atendimento/Cancelamento/InformarSolicitação/SOA/wsdl.xml"
+    }
+}

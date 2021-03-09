@@ -1,0 +1,35 @@
+{
+	"planos": [
+		{
+			"terminalPrincipal": {
+				"terminal": "21986637622",
+				"oferta": "Combo",
+				"plano": "Banda Larga 200mbps",
+				"nome": "Oi Colaborador",
+				"nomeExibicao": "Oi Colaborador",
+				"status": "active",
+				"categoria": "mobile",
+				"fibra": false,
+				"cingapura": false,
+				"tipoFaturamento": "pos",
+				"tipoVignette": "mvl",
+				"tipo": "mobile-pos",
+				"tipoTerminal": "terminal"
+			},
+			"nomePlano": "Oi Conta Total",
+			"terminais": ["(21) 98663-7622"],
+			"dacc": false,
+			"faturas": [
+				{
+					"idFatura": "279819-1",
+					"valor": 4,
+					"vencimento": "25/02/2018",
+					"codigoBarras": "1001 1100 0011 1111",
+					"tem14Meses": false,
+					"faturaGerada": false,
+					"clienteTV": true
+				}
+			]
+		}
+	]
+}

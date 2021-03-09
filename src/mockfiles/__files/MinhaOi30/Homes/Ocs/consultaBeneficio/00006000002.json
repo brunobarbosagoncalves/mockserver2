@@ -1,0 +1,144 @@
+{
+    "bucketConversion": [
+        {
+            "id": "591051359",
+            "type": "offering",
+            "currentOffer": true,
+            "validFor": {
+                "startDateTime": "2011-03-10T00:00:00.000",
+                "endDateTime": "2019-01-11T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "businessName",
+                    "value": "Plano Oi Colaborador"
+                }
+            ],
+            "bucketBalance": [
+                {
+                    "id": "701000000000000960",
+                    "type": "data",
+                    "remainedAmount": 300,
+                    "units": "mb",
+                    "name": "Oi colaborador",
+                    "description": "Para usar como quiser",
+                    "characteristic": [
+                        {
+                            "name": "convertionRate",
+                            "value": 2
+                        },
+                        {
+                            "name": "limitData",
+                            "value": 10
+                        },
+                        {
+                            "name": "bucketItemType",
+                            "value": "test_gprs_local"
+                        },
+                        {
+                            "name": "bucketItemTypeName",
+                            "value": "test_gprs_local"
+                        }
+                    ]
+                },
+                {
+                    "id": "701000000000000959",
+                    "type": "voice",
+                    "remainedAmount": 200,
+                    "units": "minutes",
+                    "name": "Oi mais",
+                    "description": "Pra qualquer operadora",
+                    "characteristic": [
+                        {
+                            "name": "convertionRate",
+                            "value": 1
+                        },
+                        {
+                            "name": "limitData",
+                            "value": 5
+                        },
+                        {
+                            "name": "bucketItemType",
+                            "value": "test_voice_onnet"
+                        },
+                        {
+                            "name": "bucketItemTypeName",
+                            "value": "test_voice_onnet"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "391052454",
+            "type": "package",
+            "currentOffer": false,
+            "characteristic": [
+                {
+                    "name": "businessName",
+                    "value": "Plano Oi Colaborador"
+                }
+            ],
+            "validFor": {
+                "startDateTime": "2011-03-10T00:00:00.000",
+                "endDateTime": "2019-01-11T00:00:00.000"
+            },
+            "bucketBalance": [
+                {
+                    "id": "701000000000000957",
+                    "type": "data",
+                    "remainedAmount": 200,
+                    "units": "mb",
+                    "name": "Oi mais",
+                    "description": "Para usar como quiser",
+                    "characteristic": [
+                        {
+                            "name": "convertionRate",
+                            "value": 2
+                        },
+                        {
+                            "name": "limitData",
+                            "value": 10
+                        },
+                        {
+                            "name": "bucketItemType",
+                            "value": "test_gprs_local"
+                        },
+                        {
+                            "name": "bucketItemTypeName",
+                            "value": "test_gprs_local"
+                        }
+                    ]
+                },
+                {
+                    "id": "701000000000000956",
+                    "type": "voice",
+                    "remainedAmount": 100,
+                    "units": "minutes",
+                    "name": "Oi mais",
+                    "description": "Pra qualquer operadora",
+                    "characteristic": [
+                        {
+                            "name": "convertionRate",
+                            "value": 1
+                        },
+                        {
+                            "name": "limitData",
+                            "value": 5
+                        },
+                        {
+                            "name": "bucketItemType",
+                            "value": "test_voice_onnet"
+                        },
+                        {
+                            "name": "bucketItemTypeName",
+                            "value": "test_voice_onnet"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "errorCode": "",
+    "errorDescription": ""
+}

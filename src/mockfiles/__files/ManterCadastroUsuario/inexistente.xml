@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+      <man:ManterCadastroUsuarioOSBResponse xmlns:man="http://osb.telemar/xsd/ManterCadastroUsuarioOSB">
+         <protocolo/>
+         <codeResponse/>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>10</code>
+            <reason>Cliente inexistente.</reason>
+            <detail>O cliente pesquisado não está cadastrado no NDS.</detail>
+         </esb:ResponseControl>
+      </man:ManterCadastroUsuarioOSBResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

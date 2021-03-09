@@ -1,0 +1,18 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "GET",
+        "url": "/central_atendimento/Modulos/OiVelox/InformacoesTerminal.aspx?ddd=21&terminal=22223333"
+    },
+    "response": {
+        "status": 200,
+        "headers":
+        {
+            "Content-Type": "text/html; charset=iso-8859-1",
+            "Server": "Microsoft-IIS/6.0",
+            "X-AspNet-Version": "2.0.50727",
+            "X-Powered-By": "ASP.NET"
+        },
+        "body": "0|25763431|21|RJ|5000|03038|MAL JOFRE|7751|0|0|1|||5MB|61|AP603|00012345678910|NORMA TEREZINHA AUGUSTE PIMENTA|RJO||10.0||0|0|1||0"
+    }
+}

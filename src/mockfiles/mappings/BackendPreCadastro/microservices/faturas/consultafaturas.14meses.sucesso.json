@@ -1,0 +1,28 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/api/microservice/faturas",
+        "headers": {
+            "x-cpf": {
+                "contains": "55555555555"
+            }
+        },
+        "bodyPatterns": [{
+            "matchesJsonPath": "$.numeroTerminal"
+        }, {
+            "matchesJsonPath": "$.idContaFatura"
+        }, {
+            "matchesJsonPath": "$.crmOrigem"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{ \"codigo\":200, \"mensagem\": \"Sucesso\", \"faturas\":[ {  \"data\": \"2017-09-20\",  \"valor\": 185.95,  \"dacc\": false,  \"codigoDeBarras\": \"87654000000-1  54320001234-4  65432100000-7  98765432100-5\",  \"status\": \"string\",  \"tem14Meses\": true  } ,  {  \"data\": \"2017-10-20\",  \"valor\": 200.95,  \"dacc\": false,  \"codigoDeBarras\": \"87654000000-1  54320001234-4  65432100000-7  98765432100-5\",  \"status\": \"string\",  \"tem14Meses\": true  }]  }"
+    }
+}

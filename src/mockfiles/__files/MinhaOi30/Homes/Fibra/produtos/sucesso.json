@@ -1,0 +1,33 @@
+{
+    "internet": [
+        {
+            "terminal": "00000000001",
+            "nome": "Oi Internet na Fibra",
+            "nomeExibicao": "Oi Fibra",
+            "status": "active",
+            "categoria": "broadband",
+            "fibra": true,
+            "cingapura": false,
+            "tipoFaturamento": "pos",
+            "tipoVignette": "oct",
+            "tipo": "combo-fibra",
+            "tipoTerminal": "numero-cliente"
+        }
+    ],
+    "tv": [
+        {
+            "terminal": "6000022482",
+            "nome": "Oi Tv Fibra",
+            "nomeExibicao": "Oi Tv Fibra",
+            "status": "active",
+            "categoria": "tv",
+            "fibra": true,
+            "cingapura": false,
+            "tipoFaturamento": "pos",
+            "tipoVignette": "oct",
+            "tipo": "combo-fibra",
+            "tipoTerminal": "numero-cliente"
+        }
+    ],
+    "fixo": []
+}

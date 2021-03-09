@@ -1,0 +1,112 @@
+{
+    "terminais": [
+        {
+            "terminal": "00001000001",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00002000001",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00002000002",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00002000004",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00003000001",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00003000003",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00004000002",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00004000004",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00006000001",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00006000002",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00014000001",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00014000002",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00014000003",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00015000004",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00015000007",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00016000001",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00017000004",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        },
+        {
+            "terminal": "00017000008",
+            "type": "mobile-pre",
+            "offer": "Oi Mais",
+            "terminalType": "terminal"
+        }
+    ]
+}

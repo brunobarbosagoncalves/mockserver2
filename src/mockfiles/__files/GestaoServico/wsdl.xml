@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="GestaoServico" targetNamespace="http://www.oi.net.br/Servicos/SN/GestaoServico/v2.0" xmlns:data="http://www.oi.net.br/Servicos/GestaoServico/ConsultarServico/XSD/v2.0" xmlns:data2="http://www.oi.net.br/Servicos/GestaoServico/AlterarFranquia/XSD/v2.0" xmlns:data3="http://www.oi.net.br/NEG/GestaoServico/ConsultarDetalheServico/XSD/v2.0" xmlns:data4="http://www.oi.net.br/GestaoServico/ConsultarListaOrdemServico/XSD/v2.0" xmlns:plnk="http://docs.oasis-open.org/wsbpel/2.0/plnktype" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:tns="http://www.oi.net.br/Servicos/SN/GestaoServico/v2.0" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:annotation>
+    <soap:documentation>PRJ: Autor: Sander Bezerra versao: 2.0 Data Publicação: 31/05/2017 Release: 2 Data Release:
+                        07/08/2017 10:31:36</soap:documentation>
+  </soap:annotation>
+  <wsdl:types>
+    <xsd:schema elementFormDefault="qualified">
+      <xsd:import namespace="http://www.oi.net.br/Servicos/GestaoServico/ConsultarServico/XSD/v2.0" schemaLocation="http://osbserviceti.intranet:80/Servicos/GestaoServico/v2.0?SCHEMA%2FServicos%2FSN%2FGestaoServico%2Fv2.0%2FResouces%2FXSD%2FGestaoServico.consultarServico.v2.0"/>
+      <xsd:import namespace="http://www.oi.net.br/Servicos/GestaoServico/AlterarFranquia/XSD/v2.0" schemaLocation="http://osbserviceti.intranet:80/Servicos/GestaoServico/v2.0?SCHEMA%2FServicos%2FSN%2FGestaoServico%2Fv2.0%2FResouces%2FXSD%2FGestaoServico.alterarFranquia.v2.0"/>
+      <xsd:import namespace="http://www.oi.net.br/NEG/GestaoServico/ConsultarDetalheServico/XSD/v2.0" schemaLocation="http://osbserviceti.intranet:80/Servicos/GestaoServico/v2.0?SCHEMA%2FServicos%2FSN%2FGestaoServico%2Fv2.0%2FResouces%2FXSD%2FGestaoServico.consultarDetalheServico.v2.0"/>
+      <xsd:import namespace="http://www.oi.net.br/GestaoServico/ConsultarListaOrdemServico/XSD/v2.0" schemaLocation="http://osbserviceti.intranet:80/Servicos/GestaoServico/v2.0?SCHEMA%2FServicos%2FSN%2FGestaoServico%2Fv2.0%2FResouces%2FXSD%2FGestaoServico.consultarListaOrdemServico.v2.0"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="consultarServicoRequest">
+    <wsdl:part element="data:ConsultarServicoRequest" name="consultarServicoRequest"/>
+  </wsdl:message>
+  <wsdl:message name="consultarServicoResponse">
+    <wsdl:part element="data:ConsultarServicoResponse" name="consultarServicoResponse"/>
+  </wsdl:message>
+  <wsdl:message name="alterarFranquiaRequest">
+    <wsdl:part element="data2:AlterarFranquiaRequest" name="alterarFranquiaRequest"/>
+  </wsdl:message>
+  <wsdl:message name="alterarFranquiaResponse">
+    <wsdl:part element="data2:AlterarFranquiaResponse" name="alterarFranquiaResponse"/>
+  </wsdl:message>
+  <wsdl:message name="consultarDetalheServicoRequest">
+    <wsdl:part element="data3:ConsultarDetalheServicoRequest" name="consultarDetalheServicoRequest"/>
+  </wsdl:message>
+  <wsdl:message name="consultarDetalheServicoResponse">
+    <wsdl:part element="data3:ConsultarDetalheServicoResponse" name="consultarDetalheServicoResponse"/>
+  </wsdl:message>
+  <wsdl:message name="consultarListaOrdemServicoRequest">
+    <wsdl:part element="data4:ConsultarListaOrdemServicoRequest" name="consultarListaOrdemServicoRequest"/>
+  </wsdl:message>
+  <wsdl:message name="consultarListaOrdemServicoResponse">
+    <wsdl:part element="data4:ConsultarListaOrdemServicoResponse" name="consultarListaOrdemServicoResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="GestaoServicoPortType">
+    <wsdl:operation name="consultarServico">
+      <wsdl:input message="tns:consultarServicoRequest"/>
+      <wsdl:output message="tns:consultarServicoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="alterarFranquia">
+      <wsdl:input message="tns:alterarFranquiaRequest"/>
+      <wsdl:output message="tns:alterarFranquiaResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="consultarDetalheServico">
+      <wsdl:input message="tns:consultarDetalheServicoRequest"/>
+      <wsdl:output message="tns:consultarDetalheServicoResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="consultarListaOrdemServico">
+      <wsdl:input message="tns:consultarListaOrdemServicoRequest"/>
+      <wsdl:output message="tns:consultarListaOrdemServicoResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GestaoServicoBinding" type="tns:GestaoServicoPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="consultarServico">
+      <soap:operation soapAction="http://www.oi.net.br/Servicos/GestaoServico/v2.0/GestaoServico.consultarServico"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="alterarFranquia">
+      <soap:operation soapAction="http://www.oi.net.br/Servicos/GestaoServico/v2.0/GestaoServico.alterarFranquia"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarDetalheServico">
+      <soap:operation soapAction="http://www.oi.net.br/NEG/SN/GestaoServico/v2.0/GestaoServico.ConsultarDetalheServico"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultarListaOrdemServico">
+      <soap:operation soapAction="http://www.oi.net.br/NEG/SN/GestaoServico/v2.0/GestaoServico.ConsultarListaOrdemServico"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GestaoServicoBindingQSService">
+    <wsdl:documentation>OSB Service</wsdl:documentation>
+    <wsdl:port binding="tns:GestaoServicoBinding" name="GestaoServicoBindingQSPort">
+      <soap:address location="http://digpx12.interno:8070/Servicos/GestaoServico/v2.0"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

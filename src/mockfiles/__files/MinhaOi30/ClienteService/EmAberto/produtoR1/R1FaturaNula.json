@@ -1,0 +1,100 @@
+{
+  "nome": "PEDRO PAULO DE ANDRADE",
+  "cpf": "09507779434",
+  "dataNascimento": "19/10/1954",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "8332451205",
+      "idContaFatura": "03266|8332451205|0|5",
+      "CRMOrigem": "STC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Fixo011B42HABFNFR200-1",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "8332451205",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011B42HABFNFR200-1",
+            "nomePlano": "OI FIXO 200 FIM DE SEMANA"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "8432060525",
+      "idContaFatura": "03190|8432060525|0|3",
+      "CRMOrigem": "STC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Fixo011B45-1NFRMIL-1",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "8432060525",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011B45-1NFRMIL-1",
+            "nomePlano": "OI FIXO SEM LIMITES"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-05-07",
+          "valor": 0,
+          "codigoDeBarras": "84600000000-6 00000024030-9 25031900320-9 60525031804-1",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "840525-27",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": false,
+          "interina": false,
+          "numeroFatura": "0319032060525  03201804",
+          "anoMesReferencia": "201804",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-07-07",
+          "valor": 64.06,
+          "codigoDeBarras": "84620000000-4 64060024030-6 25031900320-9 60525031806-6",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "840525-29",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0319032060525  03201806",
+          "anoMesReferencia": "201806",
+          "vencida": true
+        }
+      ],
+      "dacc": true
+    }
+  ]
+}

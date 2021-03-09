@@ -1,0 +1,21 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "url": "/api/dashboard/cardDados/listagem",
+    "headers": {
+      "x-cpf": {
+        "equalTo": "12562537742"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "MinhaOi30/CardDados/sucesso.listagem.pre.json"
+  }
+}

@@ -1,0 +1,60 @@
+[
+    {
+        "dados": [
+            {
+                "ilimitado": true,
+                "principal": true,
+                "categoria": "data",
+                "nome": "Oi Colaborador Executivo",
+                "total": 0,
+                "restante": 0,
+                "consumido": 0,
+                "unidade": "ilimitado",
+                "renovacao": "2019-04-16T13:31:58.082Z",
+                "inicio": "2019-04-16T13:31:58.082Z",
+                "tipo": "data",
+                "expirado": false,
+                "caracteristicas": []
+            }
+        ],
+        "voz": [
+            {
+                "ilimitado": true,
+                "principal": true,
+                "categoria": "voice",
+                "nome": "Oi Colaborador Executivo",
+                "total": 0,
+                "restante": 0,
+                "consumido": 0,
+                "unidade": "ilimitado",
+                "renovacao": "2019-04-16T13:31:58.082Z",
+                "inicio": "2019-04-16T13:31:58.082Z",
+                "tipo": "voice",
+                "expirado": false,
+                "caracteristicas": []
+            }
+        ],
+        "sms": [
+            {
+                "ilimitado": true,
+                "principal": true,
+                "categoria": "sms",
+                "nome": "Oi Colaborador Executivo",
+                "total": 0,
+                "restante": 0,
+                "consumido": 0,
+                "unidade": "ilimitado",
+                "renovacao": "2019-04-16T13:31:58.082Z",
+                "inicio": "2019-04-16T13:31:58.082Z",
+                "tipo": "sms",
+                "expirado": false,
+                "caracteristicas": []
+            }
+        ],
+        "extra": {
+            "dadosIlimitados": true,
+            "vozSmsIlimitados": true
+        },
+        "terminal": "00000000041"
+    }
+]

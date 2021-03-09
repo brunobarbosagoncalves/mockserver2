@@ -1,0 +1,18 @@
+{
+    "priority": 2,
+    "request": {
+      "method": "GET",
+      "urlPattern": "/api/cancelamento/consultarnomeproduto/21900000000"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+          "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "bodyFileName": "MinhaOi30/Atendimento/Cancelamento/ConsultarNomeProduto/sucesso-oct.json"
+    }
+  }
+  

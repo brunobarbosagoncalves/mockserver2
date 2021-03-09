@@ -1,0 +1,149 @@
+{
+    "productSpecification": {
+        "renewalDay": 13,
+        "renewalDate": "13/07",
+        "configuration": {
+            "amount": 50,
+            "unit": "GB"
+        }
+    },
+    "balance": {
+        "amount": 48.25,
+        "unit": "GB"
+    },
+    "consumption": {
+        "amount": 1.73,
+        "unit": "GB"
+    },
+    "group": [
+        {
+            "accountType": "parent",
+            "msisdn": "5511980500503",
+            "lowAverageConsumption": true,
+            "highAverageConsumption": false,
+            "balanceDepletedTriggered": false,
+            "controlType": 1,
+            "smsNotification": true,
+            "emailNotification": false,
+            "remainingDays": 18,
+            "requiredBalance": {
+                "amount": 0,
+                "unit": "MB"
+            },
+            "percentageConsumption": 17.32,
+            "classService": 1,
+            "consumptionAverage": {
+                "amount": 155.05,
+                "unit": "MB"
+            },
+            "inventory": [
+                {
+                    "source": "main",
+                    "amount": 10,
+                    "unit": "GB"
+                },
+                {
+                    "source": "additional",
+                    "amount": 0.48,
+                    "unit": "GB"
+                },
+                {
+                    "source": "total",
+                    "amount": 10.48,
+                    "unit": "GB"
+                }
+            ],
+            "consumption": [
+                {
+                    "source": "main",
+                    "amount": 1.73,
+                    "unit": "GB"
+                },
+                {
+                    "source": "additional",
+                    "amount": 0.08,
+                    "unit": "GB"
+                },
+                {
+                    "source": "total",
+                    "amount": 1.81,
+                    "unit": "GB"
+                }
+            ],
+            "balance": [
+                {
+                    "source": "main",
+                    "amount": 48.24,
+                    "unit": "GB"
+                },
+                {
+                    "source": "additional",
+                    "amount": 0.4,
+                    "unit": "GB"
+                },
+                {
+                    "source": "total",
+                    "amount": 48.65,
+                    "unit": "GB"
+                }
+            ]
+        },
+        {
+            "accountType": "child",
+            "msisdn": "5511980500509",
+            "lowAverageConsumption": true,
+            "highAverageConsumption": false,
+            "balanceDepletedTriggered": false,
+            "controlType": 1,
+            "smsNotification": true,
+            "emailNotification": false,
+            "remainingDays": 18,
+            "requiredBalance": {
+                "amount": 0,
+                "unit": "MB"
+            },
+            "percentageConsumption": 0,
+            "classService": 1,
+            "consumptionAverage": {
+                "amount": 0,
+                "unit": "MB"
+            },
+            "inventory": [
+                {
+                    "source": "main",
+                    "amount": 40,
+                    "unit": "GB"
+                },
+                {
+                    "source": "total",
+                    "amount": 40,
+                    "unit": "GB"
+                }
+            ],
+            "consumption": [
+                {
+                    "source": "main",
+                    "amount": 0,
+                    "unit": "GB"
+                },
+                {
+                    "source": "total",
+                    "amount": 0,
+                    "unit": "GB"
+                }
+            ],
+            "balance": [
+                {
+                    "source": "main",
+                    "amount": 0.01,
+                    "unit": "GB"
+                },
+                {
+                    "source": "total",
+                    "amount": 0.01,
+                    "unit": "GB"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "id": "59d5439c267190000752469a",
+    "name": "PAULO SANTA HELENA TAVARES",
+    "status": "prospective",
+    "cpf": "09039308705",
+    "digitalProfile": [
+        "oimod"
+    ],
+    "characteristic": [
+        {
+            "name": "idpa",
+            "value": "a68f63586d85e55ab52c44ee7311688d"
+        },
+        {
+            "name": "birthDate",
+            "value": "19810118"
+        },
+        {
+            "name": "gender",
+            "value": "masculino"
+        },
+        {
+            "name": "motherName",
+            "value": "VERA SOARES S HELENA TAVARES"
+        },
+        {
+            "name": "statusDocument",
+            "value": "R"
+        }
+    ],
+    "contactMedium": [
+        {
+            "preferred": true,
+            "city": "Petrópolis",
+            "country": "Brasil",
+            "emailAddress": "paulo.santahelena@gmail.com",
+            "type": "personal",
+            "number": "(21) 98876-9434",
+            "postcode": "25625000",
+            "stateOrProvince": "RJ",
+            "streetOne": "Rua Aureliano Coutinho",
+            "housingUnit": "160"
+        }
+    ]
+}

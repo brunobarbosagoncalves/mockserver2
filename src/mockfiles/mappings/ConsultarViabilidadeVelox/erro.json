@@ -1,0 +1,24 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/ClienteOperacao/v2.0/ConsultarViabilidadeVeloxProxySoap",
+        "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/con:ConsultarViabilidadeVeloxRequest[con:terminal = '11112222']",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "esb"  : "http://alsb.telemar/soap/esbUser",
+                "con" : "http://osb.telemar/xsd/ConsultarViabilidadeVelox"
+            }
+        } ]
+    },
+    "response": {
+        "status": 200,
+        "headers":
+        {
+            "Content-Type": "text/xml; charset=utf-8",
+            "Server": "Apache"
+        },
+        "bodyFileName": "ConsultarViabilidadeVelox/erro.xml"
+    }
+}

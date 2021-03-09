@@ -1,0 +1,22 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "POST",
+        "url": "/SingleSignOnWsNDS/SingleSignOnWsNDS",
+        "bodyPatterns" : [ {
+            "matchesXPath" : "/soap:Envelope/soap:Body/tns:validarEmailCliente/validarEmailClienteXML[email != 'jean.fonseca.aquino@gmail.com']",
+            "xPathNamespaces" : {
+                "soap" : "http://www.w3.org/2003/05/soap-envelope",
+                "tns"  : "http://sso.ws.nds/"
+            }
+        } ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "SingleSignOnWsNDS/inexistente.xml"
+    }
+}

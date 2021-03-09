@@ -1,0 +1,162 @@
+{
+  "nome": "ZELMA DE SOUZA GOMES MOREIRA",
+  "cpf": "62565427620",
+  "dataNascimento": "05/05/1962",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "378439",
+      "idContaFatura": "378439",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043519129",
+        "nomePlano": "OI TV MAIS HD 2013"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "378439",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043519129",
+            "nomePlano": "OI TV MAIS HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Boleto",
+          "status": "Em Aberto",
+          "valor": "43.9",
+          "dataVencimento": "2018-07-15",
+          "idExtrato": "9855262063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "37-1",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "33988099333",
+      "idContaFatura": "2121702849",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "33988099333",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "33988067142",
+      "idContaFatura": "2442440729",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-UYTHGNM-1",
+        "nomePlano": "Oi Total"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "3332756189",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011-1HABF-1-1",
+            "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "3332756189",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "DadosAD00001-1-1-1-1-1",
+            "nomePlano": "VELOX"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        },
+        {
+          "numeroTerminal": "33988067142",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGNM-1",
+            "nomePlano": "PLANO OI COMPLETO MAIS"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "33988068021",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGNM-1",
+            "nomePlano": "PLANO OI COMPLETO MAIS"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-07",
+          "valor": 212.78,
+          "codigoDeBarras": "84680000002-4  12780113244-1  24407290972-8  39627200000-3",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "337142-13",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "972396272",
+          "anoMesReferencia": "201806",
+          "vencida": true
+        }
+      ],
+      "dacc": true
+    }
+  ]
+}

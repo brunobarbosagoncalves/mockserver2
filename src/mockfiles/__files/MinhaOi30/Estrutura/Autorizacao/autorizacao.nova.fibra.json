@@ -1,0 +1,18 @@
+{
+    "produto": {
+        "plano": "Oi Internet na Fibra",
+        "terminal": "00000000001",
+        "token": "00000000001",
+        "nome": "Oi Internet na Fibra",
+        "status": "active",
+        "categoria": "broadband",
+        "fibra": true,
+        "cingapura": false,
+        "tipoFaturamento": "pos",
+        "tipoVignette": "oct",
+        "tipo": "combo",
+        "tipoTerminal": "numero-cliente",
+        "oferta": "Oi Fibra"
+    },
+    "nova": true
+}

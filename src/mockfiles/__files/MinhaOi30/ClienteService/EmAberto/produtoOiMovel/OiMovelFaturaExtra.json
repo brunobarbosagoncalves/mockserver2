@@ -1,0 +1,158 @@
+{
+  "nome": "LETICIA MARTINS COSTA",
+  "cpf": "49422286387",
+  "dataNascimento": "03/11/1972",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "15472357",
+      "idContaFatura": "15472357",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043519129",
+        "nomePlano": "OI TV MAIS HD 2013"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "15472357",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043519129",
+            "nomePlano": "OI TV MAIS HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "",
+          "idExtrato": "4374162064",
+          "mesReferencia": "2018-07-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1557-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "2018-07-16",
+          "idExtrato": "5425042063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1557-2",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "98988865975",
+      "idContaFatura": "2209977287",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-UYTHGNM-1",
+        "nomePlano": "Oi Total"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "9832685216",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "DadosAD00001-1-1-1-1-1",
+            "nomePlano": "VELOX"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        },
+        {
+          "numeroTerminal": "9832685216",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011-1HABF-1-1",
+            "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "98986075318",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGNM-1",
+            "nomePlano": "PLANO OI COMPLETO MAIS"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "98988865975",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGNM-1",
+            "nomePlano": "PLANO OI COMPLETO MAIS"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "98987072007",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGNM-1",
+            "nomePlano": "PLANO OI COMPLETO MAIS"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-16",
+          "valor": 331.25,
+          "codigoDeBarras": "84680000003-2  31250113220-2  99772870979-8  53696900000-2",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "985975-15",
+          "ajustada": false,
+          "faturaExtra": true,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "979536969",
+          "anoMesReferencia": "201807",
+          "vencida": false
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

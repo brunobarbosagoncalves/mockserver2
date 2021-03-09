@@ -1,0 +1,182 @@
+[
+    {
+        "id": "2422912974",
+        "customerId": "09039308705",
+        "ratingType": "postpaid",
+        "bundleType": "fixo+velox",
+        "lastModified": "2018-07-04T18:32:08Z",
+        "createdDate": "2018-07-04T18:32:08Z",
+        "externalIds": [
+            {
+                "customerAccountId": "2422912974",
+                "billingId": "08610|2042375||",
+                "source": "STC"
+            },
+            {
+                "customerAccountId": "2422912974",
+                "billingId": "08610|2422912974|0|2",
+                "source": "STC"
+            }
+        ],
+        "billingAccountBalance": [
+            {
+                "billingId": "08610|2042375||",
+                "status": "due"
+            },
+            {
+                "billingId": "08610|2422912974|0|2",
+                "status": "due"
+            }
+        ],
+        "customerBillPresentationMedia": {
+            "id": "08610|2422912974|0|2",
+            "name": "Paper invoice"
+        }
+    },
+    {
+        "id": "24988012120",
+        "customerId": "09039308705",
+        "ratingType": "postpaid",
+        "bundleType": "oitotal",
+        "lastModified": "2018-07-04T18:32:08Z",
+        "createdDate": "2018-07-04T18:32:08Z",
+        "externalIds": [
+            {
+                "customerAccountId": "2422488503",
+                "billingId": "08610|1964691||",
+                "source": "STC"
+            },
+            {
+                "customerAccountId": "24988012120",
+                "billingId": "2707706071",
+                "source": "SBL63"
+            },
+            {
+                "customerAccountId": "2422488503",
+                "billingId": "08610|2422488503|0|9",
+                "source": "STC"
+            },
+            {
+                "customerAccountId": "2985186",
+                "billingId": "2985186",
+                "source": "SINN"
+            }
+        ],
+        "billingAccountBalance": [
+            {
+                "billingId": "08610|1964691||",
+                "status": "due"
+            },
+            {
+                "billingId": "2707706071",
+                "status": "due"
+            },
+            {
+                "billingId": "08610|2422488503|0|9",
+                "status": "due"
+            },
+            {
+                "billingId": "2985186",
+                "status": "due"
+            }
+        ],
+        "customerBillPresentationMedia": {
+            "id": "2707706071",
+            "name": "Electronic invoice",
+            "parameters": [
+                {
+                    "name": "phoneNumber",
+                    "value": "21988769434"
+                },
+                {
+                    "name": "email",
+                    "value": "paulo.tavares@oi.net.br"
+                }
+            ]
+        }
+    },
+    {
+        "id": "21988769434",
+        "customerId": "09039308705",
+        "ratingType": "postpaid",
+        "lastModified": "2018-07-04T18:32:08Z",
+        "createdDate": "2018-07-04T18:32:08Z",
+        "externalIds": [
+            {
+                "customerAccountId": "21988769434",
+                "billingId": "2200642883",
+                "source": "SBL63"
+            }
+        ],
+        "billingAccountBalance": [
+            {
+                "billingId": "2200642883",
+                "status": "due"
+            }
+        ],
+        "customerBillPresentationMedia": {
+            "id": "2200642883",
+            "name": "Electronic invoice",
+            "parameters": [
+                {
+                    "name": "phoneNumber",
+                    "value": "21988769434"
+                },
+                {
+                    "name": "email",
+                    "value": "paulo.santahelena@gmail.com"
+                }
+            ]
+        }
+    },
+    {
+        "id": "24910052230",
+        "customerId": "09039308705",
+        "ratingType": "postpaid",
+        "bundleType": "oitotal",
+        "lastModified": "2018-07-04T18:32:08Z",
+        "createdDate": "2018-07-04T18:32:08Z",
+        "externalIds": [
+            {
+                "customerAccountId": "24910052230",
+                "billingId": "2443908707",
+                "source": "SBL63"
+            }
+        ],
+        "billingAccountBalance": [
+            {
+                "billingId": "2443908707",
+                "status": "due"
+            }
+        ],
+        "customerBillPresentationMedia": {
+            "id": "2443908707",
+            "name": "Paper invoice"
+        }
+    },
+    {
+        "id": "30539968",
+        "customerId": "09039308705",
+        "ratingType": "postpaid",
+        "bundleType": "oitotal",
+        "lastModified": "2018-07-04T18:32:08Z",
+        "createdDate": "2018-07-04T18:32:08Z",
+        "externalIds": [
+            {
+                "customerAccountId": "30539968",
+                "billingId": "30539968",
+                "source": "SINN"
+            }
+        ],
+        "billingAccountBalance": [
+            {
+                "billingId": "30539968",
+                "status": "due"
+            }
+        ],
+        "customerBillPresentationMedia": {
+            "id": "30539968",
+            "name": "Paper invoice"
+        }
+    }
+]

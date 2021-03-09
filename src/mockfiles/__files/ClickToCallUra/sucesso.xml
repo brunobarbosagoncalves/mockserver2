@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:insertTokenResponse xmlns:ns2="http://service.mobile.voxage.com.br/">
+         <return>{"id_generated":0,"status_code":0,"status_msg":"Sucesso"}</return>
+      </ns2:insertTokenResponse>
+   </soap:Body>
+</soap:Envelope>

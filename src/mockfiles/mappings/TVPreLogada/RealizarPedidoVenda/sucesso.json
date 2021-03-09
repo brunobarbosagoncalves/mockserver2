@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPattern": "/vendas/pedido/v1/tv/realizar",
+    "bodyPatterns": [{
+      "equalToJson": "{\"RealizarPedidoVendaRequest\":{\"MessageHeaderAPI\":{\"TransactionId\":\"ccdf5b40-d6fa-4ff0-804d-55bf54029941\",\"App\":\"API007\",\"Timestamp\":\"2018-04-19T23:56:05.934-03:00\"},\"GrupoRequest\":{\"token\":\"\",\"contrato\":\"14779400\",\"meioDeCobranca\":\"13176806219\",\"msisdn\":\"0\",\"timestamp\":\"2018-05-11T00:55:20.226-03:00\",\"telefone\":\"11969761418\",\"ativacaoImediata\":\"true\",\"idPedidoVenda\":\"1526010920224\",\"protocolo\":\"1526010920224\",\"email\":\"ftoi-crmprodutos@linkconsulting.com.br\",\"valor\":\"239.9\",\"Produto\":{\"id\":\"945\",\"periodo\":\"30\",\"recorrente\":\"false\",\"idPPV\":\"\"}}}}"
+    }]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf,  x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "TVPreLogada/RealizarPedidoVenda/sucesso.json"
+  }
+}

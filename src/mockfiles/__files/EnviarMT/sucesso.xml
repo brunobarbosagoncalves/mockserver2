@@ -1,0 +1,24 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:env1="http://br/com/oi/vas/mensageriaVAS/EnviarMTRequest" xmlns:env="http://br/com/oi/vas/mensageriaVAS/EnviarMTSOAP/"/>
+   <soapenv:Body xmlns:env1="http://br/com/oi/vas/mensageriaVAS/EnviarMTRequest" xmlns:env="http://br/com/oi/vas/mensageriaVAS/EnviarMTSOAP/">
+      <env:EnviarMTResponse>
+         <responseControl>
+            <code>000</code>
+            <reason>Requisicao executada com sucesso</reason>
+            <detail/>
+            <sendreport>
+               <messageId>11549224</messageId>
+               <quantityOfFragments>1</quantityOfFragments>
+               <fragments>
+                  <fragment>
+                     <sequence>1</sequence>
+                     <fragId>11549224</fragId>
+                     <text>Teste de envio MOCK Server</text>
+                  </fragment>
+               </fragments>
+            </sendreport>
+         </responseControl>
+         <identificadorSessao>1487682791429</identificadorSessao>
+      </env:EnviarMTResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

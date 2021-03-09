@@ -1,0 +1,57 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+      <con:ConsultarViabilidadeVeloxResponse xmlns:con="http://osb.telemar/xsd/ConsultarViabilidadeVelox">
+         <con:DDD/>
+         <con:terminal/>
+         <con:UF/>
+         <con:codigoLocalidade/>
+         <con:siglaLocalidade/>
+         <con:nomeLogradouro/>
+         <con:codigoLogradouro/>
+         <con:numeroLogradouro/>
+         <con:complementoLogradouro/>
+         <con:CPF/>
+         <con:nomeAssinante/>
+         <con:qtdPortasLivres>0</con:qtdPortasLivres>
+         <con:indicadorVeloxInstalado/>
+         <con:circuito/>
+         <con:banda/>
+         <con:msgPCP>00011 - ERRO ASSINANTE NÃO ENCONTRADO</con:msgPCP>
+         <con:flagAberturaAnalise>0</con:flagAberturaAnalise>
+         <con:flagVisualizarAnalise>0</con:flagVisualizarAnalise>
+         <con:flagInadimplente/>
+         <con:codigoSolicitacao/>
+         <con:siglaArmarioABL/>
+         <con:motivoNaoAbertura/>
+         <con:codigoFluxoClassificacao/>
+         <con:classificacao>3</con:classificacao>
+         <con:velocidadeMaxima/>
+         <con:nomeVelocidade/>
+         <con:PortasDispEstacao>
+            <con:velocidadeMaximaMenor1MB/>
+            <con:velocidadeMaxima1MB/>
+            <con:velocidadeMaxima5MB/>
+            <con:velocidadeMaxima15MB/>
+            <con:velocidadeMaximaMaior15MB/>
+         </con:PortasDispEstacao>
+         <con:PortasDispArmario>
+            <con:velocidadeMaximaMenor1MB/>
+            <con:velocidadeMaxima1MB/>
+            <con:velocidadeMaxima5MB/>
+            <con:velocidadeMaxima15MB/>
+            <con:velocidadeMaximaMaior15MB/>
+         </con:PortasDispArmario>
+         <con:NovasFacilidades/>
+         <con:Outros>
+            <con:classifConsolidada>0</con:classifConsolidada>
+            <con:velocConsolidada>0KB</con:velocConsolidada>
+         </con:Outros>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0000</code>
+            <reason>00011 - ERRO ASSINANTE NÃO ENCONTRADO</reason>
+            <detail/>
+         </esb:ResponseControl>
+      </con:ConsultarViabilidadeVeloxResponse>
+   </S:Body>
+</soapenv:Envelope>

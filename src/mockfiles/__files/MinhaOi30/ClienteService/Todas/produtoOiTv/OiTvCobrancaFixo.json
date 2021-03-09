@@ -1,0 +1,126 @@
+{
+  "nome": "KATIA MARIA ANDRADE",
+  "cpf": "92693911672",
+  "dataNascimento": "15/01/1974",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "22407573",
+      "idContaFatura": "22407573",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043519129",
+        "nomePlano": "OI TV MAIS HD 2013"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "22407573",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043519129",
+            "nomePlano": "OI TV MAIS HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "2018-07-08",
+          "idExtrato": "5139082063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "2273-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "2018-06-08",
+          "idExtrato": "1535672062",
+          "mesReferencia": "2018-05-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "2273-2",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "32988059981",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "32988059981",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "3233728811",
+      "idContaFatura": "06479|3233728811|0|8",
+      "CRMOrigem": "STC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Fixo011N08HABFOFCR01-1",
+        "nomePlano": "Novo Oi Fixo Controle - Franq. 100 min"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "3233728811",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011N08HABFOFCR01-1",
+            "nomePlano": "Novo Oi Fixo Controle - Franq. 100 min"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    }
+  ]
+}

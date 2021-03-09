@@ -1,0 +1,17 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/faturas/enviar-email",
+        "bodyPatterns": []
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{ \"mensagem\": \"Ok. Faturas enviadas com sucesso.\" }"
+    }
+}

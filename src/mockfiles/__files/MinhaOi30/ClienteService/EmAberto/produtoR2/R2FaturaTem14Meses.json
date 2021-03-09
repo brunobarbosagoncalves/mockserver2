@@ -1,0 +1,57 @@
+{
+  "nome": "REGINALDO CARARA MIGUEL",
+  "cpf": "01585621943",
+  "dataNascimento": "15/05/1976",
+  "crmsCadastro": [
+    "SAC"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "4834647548",
+      "idContaFatura": "7175345071",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "0000",
+        "nomePlano": "Plano Básico"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "4834647548",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "0000",
+            "nomePlano": "PLANO BASICO"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2016-11-19",
+          "valor": 95.96000000000001,
+          "codigoDeBarras": "84690000000-7 95960027717-9 53450720161-2 10111100000-2",
+          "status": "Em Aberto",
+          "tem14Meses": true,
+          "idFatura": "487548-1",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "07175345071201611001000381889323",
+          "anoMesReferencia": "201611",
+          "ciclo": "001",
+          "vencida": true
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

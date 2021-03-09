@@ -1,0 +1,37 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<WL5G3N0:definitions xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://alsb.telemar/xsd/ConsultarBancosConveniados" xmlns:WL5G3N2="http://alsb.telemar/wsdl/AssociarProcotolo" xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://alsb.telemar/wsdl/AssociarProcotolo">
+<WL5G3N0:types>
+<xsd:schema xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://alsb.telemar/wsdl/AssociarProcotolo" xmlns:tnsXsd="http://alsb.telemar/xsd/ConsultarBancosConveniados" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:import namespace="http://alsb.telemar/xsd/ConsultarBancosConveniados" schemaLocation="http://soati8.intranet:37201/ContaSemPapel/ConsultarBancosConveniadosProxySoap?SCHEMA%2FContaSemPapel%2FSchemas%2FConsultarBancosConveniados%2FConsultarBancosConveniados"/>
+</xsd:schema>
+</WL5G3N0:types>
+<WL5G3N0:message name="ConsultarBancosConveniadosRequest">
+<WL5G3N0:part element="WL5G3N1:ConsultarBancosConveniadosRequest" name="ConsultarBancosConveniadosRequest"/>
+</WL5G3N0:message>
+<WL5G3N0:message name="ConsultarBancosConveniadosResponse">
+<WL5G3N0:part element="WL5G3N1:ConsultarBancosConveniadosResponse" name="ConsultarBancosConveniadosResponse"/>
+</WL5G3N0:message>
+<WL5G3N0:portType name="ConsultarBancosConveniados">
+<WL5G3N0:operation name="ConsultarBancosConveniados">
+<WL5G3N0:input message="WL5G3N2:ConsultarBancosConveniadosRequest"/>
+<WL5G3N0:output message="WL5G3N2:ConsultarBancosConveniadosResponse"/>
+</WL5G3N0:operation>
+</WL5G3N0:portType>
+<WL5G3N0:binding name="ConsultarBancosConveniadosSOAP" type="WL5G3N2:ConsultarBancosConveniados">
+<WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<WL5G3N0:operation name="ConsultarBancosConveniados">
+<WL5G3N3:operation soapAction="http://alsb.telemar/ContaSemPapel/ConsultarBancosConveniados"/>
+<WL5G3N0:input>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:input>
+<WL5G3N0:output>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:output>
+</WL5G3N0:operation>
+</WL5G3N0:binding>
+<WL5G3N0:service name="ConsultarBancosConveniadosSOAPQSService">
+<WL5G3N0:port binding="WL5G3N2:ConsultarBancosConveniadosSOAP" name="ConsultarBancosConveniadosSOAPQSPort">
+<WL5G3N3:address location="http://soahx03:37205/ContaSemPapel/ConsultarBancosConveniadosProxySoap"/>
+</WL5G3N0:port>
+</WL5G3N0:service>
+</WL5G3N0:definitions>

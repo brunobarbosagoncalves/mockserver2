@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/LoginUnico/ConsultarProdutosClienteProxySoap",
+        "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/con:ConsultarProdutosClienteRequest[number(CPF) and string-length(CPF) = 11 and CPF = '69285696031']",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "esb"  : "http://alsb.telemar/soap/esbUser",
+                "con" : "http://osb.telemar/xsd/ConsultarProdutosCliente"
+            }
+        } ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarProdutosCliente/fibraNaoFaturado.xml"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "GET",
+        "url": "/api/migrarprecadastro",
+        "headers": {
+            "x-cpf": {
+                "equalTo": "87248653209"
+            }
+        }
+    },
+    "response": {
+        "status": 500,
+        "headers":
+        {
+            "Content-Type" : "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept"
+        },
+        "body": ""
+    }
+}

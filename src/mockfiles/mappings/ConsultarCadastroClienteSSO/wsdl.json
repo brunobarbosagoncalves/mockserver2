@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/ClienteOperacao/ConsultarCadastroCliente/V1/ConsultarCadastroClienteProxySoap?wsdl"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarCadastroClienteSSO/wsdl.xml"
+    }
+}

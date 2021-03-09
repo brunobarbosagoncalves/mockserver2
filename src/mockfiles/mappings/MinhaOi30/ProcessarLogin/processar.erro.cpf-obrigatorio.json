@@ -1,0 +1,27 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "ANY",
+        "urlPattern": "/api/processar-login(/(.*)|.{0})|/api/estrutura/estatico|/api/estrutura|/api/autorizacao(/(.*)|.{0})|/api/sessao(/(.*)|.{0})",
+        "headers": {
+            "x-origin-application": {
+                "matches": "(.*)"
+            },
+            "x-origin-channel": {
+                "matches": "(.*)"
+            },
+            "x-cpf": {
+                "absent" : true
+            }
+        }
+    },
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "body": "{\"code\":\"BadRequest\",\"message\":\"[processar] Campos obrigatórios não preenchidos.\"}"
+    }
+}

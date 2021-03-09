@@ -1,0 +1,168 @@
+{
+  "nome": "ANTONIO CARLOS ORTONA",
+  "cpf": "91979358753",
+  "dataNascimento": "06/08/1966",
+  "crmsCadastro": [
+    "SAC",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "35203845",
+      "idContaFatura": "35203845",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043519129",
+        "nomePlano": "OI TV MAIS HD 2013"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "35203845",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043519129",
+            "nomePlano": "OI TV MAIS HD 2013"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "51910247779",
+      "idContaFatura": "2211549771",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-JCB539A-1",
+        "nomePlano": "PLANO OI CONVERGENTE LOW"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "51910247779",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-JCB539A-1",
+            "nomePlano": "PLANO OI CONVERGENTE LOW"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "5136831267",
+      "idContaFatura": "0144048795",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "0241",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "5136831267",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "0241",
+            "nomePlano": "PLANO ALTERNAT 14 SOB MEDIDA DDD-1 TERM- 5000 MINU"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "21910268558",
+      "idContaFatura": "2586769123",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-JCB539G-1",
+        "nomePlano": "PLANO OI CONVERGENTE MEDIUM"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "21910268558",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-JCB539G-1",
+            "nomePlano": "PLANO OI CONVERGENTE MEDIUM"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "2137934832",
+      "idContaFatura": "08640|2137934832|0|5",
+      "CRMOrigem": "STC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Fixo011-1HABFNFVMIL-1",
+        "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "2137934832",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "DadosAD00001-1-1-1-1-1",
+            "nomePlano": "VELOX"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "S"
+        },
+        {
+          "numeroTerminal": "2137934832",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011-1HABFNFVMIL-1",
+            "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    }
+  ]
+}

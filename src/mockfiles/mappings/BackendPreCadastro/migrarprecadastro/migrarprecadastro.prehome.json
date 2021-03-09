@@ -1,0 +1,25 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "GET",
+        "url": "/api/migrarprecadastro",
+        "headers": {
+            "x-cpf": {
+                "contains": "09039308705"
+            }
+        }
+    },
+    "response": {
+        "status": 302,
+        "headers":
+        {
+            "Content-Type" : "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept",
+            "Location": "https://minha.oi.com.br/minhaoi/pre-home/#/minhaoi/"
+        },
+        "body": ""
+    }
+}
+
+

@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/api/cadastro/reset/positivacao/gerartoken",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"canal\":\"bmail\", \"cpf\":\"55555555555\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 503,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"mensagem\": \"O limite de chamadas do serviço foi alcançada.\" }"
+    }
+}

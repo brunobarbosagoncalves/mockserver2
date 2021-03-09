@@ -1,0 +1,24 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/cadastro/reset/carregarprodutos",
+        "bodyPatterns": [
+            {
+               "equalToJson": "{\"cpf\":\"34330833638\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 2000,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"moveis\": [\"(61)9*4*5**82\"], \"fixos\": [ \"(82)33*7**18\" ], \"positivacoes\": [{\"nome\": \"Pelo celular\", \"codigo\": 1 }, {\"nome\": \"Pelo fixo\", \"codigo\": 2 },  {\"nome\": \"Pela fatura\", \"codigo\": 4 }, {\"nome\": \"Pela TV\", \"codigo\": 5 }], \"possuiProdutos\": true }"
+    }
+}

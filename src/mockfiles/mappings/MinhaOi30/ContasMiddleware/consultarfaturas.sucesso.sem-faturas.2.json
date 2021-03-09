@@ -1,0 +1,14 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "GET",
+        "url": "/cliente/09039308705/produtos/faturas?status=aberto"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": "{ \"nome\": \"Paulo\", \"cpf\": \"09039308705\", \"dataNascimento\": \"17/09/1981\", \"crmsCadastro\": [ \"CDI\" ], \"emailContrato\": \"\", \"produtos\": [ { \"numeroTerminal\": \"27910129819\", \"idContaFatura\": \"2241830468\", \"CRMOrigem\": \"SBL63\", \"fgInadimplente\": \"N\", \"indicInternet\": \"N\", \"tipoTerminal\": \"M\", \"tipoPlano\": \"POS\",\"plano\": {\"codigoPlano\": \"Móvel1-WL70C2O-1\",\"nomePlano\": \"OI TOTAL FIXO + BANDA LARGA 1\"}, \"statusTerminal\": \"Ativo\", \"plano\": { \"cdPlano\": \"Móvel1-WL70C2O-1\", \"nomePlano\": \"OI TOTAL FIXO + BANDA LARGA 1\" }, \"produtosCombo\": [ { \"numeroTerminal\": \"27910129819\", \"CRMOrigem\": \"SBL63\", \"tpPlano\": \"POS\", \"plano\": { \"cdPlano\": \"Móvel1-WL70C2O-1\", \"nomePlano\": \"OI TOTAL FIXO + BANDA LARGA 1\" }, \"statusTerminal\": \"Ativo\", \"indicInternet\": \"N\" } ], \"faturas\": [] } ] }" 
+   }
+}

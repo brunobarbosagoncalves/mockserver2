@@ -1,0 +1,21 @@
+{
+    "dados": [
+        {
+            "ilimitado": false,
+            "principal": true,
+            "categoria": "main",
+            "nome": "Oi Velox Plug 500MB Downgrade",
+            "total": 512000,
+            "restante": 512000,
+            "consumido": 0,
+            "unidade": "kb",
+            "renovacao": 1555124400000,
+            "inicio": 1552446000000,
+            "tipo": "data",
+            "expirado": false,
+            "caracteristicas": [],
+            "uso": true
+        }
+    ],
+    "extra": {}
+}

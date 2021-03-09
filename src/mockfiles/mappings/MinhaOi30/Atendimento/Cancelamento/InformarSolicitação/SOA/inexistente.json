@@ -1,0 +1,22 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/ClienteAprovisionamento/InformarSolicitacaoCancelamento/V1/InformarSolicitacaoCancelamentoProxySoap",
+        "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/InformarSolicitacaoCancelamentoRequest/v1:GrupoRequest[cpjCnpj = '01234567890']",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "v1"  : "http://osb.telemar/xsd/ClientesAprovisionamento/InformarSolicitacaoCancelamento/V1"
+            }
+        } ]
+    },
+    "response": {
+        "status": 500,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "MinhaOi30/Atendimento/Cancelamento/InformarSolicitação/SOA/inexistente.xml"
+    }
+}

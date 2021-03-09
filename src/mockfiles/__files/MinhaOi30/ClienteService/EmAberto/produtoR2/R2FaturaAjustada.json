@@ -1,0 +1,246 @@
+{
+  "nome": "CRISTINA CORREA MARQUEZI",
+  "cpf": "92750818915",
+  "dataNascimento": "15/03/1973",
+  "crmsCadastro": [
+    "SAC",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "16192281",
+      "idContaFatura": "16192281",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv11398288872",
+        "nomePlano": "OI TV TOTAL CINEMA HD DVR"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "16192281",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv11398288872",
+            "nomePlano": "OI TV TOTAL CINEMA HD DVR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Débito",
+          "status": "Em Aberto",
+          "valor": "228.96",
+          "dataVencimento": "2018-08-09",
+          "idExtrato": "3439282064",
+          "mesReferencia": "2018-07-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1681-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Débito",
+          "status": "Em Aberto",
+          "valor": "228.96",
+          "dataVencimento": "2018-07-09",
+          "idExtrato": "5084842063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "1681-2",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "48984846404",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "48984846404",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "48984576141",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "48984576141",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "48984018778",
+      "idContaFatura": "2866781390",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "48984018778",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "48984155357",
+      "idContaFatura": "2100882455",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-4WEVPI0-1",
+        "nomePlano": "Oi Internet"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "48984155357",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-4WEVPI0-1",
+            "nomePlano": "OI VELOX PLUG TOP"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "4832594318",
+      "idContaFatura": "7004249400",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5510",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "4832594318",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5510",
+            "nomePlano": "FALE - ASSINATURA SEM FR"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-06-14",
+          "valor": 111.59,
+          "codigoDeBarras": "84610000001-3 11590027700-1 42494020180-1 60110400000-0",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "484318-29",
+          "ajustada": true,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "07004249400201806001000018124323",
+          "anoMesReferencia": "201806",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-07-14",
+          "valor": 111.36,
+          "codigoDeBarras": "84620000001-2 11360027700-9 42494020180-1 70110900000-3",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "484318-30",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "07004249400201807001000017961323",
+          "anoMesReferencia": "201807",
+          "ciclo": "001",
+          "vencida": false
+        }
+      ],
+      "dacc": true
+    }
+  ]
+}

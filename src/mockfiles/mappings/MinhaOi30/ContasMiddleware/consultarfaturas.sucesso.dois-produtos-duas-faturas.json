@@ -1,0 +1,14 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "GET",
+        "url": "/cliente/14268125744/produtos/faturas"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": "{ \"nome\": \"Pedro\", \"cpf\": \"14268125744\", \"dataNascimento\": \"17/09/1981\", \"crmsCadastro\": [ \"CDI\" ], \"emailContrato\": \"\", \"produtos\": [ { \"numeroTerminal\": \"27910129819\", \"idContaFatura\": \"2241830468\", \"CRMOrigem\": \"SBL63\", \"fgInadimplente\": \"N\", \"indicInternet\": \"N\", \"tipoTerminal\": \"M\",\"tipoPlano\": \"POS\",\"plano\": {\"codigoPlano\": \"Móvel1-WL70C2O-1\",\"nomePlano\": \"OI TOTAL FIXO + BANDA LARGA 1\"}, \"statusTerminal\": \"Ativo\", \"produtosCombo\": [ { \"numeroTerminal\": \"27910129819\", \"CRMOrigem\": \"SBL63\", \"tpPlano\": \"POS\", \"plano\": { \"cdPlano\": \"Móvel1-WL70C2O-1\", \"nomePlano\": \"OI TOTAL FIXO + BANDA LARGA 1\" }, \"statusTerminal\": \"Ativo\", \"indicInternet\": \"N\" } ], \"faturas\": [ { \"data\": \"2017-11-20\", \"valor\": 68.87, \"dacc\": false, \"codigoDeBarras\": \"84680000000-8 68870113224-5 18304680838-6 96002600000-5\", \"status\": \"Em Aberto\", \"tem14Meses\": false, \"idFatura\":\"279819-1\" , \"vencida\":false} ] }, { \"numeroTerminal\": \"27910129819\", \"idContaFatura\": \"2241830468\", \"CRMOrigem\": \"SBL63\", \"fgInadimplente\": \"N\", \"indicInternet\": \"N\", \"tipoTerminal\": \"M\", \"plano\": \"POS\", \"statusTerminal\": \"Ativo\", \"produtosCombo\": [ { \"numeroTerminal\": \"27910129819\", \"CRMOrigem\": \"SBL63\", \"tpPlano\": \"POS\", \"plano\": { \"cdPlano\": \"Móvel1-WL70C2O-1\", \"nomePlano\": \"OI TOTAL FIXO + BANDA LARGA 1\" }, \"statusTerminal\": \"Ativo\", \"indicInternet\": \"N\" } ], \"faturas\": [ { \"data\": \"2017-11-20\", \"valor\": 68.87, \"dacc\": false, \"codigoDeBarras\": \"84680000000-8 68870113224-5 18304680838-6 96002600000-5\", \"status\": \"Em Aberto\", \"tem14Meses\": false, \"idFatura\":\"279819-1\" , \"vencida\":false} ] } ] }"
+    }
+}

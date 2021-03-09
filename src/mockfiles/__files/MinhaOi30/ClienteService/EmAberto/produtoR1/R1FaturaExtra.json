@@ -1,0 +1,239 @@
+{
+  "nome": "GUSTAVO GRILO DE SIQUEIRA",
+  "cpf": "00023355654",
+  "dataNascimento": "06/06/1972",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "5748874",
+      "idContaFatura": "5748874",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043519129",
+        "nomePlano": "OI TV MAIS HD 2013"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "5748874",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043519129",
+            "nomePlano": "OI TV MAIS HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Débito",
+          "status": "Em Aberto",
+          "valor": "62.79",
+          "dataVencimento": "2018-08-11",
+          "idExtrato": "3578522064",
+          "mesReferencia": "2018-07-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "574-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Débito",
+          "status": "Em Aberto",
+          "valor": "62.79",
+          "dataVencimento": "2018-07-11",
+          "idExtrato": "5260022063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "574-2",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "11980205255",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "11980205255",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "11954095880",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "11954095880",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "11980172644",
+      "idContaFatura": "2324521922",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-IS5Z4VG-1",
+        "nomePlano": "Oi Conta 50"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "11980172644",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-IS5Z4VG-1",
+            "nomePlano": "PLANO OI CONTA 50"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "11980500225",
+      "idContaFatura": "2957990764",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HS-1",
+        "nomePlano": "Oi Colaborador Executivo"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "11980500225",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HS-1",
+            "nomePlano": "PLANO OI COLABORADOR EXECUTIVO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "3536431141",
+      "idContaFatura": "07182|3536431141|0|2",
+      "CRMOrigem": "STC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Fixo011-1HABFNFVMIL-1",
+        "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "3536431141",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011-1HABFNFVMIL-1",
+            "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "3536431141",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "DadosAD00001-1-1-1-1-1",
+            "nomePlano": "VELOX"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-19",
+          "valor": 175.33,
+          "codigoDeBarras": "84640000001-0 75330024010-2 18071820364-9 31141021806-0",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "351141-30",
+          "ajustada": false,
+          "faturaExtra": true,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0718236431141  02201806",
+          "anoMesReferencia": "201806",
+          "vencida": false
+        }
+      ],
+      "dacc": true
+    }
+  ]
+}

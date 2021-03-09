@@ -1,0 +1,22 @@
+{
+  "numeroProtocolo": null, 
+  "ofertas": [
+    { 
+    "id": "30", 
+    "nome": "R$10 Voz Total Ilimitado", 
+    "valor": "10", 
+    "valorTaxaAdesao": "0" 
+    },
+    { 
+      "id": "31", 
+      "nome": "R$20 Voz Total Ilimitado Local+LDN+100MB Dados+100SMS", 
+      "valor": "25", 
+      "valorTaxaAdesao": "0" 
+    }
+  ],
+  "response": {
+    "code": "0",
+    "detail": "S",
+    "reason": "Execução com sucesso URA"
+  }
+}

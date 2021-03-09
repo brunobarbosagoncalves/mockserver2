@@ -1,0 +1,29 @@
+{
+    "priority": 2,
+    "request": {
+      "method": "POST",
+      "urlPattern": "/api/dadosacesso/atualizar",
+      "headers": {
+        "x-origin-application": {
+            "matches": "(.+)"
+        },
+        "x-origin-channel": {
+            "matches": "(.+)"
+        },
+        "x-cpf": {
+            "matches": "(.+)"
+        }
+      }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+          "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "bodyFileName": "MinhaOi30/DadosAcesso/Atualizar/sucesso.json"
+    }
+  }
+  

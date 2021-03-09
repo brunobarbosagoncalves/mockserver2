@@ -1,0 +1,14 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "GET",
+        "url": "/cliente/01323308300/produtos/faturas"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": "{\"nome\":\"GEANE RODRIGUES DE ARAUJO\",\"cpf\":\"01323308300\",\"dataNascimento\":\"17/09/1981\",\"crmsCadastro\":[\"CDI\"],\"emailContrato\":\"\",\"produtos\":[{\"numeroTerminal\":\"27910129819\",\"idContaFatura\":\"2241830468\",\"CRMOrigem\":\"SBL63\",\"fgInadimplente\":\"N\",\"indicInternet\":\"N\",\"tipoTerminal\":\"M\",\"tipoPlano\":\"POS\",\"plano\":{\"codigoPlano\":\"Móvel1-WL70C2O-1\",\"nomePlano\":\"OI TOTAL FIXO + BANDA LARGA 1\"},\"statusTerminal\":\"Ativo\",\"produtosCombo\":[{\"numeroTerminal\":\"27910129819\",\"CRMOrigem\":\"SBL63\",\"tpPlano\":\"POS\",\"plano\":{\"codigoPlano\":\"Móvel1-WL70C2O-1\",\"nomePlano\":\"OI TOTAL FIXO + BANDA LARGA 1\"},\"statusTerminal\":\"Ativo\",\"indicInternet\":\"N\"}],\"faturas\":[{\"dataVencimento\":\"2017-11-20\",\"valor\":68.87,\"dacc\":true,\"codigoDeBarras\":\"84680000000-8  68870113224-5  18304680838-6  96002600000-5\",\"status\":\"Em Aberto\",\"tem14Meses\":false,\"idFatura\":\"279819-1\",\"faturaGerada\":true,\"vencida\":false},{\"dataVencimento\":\"2017-12-20\",\"valor\":143.78,\"dacc\":true,\"codigoDeBarras\":\"84690000001-5  43780113224-6  18304680854-3  89058500000-7\",\"status\":\"Em Aberto\",\"tem14Meses\":false,\"idFatura\":\"279819-2\",\"faturaGerada\":true,\"vencida\":false},{\"dataVencimento\":\"2018-01-20\",\"valor\":17.3,\"dacc\":true,\"codigoDeBarras\":\"84640000000-2  17300113224-5  18304680870-9  87146500000-2\",\"status\":\"Em Aberto\",\"tem14Meses\":false,\"idFatura\":\"279819-3\",\"faturaGerada\":true,\"vencida\":false}]},{\"numeroTerminal\":\"2732416738\",\"idContaFatura\":\"08663|2732416738|0|8\",\"CRMOrigem\":\"STC\",\"fgInadimplente\":\"S\",\"indicInternet\":\"N\",\"tipoTerminal\":\"F\",\"tipoPlano\":\"POS\",\"plano\":{\"codigoPlano\":\"Fixo011-1HABF-1-1\",\"nomePlano\":\"LINHA INDIVIDUAL - RESIDENCIAL\"},\"statusTerminal\":\"Ativo\",\"produtosCombo\":[{\"numeroTerminal\":\"2732416738\",\"CRMOrigem\":\"STC\",\"tpPlano\":\"POS\",\"plano\":{\"codigoPlano\":\"Fixo011-1HABF-1-1\",\"nomePlano\":\"LINHA INDIVIDUAL - RESIDENCIAL\"},\"statusTerminal\":\"Ativo\",\"indicInternet\":\"N\"}],\"faturas\":[]}]}"
+    }
+}

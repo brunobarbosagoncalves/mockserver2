@@ -1,0 +1,22 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "url": "/api/dashboard/cardContas/enviarEmail",
+    "headers": {
+      "x-cpf": {
+        "absent" : true
+      }
+    }
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers":
+        "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin, x-channel"
+    },
+    "body":"{\"mensagem\":\"Campos obrigatórios não foram preenchidos\"}"
+  }
+}

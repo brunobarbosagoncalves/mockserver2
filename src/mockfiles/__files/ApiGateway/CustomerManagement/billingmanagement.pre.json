@@ -1,0 +1,77 @@
+[
+    {
+        "id": "24999912974",
+        "customerId": "41336346590",
+        "ratingType": "prepaid",
+        "bundleType": "",
+        "lastModified": "2018-07-04T18:32:08Z",
+        "createdDate": "2018-07-04T18:32:08Z",
+        "externalIds": [
+            {
+                "customerAccountId": "24999912974",
+                "billingId": "08610|2042375||",
+                "source": "SBL63"
+            }
+        ],
+        "billingAccountBalance": [
+            {
+                "billingId": "08610|2042375||",
+                "status": "due"
+            }
+        ],
+        "customerBillPresentationMedia": {
+            "id": "08610|2042375||",
+            "name": "Paper invoice"
+        }
+    },
+    {
+        "id": "24999912975",
+        "customerId": "41336346590",
+        "ratingType": "prepaid",
+        "bundleType": "",
+        "lastModified": "2018-07-04T18:32:08Z",
+        "createdDate": "2018-07-04T18:32:08Z",
+        "externalIds": [
+            {
+                "customerAccountId": "24999912975",
+                "billingId": "",
+                "source": "SBL63"
+            }
+        ],
+        "billingAccountBalance": [
+            {
+                "billingId": "",
+                "status": "due"
+            }
+        ],
+        "customerBillPresentationMedia": {
+            "id": "24999912975",
+            "name": "Paper invoice"
+        }
+    },
+    {
+        "id": "24999912976",
+        "customerId": "41336346590",
+        "ratingType": "prepaid",
+        "bundleType": "",
+        "lastModified": "2018-07-04T18:32:08Z",
+        "createdDate": "2018-07-04T18:32:08Z",
+        "externalIds": [
+            {
+                "customerAccountId": "24999912976",
+                "billingId": "",
+                "source": "SBL63"
+            }
+        ],
+        "billingAccountBalance": [
+            {
+                "billingId": "",
+                "status": "due"
+            }
+        ],
+        "customerBillPresentationMedia": {
+            "id": "24999912976",
+            "name": "Paper invoice"
+        }
+    }
+]

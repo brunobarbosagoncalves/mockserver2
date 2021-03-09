@@ -1,0 +1,40 @@
+{
+  "ResponseConsultarElegibilidadeRecargaPreTV": {
+    "MessageHeader": {
+      "Operation": "?",
+      "TransactionId": "?",
+      "CorrelationId": "?",
+      "BusinessId": "?",
+      "Timestamp": "?",
+      "Credentials": {
+        "AppId": "?",
+        "AppToken": "?",
+        "UserId": "?",
+        "UserToken": "?"
+      },
+      "Response": {
+        "Return": [
+          {
+            "Type": "?",
+            "Code": "?",
+            "Description": "?",
+            "NativeReturn": [
+              {
+                "Type": "?",
+                "Code": "?",
+                "Description": "?",
+                "AppId": "?",
+                "Detail": "?"
+              }
+            ]
+          }
+        ]
+      },
+      "Parameters": "?"
+    },
+    "reasonCode": "0",
+    "reasonDetail": "",
+    "message": "Sucesso",
+    "contrato": "14779400"
+  }
+}

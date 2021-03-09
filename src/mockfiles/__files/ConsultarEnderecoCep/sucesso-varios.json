@@ -1,0 +1,26 @@
+[
+    {
+        "endereco": {
+            "logradouro": "UM_LOGRADOURO_QUALQUER",
+            "municipio": "UM_MUNICIPIO_QUALQUER",
+            "estado": "UM_ESTADO_QUALQUER",
+            "cep": "UM_CEP_QUALQUER"
+        }
+    },
+    {
+        "endereco": {
+            "logradouro": "UM_OUTRO_LOGRADOURO_QUALQUER",
+            "municipio": "UM_OUTRO_MUNICIPIO_QUALQUER",
+            "estado": "UM_OUTRO_ESTADO_QUALQUER",
+            "cep": "UM_OUTRO_CEP_QUALQUER"
+        }
+    },
+    {
+        "endereco": {
+            "logradouro": "MAIS_UM_LOGRADOURO_QUALQUER",
+            "municipio": "MAIS_UM_MUNICIPIO_QUALQUER",
+            "estado": "MAIS_UM_ESTADO_QUALQUER",
+            "cep": "MAIS_UM_CEP_QUALQUER"
+        }
+    }
+]

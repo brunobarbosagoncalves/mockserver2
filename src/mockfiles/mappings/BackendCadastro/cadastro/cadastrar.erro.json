@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/api/cadastro/cadastrar",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"token\":\"ABC1234567\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 500,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"mensagem\": \"Erro ao realizar cadastro.\", \"userInfo\": { \"userId\": \"480eadb72b7dd572a8b8cc3708802e653c33fd49\" } }"
+    }
+}

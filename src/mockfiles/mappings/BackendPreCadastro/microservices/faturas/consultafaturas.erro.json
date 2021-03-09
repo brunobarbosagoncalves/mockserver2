@@ -1,0 +1,16 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "POST",
+        "url": "/api/microservice/faturas"
+    },
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{ \"codigo\":400, \"mensagem\": \"Campos obrigatórios não preenchidos.\"}"
+    }
+}

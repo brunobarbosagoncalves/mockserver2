@@ -1,0 +1,38 @@
+<WL5G3N0:definitions xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://osb.telemar/xsd/ClientesAprovisionamento/InformarSolicitacaoCancelamento/V1" xmlns:WL5G3N2="http://osb.telemar/wsdl/ClientesAprovisionamento/InformarSolicitacaoCancelamentoOSB/V1" xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://osb.telemar/wsdl/ClientesAprovisionamento/InformarSolicitacaoCancelamentoOSB/V1">
+<WL5G3N0:types>
+<xsd:schema xmlns:esb="http://alsb.telemar/soap/esb" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sol="http://osb.telemar/xsd/ClientesAprovisionamento/InformarSolicitacaoCancelamento/V1" xmlns:tns="http://osb.telemar/wsdl/ClientesAprovisionamento/InformarSolicitacaoCancelamentoOSB/V1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://osb.telemar/xsd/ClientesAprovisionamento/InformarSolicitacaoCancelamento/V1">
+<xsd:include schemaLocation="http://osbprd.telemar:7200/ClienteAprovisionamento/InformarSolicitacaoCancelamento/V1/InformarSolicitacaoCancelamentoProxySoap?SCHEMA%2FClienteAprovisionamento%2FInformarSolicitacaoCancelamento%2FV1%2FInterfaces%2FSchemas%2FInformarSolicitacaoCancelamentoOSB"/>
+<xsd:element name="InformarSolicitacaoCancelamentoRequest" type="sol:InformarSolicitacaoCancelamentoRequest"/>
+<xsd:element name="InformarSolicitacaoCancelamentoResponse" type="sol:InformarSolicitacaoCancelamentoResponse"/>
+</xsd:schema>
+</WL5G3N0:types>
+<WL5G3N0:message name="InformarSolicitacaoCancelamentoRequest">
+<WL5G3N0:part element="WL5G3N1:InformarSolicitacaoCancelamentoRequest" name="InformarSolicitacaoCancelamentoRequest"/>
+</WL5G3N0:message>
+<WL5G3N0:message name="InformarSolicitacaoCancelamentoResponse">
+<WL5G3N0:part element="WL5G3N1:InformarSolicitacaoCancelamentoResponse" name="InformarSolicitacaoCancelamentoResponse"/>
+</WL5G3N0:message>
+<WL5G3N0:portType name="InformarSolicitacaoCancelamento">
+<WL5G3N0:operation name="InformarSolicitacaoCancelamento">
+<WL5G3N0:input message="WL5G3N2:InformarSolicitacaoCancelamentoRequest"/>
+<WL5G3N0:output message="WL5G3N2:InformarSolicitacaoCancelamentoResponse"/>
+</WL5G3N0:operation>
+</WL5G3N0:portType>
+<WL5G3N0:binding name="InformarSolicitacaoCancelamentoSOAP" type="WL5G3N2:InformarSolicitacaoCancelamento">
+<WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<WL5G3N0:operation name="InformarSolicitacaoCancelamento">
+<WL5G3N3:operation soapAction="http://alsb.telemar/InformarSolicitacaoCancelamento/InformarSolicitacaoCancelamento"/>
+<WL5G3N0:input>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:input>
+<WL5G3N0:output>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:output>
+</WL5G3N0:operation>
+</WL5G3N0:binding>
+<WL5G3N0:service name="InformarSolicitacaoCancelamentoSOAPQSService">
+<WL5G3N0:port binding="WL5G3N2:InformarSolicitacaoCancelamentoSOAP" name="InformarSolicitacaoCancelamentoSOAPQSPort">
+<WL5G3N3:address location="http://digpx12.interno:8070/ClienteAprovisionamento/InformarSolicitacaoCancelamento/V1/InformarSolicitacaoCancelamentoProxySoap"/>
+</WL5G3N0:port>
+</WL5G3N0:service>
+</WL5G3N0:definitions>

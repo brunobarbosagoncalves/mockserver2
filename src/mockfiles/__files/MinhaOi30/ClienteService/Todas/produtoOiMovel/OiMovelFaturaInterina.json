@@ -1,0 +1,101 @@
+{
+  "nome": "TUANE COSTA MACHADO",
+  "cpf": "12098224745",
+  "dataNascimento": "03/07/1987",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "21989925888",
+      "idContaFatura": "2161785134",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "21989925888",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-01-02",
+          "valor": 10,
+          "codigoDeBarras": "84610000000-5  10000113216-4  17851340859-5  95398900000-5",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "215888-1",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": true,
+          "numeroFatura": "859953989",
+          "anoMesReferencia": "201712",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-03-02",
+          "valor": 18.740000000000002,
+          "codigoDeBarras": "84600000000-6  18740113216-7  17851340892-6  82121300000-2",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "215888-2",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "892821213",
+          "anoMesReferencia": "201802",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-05-02",
+          "valor": 11.63,
+          "codigoDeBarras": "84640000000-2  11630113216-7  17851340926-2  28010100000-6",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "215888-3",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "926280101",
+          "anoMesReferencia": "201804",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-07-02",
+          "valor": 6.140000000000001,
+          "codigoDeBarras": "84680000000-8  06140113216-4  17851340965-0  65347600000-1",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "215888-4",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "965653476",
+          "anoMesReferencia": "201806",
+          "vencida": true
+        }
+      ],
+      "dacc": true
+    }
+  ]
+}

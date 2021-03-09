@@ -1,0 +1,28 @@
+{
+	"planos": [
+		{
+			"terminalPrincipal": {
+				"terminal": "21986637622",
+				"oferta": "Combo",
+				"plano": "Banda Larga 200mbps",
+				"nome": "Oi Controle",
+				"nomeExibicao": "Oi Controle",
+				"status": "active",
+				"categoria": "mobile",
+				"fibra": false,
+				"cingapura": false,
+				"tipoFaturamento": "pre",
+				"tipoVignette": "mvl",
+				"tipo": "mobile-pre",
+				"tipoTerminal": "terminal"
+			},
+			"nomePlano": "Oi Controle",
+			"terminais": ["(21) 98663-7622"],
+			"dacc": false,
+			"extras": {
+				"controle": true
+			},
+			"faturas": []
+		}
+	]
+}

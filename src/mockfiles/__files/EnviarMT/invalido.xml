@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:env1="http://br/com/oi/vas/mensageriaVAS/EnviarMTRequest" xmlns:env="http://br/com/oi/vas/mensageriaVAS/EnviarMTSOAP/"/>
+   <soapenv:Body xmlns:env1="http://br/com/oi/vas/mensageriaVAS/EnviarMTRequest" xmlns:env="http://br/com/oi/vas/mensageriaVAS/EnviarMTSOAP/">
+      <env:EnviarMTResponse>
+         <responseControl>
+            <code>901</code>
+            <reason>Erro de execucao</reason>
+            <detail>Nao existe configuracao cadastrada para o parceiro e ShortCode</detail>
+            <sendreport/>
+         </responseControl>
+         <identificadorSessao>1487682813331</identificadorSessao>
+      </env:EnviarMTResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

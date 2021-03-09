@@ -1,0 +1,23 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "POST",
+        "url": "/ClienteOperacao/ConsultarCadastroClientesSSO/v1/ConsultarCadastroClientesSSOProxySoap",
+        "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/v1:ConsultarCadastroClienteSSORequest/v1:GrupoRequest/v1:CPF",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "esb"  : "http://alsb.telemar/soap/esbUser",
+                "v1" : "http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroClienteSSO/v1"
+            }
+        } ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarClienteMinhaOi/invalido.xml"
+    }
+}

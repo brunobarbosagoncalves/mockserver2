@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPattern": "/vendas/tv/v1/idcadastrocartao/solicitar",
+    "bodyPatterns": [{
+      "equalToJson": "{\"SolicitarIdCadastroCartaoRequest\":{\"MessageHeaderAPI\":{\"TransactionId\":\"ccdf5b40-d6fa-4ff0-804d-55bf54029941\",\"App\":\"API007\",\"Timestamp\":\"2018-04-19T23:56:05.934-03:00\"},\"GrupoRequest\":{\"cpfCnpj\":\"05281705970\",\"numeroContrato\":\"14779400\"}}}"
+    }]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf,  x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "TVPreLogada/SolicitarIdCadastroCartao/sucesso.json"
+  }
+}

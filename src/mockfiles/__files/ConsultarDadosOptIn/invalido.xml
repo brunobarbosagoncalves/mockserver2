@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:con="http://osb.telemar/xsd/ConsultarDadosOptin" xmlns:esb="http://alsb.telemar/soap/esbUser"/>
+   <soapenv:Body xmlns:con="http://osb.telemar/xsd/ConsultarDadosOptin" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <con:ConsultarDadosOptinResponse xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+         <GrupoDadosOptin>
+            <DadosOptinCliente>
+               <crmOrigem>CDI</crmOrigem>
+               <telefoneSMS/>
+               <email/>
+               <optinEmail/>
+               <optinSMS/>
+               <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+                  <code>2</code>
+                  <reason>1-1A4N8RN5</reason>
+                  <detail>CPF inválido.</detail>
+               </esb1:ResponseControl>
+            </DadosOptinCliente>
+         </GrupoDadosOptin>
+      </con:ConsultarDadosOptinResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,84 @@
+{
+  "nome": "VINICIUS TAVARES DE ARAUJO",
+  "cpf": "07777592769",
+  "dataNascimento": "14/08/1977",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "22021493",
+      "idContaFatura": "22021493",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv11398288872",
+        "nomePlano": "OI TV TOTAL CINEMA HD DVR"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "22021493",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv11398288872",
+            "nomePlano": "OI TV TOTAL CINEMA HD DVR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Débito",
+          "status": "Em Aberto",
+          "valor": "384.04",
+          "dataVencimento": "2018-08-04",
+          "idExtrato": "2552972064",
+          "mesReferencia": "2018-07-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "2293-1",
+          "interina": false
+        }
+      ],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "21985830322",
+      "idContaFatura": "2705775688",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "21985830322",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": true
+    }
+  ]
+}

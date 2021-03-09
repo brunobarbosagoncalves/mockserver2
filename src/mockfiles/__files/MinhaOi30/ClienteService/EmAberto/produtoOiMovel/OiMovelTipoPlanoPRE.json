@@ -1,0 +1,39 @@
+{
+  "nome": "MAYCON CORREIA RAMOS",
+  "cpf": "12292856794",
+  "dataNascimento": "07/05/1990",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "maycon.ramos@oi.net.br",
+  "produtos": [
+    {
+      "numeroTerminal": "21989970166",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "21989970166",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

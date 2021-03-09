@@ -1,0 +1,22 @@
+{
+    "priority": 3,
+    "request": {
+      "method": "GET",
+      "url": "/api/dashboard/cardContaOnline",
+      "headers": {
+        "x-cpf": {
+          "absent" : true
+        }
+      }
+    },
+    "response": {
+      "status": 400,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+          "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "bodyFileName": "MinhaOi30/CardContaOnline/erro-cpf-nao-informado.json"
+    }
+  }

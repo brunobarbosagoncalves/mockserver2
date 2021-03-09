@@ -1,0 +1,27 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "GET",
+        "url": "/api/estrutura/autorizacao/nova-minha-oi",
+        "headers": {
+            "x-cpf": {
+                "equalTo": "00000000000"
+            },
+            "x-origin-application": {
+                "equalTo": "minhaoi"
+            },
+            "x-origin-channel": {
+                "equalTo": "web"
+            }
+        }
+    },
+    "response": {
+        "status": 403,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "body": "{\"code\": \"Forbidden\", \"message\": \"Não pode acessar o Dashboard.\"}"
+    }
+}

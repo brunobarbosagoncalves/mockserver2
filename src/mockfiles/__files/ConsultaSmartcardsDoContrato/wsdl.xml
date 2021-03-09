@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://alsb.telemar/wsdl/consultarSmartCardsDoContratoOSB" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:WL5G3N2="http://alsb.telemar/wsdl/consultarSmartCardsDoContratoOSB" xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://alsb.telemar/xsd/consultarSmartCardsDoContrato">
+<wsp:Policy wsu:Id="wss_username_token_service_policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sp:SupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+<wsp:Policy>
+<sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+<wsp:Policy>
+<sp:WssUsernameToken10/>
+</wsp:Policy>
+</sp:UsernameToken>
+</wsp:Policy>
+</sp:SupportingTokens>
+</wsp:Policy>
+    <wsdl:types>
+        <xsd:schema xmlns:WL5G3N4="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:WL5G3N5="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:esb="http://alsb.telemar/soap/esb" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://alsb.telemar/wsdl/consultarSmartCardsDoContratoOSB" xmlns:tnsReq="http://alsb.telemar/xsd/consultarSmartCardsDoContrato" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:import namespace="http://alsb.telemar/xsd/consultarSmartCardsDoContrato" schemaLocation="http://soamc.intranet:80/VendaOperacao/ConsultarSmartcardsDoContratoProxySoap?SCHEMA%2FVendaOperacao%2FSchemas%2FConsultaSmartcardsDoContrato%2FConsultarSmartCardsDoContrato"/>
+            <xsd:import namespace="http://alsb.telemar/soap/esb" schemaLocation="http://soamc.intranet:80/VendaOperacao/ConsultarSmartcardsDoContratoProxySoap?SCHEMA%2FCommons%2FSchemas%2FResponseControl"/>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="consultarSmartCardsDoContratoRequest">
+        <wsdl:part name="consultarSmartCardsDoContratoRequest" element="WL5G3N1:consultarSmartCardsDoContratoRequest"/>
+    </wsdl:message>
+    <wsdl:message name="consultarSmartCardsDoContratoResponse">
+        <wsdl:part name="consultarSmartCardsDoContratoResponse" element="WL5G3N1:consultarSmartCardsDoContratoResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="consultarSmartCardsDoContrato">
+        <wsdl:operation name="consultarSmartCardsDoContrato">
+            <wsdl:input message="WL5G3N2:consultarSmartCardsDoContratoRequest"/>
+            <wsdl:output message="WL5G3N2:consultarSmartCardsDoContratoResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="consultarSmartCardsDoContratoSOAP" type="WL5G3N2:consultarSmartCardsDoContrato">
+        <WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+      <wsp:PolicyReference URI="#wss_username_token_service_policy" wsdl:required="false" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"/>
+        <wsdl:operation name="consultarSmartCardsDoContrato">
+            <WL5G3N3:operation soapAction="http://osb.telemar/consultarSmartCardsDoContrato/consultarSmartCardsDoContrato"/>
+            <wsdl:input>
+                <WL5G3N3:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <WL5G3N3:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="consultarSmartCardsDoContrato">
+        <wsdl:port name="consultarSmartCardsDoContratoSOAP" binding="WL5G3N2:consultarSmartCardsDoContratoSOAP">
+            <WL5G3N3:address location="http://digpx12.interno:8070/VendaOperacao/ConsultarSmartcardsDoContratoProxySoap"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

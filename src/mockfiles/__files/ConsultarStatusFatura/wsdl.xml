@@ -1,0 +1,36 @@
+<WL5G3N0:definitions xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://osb.telemar/xsd/ConsultarStatusFatura" xmlns:WL5G3N2="http://osb.telemar/wsdl/ConsultarStatusFatura" xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://osb.telemar/wsdl/ConsultarStatusFatura">
+<WL5G3N0:types>
+<xsd:schema xmlns:esb="http://alsb.telemar/soap/esb" xmlns:ns="http://alsb.telemar/soap/esbUser" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ConsultarStatusFatura" xmlns:tnsReq="http://osb.telemar/xsd/ConsultarStatusFatura" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:import namespace="http://osb.telemar/xsd/ConsultarStatusFatura" schemaLocation="http://soacc.intranet/ClienteOperacao/ConsultarStatusFaturaProxySoap?SCHEMA%2FClienteOperacao%2FConsultarStatusFatura%2FInterfaces%2FSchemas%2FConsultarStatusFatura"/>
+</xsd:schema>
+</WL5G3N0:types>
+<WL5G3N0:message name="ConsultarStatusFaturaRequest">
+<WL5G3N0:part element="WL5G3N1:ConsultarStatusFaturaRequest" name="ConsultarStatusFaturaRequest"/>
+</WL5G3N0:message>
+<WL5G3N0:message name="ConsultarStatusFaturaResponse">
+<WL5G3N0:part element="WL5G3N1:ConsultarStatusFaturaResponse" name="ConsultarStatusFaturaResponse"/>
+</WL5G3N0:message>
+<WL5G3N0:portType name="ConsultarStatusFatura">
+<WL5G3N0:operation name="ConsultarStatusFatura">
+<WL5G3N0:input message="WL5G3N2:ConsultarStatusFaturaRequest"/>
+<WL5G3N0:output message="WL5G3N2:ConsultarStatusFaturaResponse"/>
+</WL5G3N0:operation>
+</WL5G3N0:portType>
+<WL5G3N0:binding name="ConsultarStatusFaturaSOAP" type="WL5G3N2:ConsultarStatusFatura">
+<WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<WL5G3N0:operation name="ConsultarStatusFatura">
+<WL5G3N3:operation soapAction="http://osb.telemar/ClienteOperacao/ConsultarStatusFatura"/>
+<WL5G3N0:input>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:input>
+<WL5G3N0:output>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:output>
+</WL5G3N0:operation>
+</WL5G3N0:binding>
+<WL5G3N0:service name="ConsultarStatusFaturaSOAPQSService">
+<WL5G3N0:port binding="WL5G3N2:ConsultarStatusFaturaSOAP" name="ConsultarStatusFaturaSOAPQSPort">
+<WL5G3N3:address location="http://digpx12.interno:8070/ClienteOperacao/ConsultarStatusFaturaProxySoap"/>
+</WL5G3N0:port>
+</WL5G3N0:service>
+</WL5G3N0:definitions>

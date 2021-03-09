@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:con="http://osb.telemar/xsd/ConsultarStatusFatura" xmlns:esb="http://alsb.telemar/soap/esbUser"/>
+   <soapenv:Body xmlns:con="http://osb.telemar/xsd/ConsultarStatusFatura" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <soapenv:Body>
+         <soapenv:Fault>
+            <faultcode>soapenv:SOAP-ENV:Client</faultcode>
+            <faultstring>ESB-3001-BEA-382505: OSB Validate action failed validation</faultstring>
+            <detail>
+               <esb1:EsbFault xmlns:esb1="http://alsb.telemar/soap/esb">
+                  <esb1:code>ESB-3001</esb1:code>
+                  <esb1:reason>Mensagem XML de entrada invalida</esb1:reason>
+                  <esb1:detail>BEA-382505OSB Validate action failed validationstring value '?' does not match pattern for contaFaturaType in namespace http://osb.telemar/xsd/ConsultarStatusFatura?Invalid date value: ??PipelinePairNode1PipelinePairNode_requestValidarRequisicaorequest-pipeline</esb1:detail>
+                  <esb1:requestID>3461148479510741635-10453b64.15a60bc0b68.-6747</esb1:requestID>
+               </esb1:EsbFault>
+            </detail>
+         </soapenv:Fault>
+      </soapenv:Body>
+   </soapenv:Body>
+</soapenv:Envelope>

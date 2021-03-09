@@ -1,0 +1,227 @@
+{
+    "id": "597bad9126719000076b98b4",
+    "name": "LUIS FERNANDO SAMPAIO ALVES",
+    "status": "prospective",
+    "cpf": "07439968794",
+    "digitalProfile": [
+        "oimod"
+    ],
+    "characteristic": [
+        {
+            "name": "idpa",
+            "value": "ca29025dc539fb00271f6a156ec79654"
+        },
+        {
+            "name": "profilePicture",
+            "value": ""
+        },
+        {
+            "name": "birthDate",
+            "value": "19760827"
+        },
+        {
+            "name": "gender",
+            "value": "masculino"
+        },
+        {
+            "name": "motherName",
+            "value": "EDNA MARIA SAMPAIO ALVES"
+        },
+        {
+            "name": "statusDocument",
+            "value": "R"
+        }
+    ],
+    "contactMedium": [
+        {
+            "preferred": true,
+            "city": "Rio de Janeiro",
+            "country": "Brasil",
+            "emailAddress": "luisfernandoalves@gmail.com",
+            "type": "personal",
+            "number": "(21) 98987-8282",
+            "postcode": "22461000",
+            "stateOrProvince": "RJ",
+            "streetOne": "Rua Jardim Botânico",
+            "housingUnit": "616"
+        }
+    ],
+    "customerAccount": [
+        {
+            "id": "59dbed0026719000071b0dc2",
+            "customerId": "07439968794",
+            "msisdn": "21987501094",
+            "status": "active",
+            "lastModified": "2017-10-09T18:42:39.182-03:00",
+            "createDate": "2017-10-09T18:41:20.666-03:00"
+        }
+    ],
+    "paymentMean": [
+        {
+            "id": "59de4ad5609c2600073caca8",
+            "customerId": "07439968794",
+            "href": "/paymentMean/59de4ad5609c2600073caca8",
+            "name": "The IN balance",
+            "type": "PrepaidBalance",
+            "prepaidBalance": {
+                "subscriber": "21987501094"
+            }
+        },
+        {
+            "id": "59e3757e609c2600073cacb9",
+            "customerId": "07439968794",
+            "href": "/paymentMean/59e3757e609c2600073cacb9",
+            "name": "Cartao de credito",
+            "type": "CreditCard",
+            "creditCard": {
+                "creditCardHolder": "Luis Alves",
+                "type": "Visa",
+                "expirationDate": "0019-05-01T00:00:00.000Z",
+                "parameters": {
+                    "customerId": "00007f11-ccd4-461e-ba7d-fe587001a463",
+                    "token": "F499CEB7-C46F-4808-984B-02ABABC2E356"
+                }
+            }
+        },
+        {
+            "id": "59e4c3bf26719000077c5162",
+            "customerId": "07439968794",
+            "href": "/paymentMean/59e4c3bf26719000077c5162",
+            "name": "The IN balance",
+            "type": "PrepaidBalance",
+            "prepaidBalance": {
+                "subscriber": "21987501094"
+            }
+        },
+        {
+            "id": "59e4c47f26719000077c5163",
+            "customerId": "07439968794",
+            "href": "/paymentMean/59e4c47f26719000077c5163",
+            "name": "Cartao de credito",
+            "type": "CreditCard",
+            "creditCard": {
+                "creditCardHolder": "Luis Alves",
+                "type": "Visa",
+                "expirationDate": "0019-05-01T00:00:00.000Z",
+                "parameters": {
+                    "customerId": "00007f11-ccd4-461e-ba7d-fe587001a463",
+                    "token": "F499CEB7-C46F-4808-984B-02ABABC2E356"
+                }
+            }
+        },
+        {
+            "id": "59e4c57426719000077c5164",
+            "customerId": "07439968794",
+            "href": "/paymentMean/59e4c57426719000077c5164",
+            "name": "The IN balance",
+            "type": "PrepaidBalance",
+            "prepaidBalance": {
+                "subscriber": "21987501094"
+            }
+        }
+    ],
+    "products": [
+        {
+            "id": "Móvel1+3B+3401-122REVV6",
+            "name": "PLANO OI CARTAO",
+            "customerAccountId": "21987501094",
+            "billingAccountId": "21987501094",
+            "category": "mobile",
+            "status": "active",
+            "characteristics": [
+                {
+                    "name": "source",
+                    "value": "SBL63"
+                }
+            ],
+            "lastModified": "2018-05-18T10:43:24.826-03:00"
+        },
+        {
+            "id": "Móvel1-14TY4HS-1",
+            "name": "PLANO OI COLABORADOR EXECUTIVO",
+            "customerAccountId": "21989878282",
+            "billingAccountId": "21989878282",
+            "category": "mobile",
+            "status": "active",
+            "characteristics": [
+                {
+                    "name": "source",
+                    "value": "SBL63"
+                }
+            ],
+            "lastModified": "2018-05-18T10:43:24.826-03:00"
+        },
+        {
+            "id": "Fixo011B45-1NFRMIL-1",
+            "name": "OI FIXO SEM LIMITES",
+            "customerAccountId": "2122497630",
+            "billingAccountId": "2122497630",
+            "category": "landline",
+            "status": "active",
+            "characteristics": [
+                {
+                    "name": "source",
+                    "value": "STC"
+                }
+            ],
+            "lastModified": "2018-05-18T10:43:24.826-03:00"
+        }
+    ],
+    "billingAccounts": [
+        {
+            "id": "21987501094",
+            "ratingType": "prepaid",
+            "lastModified": "2018-05-18T10:43:24.826-03:00",
+            "externalIds": [
+                {
+                    "customerAccountId": "21987501094",
+                    "source": "SBL63"
+                }
+            ],
+            "billingAccountBalance": [
+                {
+                    "billingId": "",
+                    "status": "due"
+                }
+            ]
+        },
+        {
+            "id": "21989878282",
+            "ratingType": "postpaid",
+            "lastModified": "2018-05-18T10:43:24.826-03:00",
+            "externalIds": [
+                {
+                    "customerAccountId": "21989878282",
+                    "billingId": "2926181798",
+                    "source": "SBL63"
+                }
+            ],
+            "billingAccountBalance": [
+                {
+                    "billingId": "2926181798",
+                    "type": "onlineAccount",
+                    "status": "due"
+                }
+            ]
+        },
+        {
+            "id": "2122497630",
+            "ratingType": "postpaid",
+            "lastModified": "2018-05-18T10:43:24.826-03:00",
+            "externalIds": [
+                {
+                    "customerAccountId": "2122497630",
+                    "billingId": "05000|2122497630|0|4",
+                    "source": "STC"
+                }
+            ],
+            "billingAccountBalance": [
+                {
+                    "billingId": "05000|2122497630|0|4",
+                    "type": "onlineAccount",
+                    "status": "due"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "voz": [
+        {
+            "nome": "Franquia Ilimitada",
+            "total": 2678400,
+            "restante": 2678400,
+            "unidade": "minutes",
+            "renovacao": 1543802400000,
+            "inicio": 1541214000000,
+            "tipo": "voice",
+            "expirado": true,
+            "uso": true
+        }
+    ],
+    "terminal": "1339909869"
+}

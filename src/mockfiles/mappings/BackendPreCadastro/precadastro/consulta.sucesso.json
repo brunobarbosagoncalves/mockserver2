@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "POST",
+        "url": "/api/precadastro/consulta"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept"
+        },
+        "body": "{  \"code\": 0, \"message\": \"Pré-Cadastro consultado com sucesso\", \"data\": { \"nome\": \"Diogo Menezes\", \"tipoProduto\": \"MOVEL\", \"statusCadastro\": \"3\" } }"
+    }
+}

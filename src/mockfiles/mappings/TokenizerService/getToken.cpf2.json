@@ -1,0 +1,27 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/tokenizer/getToken",
+        "headers": {
+            "Content-Type": {
+                "equalTo": "application/x-www-form-urlencoded"
+            },
+            "chave": {
+                "equalTo": "000000"
+            }
+        },
+        "bodyPatterns": [{
+            "matches": "(.*)cpf=09039308705(.*)"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "accesskey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyOWRiMWRkZS03NWI3LTQzOGQtYWQ0MS0zOGJiN2VjMDk3ZjYiLCJpc3MiOiJPSSBNb3ZlbCBEaWdpdGFsIiwiY3JpYWNhbyI6IjIwMTgtMDItMjhUMTk6NTI6MzUuMjQ0WiIsImlhdCI6MTUxOTg0NzU1NX0.JL9DcfFPjPetYjz06-vbP8pZI8an_1jX1pIutaDPC-s",
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        }
+    }
+}

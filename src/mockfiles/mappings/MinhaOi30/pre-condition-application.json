@@ -1,0 +1,21 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "urlPattern": "/api/dashboard/(.*)",
+    "headers": {
+      "x-origin-application": {
+        "absent": true
+      }
+    }
+  },
+  "response": {
+    "status": 412,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+    },
+    "bodyFileName": "MinhaOi30/pre-condition-application.json"
+  }
+}

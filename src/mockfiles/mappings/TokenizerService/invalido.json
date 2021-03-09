@@ -1,0 +1,15 @@
+{
+    "priority":2,
+    "request": {
+        "method": "POST",
+        "url": "/token/getDados"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8",
+            "Cache-Control": "no-cache"
+        },
+        "body": "{\"mensagem\": \"Erro inesperado no servidor.\"}"
+    }
+}

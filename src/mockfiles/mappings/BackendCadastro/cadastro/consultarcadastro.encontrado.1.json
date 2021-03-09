@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/cadastro/consultar",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"cpf\":\"55555555555\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"cliente\": { \"nome\": \"Jose\", \"email\": \"jos••••va@gmail.com\" }, \"jwt\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcGYiOiIyNTU3NDIxNDgwNiIsImlhdCI6MTQ5MDI4MDU3NywiZXhwIjoxNDkwMjgxMTc3fQ.DD5sGtjP1VNHGtbCNOAmdgcJOR-e396tQploTnu1jHg\",  \"userInfo\": { \"userId\": \"480eadb72b7dd572a8b8cc3708802e653c33fd49\", \"userName\": \"cff5713264a23ccefef24b6cefee6f1d9e448c40\", \"email\": \"b7fc179903ad11ae0fd384762f1666300e34e05c\" } }"
+    }
+}

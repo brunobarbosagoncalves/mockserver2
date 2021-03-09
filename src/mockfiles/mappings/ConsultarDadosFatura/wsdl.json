@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/ClienteFaturamento/ConsultarDadosFaturaBilling/V1/ConsultarDadosFaturaBillingProxySoap?wsdl"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarDadosFatura/wsdl.xml"
+    }
+}

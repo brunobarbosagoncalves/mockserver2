@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/LoginUnico/ManterContatoClienteProxySoap",
+        "bodyPatterns": [{
+            "matchesXPath": "/soapenv:Envelope/soapenv:Body/man:ManterContatoClienteRequest[number(CPF) and string-length(CPF) = 11]",
+            "xPathNamespaces": {
+                "soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+                "esb": "http://alsb.telemar/soap/esbUser",
+                "man": "http://osb.telemar/xsd/ManterContatoCliente"
+            }
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ManterContatoCliente/sucesso.xml"
+    }
+}

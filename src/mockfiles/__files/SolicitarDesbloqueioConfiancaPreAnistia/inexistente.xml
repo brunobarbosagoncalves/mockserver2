@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body xmlns:des="http://osb.telemar/xsd/DesbloqueioConfiancaPreAnistia" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <des:DesbloqueioConfiancaPreAnistiaResponse>
+         <GrupoResponse>
+            <numProtocolo/>
+         </GrupoResponse>
+         <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+            <code>D017</code>
+            <reason>O cliente não possui linha móvel ou fixa bloqueada por inadimplência.</reason>
+            <detail>O cliente não possui linha móvel ou fixa bloqueada por inadimplência.</detail>
+         </esb1:ResponseControl>
+      </des:DesbloqueioConfiancaPreAnistiaResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

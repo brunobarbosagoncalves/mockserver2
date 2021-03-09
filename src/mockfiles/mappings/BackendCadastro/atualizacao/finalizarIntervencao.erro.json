@@ -1,0 +1,21 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/api/atualizacao/finalizarintervencao",
+        "headers": {
+            "x-cpf": {
+                "matches": "48544447546"
+            }
+        }
+    },
+    "response": {
+      "status": 500,
+      "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin"
+        },
+        "bodyFileName": "IntervencaoCadastral/finalizarIntervencao/erro.json"
+    }
+}

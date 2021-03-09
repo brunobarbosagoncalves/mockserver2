@@ -1,0 +1,15 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/codigoDeBarras/api/sms"     
+    },
+       "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8",
+            "Cache-Control": "no-cache"
+        },
+        "body": "{\"mensagem\":\"Ok. Faturas enviadas com sucesso.\"}"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/cadastro/consultaremail",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"email\":\"joao@oi.com.br\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"mensagem\": \"O e-mail já existe\" }"
+    }
+}

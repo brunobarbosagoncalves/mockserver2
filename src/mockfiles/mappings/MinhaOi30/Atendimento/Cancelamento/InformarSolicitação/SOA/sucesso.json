@@ -1,0 +1,15 @@
+{
+    "priority": 50,
+    "request": {
+        "method": "POST",
+        "url": "/ClienteAprovisionamento/InformarSolicitacaoCancelamento/V1/InformarSolicitacaoCancelamentoProxySoap"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "MinhaOi30/Atendimento/Cancelamento/InformarSolicitação/SOA/sucesso.xml"
+    }
+}

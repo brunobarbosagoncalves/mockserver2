@@ -1,0 +1,16 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/ura/enviarconfirmacao"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept"
+        },
+        "body": "{ \"mensagem\": \"E-mail reenviado com sucesso\" }"
+    }
+}

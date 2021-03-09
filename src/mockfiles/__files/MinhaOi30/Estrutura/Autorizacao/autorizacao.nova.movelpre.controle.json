@@ -1,0 +1,18 @@
+{
+    "produto": {
+        "plano": "Oi Controle Sem Fatura",
+        "terminal": "00000000006",
+        "token": "00000000006",
+        "nome": "Oi Controle Sem Fatura",
+        "status": "active",
+        "categoria": "mobile",
+        "fibra": false,
+        "cingapura": false,
+        "tipoFaturamento": "pre",
+        "tipoVignette": "mvl",
+        "tipo": "controle",
+        "tipoTerminal": "terminal",
+        "oferta": "Oi Controle Sem Fatura"
+    },
+    "nova": true
+}

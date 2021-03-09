@@ -1,0 +1,986 @@
+{
+    "4P+1MovelLegadoComInternetMovel": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            },
+            {
+                "plano": "Internet Movel",
+                "terminal": "2486049890",
+                "nome": "Internet Movel",
+                "status": "active",
+                "categoria": "mobile_internet",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Internet Movel"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "4P+1MovelLegadoComFixoExtra": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            },
+            {
+                "plano": "Oi Fixo Extra",
+                "terminal": "3132868489",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "4P+1CingapuraComInternetMovel": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": true,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            },
+            {
+                "plano": "Internet Movel",
+                "terminal": "2486049890",
+                "nome": "Internet Movel",
+                "status": "active",
+                "categoria": "mobile_internet",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Internet Movel"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "4P+1CingapuraComFixoExtra": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": true,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            },
+            {
+                "plano": "Oi Fixo Extra",
+                "terminal": "3132868489",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "4PMovelLegadoComInternetMovelSubstituta": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "mobile_internet",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "4PMovelLegadoSemFibra": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "4PMovelLegadoComFibra": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": true,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": true,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": true,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": true,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "3PSemMovel": {
+        "movelPos": [],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "3PMovelLegadoSemTv": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": []
+    },
+    "3PMovelLegadoSemInternet": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "3PMovelLegadoSemFixo": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            }
+        ],
+        "fixo": [],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "3PCingapuraSemTv": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": true,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": true,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": true,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": []
+    },
+    "3PCingapuraSemInternet": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": true,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": true,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": true,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "3PCingapuraSemFixo": {
+        "movelPos": [
+            {
+                "plano": "Oi Total",
+                "terminal": "31988608488",
+                "nome": "Oi Total",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": true,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": true,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            }
+        ],
+        "fixo": [],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": true,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    },
+    "2PFixoBandaLargaFibra": {
+        "movelPos": [],
+        "internet": [
+            {
+                "plano": "Oi Internet na Fibra",
+                "terminal": "2486049890",
+                "nome": "Oi Internet na Fibra",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": true,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Internet na Fibra"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": []
+    },
+    "2PFixoBandaLargaVelox": {
+        "movelPos": [],
+        "internet": [
+            {
+                "plano": "Velox 20MB",
+                "terminal": "2486049890",
+                "nome": "Velox 20MB",
+                "status": "active",
+                "categoria": "broadband",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Velox 20MB"
+            }
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": []
+    },
+    "2PFixoTV": {
+        "movelPos": [],
+        "internet": [
+        ],
+        "fixo": [
+            {
+                "plano": "Oi Fixo",
+                "terminal": "3132868488",
+                "nome": "Oi Fixo",
+                "status": "active",
+                "categoria": "landline",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Total"
+            }
+        ],
+        "tv": [
+            {
+                "plano": "Oi Tv",
+                "terminal": "2486049890",
+                "nome": "Oi Tv",
+                "status": "active",
+                "categoria": "tv",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pos",
+                "tipoVignette": "oct",
+                "tipo": "combo",
+                "tipoTerminal": "contrato",
+                "oferta": "Oi Tv"
+            }
+        ]
+    }
+}

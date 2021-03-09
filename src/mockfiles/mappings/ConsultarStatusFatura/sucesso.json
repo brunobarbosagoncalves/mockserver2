@@ -1,0 +1,22 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/ClienteOperacao/ConsultarStatusFaturaProxySoap",      
+         "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/con:ConsultarStatusFaturaRequest/con:GrupoRequest[con:Terminal != 0]",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "con" : "http://osb.telemar/xsd/ConsultarStatusFatura"
+            }
+        } ]     
+    },
+       "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarStatusFatura/sucesso.xml"
+    }
+}

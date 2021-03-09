@@ -1,0 +1,40 @@
+{
+    "planos": [
+        {
+            "terminalPrincipal": {
+                "plano": "Oi Controle",
+                "tipoVignette": "mvl",
+                "oferta": "Oi Controle",
+                "categoria":"mobile",
+                "cingapura":false,
+                "fibra":false,
+                "nome":"Oi Controle",
+                "nomeExibicao":"Oi Controle",
+                "status":"active",
+                "terminal":"00000000040",
+                "tipo":"controle",
+                "tipoFaturamento":"pos",
+                "tipoTerminal":"terminal"
+            },
+            "nomePlano": "Oi Controle",
+            "terminais": [
+                "00000000040"
+            ],
+            "dacc": false,
+            "fibra": false,
+            "faturas": [
+                {
+                    "idFatura": "1735-1",
+                    "vencimento": "07/04/2019",
+                    "faturaGerada": true,
+                    "tem14Meses": false,
+                    "ajustada": false,
+                    "clienteTV": true,
+                    "tvFaturadaFixo": false,
+                    "valor": 113.14,
+                    "diasAVencer": 23
+                }
+            ]
+        }
+    ]
+}

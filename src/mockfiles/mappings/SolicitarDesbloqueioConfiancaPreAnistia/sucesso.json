@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/ClienteFaturamento/SolicitarDesbloqueioConfiancaPreAnistiaProxySoap",
+        "bodyPatterns": [{
+            "matchesXPath": "/soapenv:Envelope/soapenv:Body/des:DesbloqueioConfiancaPreAnistiaRequest/GrupoRequest[number(con:terminal) and string-length(con:terminal)]",
+            "xPathNamespaces": {
+                "soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+                "esb": "http://alsb.telemar/soap/esbUser",
+                "des": "http://osb.telemar/xsd/DesbloqueioConfiancaPreAnistia"
+            }
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "SolicitarDesbloqueioConfiancaPreAnistia/sucesso.xml"
+    }
+}

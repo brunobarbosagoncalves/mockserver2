@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/SingleSignOnWsNDS/SingleSignOnWsNDS?wsdl"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "MinhaOi30/DadosAcesso/ConsultarEmail/xml/wsdl.xml"
+    }
+}

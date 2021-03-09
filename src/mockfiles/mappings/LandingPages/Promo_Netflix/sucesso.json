@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+      "method": "POST",
+      "url": "/lp-api/promo/netflix",
+      "bodyPatterns": [
+        {
+            "equalToJson": "{\"cpf\":\"00000000003\"}",
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+        }
+    ]   
+    },
+    "response": {
+      "status": 302,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "body": "{}"
+    }
+  }

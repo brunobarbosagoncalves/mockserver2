@@ -1,0 +1,16 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/cadastro/ura/validar"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept"
+        },
+        "body": "{ \"mensagem\": \"Cadastro via URA validado com sucesso\" }"
+    }
+}

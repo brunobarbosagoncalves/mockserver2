@@ -1,0 +1,56 @@
+{
+  "nome": "EDUARDO PINHEIRO DO AMARAL",
+  "cpf": "69527164591",
+  "dataNascimento": "26/08/1975",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "21997136004",
+      "idContaFatura": "2055328382",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HS-1",
+        "nomePlano": "Oi Colaborador Executivo"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "21997136004",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HS-1",
+            "nomePlano": "PLANO OI COLABORADOR EXECUTIVO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-05-16",
+          "valor": 583.78,
+          "codigoDeBarras": "84620000005-3  83780113205-6  53283820939-5  22318900000-1",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "216004-3",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "939223189",
+          "anoMesReferencia": "201805",
+          "vencida": true
+        }
+      ],
+      "dacc": true
+    }
+  ]
+}

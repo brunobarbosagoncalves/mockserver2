@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/faturas/enviar-email",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"idsFaturas\": [\"123456\"]}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{ \"mensagem\": \"ids das faturas não informados\" }"
+    }
+}

@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sol="http://alsb.telemar/xsd/SolicitarAdesaoDebitoAutomatico" xmlns:esb="http://alsb.telemar/soap/esb">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sol:SolicitarAdesaoDebitoAutomaticoResponse>
+         <protocolo>201800204169782</protocolo>
+         <esb:ResponseControl>
+            <code>0000</code>
+            <reason>SUCESSO</reason>
+            <detail>SUCESSO</detail>
+         </esb:ResponseControl>
+      </sol:SolicitarAdesaoDebitoAutomaticoResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

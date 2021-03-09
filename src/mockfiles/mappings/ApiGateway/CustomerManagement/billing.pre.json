@@ -1,0 +1,25 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "GET",
+        "urlPattern": "/api/billingmanagement/v2/customers/41336346590/billingaccounts",
+        "headers": {
+            "Content-Type": {
+                "equalTo": "application/json"
+            },
+            "Authorization": {
+                "matches": "Basic (.+)"
+            }
+
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "bodyFileName": "ApiGateway/CustomerManagement/billingmanagement.pre.json"
+    }
+}

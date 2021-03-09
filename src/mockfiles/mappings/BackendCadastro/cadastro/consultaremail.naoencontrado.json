@@ -1,0 +1,16 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "POST",
+        "url": "/api/cadastro/consultaremail"
+    },
+    "response": {
+        "status": 404,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"mensagem\": \"O e-mail não existe\" }"
+    }
+}

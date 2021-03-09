@@ -1,0 +1,16 @@
+{
+    "request": {
+      "method": "GET",
+      "urlPattern": "/api/home/pre/consumo/(\\d+)"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+          "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "bodyFileName": "MinhaOi30/Homes/Pre/consumo.json"
+    }
+  }

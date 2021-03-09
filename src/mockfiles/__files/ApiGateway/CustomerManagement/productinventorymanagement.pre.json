@@ -1,0 +1,65 @@
+[
+    {
+        "id": "Móvel1+3B+3401-5IMI7C2",
+        "customerId": "41336346590",
+        "name": "Oi Pre",
+        "customerAccountId": "24999912974",
+        "billingAccountId": "24999912974",
+        "category": "mobile",
+        "status": "active",    
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL63"
+            },
+            {
+                "name": "mainContact",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    },
+    {
+        "id": "Móvel1-2RO9BQC1+6ZXJ+49",
+        "customerId": "41336346590",
+        "name": "Oi Pre",
+        "customerAccountId": "24999912975",
+        "billingAccountId": "24999912975",
+        "category": "mobile",
+        "status": "active",    
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL63"
+            },
+            {
+                "name": "mainContact",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    },
+    {
+        "id": "Móvel1-2RO9BQC1+6ZXJ+XX",
+        "customerId": "41336346590",
+        "name": "Oi Pre",
+        "customerAccountId": "24999912976",
+        "billingAccountId": "24999912976",
+        "category": "mobile",
+        "status": "active",    
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL63"
+            },
+            {
+                "name": "mainContact",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    }
+]

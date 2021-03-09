@@ -1,0 +1,16 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "GET",
+        "url": "/saldo/5521123450052"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept"
+        },
+        "body": "{\"Promocao\":{\"Nome\":\"Oi Livre pra Celular e Fixo da Oi\",\"Regra\":\"Na Oi Livre pra Celular e Fixo da Oi, cada R$1 de créditos é convertido em 300min pra falar com Celular e Fixo da Oi, 50MB de internet 4G, Oi WiFi ilimitado e 30 SMS pra usar por 1 dia. Os benefícios são multiplicados pelo valor de créditos convertidos e a validade tamémb é proporcional aos créditos. Ex: R$10 são convertidos em 3000min, 500MB e 300 SMS, válidos por 10 dias. Caso não use tudo, basta manter seu Oi recarregado ao término da validade pra acumular os benefícios. Você também pode trocar minutos por internet e vice-versa no app Minha Oi. Pra outras operdadoras você fala a R$0,30/min.\",\"IdServico\":\"43\",\"CodProduto\":\"45\",\"DataAdesao\":\"10/04/2017\",\"Vencimento\":\"30/10/2017\"},\"Recarga\":{\"IDBolso\":\"1\",\"Saldo\":\"49.00\",\"Formato\":\"R$\",\"Vencimento\":\"02/09/2017\",\"Acumulado\":\"00.00\"},\"Bonus\":[],\"Beneficios\":[{\"IDBolso\":\"26\",\"TipoUso\":\"Dados\",\"Nome\":\"Internet\",\"Quantidade\":\"1.52\",\"Formato\":\"GB\",\"Vencimento\":\"02/07/2017\",\"Descricao\":\"Pra você navegar na internet usando o seu celular.\",\"Conversao\":true},{\"IDBolso\":\"22\",\"TipoUso\":\"SMS\",\"Nome\":\"SMS pra qualquer operadora\",\"Quantidade\":\"900\",\"Formato\":\"SMS\",\"Vencimento\":\"02/07/2017\",\"Descricao\":\"Pra enviar SMS pra qualquer operadora.\",\"Conversao\":false},{\"IDBolso\":\"21\",\"TipoUso\":\"Voz\",\"Nome\":\"Pra celular e fixo da Oi\",\"Quantidade\":\"8977.00\",\"Formato\":\"min\",\"Vencimento\":\"02/07/2017\",\"Descricao\":\"Pra você ligar pra celulares e fixos da Oi no Brasil.\",\"Conversao\":true}]}"
+    }
+}

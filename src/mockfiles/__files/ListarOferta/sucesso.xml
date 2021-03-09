@@ -1,0 +1,24 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+      <lis:ListarOfertaResponse xmlns:lis="http://esb.telemar/ClienteAprovisionamento/ListarOferta/">
+         <lis:NumeroProtocolo/>
+         <lis:Ofertas>
+            <lis:Oferta>
+               <lis:Id>31</lis:Id>
+               <lis:Nome>R$20 Voz Total Ilimitado Local+LDN+100MB Dados+100SMS</lis:Nome>
+               <lis:Valor>25</lis:Valor>
+               <lis:ValorTaxaAdesao>0</lis:ValorTaxaAdesao>
+            </lis:Oferta>
+         </lis:Ofertas>
+         <lis:Retorno>
+            <lis:IdMensagem>0</lis:IdMensagem>
+            <lis:IdTransacao>0</lis:IdTransacao>
+         </lis:Retorno>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0</code>
+            <reason>S</reason>
+            <detail>Execução com sucesso URA</detail>
+         </esb:ResponseControl>
+      </lis:ListarOfertaResponse>
+   </s:Body>
+</soapenv:Envelope>

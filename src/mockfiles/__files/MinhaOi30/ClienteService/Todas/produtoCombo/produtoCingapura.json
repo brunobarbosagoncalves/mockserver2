@@ -1,0 +1,249 @@
+{
+    "nome": "VAGNER DE ALMEIDA GOMES",
+    "cpf": "01932280502",
+    "dataNascimento": "05/07/1982",
+    "crmsCadastro": [
+    "CDI"
+    ],
+    "emailContrato": "",
+    "produtos": [
+    {
+    "numeroTerminal": "7133075098",
+    "idContaFatura": "2728242397",
+    "CRMOrigem": "SBL63",
+    "fgInadimplente": "N",
+    "indicInternet": "N",
+    "tipoTerminal": "M",
+    "tipoPlano": "POS",
+    "plano": {
+    "codigoPlano": "Móvel1-JCB5394-1",
+    "nomePlano": "Oi Total"
+    },
+    "statusTerminal": "Ativo",
+    "produtosCombo": [
+    {
+    "numeroTerminal": "71910128615",
+    "CRMOrigem": "SBL63",
+    "tpPlano": "POS",
+    "plano": {
+    "codigoPlano": "Móvel1-JCB5394-1",
+    "nomePlano": "PLANO OI CONVERGENTE HIGH"
+    },
+    "statusTerminal": "Ativo",
+    "indicInternet": "N"
+    }
+    ],
+    "faturas": [
+    {
+    "dataVencimento": "2019-01-07",
+    "valor": 320.62,
+    "codigoDeBarras": "84670000003-3  20620113272-0  82423970087-8  97466800100-7",
+    "status": "Em Aberto",
+    "tem14Meses": false,
+    "idFatura": "715098-15",
+    "ajustada": false,
+    "faturaExtra": false,
+    "faturaGerada": true,
+    "interina": false,
+    "numeroFatura": "87974668",
+    "anoMesReferencia": "201812",
+    "vencida": true
+    }
+    ],
+    "dacc": false
+    },
+    {
+    "numeroTerminal": "71988966848",
+    "idContaFatura": "2831572536",
+    "CRMOrigem": "SBL63",
+    "fgInadimplente": "N",
+    "indicInternet": "N",
+    "tipoTerminal": "M",
+    "tipoPlano": "POS",
+    "plano": {
+    "codigoPlano": "Móvel1-14TUKZFM-1",
+    "nomePlano": "Oi Mais"
+    },
+    "statusTerminal": "Ativo",
+    "produtosCombo": [
+    {
+    "numeroTerminal": "71988966848",
+    "CRMOrigem": "SBL63",
+    "tpPlano": "POS",
+    "plano": {
+    "codigoPlano": "Móvel1-14TUKZFM-1",
+    "nomePlano": "OI MAIS 4GB"
+    },
+    "statusTerminal": "Ativo",
+    "indicInternet": "N"
+    }
+    ],
+    "faturas": [
+    {
+    "dataVencimento": "2019-01-07",
+    "valor": 61.61,
+    "codigoDeBarras": "84640000000-2  61610113283-8  15725360087-6  36325300100-4",
+    "status": "Em Aberto",
+    "tem14Meses": false,
+    "idFatura": "716848-7",
+    "ajustada": false,
+    "faturaExtra": false,
+    "faturaGerada": true,
+    "interina": false,
+    "numeroFatura": "87363253",
+    "anoMesReferencia": "201812",
+    "vencida": true
+    }
+    ],
+    "dacc": false
+    },
+    {
+    "numeroTerminal": "71986239458",
+    "idContaFatura": "2464552879",
+    "CRMOrigem": "SBL63",
+    "fgInadimplente": "S",
+    "indicInternet": "N",
+    "tipoTerminal": "M",
+    "tipoPlano": "POS",
+    "plano": {
+    "codigoPlano": "Móvel1-U0ICHFW-1",
+    "nomePlano": "Oi Mais 500"
+    },
+    "statusTerminal": "Inativo",
+    "produtosCombo": [
+    {
+    "numeroTerminal": "71986239458",
+    "CRMOrigem": "SBL63",
+    "tpPlano": "POS",
+    "plano": {
+    "codigoPlano": "Móvel1-U0ICHFW-1",
+    "nomePlano": "PLANO OI CONTA NOVO 500"
+    },
+    "statusTerminal": "Inativo",
+    "indicInternet": "N"
+    }
+    ],
+    "faturas": [
+    {
+    "dataVencimento": "2018-04-26",
+    "valor": 44.86,
+    "codigoDeBarras": "84600000000-6  44860113246-8  45528790926-7  87296900000-1",
+    "status": "Em Aberto",
+    "tem14Meses": false,
+    "idFatura": "719458-6",
+    "ajustada": false,
+    "faturaExtra": false,
+    "faturaGerada": true,
+    "interina": false,
+    "numeroFatura": "926872969",
+    "anoMesReferencia": "201804",
+    "vencida": true
+    },
+    {
+    "dataVencimento": "2018-06-26",
+    "valor": 44.86,
+    "codigoDeBarras": "84630000000-3  44860113246-8  45528790965-5  91979300000-2",
+    "status": "Em Aberto",
+    "tem14Meses": false,
+    "idFatura": "719458-7",
+    "ajustada": false,
+    "faturaExtra": false,
+    "faturaGerada": true,
+    "interina": false,
+    "numeroFatura": "965919793",
+    "anoMesReferencia": "201806",
+    "vencida": true
+    },
+    {
+    "dataVencimento": "2018-12-26",
+    "valor": 23.39,
+    "codigoDeBarras": "84600000000-6  23390113246-1  45528790079-5  91810700100-3",
+    "status": "Em Aberto",
+    "tem14Meses": false,
+    "idFatura": "719458-9",
+    "ajustada": false,
+    "faturaExtra": false,
+    "faturaGerada": true,
+    "interina": false,
+    "numeroFatura": "79918107",
+    "anoMesReferencia": "201812",
+    "vencida": true
+    }
+    ],
+    "dacc": false
+    },
+    {
+    "numeroTerminal": "71986566258",
+    "idContaFatura": "2943348645",
+    "CRMOrigem": "SBL63",
+    "fgInadimplente": "N",
+    "indicInternet": "N",
+    "tipoTerminal": "M",
+    "tipoPlano": "POS",
+    "plano": {
+    "codigoPlano": "Móvel1-U0ICHFW-1",
+    "nomePlano": "Oi Mais 500"
+    },
+    "statusTerminal": "Ativo",
+    "produtosCombo": [
+    {
+    "numeroTerminal": "71986566258",
+    "CRMOrigem": "SBL63",
+    "tpPlano": "POS",
+    "plano": {
+    "codigoPlano": "Móvel1-U0ICHFW-1",
+    "nomePlano": "PLANO OI CONTA NOVO 500"
+    },
+    "statusTerminal": "Ativo",
+    "indicInternet": "N"
+    }
+    ],
+    "faturas": [
+    {
+    "dataVencimento": "2018-12-26",
+    "valor": 76.71,
+    "codigoDeBarras": "84640000000-2  76710113294-6  33486450081-7  74008300100-9",
+    "status": "Em Aberto",
+    "tem14Meses": false,
+    "idFatura": "716258-17",
+    "ajustada": false,
+    "faturaExtra": false,
+    "faturaGerada": true,
+    "interina": false,
+    "numeroFatura": "81740083",
+    "anoMesReferencia": "201812",
+    "vencida": true
+    }
+    ],
+    "dacc": false
+    },
+    {
+    "numeroTerminal": "71986877848",
+    "idContaFatura": null,
+    "CRMOrigem": "SBL63",
+    "fgInadimplente": "N",
+    "indicInternet": "N",
+    "tipoTerminal": "M",
+    "tipoPlano": "PRE",
+    "plano": {
+    "codigoPlano": "Móvel1+3B+3401+3B+273",
+    "nomePlano": "Oi Cartão"
+    },
+    "statusTerminal": "Ativo",
+    "produtosCombo": [
+    {
+    "numeroTerminal": "71986877848",
+    "CRMOrigem": "SBL63",
+    "tpPlano": "PRE",
+    "plano": {
+    "codigoPlano": "Móvel1+3B+3401+3B+273",
+    "nomePlano": "PLANO OI CARTAO"
+    },
+    "statusTerminal": "Ativo",
+    "indicInternet": "N"
+    }
+    ],
+    "dacc": false
+    }
+    ]
+    }

@@ -1,0 +1,27 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "ANY",
+        "urlPattern": "/api/processar-login(/(.*)|.{0})|/api/estrutura(/(.*)|.{0})|/api/autorizacao(/(.*)|.{0})|/api/sessao(/(.*)|.{0})",
+        "headers": {
+            "x-cpf": {
+                "matches": "(.*)"
+            },
+            "x-origin-application": {
+                "matches": "(.*)"
+            },
+            "x-origin-channel": {
+                "absent": true
+            }
+        }
+    },
+    "response": {
+        "status": 412,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "body": "{\"code\":\"PreconditionFailed\",\"message\":\"O header x-origin-channel é obrigatório.\"}"
+    }
+}

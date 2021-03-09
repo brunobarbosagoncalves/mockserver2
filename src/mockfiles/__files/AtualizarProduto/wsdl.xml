@@ -1,0 +1,43 @@
+<WL5G3N0:definitions xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:ap="http://osb.telemar/xsd/ClienteOperacao/AtualizarProduto/V1" xmlns:esb="http://alsb.telemar/soap/esb" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ClienteOperacao/AtualizarProduto/V1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://osb.telemar/wsdl/ClienteOperacao/AtualizarProduto/V1">
+<soap:annotation>
+<soap:documentation>
+STI:80681 Sistema: AtualizarProduto Autor: JP Lorenzo versão: 1.0 Data Criação: 07/09/2014 Data Alteração: 07/21/2014
+</soap:documentation>
+</soap:annotation>
+<WL5G3N0:types>
+<xsd:schema targetNamespace="http://osb.telemar/xsd/ClienteOperacao/AtualizarProduto/V1">
+<xsd:include schemaLocation="http://osbprd.telemar:7200/ClienteOperacao/AtualizarProduto/V1/AtualizarProdutoProxySoap?SCHEMA%2FClienteOperacao%2FAtualizarProduto%2FV1%2FInterfaces%2FSchemas%2FAtualizarProdutoOSB"/>
+<xsd:element name="AtualizarProdutoRequest" type="ap:AtualizarProdutoRequest"/>
+<xsd:element name="AtualizarProdutoResponse" type="ap:AtualizarProdutoResponse"/>
+</xsd:schema>
+</WL5G3N0:types>
+<WL5G3N0:message name="AtualizarProdutoRequest">
+<WL5G3N0:part element="ap:AtualizarProdutoRequest" name="AtualizarProdutoRequest"/>
+</WL5G3N0:message>
+<WL5G3N0:message name="AtualizarProdutoResponse">
+<WL5G3N0:part element="ap:AtualizarProdutoResponse" name="AtualizarProdutoResponse"/>
+</WL5G3N0:message>
+<WL5G3N0:portType name="AtualizarProduto">
+<WL5G3N0:operation name="AtualizarProdutoRequest">
+<WL5G3N0:input message="tns:AtualizarProdutoRequest"/>
+<WL5G3N0:output message="tns:AtualizarProdutoResponse"/>
+</WL5G3N0:operation>
+</WL5G3N0:portType>
+<WL5G3N0:binding name="AtualizarProdutoSOAP" type="tns:AtualizarProduto">
+<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<WL5G3N0:operation name="AtualizarProdutoRequest">
+<soap:operation soapAction="http://alsb.telemar/AtualizarProduto/AtualizarProduto"/>
+<WL5G3N0:input>
+<soap:body use="literal"/>
+</WL5G3N0:input>
+<WL5G3N0:output>
+<soap:body use="literal"/>
+</WL5G3N0:output>
+</WL5G3N0:operation>
+</WL5G3N0:binding>
+<WL5G3N0:service name="AtualizarProduto">
+<WL5G3N0:port binding="tns:AtualizarProdutoSOAP" name="AtualizarProdutoSOAP">
+<soap:address location="http://digpx12.interno:8070/ClienteOperacao/AtualizarProduto/V1/AtualizarProdutoProxySoap"/>
+</WL5G3N0:port>
+</WL5G3N0:service>
+</WL5G3N0:definitions>

@@ -1,0 +1,228 @@
+{
+    "nome": "ALEXANDRE NUNES DO NASCIMENTO",
+    "cpf": "01866859714",
+    "dataNascimento": "06/09/1972",
+    "crmsCadastro": [
+        "CDI"
+    ],
+    "emailContrato": "",
+    "produtos": [
+        {
+            "numeroTerminal": "8500094",
+            "idContaFatura": "8500094",
+            "CRMOrigem": "SINN",
+            "fgInadimplente": "N",
+            "indicInternet": "N",
+            "tipoTerminal": "T",
+            "tipoPlano": "POS",
+            "plano": {
+                "codigoPlano": "Tv11398288872",
+                "nomePlano": "OI TV TOTAL CINEMA HD DVR"
+            },
+            "statusTerminal": "Ativo",
+            "produtosCombo": [
+                {
+                    "numeroTerminal": "8500094",
+                    "CRMOrigem": "SINN",
+                    "tpPlano": "POS",
+                    "plano": {
+                        "codigoPlano": "Tv11398288872",
+                        "nomePlano": "OI TV TOTAL CINEMA HD DVR"
+                    },
+                    "statusTerminal": "Ativo",
+                    "indicInternet": "N"
+                }
+            ],
+            "faturas": [
+                {
+                    "meioCobranca": "Boleto",
+                    "status": "Em Aberto",
+                    "valor": "43.9",
+                    "dataVencimento": "2018-07-15",
+                    "idExtrato": "9855262063",
+                    "mesReferencia": "2018-06-01",
+                    "ajustada": false,
+                    "faturaGerada": true,
+                    "tem14Meses": false,
+                    "vencida": false,
+                    "idFatura": "37-1",
+                    "interina": false
+                }
+            ],
+            "dacc": false
+        },
+        {
+            "numeroTerminal": "2107744",
+            "idContaFatura": "2107744",
+            "CRMOrigem": "SINN",
+            "fgInadimplente": "N",
+            "indicInternet": "N",
+            "tipoTerminal": "T",
+            "tipoPlano": "POS",
+            "plano": {
+                "codigoPlano": "Tv4242707809",
+                "nomePlano": "OI TV MEGA CINEMA FUTEBOL HD"
+            },
+            "statusTerminal": "Ativo",
+            "produtosCombo": [
+                {
+                    "numeroTerminal": "2107744",
+                    "CRMOrigem": "SINN",
+                    "tpPlano": "POS",
+                    "plano": {
+                        "codigoPlano": "Tv4242707809",
+                        "nomePlano": "OI TV MEGA CINEMA FUTEBOL HD"
+                    },
+                    "statusTerminal": "Ativo",
+                    "indicInternet": "N"
+                }
+            ],
+            "faturas": [],
+            "dacc": false
+        },
+        {
+            "numeroTerminal": "35447826",
+            "idContaFatura": "35447826",
+            "CRMOrigem": "SINN",
+            "fgInadimplente": "N",
+            "indicInternet": "N",
+            "tipoTerminal": "T",
+            "tipoPlano": "PRE",
+            "plano": {
+                "codigoPlano": "Tv10127246547",
+                "nomePlano": "OI TV LIVRE HD BRI"
+            },
+            "statusTerminal": "Ativo",
+            "produtosCombo": [
+                {
+                    "numeroTerminal": "35447826",
+                    "CRMOrigem": "SINN",
+                    "tpPlano": "PRE",
+                    "plano": {
+                        "codigoPlano": "Tv10127246547",
+                        "nomePlano": "OI TV LIVRE HD BRI"
+                    },
+                    "statusTerminal": "Ativo",
+                    "indicInternet": "N"
+                }
+            ],
+            "faturas": [
+                {
+                    "meioCobranca": "Cartão Crédito",
+                    "status": "Pago",
+                    "valor": "69.9",
+                    "dataVencimento": "2018-08-13",
+                    "idExtrato": "8345202065",
+                    "mesReferencia": "2018-08-01",
+                    "ajustada": false,
+                    "faturaGerada": true,
+                    "tem14Meses": false,
+                    "vencida": true,
+                    "idFatura": "3526-1",
+                    "interina": false
+                },
+                {
+                    "meioCobranca": "Cartão Crédito",
+                    "status": "Pago",
+                    "valor": "44.9",
+                    "dataVencimento": "2018-06-06",
+                    "idExtrato": "1526792064",
+                    "mesReferencia": "2018-06-01",
+                    "ajustada": false,
+                    "faturaGerada": true,
+                    "tem14Meses": false,
+                    "vencida": true,
+                    "idFatura": "3526-2",
+                    "interina": false
+                }
+            ],
+            "dacc": false
+        },
+        {
+            "numeroTerminal": "21988133449",
+            "idContaFatura": "2547786592",
+            "CRMOrigem": "SBL63",
+            "fgInadimplente": "N",
+            "indicInternet": "N",
+            "tipoTerminal": "M",
+            "tipoPlano": "POS",
+            "plano": {
+                "codigoPlano": "Móvel1-14TY4HQ-1",
+                "nomePlano": "Oi Colaborador"
+            },
+            "statusTerminal": "Ativo",
+            "produtosCombo": [
+                {
+                    "numeroTerminal": "21988133449",
+                    "CRMOrigem": "SBL63",
+                    "tpPlano": "POS",
+                    "plano": {
+                        "codigoPlano": "Móvel1-14TY4HQ-1",
+                        "nomePlano": "PLANO OI COLABORADOR"
+                    },
+                    "statusTerminal": "Ativo",
+                    "indicInternet": "N"
+                }
+            ],
+            "faturas": [],
+            "dacc": true
+        },
+        {
+            "numeroTerminal": "21964427957",
+            "idContaFatura": "2936214447",
+            "CRMOrigem": "SBL63",
+            "fgInadimplente": "N",
+            "indicInternet": "N",
+            "tipoTerminal": "M",
+            "tipoPlano": "POS",
+            "plano": {
+                "codigoPlano": "Móvel1-12Z56WR9-1",
+                "nomePlano": "Oi Mais"
+            },
+            "statusTerminal": "Ativo",
+            "produtosCombo": [
+                {
+                    "numeroTerminal": "21964427957",
+                    "CRMOrigem": "SBL63",
+                    "tpPlano": "POS",
+                    "plano": {
+                        "codigoPlano": "Móvel1-12Z56WR9-1",
+                        "nomePlano": "OI MAIS 10GB"
+                    },
+                    "statusTerminal": "Ativo",
+                    "indicInternet": "N"
+                }
+            ],
+            "faturas": [],
+            "dacc": true
+        },
+        {
+            "numeroTerminal": "21987170344",
+            "idContaFatura": null,
+            "CRMOrigem": "SBL63",
+            "fgInadimplente": "N",
+            "indicInternet": "N",
+            "tipoTerminal": "M",
+            "tipoPlano": "PRE",
+            "plano": {
+                "codigoPlano": "Móvel1+3B+3401+3B+273",
+                "nomePlano": "Oi Cartão"
+            },
+            "statusTerminal": "Ativo",
+            "produtosCombo": [
+                {
+                    "numeroTerminal": "21987170344",
+                    "CRMOrigem": "SBL63",
+                    "tpPlano": "PRE",
+                    "plano": {
+                        "codigoPlano": "Móvel1+3B+3401+3B+273",
+                        "nomePlano": "PLANO OI CARTAO"
+                    },
+                    "statusTerminal": "Ativo",
+                    "indicInternet": "N"
+                }
+            ],
+            "dacc": false
+        }
+    ]
+}

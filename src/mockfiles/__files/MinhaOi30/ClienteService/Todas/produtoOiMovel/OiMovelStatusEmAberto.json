@@ -1,0 +1,85 @@
+{
+  "nome": "ZARHA CASTELO BRANCO FAHIEL NOGUEIRA",
+  "cpf": "54527392549",
+  "dataNascimento": "16/10/1971",
+  "crmsCadastro": [
+    "SBL8",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "21988010028",
+      "idContaFatura": "2526962279",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HS-1",
+        "nomePlano": "Oi Colaborador Executivo"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "21988010028",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HS-1",
+            "nomePlano": "PLANO OI COLABORADOR EXECUTIVO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2017-09-16",
+          "valor": 7,
+          "codigoDeBarras": "84600000000-6  07000113252-4  69622790810-5  83631100000-1",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "210028-1",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "810836311",
+          "anoMesReferencia": "201709",
+          "vencida": true
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "71988010036",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "71988010036",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

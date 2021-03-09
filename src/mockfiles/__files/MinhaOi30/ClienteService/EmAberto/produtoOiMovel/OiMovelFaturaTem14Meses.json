@@ -1,0 +1,56 @@
+{
+  "nome": "VICTOR BASTOS TEIXEIRA DA HORA",
+  "cpf": "09919702765",
+  "dataNascimento": "19/10/1983",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "21988389509",
+      "idContaFatura": "2000560776",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "21988389509",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2017-03-02",
+          "valor": 5.8100000000000005,
+          "codigoDeBarras": "84620000000-4  05810113200-7  05607760944-6  58006300000-5",
+          "status": "Em Aberto",
+          "tem14Meses": true,
+          "idFatura": "219509-2",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "944580063",
+          "anoMesReferencia": "201702",
+          "vencida": true
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

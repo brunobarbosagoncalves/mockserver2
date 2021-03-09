@@ -1,0 +1,18 @@
+{
+    "produto": {
+        "plano": "Oi Cartão",
+        "terminal": "00000000006",
+        "token": "00000000006",
+        "nome": "Oi Cartão",
+        "status": "active",
+        "categoria": "mobile",
+        "fibra": false,
+        "cingapura": false,
+        "tipoFaturamento": "pre",
+        "tipoVignette": "mvl",
+        "tipo": "mobile-pre",
+        "tipoTerminal": "terminal",
+        "oferta": "Oi Cartão"
+    },
+    "nova": true
+}

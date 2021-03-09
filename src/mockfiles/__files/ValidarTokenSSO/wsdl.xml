@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="ValidarToken" targetNamespace="http://osb.telemar/wsdl/ClienteOperacao/ValidarToken/V1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ClienteOperacao/ValidarToken/V1" xmlns:vtk="http://osb.telemar/xsd/ClienteOperacao/ValidarToken/V1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:annotation>
+    <soap:documentation>STI:80861 
+            Sistema: ValidarToken
+            Autor: Tom Nolasco
+            versão: 1.0
+            Data Criação: 17/07/14   
+            Data Alteração: xx/xx/xx</soap:documentation>
+  </soap:annotation>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://osb.telemar/xsd/ClienteOperacao/ValidarToken/V1">
+      <xsd:include schemaLocation="http://soapx07.telemar:7205/ClienteOperacao/ValidarToken/V1/ValidarTokenProxySoap?SCHEMA%2FClienteOperacao%2FValidarToken%2FV1%2FInterfaces%2FSchemas%2FValidarTokenOSB"/>
+      <xsd:element name="ValidarTokenRequest" type="vtk:ValidarTokenRequestType"/>
+      <xsd:element name="ValidarTokenResponse" type="vtk:ValidarTokenResponseType"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ValidarTokenRequest">
+    <wsdl:part element="vtk:ValidarTokenRequest" name="ValidarTokenRequest"/>
+  </wsdl:message>
+  <wsdl:message name="ValidarTokenResponse">
+    <wsdl:part element="vtk:ValidarTokenResponse" name="ValidarTokenResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="ValidarToken">
+    <wsdl:operation name="ValidarTokenRequest">
+      <wsdl:input message="tns:ValidarTokenRequest"/>
+      <wsdl:output message="tns:ValidarTokenResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ValidarTokenSOAP" type="tns:ValidarToken">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="ValidarTokenRequest">
+      <soap:operation soapAction="http://osb.telemar/wsdl/ClienteOperacao/ValidarToken/V1"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ValidarTokenSOAPQSService">
+    <wsdl:port binding="tns:ValidarTokenSOAP" name="ValidarTokenSOAPQSPort">
+      <soap:address location="http://digpx12.interno:8070/ClienteOperacao/ValidarToken/V1/ValidarTokenProxySoap"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,347 @@
+{
+    "id": "00006000001",
+    "source": "OCS",
+    "bucketSummary": [
+        {
+            "type": "data",
+            "remainedAmount": 109,
+            "units": "mb",
+            "unlimited": false
+        },
+        {
+            "type": "voice",
+            "remainedAmount": 300,
+            "units": "minutes",
+            "unlimited": false
+        },
+        {
+            "type": "sms",
+            "remainedAmount": 320,
+            "units": "sms",
+            "unlimited": false
+        }
+    ],
+    "bucketBalance": [
+        {
+            "id": "701000000000000960",
+            "bucketType": "data",
+            "currentOffer": true,
+            "status": "active",
+            "origin": "offering",
+            "orderedAmount": 200,
+            "remainedAmount": 100,
+            "units": "mb",
+            "name": "Oi mais",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-05-19T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": false
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "Internet da oferta"
+                },
+                {
+                    "name": "convert",
+                    "value": true
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_gprs_local"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_gprs_local"
+                }
+            ]
+        },
+        {
+            "id": "701000000000000960",
+            "bucketType": "data",
+            "currentOffer": false,
+            "status": "active",
+            "origin": "package",
+            "orderedAmount": 200,
+            "remainedAmount": 9,
+            "units": "mb",
+            "name": "Oi mais",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-11-12T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": false
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "Pacote adicional"
+                },
+                {
+                    "name": "convert",
+                    "value": false
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_gprs_local"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_gprs_local"
+                }
+            ]
+        },
+        {
+            "id": "701000000000000959",
+            "bucketType": "voice",
+            "currentOffer": true,
+            "status": "active",
+            "origin": "offering",
+            "orderedAmount": 200,
+            "remainedAmount": 200,
+            "units": "minutes",
+            "name": "Oi mais",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-12-25T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": false
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "Pra qualquer operadora do Brasil"
+                },
+                {
+                    "name": "convert",
+                    "value": true
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_voice_onnet"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_voice_onnet"
+                }
+            ]
+        },
+        {
+            "id": "701000000000000958",
+            "bucketType": "voice",
+            "currentOffer": false,
+            "status": "active",
+            "origin": "package",
+            "orderedAmount": 100,
+            "remainedAmount": 100,
+            "units": "minutes",
+            "name": "Oi mais",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-05-19T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": false
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "Pra qualquer operadora do Brasil"
+                },
+                {
+                    "name": "convert",
+                    "value": true
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_voice_onnet"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_voice_onnet"
+                }
+            ]
+        },
+        {
+            "id": "701000000000000957",
+            "bucketType": "sms",
+            "currentOffer": true,
+            "status": "active",
+            "origin": "offering",
+            "orderedAmount": 500,
+            "remainedAmount": 220,
+            "units": "sms",
+            "name": "Oi mais",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-05-19T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": false
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "De 500 SMS da sua oferta"
+                },
+                {
+                    "name": "convert",
+                    "value": false
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_sms_local"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_sms_local"
+                }
+            ]
+        },
+        {
+            "id": "701000000000000967",
+            "bucketType": "sms",
+            "currentOffer": true,
+            "status": "active",
+            "origin": "package",
+            "orderedAmount": 100,
+            "remainedAmount": 100,
+            "units": "sms",
+            "name": "Oi mais",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-05-19T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": false
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "De 100 SMS da sua oferta"
+                },
+                {
+                    "name": "convert",
+                    "value": true
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_sms_local"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_sms_local"
+                }
+            ]
+        }
+    ],
+    "amountSummary": {
+        "totalAmount": 5,
+        "creditPendencyFlag": true,
+        "creditPendencyAmount": 7.9,
+        "amounts": [
+            {
+                "id": "C_MAIN_ACCOUNT",
+                "type": "main",
+                "total": 50,
+                "expirationDate": "2019-06-19T00:00:00.000",
+                "characteristic": [
+                    {
+                        "name": "businessName",
+                        "value": ""
+                    }
+                ]
+            },
+            {
+                "id": "C_ONNET_BONUS_FUND",
+                "type": "ajust",
+                "total": 2,
+                "expirationDate": "2019-06-19T00:00:00.000",
+                "characteristic": [
+                    {
+                        "name": "businessName",
+                        "value": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "plan": {
+        "businessNameCurrentOffer": "",
+        "signInDateCurrentOffer": "2020-04-03T00:00:00.000",
+        "characteristic": [
+            {
+                "name": "rulesDescriptionCurrentOffer",
+                "value":"Sua promoção é Oi Mais. Faça uma recarga acima de 30"
+            }
+        ]
+    },
+    "freeData": [
+        {
+            "id": "102304",
+            "origin": "offering",
+            "items": [
+                {
+                    "freeDataIdentifier": "WHATSAPP",
+                    "expirationDate": "2020-04-03T00:00:00.000",
+                    "order": "1",
+                    "name": "Whatsapp"
+                },
+                {
+                    "freeDataIdentifier": "FACEBOOK",
+                    "expirationDate": "2020-04-03T00:00:00.000",
+                    "order": "2",
+                    "name": "Facebook"
+                },
+                {
+                    "freeDataIdentifier": "instagram",
+                    "expirationDate": "2020-04-03T00:00:00.000",
+                    "order": "3",
+                    "name": "Instagram"
+                },
+                {
+                    "freeDataIdentifier": "messenger",
+                    "expirationDate": "2020-04-03T00:00:00.000",
+                    "order": "4",
+                    "name": "Messenger"
+                },
+                {
+                    "freeDataIdentifier": "youtube",
+                    "expirationDate": "2020-04-03T00:00:00.000",
+                    "order": "5",
+                    "name": "YouTube"
+                }
+            ]
+        },
+        {
+            "id": "102305",
+            "origin": "package",
+            "items": [
+                {
+                    "freeDataIdentifier": "NETFLIX",
+                    "expirationDate": "2019-04-03T00:00:00.000",
+                    "order": "1",
+                    "name": "Netflix"
+                }
+            ]
+        }
+    ],
+    "errorCode": "",
+    "errorDescription": ""
+}

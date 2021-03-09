@@ -1,0 +1,143 @@
+{
+  "nome": "JEAN CLAUDIO ROCHA",
+  "cpf": "00776047922",
+  "dataNascimento": "20/05/1981",
+  "crmsCadastro": [
+    "SAC",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "13899314",
+      "idContaFatura": "13899314",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv8395198253",
+        "nomePlano": "OI TV TOTAL CINEMA FUTEBOL HD"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "13899314",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv8395198253",
+            "nomePlano": "OI TV TOTAL CINEMA FUTEBOL HD"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Débito",
+          "status": "Em Aberto",
+          "valor": "341.46",
+          "dataVencimento": "2018-07-11",
+          "idExtrato": "6169342063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1314-1",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "48984812148",
+      "idContaFatura": "2198308612",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "48984812148",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "4832587523",
+      "idContaFatura": "7171248357",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5510",
+        "nomePlano": "FALE - ASSINATURA SEM FR"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "4832587523",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5510",
+            "nomePlano": "FALE - ASSINATURA SEM FR"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "4733784990",
+      "idContaFatura": "7178972514",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5510",
+        "nomePlano": "FALE - ASSINATURA SEM FR"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "4733784990",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5510",
+            "nomePlano": "FALE - ASSINATURA SEM FR"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    }
+  ]
+}

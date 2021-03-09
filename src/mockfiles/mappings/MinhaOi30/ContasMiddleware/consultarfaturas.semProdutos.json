@@ -1,0 +1,14 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "GET",
+        "url": "/cliente/17358978765/produtos/faturas"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": "{ \"nome\": \"VICTOR FARIA FERNANDES\", \"cpf\": \"17358978765\", \"dataNascimento\": \"25/02/1999\", \"crmsCadastro\": [], \"emailContrato\": \"\", \"produtos\": [] }"
+    }
+}

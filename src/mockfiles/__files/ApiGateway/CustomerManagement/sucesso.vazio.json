@@ -1,0 +1,35 @@
+{
+    "name": "REGINALDO GOMES BANDEIRA",
+    "status": "active",
+    "cpf": "09039308705",
+    "digitalProfile": [
+        "minhaoi"
+    ],
+    "characteristic": [
+        {
+            "name": "motherName",
+            "value": "MARIA GOMES BENDEIRA"
+        },
+        {
+            "name": "birthDate",
+            "value": "0516-54-19"
+        },
+        {
+            "name": "gender",
+            "value": "masculino"
+        },
+        {
+            "name": "statusDocument",
+            "value": "regular"
+        }
+    ],
+    "contactMedium": [
+        {
+            "preferred": true,
+            "emailAddress": "paulo.santahelena@gmail.com",
+            "type": "personal"
+        }
+    ],
+    "products": [],
+    "billingAccounts": []
+}

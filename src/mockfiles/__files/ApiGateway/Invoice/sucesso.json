@@ -1,0 +1,7 @@
+{
+    "billingAccount": "21999999999",
+    "customerBill": {
+        "href": "http://digpx12.interno:8070/api/billingmanagement-v2/billingAccount/resources/21981516244-4691e7d6-6cd2-4a54-bb2a-31ac70672d1e.html",
+        "presentationMedia": "html"
+    }
+}

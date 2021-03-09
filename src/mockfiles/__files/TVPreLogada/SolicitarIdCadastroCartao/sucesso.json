@@ -1,0 +1,12 @@
+{
+  "SolicitarIdCadastroCartaoResponse": {
+    "GrupoResponse": {
+      "transacaoId": "243"
+    },
+    "ResponseControl": {
+      "code": "0",
+      "reason": "Sucesso",
+      "detail": ""
+    }
+  }
+}

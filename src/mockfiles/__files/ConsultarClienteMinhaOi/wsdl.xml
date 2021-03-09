@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WL5G3N0:definitions name="ConsultarCadastroClienteSSO" targetNamespace="http://osb.telemar/wsdl/ClienteOperacao/ConsultarCadastroClienteSSO/v1" xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroClienteSSO/v1" xmlns:WL5G3N2="http://osb.telemar/wsdl/ClienteOperacao/ConsultarCadastroClienteSSO/v1" xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/">
+  <WL5G3N0:types>
+    <xsd:schema xmlns:cdc="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroClienteSSO/v1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ClienteOperacao/ConsultarCadastroClienteSSO/v1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:import namespace="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroClienteSSO/v1" schemaLocation="http://soacc.intranet:80/ClienteOperacao/ConsultarCadastroClientesSSO/v1/ConsultarCadastroClientesSSOProxySoap?SCHEMA%2FClienteOperacao%2FConsultarCadastroClienteSSO%2Fv1%2FInterfaces%2FSchemas%2FConsultarCadastroClienteSSOOSB"/>
+    </xsd:schema>
+  </WL5G3N0:types>
+  <WL5G3N0:message name="ConsultarCadastroClienteSSORequest">
+    <WL5G3N0:part element="WL5G3N1:ConsultarCadastroClienteSSORequest" name="RequestConsultarCadastroClienteSSO"/>
+  </WL5G3N0:message>
+  <WL5G3N0:message name="ConsultarCadastroClienteResponse">
+    <WL5G3N0:part element="WL5G3N1:ConsultarCadastroClienteResponse" name="ResponseConsultarCadastroCliente"/>
+  </WL5G3N0:message>
+  <WL5G3N0:portType name="ConsultarCadastroClienteSSO">
+    <WL5G3N0:operation name="ConsultarCadastroCliente">
+      <WL5G3N0:input message="WL5G3N2:ConsultarCadastroClienteSSORequest"/>
+      <WL5G3N0:output message="WL5G3N2:ConsultarCadastroClienteResponse"/>
+    </WL5G3N0:operation>
+  </WL5G3N0:portType>
+  <WL5G3N0:binding name="ConsultarCadastroClienteSOAP" type="WL5G3N2:ConsultarCadastroClienteSSO">
+    <WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <WL5G3N0:operation name="ConsultarCadastroCliente">
+      <WL5G3N3:operation soapAction="http://ClienteOperacao/wsdl/ConsultarDados/ConsultarCadastroCliente"/>
+      <WL5G3N0:input>
+        <WL5G3N3:body use="literal"/>
+      </WL5G3N0:input>
+      <WL5G3N0:output>
+        <WL5G3N3:body use="literal"/>
+      </WL5G3N0:output>
+    </WL5G3N0:operation>
+  </WL5G3N0:binding>
+  <WL5G3N0:service name="ConsultarCadastroClienteSOAPQSService">
+    <WL5G3N0:port binding="WL5G3N2:ConsultarCadastroClienteSOAP" name="ConsultarCadastroClienteSOAPQSPort">
+      <WL5G3N3:address location="http://digpx12:8070/ClienteOperacao/ConsultarCadastroClientesSSO/v1/ConsultarCadastroClientesSSOProxySoap"/>
+    </WL5G3N0:port>
+  </WL5G3N0:service>
+</WL5G3N0:definitions>

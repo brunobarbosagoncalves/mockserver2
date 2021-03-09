@@ -1,0 +1,14 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "GET",
+        "url": "/cliente/72886498300/produtos/faturas"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "bodyFileName": "MinhaOi30/ContasMiddleware/consultarfaturas14mesesEaVencer.json"    
+    }
+}

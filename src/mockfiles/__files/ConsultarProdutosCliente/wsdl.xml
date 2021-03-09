@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WL5G3N0:definitions targetNamespace="http://osb.telemar/wsdl/ConsultarProdutosClienteOSB" xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://osb.telemar/xsd/ConsultarProdutosCliente" xmlns:WL5G3N2="http://osb.telemar/wsdl/ConsultarProdutosClienteOSB" xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/">
+  <WL5G3N0:types>
+    <xsd:schema xmlns:esb="http://alsb.telemar/soap/esb" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ConsultarProdutosClienteOSB" xmlns:tnsReq="http://osb.telemar/xsd/ConsultarProdutosCliente" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:import namespace="http://osb.telemar/xsd/ConsultarProdutosCliente" schemaLocation="http://soasc.intranet:80/LoginUnico/ConsultarProdutosClienteProxySoap?SCHEMA%2FLoginUnico%2FSchemas%2FConsultarProdutosCliente%2FConsultarProdutosCliente"/>
+      <xsd:import namespace="http://alsb.telemar/soap/esb"/>
+    </xsd:schema>
+  </WL5G3N0:types>
+  <WL5G3N0:message name="ConsultarProdutosClienteRequest">
+    <WL5G3N0:part element="WL5G3N1:ConsultarProdutosClienteRequest" name="ConsultarProdutosClienteRequest"/>
+  </WL5G3N0:message>
+  <WL5G3N0:message name="ConsultarProdutosClienteResponse">
+    <WL5G3N0:part element="WL5G3N1:ConsultarProdutosClienteResponse" name="ConsultarProdutosClienteResponse"/>
+  </WL5G3N0:message>
+  <WL5G3N0:portType name="ConsultarProdutosCliente">
+    <WL5G3N0:operation name="ConsultarProdutosCliente">
+      <WL5G3N0:input message="WL5G3N2:ConsultarProdutosClienteRequest"/>
+      <WL5G3N0:output message="WL5G3N2:ConsultarProdutosClienteResponse"/>
+    </WL5G3N0:operation>
+  </WL5G3N0:portType>
+  <WL5G3N0:binding name="ConsultarProdutosClienteSOAP" type="WL5G3N2:ConsultarProdutosCliente">
+    <WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <WL5G3N0:operation name="ConsultarProdutosCliente">
+      <WL5G3N3:operation soapAction="http://osb.telemar/LoginUnico/ConsultarProdutosCliente"/>
+      <WL5G3N0:input>
+        <WL5G3N3:body use="literal"/>
+      </WL5G3N0:input>
+      <WL5G3N0:output>
+        <WL5G3N3:body use="literal"/>
+      </WL5G3N0:output>
+    </WL5G3N0:operation>
+  </WL5G3N0:binding>
+  <WL5G3N0:service name="ConsultarProdutosClienteSOAPQSService">
+    <WL5G3N0:port binding="WL5G3N2:ConsultarProdutosClienteSOAP" name="ConsultarProdutosClienteSOAPQSPort">
+      <WL5G3N3:address location="http://digpx12.interno:8070/LoginUnico/ConsultarProdutosClienteProxySoap"/>
+    </WL5G3N0:port>
+  </WL5G3N0:service>
+</WL5G3N0:definitions>

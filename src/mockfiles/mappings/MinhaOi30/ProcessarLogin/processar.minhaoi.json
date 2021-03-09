@@ -1,0 +1,28 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "GET",
+        "url": "/api/processar-login/processar",
+        "headers": {
+            "x-cpf": {
+                "equalTo": "09039308705"
+            },
+            "x-origin-application": {
+                "equalTo": "minhaoi"
+            },
+            "x-origin-channel": {
+                "equalTo": "web"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Location": "https://minha.oi.com.br/portal/site/MinhaOi/ProcessarLogin",
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "body": "{\"funcionalidade\": \"MINHAOI\", \"location\": \"https://minha.oi.com.br/portal/site/MinhaOi/ProcessarLogin\"}"
+    }
+}

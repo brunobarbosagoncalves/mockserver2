@@ -1,0 +1,26 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPattern": "/produtos/tv/v1/elegibilidade",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$.RequestConsultarElegibilidadeRecargaPreTV.MessageHeaderAPI[?(@.TransactionId =~ /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/)]" },
+      { "matchesJsonPath": "$.RequestConsultarElegibilidadeRecargaPreTV.MessageHeaderAPI[?(@.Timestamp =~ /(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2})\\:(\\d{2})\\:(\\d{2})\\.(\\d{2,})Z/)]" },
+      { "matchesJsonPath": "$.RequestConsultarElegibilidadeRecargaPreTV.MessageHeaderAPI[?(@.App =~ /API007/)]" },
+      { "matchesJsonPath": "$.RequestConsultarElegibilidadeRecargaPreTV[?(@.sistemaOrigem =~ /WEB Pre-login/)]" },
+      { "matchesJsonPath": "$.RequestConsultarElegibilidadeRecargaPreTV[?(@.cpfCnpj =~ /\\d{11}/)]" },
+      { "matchesJsonPath": "$.RequestConsultarElegibilidadeRecargaPreTV[?(@.Produto.id =~ /\\d+/)]" },
+      { "matchesJsonPath": "$.RequestConsultarElegibilidadeRecargaPreTV[?(@.Produto.periodo =~ /(15|30)/)]" },
+      { "matchesJsonPath": "$.RequestConsultarElegibilidadeRecargaPreTV[?(@.Produto.valor =~ /\\d+\\.\\d{1,2}/)]" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf,  x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "TVPreLogada/ConsultarElegibilidadeRecargaPreTV/sucesso.json"
+  }
+}

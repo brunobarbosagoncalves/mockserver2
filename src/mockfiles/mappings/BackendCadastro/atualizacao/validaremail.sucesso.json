@@ -1,0 +1,16 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/atualizacao/validaremail"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem, x-cpf, x-origin"
+        },
+        "body": "{ \"mensagem\": \"E-mail válido\", \"email\": \"monique@oi.com\" }"
+    }
+}

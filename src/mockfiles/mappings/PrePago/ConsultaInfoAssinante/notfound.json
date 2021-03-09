@@ -1,0 +1,24 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/Clientes/GestaoCliente/v1.0",      
+         "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/v1:ConsultaInfoAssinanteRequest/v1:Servico[v1:NumeroServicoMovel = '' or v1:NumeroServicoMovel = '5521999999999' or v1:NumeroServicoMovel = '55219877216553']",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "v1" : "http://www.oi.net.br/Clientes/GestaoCliente/ConsultaInfoAssinante/XSD/v1.0",
+                "v11": "http://www.oi.net.br/INFRA/SOAFW/SharedResources/Messaging/v1",
+                "esb"  : "http://alsb.telemar/soap/esbUser"
+            }
+        } ]     
+    },
+       "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultaInfoAssinante/notfound.xml"
+    }
+}

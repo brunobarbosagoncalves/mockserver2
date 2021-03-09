@@ -1,0 +1,174 @@
+{
+  "nome": "ANDRE CARLOS VISOLI",
+  "cpf": "61170283934",
+  "dataNascimento": "23/01/1973",
+  "crmsCadastro": [
+    "SAC",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "6867494",
+      "idContaFatura": "6867494",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv8395198253",
+        "nomePlano": "OI TV TOTAL CINEMA FUTEBOL HD"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6867494",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv8395198253",
+            "nomePlano": "OI TV TOTAL CINEMA FUTEBOL HD"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Débito",
+          "status": "Em Aberto",
+          "valor": "222.52",
+          "dataVencimento": "2018-08-09",
+          "idExtrato": "3574222064",
+          "mesReferencia": "2018-07-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "684-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Débito",
+          "status": "Em Aberto",
+          "valor": "222.52",
+          "dataVencimento": "2018-07-09",
+          "idExtrato": "5269682063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "684-2",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "49984011100",
+      "idContaFatura": "2674736426",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "49984011100",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "49984262901",
+      "idContaFatura": "2262540399",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-4WEVPI0-1",
+        "nomePlano": "Oi Internet"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "49984262901",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-4WEVPI0-1",
+            "nomePlano": "OI VELOX PLUG TOP"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "4933284305",
+      "idContaFatura": "7131094308",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5500",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "4933284305",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5500",
+            "nomePlano": "PLANO FALE"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-09",
+          "valor": 119.13,
+          "codigoDeBarras": "84650000001-9 19130027713-1 10943020180-5 70118500000-0",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "494305-30",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "07131094308201807001000595109323",
+          "anoMesReferencia": "201807",
+          "ciclo": "001",
+          "vencida": true
+        }
+      ],
+      "dacc": true
+    }
+  ]
+}

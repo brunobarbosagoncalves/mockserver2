@@ -1,0 +1,28 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/api/microservice/faturas",
+        "headers": {
+            "x-cpf": {
+                "contains": "33333333333"
+            }
+        },
+        "bodyPatterns": [{
+            "matchesJsonPath": "$.numeroTerminal"
+        }, {
+            "matchesJsonPath": "$.idContaFatura"
+        }, {
+            "matchesJsonPath": "$.crmOrigem"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{ \"codigo\":200, \"mensagem\": \"Sucesso\", \"faturas\":[]  }"
+    }
+}

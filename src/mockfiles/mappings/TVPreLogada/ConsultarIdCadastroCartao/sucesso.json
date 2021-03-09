@@ -1,0 +1,19 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPattern": "/vendas/tv/v1/idcadastrocartao/consultar",
+    "bodyPatterns": [{
+      "equalToJson": "{\"ConsultarIdCadastroCartaoRequest\":{\"MessageHeaderAPI\":{\"TransactionId\":\"ccdf5b40-d6fa-4ff0-804d-55bf54029941\",\"Timestamp\":\"2018-04-19T23:56:05.934-03:00\",\"App\":\"API007\"},\"transacao\":{\"TransacaoId\":\"243\"}}}"
+    }]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf,  x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "TVPreLogada/ConsultarIdCadastroCartao/sucesso.json"
+  }
+}

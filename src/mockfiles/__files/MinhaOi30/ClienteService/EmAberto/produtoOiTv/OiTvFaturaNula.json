@@ -1,0 +1,213 @@
+{
+  "nome": "WESLEY COMERLATO DE JESUS",
+  "cpf": "06328521944",
+  "dataNascimento": "19/07/1988",
+  "crmsCadastro": [
+    "SAC",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "12390657",
+      "idContaFatura": "12390657",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043519129",
+        "nomePlano": "OI TV MAIS HD 2013"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "12390657",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043519129",
+            "nomePlano": "OI TV MAIS HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "",
+          "idExtrato": "3446082064",
+          "mesReferencia": "2018-07-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1257-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "",
+          "idExtrato": "4167122063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1257-2",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "2018-06-24",
+          "idExtrato": "9878072061",
+          "mesReferencia": "2018-05-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "1257-3",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "19208206",
+      "idContaFatura": "19208206",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043621002",
+        "nomePlano": "OI TV TOTAL CINEMA HD"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "19208206",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043621002",
+            "nomePlano": "OI TV TOTAL CINEMA HD"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "",
+          "idExtrato": "3445262064",
+          "mesReferencia": "2018-07-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1906-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "",
+          "idExtrato": "4166482063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1906-2",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "2018-06-24",
+          "idExtrato": "9876852061",
+          "mesReferencia": "2018-05-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "1906-3",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "49984226624",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401-5IMI7C2",
+        "nomePlano": "Oi Controle Sem Fatura"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "49984226624",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401-5IMI7C2",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "4935675061",
+      "idContaFatura": "7162668918",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5602",
+        "nomePlano": "Oi Internet"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "4935675061",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5602",
+            "nomePlano": "OFERTA ATUALIZADA DE VELOX"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    }
+  ]
+}

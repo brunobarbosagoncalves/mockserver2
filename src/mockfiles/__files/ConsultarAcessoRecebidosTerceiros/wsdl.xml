@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WL5G3N0:definitions targetNamespace="http://osb.telemar/wsdl/ClienteOperacao/ConsultarAcessoRecebidosTerceiros/V1" xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:cart="http://osb.telemar/xsd/ClienteOperacao/ConsultarAcessoRecebidosTerceiros/V1" xmlns:esb="http://alsb.telemar/soap/esb" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ClienteOperacao/ConsultarAcessoRecebidosTerceiros/V1" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:annotation>
+    <soap:documentation>
+      		STI:80681 
+            Sistema: ConsultarAcessoRecebidosTerceiros
+            Autor: JP Lorenzo
+            versão: 1.0
+            Data Criação: 07/03/2014
+            Data Alteração: 07/07/2014
+      </soap:documentation>
+  </soap:annotation>
+  <WL5G3N0:types>
+    <xsd:schema targetNamespace="http://osb.telemar/xsd/ClienteOperacao/ConsultarAcessoRecebidosTerceiros/V1">
+      <xsd:include schemaLocation="http://soapx22.telemar:27205/ClienteOperacao/ConsultarAcessoRecebidosTerceiros/V1/ConsultarAcessoRecebidosTerceirosProxySoap?SCHEMA%2FClienteOperacao%2FConsultarAcessoRecebidosTerceiros%2FV1%2FInterfaces%2FSchemas%2FConsultarAcessoRecebidosTerceirosOSB"/>
+      <xsd:element name="ConsultarAcessoRecebidosTerceirosRequest" type="cart:ConsultarAcessoRecebidosTerceirosRequest"/>
+      <xsd:element name="ConsultarAcessoRecebidosTerceirosResponse" type="cart:ConsultarAcessoRecebidosTerceirosResponse"/>
+    </xsd:schema>
+  </WL5G3N0:types>
+  <WL5G3N0:message name="ConsultarAcessoRecebidosTerceirosRequest">
+    <WL5G3N0:part element="cart:ConsultarAcessoRecebidosTerceirosRequest" name="ConsultarAcessoRecebidosTerceirosRequest"/>
+  </WL5G3N0:message>
+  <WL5G3N0:message name="ConsultarAcessoRecebidosTerceirosResponse">
+    <WL5G3N0:part element="cart:ConsultarAcessoRecebidosTerceirosResponse" name="ConsultarAcessoRecebidosTerceirosResponse"/>
+  </WL5G3N0:message>
+  <WL5G3N0:portType name="ConsultarAcessoRecebidosTerceiros">
+    <WL5G3N0:operation name="ConsultarAcessoRecebidosTerceiros">
+      <WL5G3N0:input message="tns:ConsultarAcessoRecebidosTerceirosRequest"/>
+      <WL5G3N0:output message="tns:ConsultarAcessoRecebidosTerceirosResponse"/>
+    </WL5G3N0:operation>
+  </WL5G3N0:portType>
+  <WL5G3N0:binding name="ConsultarAcessoRecebidosTerceirosSOAP" type="tns:ConsultarAcessoRecebidosTerceiros">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <WL5G3N0:operation name="ConsultarAcessoRecebidosTerceiros">
+      <soap:operation soapAction="http://alsb.telemar/ConsultarAcessoRecebidosTerceiros/ConsultarAcessoRecebidosTerceiros"/>
+      <WL5G3N0:input>
+        <soap:body use="literal"/>
+      </WL5G3N0:input>
+      <WL5G3N0:output>
+        <soap:body use="literal"/>
+      </WL5G3N0:output>
+    </WL5G3N0:operation>
+  </WL5G3N0:binding>
+  <WL5G3N0:service name="ConsultarAcessoRecebidosTerceiros">
+    <WL5G3N0:port binding="tns:ConsultarAcessoRecebidosTerceirosSOAP" name="ConsultarAcessoRecebidosTerceirosSOAP">
+      <soap:address location="http://digpx12.interno:8070/ClienteOperacao/ConsultarAcessoRecebidosTerceiros/V1/ConsultarAcessoRecebidosTerceirosProxySoap"/>
+    </WL5G3N0:port>
+  </WL5G3N0:service>
+</WL5G3N0:definitions>

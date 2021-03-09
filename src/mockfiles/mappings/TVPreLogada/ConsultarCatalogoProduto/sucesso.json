@@ -1,0 +1,22 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPattern": "/produtos/tv/v1/ofertas/consultar",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$.ConsultarCatalogoProdutoRequest.MessageHeaderAPI[?(@.TransactionId =~ /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/)]" },
+      { "matchesJsonPath": "$.ConsultarCatalogoProdutoRequest.MessageHeaderAPI[?(@.Timestamp =~ /(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2})\\:(\\d{2})\\:(\\d{2})\\.(\\d{2,})Z/)]" },
+      { "matchesJsonPath": "$.ConsultarCatalogoProdutoRequest.MessageHeaderAPI[?(@.App =~ /API007/)]" },
+      { "matchesJsonPath": "$.ConsultarCatalogoProdutoRequest[?(@.ParametrosOperacao.AplicationName =~ /WEB Pre-login/)]" }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf,  x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "TVPreLogada/ConsultarCatalogoProduto/sucesso.json"
+  }
+}

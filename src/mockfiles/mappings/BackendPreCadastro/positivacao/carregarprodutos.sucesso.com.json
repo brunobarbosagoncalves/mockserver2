@@ -1,0 +1,16 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/api/positivacao/carregarprodutos"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept,x-cpf"
+        },
+        "body": "{ \"moveis\": [\"61984959382\", \"61985964949\", \"61984667467\", \"61984994033\", \"61984958937\"], \"fixos\": [ \"8233571018\", \"8233559152\", \"8232235854\", \"6134091151\", \"6134091153\" ], \"positivacoes\": [{\"nome\": \"Pelo celular\", \"codigo\": 1 }, {\"nome\": \"Pelo fixo\", \"codigo\": 2 },  {\"nome\": \"Pela fatura\", \"codigo\": 4 }, {\"nome\": \"Pela TV\", \"codigo\": 5 }], \"possuiProdutos\": true}"
+    }
+}

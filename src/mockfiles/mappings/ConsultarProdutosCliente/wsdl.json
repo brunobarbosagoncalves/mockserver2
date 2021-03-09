@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/LoginUnico/ConsultarProdutosClienteProxySoap?wsdl"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarProdutosCliente/wsdl.xml"
+    }
+}

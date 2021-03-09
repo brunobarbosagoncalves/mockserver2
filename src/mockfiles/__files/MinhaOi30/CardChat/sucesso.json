@@ -1,0 +1,66 @@
+{
+    "tipos": {
+        "30539968": {
+            "terminal": "30539968",
+            "nome": "OI TV MAIS HBO/MAX HD 2013",
+            "status": "inactive",
+            "categoria": "tv",
+            "fibra": false,
+            "cingapura": false,
+            "tipoFaturamento": "pos",
+            "tipoVignette": "oct",
+            "tipo": "combo",
+            "tipoTerminal": "mudinho",
+            "oferta": "Combo",
+            "plano": "Banda Larga 200mbps"
+        },
+        "2422912974": {
+            "terminal": "2422912974",
+            "nome": "Oi Fixo",
+            "status": "inactive",
+            "categoria": "landline",
+            "fibra": false,
+            "cingapura": false,
+            "tipoFaturamento": "pos",
+            "tipoVignette": "fxo",
+            "tipo": "landline-pos",
+            "tipoTerminal": "terminal",
+            "oferta": "Combo",
+            "plano": "Banda Larga 200mbps"
+        },
+        "21988769434": {
+            "terminal": "21988769434",
+            "nome": "Oi Colaborador Executivo",
+            "status": "active",
+            "categoria": "mobile",
+            "fibra": false,
+            "cingapura": false,
+            "tipoFaturamento": "pos",
+            "tipoVignette": "mvl",
+            "tipo": "mobile-pos",
+            "tipoTerminal": "terminal",
+            "oferta": "Combo",
+            "plano": "Banda Larga 200mbps"
+        },
+        "24910052230": {
+            "terminal": "24910052230",
+            "nome": "Oi Total",
+            "status": "inactive",
+            "categoria": "mobile",
+            "fibra": false,
+            "cingapura": false,
+            "tipoFaturamento": "pos",
+            "tipoVignette": "oct",
+            "tipo": "combo",
+            "tipoTerminal": "mudinho",
+            "oferta": "Combo",
+            "plano": "Banda Larga 200mbps"
+        }
+    },
+    "terminais": [
+        "30539968",
+        "2422912974",
+        "21988769434",
+        "24910052230"
+    ]
+}

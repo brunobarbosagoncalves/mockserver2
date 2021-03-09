@@ -1,0 +1,19 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/cadastro",
+        "bodyPatterns" : [{
+            "matches" : ".*cpf=44444444444.*"
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept"
+        },
+        "body": "{\"mensagem\":\"Sucesso\",\"data\":{\"nome\":\"Diogo\",\"produto\":{\"nomeProduto\":[\"Pelo seu celular\",\"Pelo telefone fixo\",\"Pela sua OI TV\",\"Pela sua fatura\"],\"fixo\":[\"2122334455\"],\"movel\":[\"21988776655\"],\"tv\":[\"12345678\"],\"fatura\":[\"123456789012\"]},\"redirect\":\"POSITIVACAO\"}}"
+    }
+}

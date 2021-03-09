@@ -1,0 +1,216 @@
+{
+  "nome": "GISLAINE ALVES DE ARAUJO",
+  "cpf": "06916140674",
+  "dataNascimento": "29/07/1985",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "25396146",
+      "idContaFatura": "25396146",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv16011530034",
+        "nomePlano": "OI TV MIX CINEMA FUTEBOL HD DVR"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "25396146",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv16011530034",
+            "nomePlano": "OI TV MIX CINEMA FUTEBOL HD DVR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "2018-06-18",
+          "idExtrato": "1482632062",
+          "mesReferencia": "2018-05-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "2546-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "2018-06-11",
+          "idExtrato": "2938522061",
+          "mesReferencia": "2018-04-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "2546-2",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "2018-06-11",
+          "idExtrato": "3548072060",
+          "mesReferencia": "2018-03-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "2546-3",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "2018-04-13",
+          "idExtrato": "5196552059",
+          "mesReferencia": "2018-02-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "2546-4",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "3733223858",
+      "idContaFatura": "06472|3733223858|0|9",
+      "CRMOrigem": "STC",
+      "fgInadimplente": "S",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Fixo010B55-1NF10M-1",
+        "nomePlano": "NOVO FALE FRANQUIA 10000 FIXO FIXO NRES"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "3733223858",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "DadosAD00002-1-1-1-1-1",
+            "nomePlano": "VELOX NRES"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        },
+        {
+          "numeroTerminal": "3733223858",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo010B55-1NF10M-1",
+            "nomePlano": "NOVO FALE FRANQUIA 10000 FIXO FIXO NRES"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-04-13",
+          "valor": 589.1,
+          "codigoDeBarras": "84640000005-1 89100024010-3 18064720332-2 23858091802-3",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "373858-25",
+          "ajustada": true,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0647233223858  09201802",
+          "anoMesReferencia": "201802",
+          "data": "2018-04-13",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-06-11",
+          "valor": 559.12,
+          "codigoDeBarras": "84660000005-9 59120024010-7 18064720332-2 23858091803-1",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "373858-26",
+          "ajustada": true,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0647233223858  09201803",
+          "anoMesReferencia": "201803",
+          "data": "2018-06-11",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-06-11",
+          "valor": 542.91,
+          "codigoDeBarras": "84680000005-7 42910024010-1 18064720332-2 23858091804-9",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "373858-27",
+          "ajustada": true,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0647233223858  09201804",
+          "anoMesReferencia": "201804",
+          "data": "2018-06-11",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-06-18",
+          "valor": 963.14,
+          "codigoDeBarras": "84690000009-8 63140024010-9 18064720332-2 23858091805-6",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "373858-28",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0647233223858  09201805",
+          "anoMesReferencia": "201805",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-07-18",
+          "valor": 276.45,
+          "codigoDeBarras": "84620000002-0 76450024010-7 18064720332-2 23858091806-4",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "373858-29",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0647233223858  09201806",
+          "anoMesReferencia": "201806",
+          "vencida": false
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

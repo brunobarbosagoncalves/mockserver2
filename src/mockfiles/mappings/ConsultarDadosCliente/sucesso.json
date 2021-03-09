@@ -1,0 +1,23 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "POST",
+        "url": "/api/atendimento/consultardadoscliente",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"ddd\":\"10\",\"terminal\":\"10000000001\"}"
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+            "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "bodyFileName":
+        "ConsultarDadosCliente/sucesso.json"
+    }
+}

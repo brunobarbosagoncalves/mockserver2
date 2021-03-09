@@ -1,0 +1,16 @@
+{
+    "nova": false,
+    "url": "https://minha.oi.com.br/portal/site/MinhaOi/AcessoFunc?idfunc=home_produto&numTerminal=21985683210&categoriaPlano=mvl",
+    "produto": {
+        "terminal": "21985683210",
+        "token": "21985683210",
+        "nome": "PLANO OI COLABORADOR",
+        "status": "active",
+        "categoria": "mobile",
+        "fibra": false,
+        "cingapura": false,
+        "tipoFaturamento": "pos",
+        "tipoVignette": "mvl",
+        "tipo": "mobile-pos"
+    }
+}

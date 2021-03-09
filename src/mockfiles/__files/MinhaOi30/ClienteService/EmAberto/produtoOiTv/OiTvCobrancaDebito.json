@@ -1,0 +1,114 @@
+{
+  "nome": "RICARDO STROTHMEIER ROSSI",
+  "cpf": "02665255804",
+  "dataNascimento": "31/01/1941",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "17098450",
+      "idContaFatura": "17098450",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043574867",
+        "nomePlano": "OI TV MEGA HD 2013"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "17098450",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043574867",
+            "nomePlano": "OI TV MEGA HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Débito",
+          "status": "Em Aberto",
+          "valor": "119.56",
+          "dataVencimento": "2018-08-12",
+          "idExtrato": "3685832064",
+          "mesReferencia": "2018-07-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1750-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Débito",
+          "status": "Em Aberto",
+          "valor": "119.56",
+          "dataVencimento": "2018-07-12",
+          "idExtrato": "4506272063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "1750-2",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "3534381283",
+      "idContaFatura": "09828|3534381283|0|1",
+      "CRMOrigem": "STC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Fixo011B42HABFNFR200-1",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "3534381283",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011B42HABFNFR200-1",
+            "nomePlano": "OI FIXO 200 FIM DE SEMANA"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-16",
+          "valor": 52.06,
+          "codigoDeBarras": "84680000000-8 52060024010-2 18098280343-9 81283011806-1",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "351283-30",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0982834381283  01201806",
+          "anoMesReferencia": "201806",
+          "vencida": false
+        }
+      ],
+      "dacc": true
+    }
+  ]
+}

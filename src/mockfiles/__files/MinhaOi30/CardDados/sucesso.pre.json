@@ -1,0 +1,34 @@
+{
+	"terminal": "21999999999",
+	"plano": "Oi Cartão",
+    "dataCorrente": 1540778400000,
+    "extra": {
+        "pre": true
+    },
+    "dados": [
+        {
+            "restante": 1000,
+            "total": 1024,
+            "unidade": "kb",
+            "startDateTime": 1520996400000,
+            "renovacao": 1523588400000,
+            "uso": true,
+            "tipo": "extra"
+        },
+        {
+            "restante": 2411520,
+            "total": 2411520,
+            "unidade": "kb",
+            "startDateTime": 1520910000000,
+            "renovacao": 1523588400000,
+            "uso": false,
+            "tipo": "principal"
+        }
+    ],
+    "credito": {
+        "total": 10,
+        "unidade": "R$",
+        "startDateTime": 1520910000000,
+        "renovacao": 1523588400000
+    }
+}

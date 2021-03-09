@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/LoginUnico/ManterCadastroUsuarioNDSProxySoap?wsdl"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ManterCadastroUsuario/wsdl.xml"
+    }
+}

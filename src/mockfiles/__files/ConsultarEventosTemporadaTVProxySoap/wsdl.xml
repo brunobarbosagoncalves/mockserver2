@@ -1,0 +1,43 @@
+<wsdl:definitions xmlns:cett="http://osb.telemar/xsd/ClienteOperacao/ConsultarEventosTemporadaTV/V1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ClienteOperacao/ConsultarEventosTemporadaTV/V1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ConsultarEventosTemporadaTV" targetNamespace="http://osb.telemar/wsdl/ClienteOperacao/ConsultarEventosTemporadaTV/V1">
+<soap:annotation>
+<soap:documentation>
+STI:80861 Sistema: ConsultarEventosTemporadaTV Autor: Jed Artiaga versão: 1.0 Data Criação: 03/07/14 Data Alteração: xxxxx
+</soap:documentation>
+</soap:annotation>
+<wsdl:types>
+<xsd:schema targetNamespace="http://osb.telemar/xsd/ClienteOperacao/ConsultarEventosTemporadaTV/V1">
+<xsd:include schemaLocation="http://soasso.intranet:7200/ClienteOperacao/ConsultarEventosTemporadaTV/V1/ConsultarEventosTemporadaTVProxySoap?SCHEMA%2FClienteOperacao%2FConsultarEventosTemporadaTV%2FV1%2FInterfaces%2FSchemas%2FConsultarEventosTemporadaTVOSB"/>
+<xsd:element name="ConsultarEventosTemporadaTVRequest" type="cett:ConsultarEventosTemporadaTVRequestType"/>
+<xsd:element name="ConsultarEventosTemporadaTVResponse" type="cett:ConsultarEventosTemporadaTVResponseType"/>
+</xsd:schema>
+</wsdl:types>
+<wsdl:message name="ConsultarEventosTemporadaTVRequest">
+<wsdl:part element="cett:ConsultarEventosTemporadaTVRequest" name="ConsultarEventosTemporadaTVRequest"/>
+</wsdl:message>
+<wsdl:message name="ConsultarEventosTemporadaTVResponse">
+<wsdl:part element="cett:ConsultarEventosTemporadaTVResponse" name="ConsultarEventosTemporadaTVResponse"/>
+</wsdl:message>
+<wsdl:portType name="ConsultarEventosTemporadaTV">
+<wsdl:operation name="ConsultarEventosTemporadaTV">
+<wsdl:input message="tns:ConsultarEventosTemporadaTVRequest"/>
+<wsdl:output message="tns:ConsultarEventosTemporadaTVResponse"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="ConsultarEventosTemporadaTVSOAP" type="tns:ConsultarEventosTemporadaTV">
+<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="ConsultarEventosTemporadaTV">
+<soap:operation soapAction="http://osb.telemar/wsdl/ClienteOperacao/ConsultarEventosTemporadaTV/V1"/>
+<wsdl:input>
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output>
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="ConsultarEventosTemporadaTV">
+<wsdl:port binding="tns:ConsultarEventosTemporadaTVSOAP" name="ConsultarEventosTemporadaTVSOAP">
+<soap:address location="http://soapx61b:27205/ClienteOperacao/ConsultarEventosTemporadaTV/V1/ConsultarEventosTemporadaTVProxySoap"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

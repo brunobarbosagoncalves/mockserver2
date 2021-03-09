@@ -1,0 +1,19 @@
+{
+    "userInfo": {
+        "userID": "N2M1MTBlNTI1ZjFhYzllMzQzMmFjZjgzYTRjMGMwOGM=",
+        "userName": "",
+        "email": "",
+        "birthDate": "",
+        "gender": "",
+        "age": "",
+        "estado": "",
+        "nomeCliente": ""
+    },
+    "terminalInfo": {
+        "terminais": []
+    },
+    "pageInfo": {
+        "url": "",
+        "pageName": ""
+    }
+}

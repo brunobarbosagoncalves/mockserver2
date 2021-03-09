@@ -1,0 +1,16 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/cadastro/reenviar"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"mensagem\": \"E-mail reenviado com sucesso\" }"
+    }
+}

@@ -51,7 +51,9 @@ class Server {
 
   start() {
     this.server.listen(process.env.port, () => {
-      console.log(`Server run on port ${process.env.port}`)
+      console.log(
+        `Server run on port ${process.env.port}, mode ${process.env.NODE_ENV}`
+      )
     })
   }
 }

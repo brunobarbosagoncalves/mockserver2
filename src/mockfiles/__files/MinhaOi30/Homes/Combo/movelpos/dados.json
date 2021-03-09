@@ -1,0 +1,178 @@
+[
+    {
+        "terminal" : "0000000003",
+        "dados": [
+            {
+                "ilimitado": false,
+                "principal": true,
+                "categoria": "main",
+                "nome": "Plano Oi Completo Small",
+                "total": 1048576,
+                "restante": 1048576,
+                "consumido": 0,
+                "unidade": "kb",
+                "renovacao": 1549159200000,
+                "inicio": 1546480800000,
+                "tipo": "data",
+                "expirado": false,
+                "caracteristicas": [],
+                "uso": true
+            }
+        ],
+        "sms": [],
+        "voz": [
+            {
+                "ilimitado": false,
+                "principal": true,
+                "categoria": "main",
+                "nome": "Franquia off-net 100 minutos sem rollover",
+                "total": 6000,
+                "restante": 6000,
+                "consumido": 0,
+                "unidade": "minutes",
+                "renovacao": 1550023200000,
+                "inicio": 1547344800000,
+                "tipo": "voice",
+                "expirado": false,
+                "caracteristicas": [],
+                "uso": true
+            },
+            {
+                "ilimitado": false,
+                "principal": false,
+                "categoria": "benefit",
+                "nome": "Você ganhou bônus de 30 min em lig. local e LD pra celular Oi",
+                "total": 1800,
+                "restante": 570,
+                "consumido": 1230,
+                "unidade": "minutes",
+                "renovacao": 1550023200000,
+                "inicio": 1547344800000,
+                "tipo": "voice",
+                "expirado": false,
+                "caracteristicas": [],
+                "uso": false
+            },
+            {
+                "ilimitado": false,
+                "principal": false,
+                "categoria": "benefit",
+                "nome": "Pacote DDD e Roaming Nacional",
+                "total": 6000,
+                "restante": 5970,
+                "consumido": 30,
+                "unidade": "minutes",
+                "renovacao": 1550023200000,
+                "inicio": 1547344800000,
+                "tipo": "voice",
+                "expirado": false,
+                "caracteristicas": [],
+                "uso": false
+            },
+            {
+                "ilimitado": false,
+                "principal": false,
+                "categoria": "benefit",
+                "nome": "Franquia on-net e fixo sem rollover",
+                "total": 30000000,
+                "restante": 29999970,
+                "consumido": 30,
+                "unidade": "minutes",
+                "renovacao": 1550023200000,
+                "inicio": 1547344800000,
+                "tipo": "voice",
+                "expirado": false,
+                "caracteristicas": [],
+                "uso": false
+            }
+        ]
+    },
+    {
+        "terminal" : "0000000004",
+        "dados": [
+            {
+                "ilimitado": false,
+                "principal": true,
+                "categoria": "main",
+                "nome": "Plano Oi Completo Small",
+                "total": 1048576,
+                "restante": 48576,
+                "consumido": 0,
+                "unidade": "kb",
+                "renovacao": 1549159200000,
+                "inicio": 1546480800000,
+                "tipo": "data",
+                "expirado": false,
+                "caracteristicas": [],
+                "uso": true
+            }
+        ],
+        "sms": [],
+        "voz": [
+            {
+                "ilimitado": false,
+                "principal": true,
+                "categoria": "main",
+                "nome": "Franquia off-net 100 minutos sem rollover",
+                "total": 6000,
+                "restante": 6000,
+                "consumido": 0,
+                "unidade": "minutes",
+                "renovacao": 1550023200000,
+                "inicio": 1547344800000,
+                "tipo": "voice",
+                "expirado": false,
+                "caracteristicas": [],
+                "uso": true
+            },
+            {
+                "ilimitado": false,
+                "principal": false,
+                "categoria": "benefit",
+                "nome": "Você ganhou bônus de 30 min em lig. local e LD pra celular Oi",
+                "total": 1800,
+                "restante": 570,
+                "consumido": 1230,
+                "unidade": "minutes",
+                "renovacao": 1550023200000,
+                "inicio": 1547344800000,
+                "tipo": "voice",
+                "expirado": false,
+                "caracteristicas": [],
+                "uso": false
+            },
+            {
+                "ilimitado": false,
+                "principal": false,
+                "categoria": "benefit",
+                "nome": "Pacote DDD e Roaming Nacional",
+                "total": 6000,
+                "restante": 5970,
+                "consumido": 30,
+                "unidade": "minutes",
+                "renovacao": 1550023200000,
+                "inicio": 1547344800000,
+                "tipo": "voice",
+                "expirado": false,
+                "caracteristicas": [],
+                "uso": false
+            },
+            {
+                "ilimitado": false,
+                "principal": false,
+                "categoria": "benefit",
+                "nome": "Franquia on-net e fixo sem rollover",
+                "total": 30000000,
+                "restante": 29999970,
+                "consumido": 30,
+                "unidade": "minutes",
+                "renovacao": 1550023200000,
+                "inicio": 1547344800000,
+                "tipo": "voice",
+                "expirado": false,
+                "caracteristicas": [],
+                "uso": false
+            }
+        ]
+    }
+]

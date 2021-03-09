@@ -1,0 +1,40 @@
+{
+  "nome": "DANIELE CRISTINA PEREIRA MAIA",
+  "cpf": "00608202177",
+  "dataNascimento": "15/05/1989",
+  "crmsCadastro": [
+    "SAC"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "6232493211",
+      "idContaFatura": "1194189366",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "0000",
+        "nomePlano": "Plano Básico"
+      },
+      "statusTerminal": "INATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6232493211",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "0000",
+            "nomePlano": "PLANO BASICO"
+          },
+          "statusTerminal": "INATIVO",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    }
+  ]
+}

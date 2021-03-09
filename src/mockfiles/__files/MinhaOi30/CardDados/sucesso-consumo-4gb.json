@@ -1,0 +1,40 @@
+{
+    "terminal": "21999999999",
+	"plano": "Oi Cartão",
+    "dataCorrente": 1541451498447,
+    "extra": {
+        "cingapura": true,
+        "riscoEsgotar": true,
+        "esgotado": false,
+        "dependentes": {
+            "esgotados": [
+                "21989330497"
+            ],
+            "riscoEsgotar": [
+                "21989330495",
+                "21989330497"
+            ]
+        }
+    },
+    "dados": [
+        {
+            "renovacao": 1541451498447,
+            "total": 4194304,
+            "restante": 8192,
+            "unidade": "",
+            "uso": true,
+            "tipo": "principal",
+            "inicio": 1541451498447
+        },
+        {
+            "total": 1048576,
+            "restante": 4096,
+            "renovacao": 1541451498447,
+            "unidade": "",
+            "uso": true,
+            "tipo": "extra",
+            "inicio": 1541451498447
+        }
+    ],
+    "credito": {}
+}

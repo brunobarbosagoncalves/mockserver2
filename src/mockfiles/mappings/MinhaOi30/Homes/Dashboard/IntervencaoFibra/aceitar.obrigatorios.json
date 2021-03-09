@@ -1,0 +1,21 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/dashboard/intervencaoFibra/aceitar",
+        "headers": {
+            "x-cpf": {
+                "matches": "44444444444"
+            }
+        }
+    },
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "body": "{ \"mensagem\": \"Campos obrigatórios não preenchidos\" }"
+    }
+}

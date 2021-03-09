@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/ClienteOperacao/AtualizarDadosAcesso/V1/AtualizarDadosAcessoProxySoap?wsdl"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "MinhaOi30/DadosAcesso/Atualizar/xml/wsdl.xml"
+    }
+}

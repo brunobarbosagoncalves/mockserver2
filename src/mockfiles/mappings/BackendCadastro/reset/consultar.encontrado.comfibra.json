@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/cadastro/reset/consultar",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"cpf\":\"09039308705\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"cliente\": { \"nome\": \"Jose\", \"email\": \"jos••••va@gmail.com\" }, \"jwt\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcGYiOiIyNTU3NDIxNDgwNiIsImlhdCI6MTQ5MDI4MDU3NywiZXhwIjoxNDkwMjgxMTc3fQ.DD5sGtjP1VNHGtbCNOAmdgcJOR-e396tQploTnu1jHg\" }"
+    }
+}

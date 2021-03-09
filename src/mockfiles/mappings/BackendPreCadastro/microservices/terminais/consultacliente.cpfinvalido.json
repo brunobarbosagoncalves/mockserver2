@@ -1,0 +1,21 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "GET",
+        "url": "/api/microservice/terminais",
+        "headers": {
+            "x-cpf": {
+                "contains": "88888888888"
+            }
+        }
+    },
+    "response": {
+        "status": 400,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{\"codigo\":400  ,\"mensagem\": \"Error: cpf 99999999999 inválido\", \"terminais\":{} }"
+    }
+}

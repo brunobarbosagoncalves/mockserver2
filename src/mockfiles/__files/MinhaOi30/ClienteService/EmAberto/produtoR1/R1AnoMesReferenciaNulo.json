@@ -1,0 +1,249 @@
+{
+  "nome": "ALANDA PIRES DE BRITO",
+  "cpf": "07252845796",
+  "dataNascimento": "18/01/1978",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "17520086",
+      "idContaFatura": "17520086",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043621002",
+        "nomePlano": "OI TV TOTAL CINEMA HD"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "17520086",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043621002",
+            "nomePlano": "OI TV TOTAL CINEMA HD"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "21988011011",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+1T5+64",
+        "nomePlano": "Oi Cartão - Plano 31 Anos"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "21988011011",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+1T5+64",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "21989151039",
+      "idContaFatura": "2538152337",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-UYTHGNM-1",
+        "nomePlano": "Oi Total"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "2133413913",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "DadosAD00001-1-1-1-1-1",
+            "nomePlano": "VELOX"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        },
+        {
+          "numeroTerminal": "21989151039",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGNM-1",
+            "nomePlano": "PLANO OI COMPLETO MAIS"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "2133413913",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011-1HABF-1-1",
+            "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "36988726",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043519129",
+            "nomePlano": "OI TV MAIS HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "2124851600",
+      "idContaFatura": "05000|2124851600|0|4",
+      "CRMOrigem": "STC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Fixo011B03HABFAVI350-1",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "2124851600",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011B03HABFAVI350-1",
+            "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-06-01",
+          "valor": 75.46000000000001,
+          "codigoDeBarras": "84610000000-5 75460024020-6 24050000248-2 51600041805-8",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "211600-28",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0500024851600  04201805",
+          "anoMesReferencia": "201805",
+          "vencida": true
+        }
+      ],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "2226517755",
+      "idContaFatura": "08131|2226517755|0|2",
+      "CRMOrigem": "STC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Fixo011-1HABFBBLRES-1",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "2226517755",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011-1HABFBBLRES-1",
+            "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-07",
+          "valor": 46.19,
+          "codigoDeBarras": "",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "227755-29",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0813126517755  02201806",
+          "anoMesReferencia": null,
+          "vencida": true
+        }
+      ],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "21988010174",
+      "idContaFatura": "2818238674",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "21988010174",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    }
+  ]
+}

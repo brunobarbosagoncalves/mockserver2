@@ -1,0 +1,43 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"/>
+   <env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+      <con:ConsultarDetalhementoContratoTVResponse xmlns:con="http://osb.telemar/xsd/ConsultarDetalhementoContratoTV">
+         <con:GrupoResponse>
+            <con:existeContrato>Y</con:existeContrato>
+            <con:DadosContrato>
+               <con:Contrato>
+                  <con:existemProdutosOpcionais>Y</con:existemProdutosOpcionais>
+                  <con:produtoObrigatorio>Oi TV Total Cinema HD DVR</con:produtoObrigatorio>
+                  <con:produtoComEscolha>Premiere G</con:produtoComEscolha>
+                  <con:listaDeEscolhas>
+                     <con:escolha>Carioca</con:escolha>
+                     <con:escolha>Catarinense</con:escolha>
+                     <con:escolha>Gaúcho</con:escolha>
+                     <con:escolha>Mineiro</con:escolha>
+                     <con:escolha>Paranaense</con:escolha>
+                     <con:escolha>Paulista</con:escolha>
+                     <con:escolha>Série A</con:escolha>
+                     <con:escolha>Série B</con:escolha>
+                  </con:listaDeEscolhas>
+                  <con:listaDeProdutosOpcionais>
+                     <con:produtoOpcional>Ponto TV DTH</con:produtoOpcional>
+                     <con:produtoOpcional>Ponto TV DTH</con:produtoOpcional>
+                     <con:produtoOpcional>Ponto TV DTH</con:produtoOpcional>
+                     <con:produtoOpcional>Coleção Oi TV</con:produtoOpcional>
+                     <con:produtoOpcional>Sexy Privê</con:produtoOpcional>
+                     <con:produtoOpcional>Sexy Hot + Playboy TV</con:produtoOpcional>
+                     <con:produtoOpcional>Étnico/PenVR</con:produtoOpcional>
+                     <con:produtoOpcional>Combate</con:produtoOpcional>
+                     <con:produtoOpcional>PACOTE MONITORIA</con:produtoOpcional>
+                  </con:listaDeProdutosOpcionais>
+               </con:Contrato>
+            </con:DadosContrato>
+         </con:GrupoResponse>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0</code>
+            <reason>Operação realizada com sucesso!</reason>
+            <detail>Operação realizada com sucesso!</detail>
+         </esb:ResponseControl>
+      </con:ConsultarDetalhementoContratoTVResponse>
+   </env:Body>
+</soapenv:Envelope>

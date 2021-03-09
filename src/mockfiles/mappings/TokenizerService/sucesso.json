@@ -1,0 +1,20 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/token/getDados",
+        "headers": {
+            "accesskey": {
+                "equalTo": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkZTdmOGRiMS0zNDViLTRiZTMtYjYxNS1mMmE5OTM4MmY2ODUiLCJpc3MiOiJPSSBNb3ZlbCBEaWdpdGFsIiwiY3JpYWNhbyI6IjIwMTctMDktMThUMTM6Mzg6MzEuODk0WiIsImlhdCI6MTUwNTc0MTkxMX0.i7saLk3iIT-OdEUYOCmYbADOtsi1ctoIp99MPfyHdXk"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json; charset=utf-8",
+            "Cache-Control": "no-cache"
+        },
+        "body": "{\"user\": {\"cpf\": \"25574214806\",\"msisdn\": \"21997844520\",\"nome\": \"UsuarioTeste\"}}"
+    }
+}

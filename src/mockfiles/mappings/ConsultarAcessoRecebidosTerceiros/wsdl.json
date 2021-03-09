@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/ClienteOperacao/ConsultarAcessoRecebidosTerceiros/V1/ConsultarAcessoRecebidosTerceirosProxySoap?wsdl"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarAcessoRecebidosTerceiros/wsdl.xml"
+    }
+}

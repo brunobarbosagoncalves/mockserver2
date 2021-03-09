@@ -1,0 +1,18 @@
+{
+    "produto": {
+        "plano": "OI VELOX 3G 500MB REDUÇÃO DE VELOCIDADE",
+        "terminal": "00000000015",
+        "token": "00000000015",
+        "nome": "OI VELOX 3G 500MB REDUÇÃO DE VELOCIDADE",
+        "status": "active",
+        "categoria": "mobile_internet",
+        "fibra": false,
+        "cingapura": false,
+        "tipoFaturamento": "pos",
+        "tipoVignette": "int",
+        "tipo": "mobile_internet-pos",
+        "tipoTerminal": "terminal",
+        "oferta": "OI VELOX 3G 500MB REDUÇÃO DE VELOCIDADE"
+    },
+    "nova": true
+}

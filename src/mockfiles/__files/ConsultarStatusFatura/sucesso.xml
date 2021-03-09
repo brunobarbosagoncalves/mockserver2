@@ -1,0 +1,29 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soap:Body xmlns:ns="http://alsb.telemar/soap/esbUser" xmlns:tns="http://osb.telemar/wsdl/ConsultarStatusFatura" xmlns:tnsReq="http://osb.telemar/xsd/ConsultarStatusFatura" xmlns:WL5G3N2="http://osb.telemar/wsdl/ConsultarStatusFatura" xmlns:esb="http://alsb.telemar/soap/esb" xmlns:WL5G3N1="http://osb.telemar/xsd/ConsultarStatusFatura" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <WL5G3N1:ConsultarStatusFaturaResponse>
+         <WL5G3N1:GrupoResponse>
+            <WL5G3N1:Terminal/>
+            <WL5G3N1:numDocumento/>
+            <WL5G3N1:CJ>0</WL5G3N1:CJ>
+            <WL5G3N1:SU>2</WL5G3N1:SU>
+            <WL5G3N1:localidade>0500</WL5G3N1:localidade>
+            <WL5G3N1:CRM>STC</WL5G3N1:CRM>
+            <WL5G3N1:ListaFaturas>
+               <WL5G3N1:Fatura>
+                  <WL5G3N1:statusPgtoFatura>-</WL5G3N1:statusPgtoFatura>
+                  <WL5G3N1:valorFatura>-</WL5G3N1:valorFatura>
+                  <WL5G3N1:numFatura>050002138602251  022016</WL5G3N1:numFatura>
+                  <WL5G3N1:dataVencimento>2016-12-16T00:00:00</WL5G3N1:dataVencimento>
+                  <WL5G3N1:periodoReferencia>201611</WL5G3N1:periodoReferencia>
+               </WL5G3N1:Fatura>
+            </WL5G3N1:ListaFaturas>
+         </WL5G3N1:GrupoResponse>
+         <esb:ResponseControl>
+            <code>0</code>
+            <reason>CONSULTA REALIZADA COM SUCESSO MOCK SERVER</reason>
+            <detail>CONSULTA REALIZADA COM SUCESSO MOCK SERVER</detail>
+         </esb:ResponseControl>
+      </WL5G3N1:ConsultarStatusFaturaResponse>
+   </soap:Body>
+</soapenv:Envelope>

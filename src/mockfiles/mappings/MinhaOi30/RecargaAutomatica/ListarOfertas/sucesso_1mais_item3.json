@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/servicos/recargaAutomatica/listaofertas",
+    "headers": {
+      "x-origin-application": {
+        "matches": "(.+)"
+      },
+      "x-origin-channel": {
+        "matches": "(.+)"
+      },
+      "x-cpf": {
+        "matches": "(.+)"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\"terminalFixo\":\"00000000004\",\"terminalMovel\":\"81987814953\"}",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "MinhaOi30/RecargaAutomatica/ListarOfertas/sucesso_1mais_item.json"
+  }
+}

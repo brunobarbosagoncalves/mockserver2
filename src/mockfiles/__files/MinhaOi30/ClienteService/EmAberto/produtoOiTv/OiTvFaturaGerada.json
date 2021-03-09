@@ -1,0 +1,55 @@
+{
+  "nome": "SUDARIO SOARES RIBEIRO",
+  "cpf": "89618262804",
+  "dataNascimento": "25/10/1956",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "27753601",
+      "idContaFatura": "27753601",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043574867",
+        "nomePlano": "OI TV MEGA HD 2013"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "27753601",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043574867",
+            "nomePlano": "OI TV MEGA HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Débito",
+          "status": "Em Aberto",
+          "valor": "89.92",
+          "dataVencimento": "2018-08-04",
+          "idExtrato": "4582852064",
+          "mesReferencia": "2018-07-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "2701-1",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

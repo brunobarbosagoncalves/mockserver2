@@ -1,0 +1,23 @@
+{
+  "ConsultarIdCadastroCartaoResponse": {
+    "MessageHeader": {
+      "Operation": "?",
+      "TransactionId": "?",
+      "CorrelationId": "?",
+      "BusinessId": "?",
+      "Timestamp": "?",
+      "Credentials": {
+        "AppId": "?",
+        "AppToken": "?",
+        "UserId": "?",
+        "UserToken": "?"
+      },
+      "Parameters": null
+    },
+    "Cobranca": {
+      "IdMeioCobranca": "13176620429",
+      "descricaoMeioCobranca": "",
+      "validadeMeioCobranca": ""
+    }
+  }
+}

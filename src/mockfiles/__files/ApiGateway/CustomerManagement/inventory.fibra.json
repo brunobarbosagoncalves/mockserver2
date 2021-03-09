@@ -1,0 +1,154 @@
+[
+    {
+        "id": "1-2SQQGS",
+        "customerId": "04253670709",
+        "name": "Mais HD",
+        "description": "Mais HD",
+        "customerAccountId": "4-80V655X",
+        "billingAccountId": "4-80V655X",
+        "category": "tv",
+        "status": "active",
+        "bundleId": "4-80V655X",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL8"
+            },
+            {
+                "name": "fibra",
+                "value": "true"
+            },
+            {
+                "name": "mainContact",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-11-20T12:51:27Z",
+        "lastModified": "2018-11-20T12:51:27Z"
+    },
+    {
+        "id": "1-2SR19Z",
+        "customerId": "04253670709",
+        "name": "Banda Larga 100MBps",
+        "description": "Banda Larga 100MBps",
+        "customerAccountId": "4-80V655X",
+        "billingAccountId": "4-80V655X",
+        "category": "landline",
+        "status": "active",
+        "bundleId": "4-80V655X",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL8"
+            },
+            {
+                "name": "fibra",
+                "value": "true"
+            },
+            {
+                "name": "mainContact",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-11-20T12:51:27Z",
+        "lastModified": "2018-11-20T12:51:27Z"
+    },
+    {
+        "id": "Móvel1+3B+3401-5IMI7C2",
+        "customerId": "04253670709",
+        "name": "Oi Controle Sem Fatura",
+        "description": "PLANO OI CARTAO",
+        "customerAccountId": "21988262910",
+        "billingAccountId": "21988262910",
+        "category": "mobile",
+        "status": "active",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL63"
+            },
+            {
+                "name": "controle",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-11-20T12:51:27Z",
+        "lastModified": "2018-11-20T12:51:27Z"
+    },
+    {
+        "id": "Móvel1-14TY4HS-1",
+        "customerId": "04253670709",
+        "name": "Oi Colaborador Executivo",
+        "description": "PLANO OI COLABORADOR EXECUTIVO",
+        "customerAccountId": "21989874242",
+        "billingAccountId": "21989874242",
+        "category": "mobile",
+        "status": "active",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL63"
+            }
+        ],
+        "createdDate": "2018-11-20T12:51:27Z",
+        "lastModified": "2018-11-20T12:51:27Z"
+    },
+    {
+        "id": "Móvel1+3B+3401-122REVV6",
+        "customerId": "04253670709",
+        "name": "MÓVEL DIGITAL",
+        "description": "PLANO OI CARTAO",
+        "customerAccountId": "21984379601",
+        "billingAccountId": "21984379601",
+        "category": "mobile",
+        "status": "active",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL63"
+            }
+        ],
+        "createdDate": "2018-11-20T12:51:27Z",
+        "lastModified": "2018-11-20T12:51:27Z"
+    },
+    {
+        "id": "Móvel1+3B+3401-122REVV6",
+        "customerId": "04253670709",
+        "name": "MÓVEL DIGITAL",
+        "description": "PLANO OI CARTAO",
+        "customerAccountId": "21985384449",
+        "billingAccountId": "21985384449",
+        "category": "mobile",
+        "status": "active",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL63"
+            }
+        ],
+        "createdDate": "2018-11-20T12:51:27Z",
+        "lastModified": "2018-11-20T12:51:27Z"
+    },
+    {
+        "id": "Móvel1-12Z56WR9-1",
+        "customerId": "04253670709",
+        "name": "Oi Mais",
+        "description": "OI MAIS 10GB",
+        "customerAccountId": "21995250888",
+        "billingAccountId": "21995250888",
+        "category": "mobile",
+        "status": "active",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL63"
+            },
+            {
+                "name": "cingapura",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-11-20T12:51:27Z",
+        "lastModified": "2018-11-20T12:51:27Z"
+    }
+]

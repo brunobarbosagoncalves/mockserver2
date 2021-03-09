@@ -1,0 +1,251 @@
+{
+  "nome": "LOCIO FERNANDO POSTAI",
+  "cpf": "48303011987",
+  "dataNascimento": "01/11/1963",
+  "crmsCadastro": [
+    "CDI",
+    "SAC"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "649679",
+      "idContaFatura": "649679",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043519129",
+        "nomePlano": "OI TV MAIS HD 2013"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "649679",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043519129",
+            "nomePlano": "OI TV MAIS HD 2013"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Boleto",
+          "status": "Em Aberto",
+          "valor": "11.65",
+          "dataVencimento": "2018-07-04",
+          "idExtrato": "4103382063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": true,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "64-1",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "61984929320",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "61984929320",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "61984915967",
+      "idContaFatura": "2246688850",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-U0ICHFW-1",
+        "nomePlano": "Oi Mais 500"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "61984915967",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-U0ICHFW-1",
+            "nomePlano": "PLANO OI CONTA NOVO 500"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "61984917528",
+      "idContaFatura": "2246688850",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-U0ICHFW-1",
+        "nomePlano": "Oi Mais 500"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "61984917528",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-U0ICHFW-1",
+            "nomePlano": "PLANO OI CONTA NOVO 500"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "61984011129",
+      "idContaFatura": "2915487467",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HS-1",
+        "nomePlano": "Oi Colaborador Executivo"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "61984011129",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HS-1",
+            "nomePlano": "PLANO OI COLABORADOR EXECUTIVO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "61984916514",
+      "idContaFatura": "2246688850",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-U0ICHFW-1",
+        "nomePlano": "Oi Mais 500"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "61984916514",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-U0ICHFW-1",
+            "nomePlano": "PLANO OI CONTA NOVO 500"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "61985949320",
+      "idContaFatura": "2126526237",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-12Z56WQR-1",
+        "nomePlano": "Oi Total"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "61985949320",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-12Z56WQR-1",
+            "nomePlano": "OI TOTAL COMPLETO 10GB"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "38302350",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043519129",
+            "nomePlano": "OI TV MAIS HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "6133411354",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5890",
+            "nomePlano": "OI TOTAL F+10GB+BL"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    }
+  ]
+}

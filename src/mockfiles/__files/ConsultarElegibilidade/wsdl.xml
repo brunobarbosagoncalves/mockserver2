@@ -1,0 +1,37 @@
+<WL5G3N0:definitions xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://osb.telemar/xsd/ConsultarElegibilidade" xmlns:WL5G3N2="http://osb.telemar/wsdl/ConsultarElegibilidadeOSB" xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://osb.telemar/wsdl/ConsultarElegibilidadeOSB">
+<WL5G3N0:types>
+<xsd:schema xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ConsultarElegibilidadeOSB" xmlns:tnsXsd="http://osb.telemar/xsd/ConsultarElegibilidade" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:import namespace="http://osb.telemar/xsd/ConsultarElegibilidade" schemaLocation="http://soasync01.telemar:7200/RecursoAprovisionamento/ConsultarElegibilidadeProxySoap?SCHEMA%2FRecursoAprovisionamento%2FSchemas%2FConsultarElegibilidade%2FConsultarElegibilidade"/>
+<xsd:import namespace="http://alsb.telemar/soap/esb"/>
+</xsd:schema>
+</WL5G3N0:types>
+<WL5G3N0:message name="ConsultarElegibilidadeRequest">
+<WL5G3N0:part element="WL5G3N1:ConsultarElegibilidadeRequest" name="ConsultarElegibilidadeRequest"/>
+</WL5G3N0:message>
+<WL5G3N0:message name="ConsultarElegibilidadeResponse">
+<WL5G3N0:part element="WL5G3N1:ConsultarElegibilidadeResponse" name="ConsultarElegibilidadeResponse"/>
+</WL5G3N0:message>
+<WL5G3N0:portType name="ConsultarElegibilidade">
+<WL5G3N0:operation name="ConsultarElegibilidade">
+<WL5G3N0:input message="WL5G3N2:ConsultarElegibilidadeRequest"/>
+<WL5G3N0:output message="WL5G3N2:ConsultarElegibilidadeResponse"/>
+</WL5G3N0:operation>
+</WL5G3N0:portType>
+<WL5G3N0:binding name="ConsultarElegibilidadeSOAP" type="WL5G3N2:ConsultarElegibilidade">
+<WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<WL5G3N0:operation name="ConsultarElegibilidade">
+<WL5G3N3:operation soapAction="http://osb.telemar/RecursoAprovisionamento/ConsultarElegibilidade"/>
+<WL5G3N0:input>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:input>
+<WL5G3N0:output>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:output>
+</WL5G3N0:operation>
+</WL5G3N0:binding>
+<WL5G3N0:service name="ConsultarElegibilidade">
+<WL5G3N0:port binding="WL5G3N2:ConsultarElegibilidadeSOAP" name="ConsultarElegibilidadeSOAP">
+<WL5G3N3:address location="http://digpx12.interno:8070/RecursoAprovisionamento/ConsultarElegibilidadeProxySoap"/>
+</WL5G3N0:port>
+</WL5G3N0:service>
+</WL5G3N0:definitions>

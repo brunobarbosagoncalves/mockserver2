@@ -1,0 +1,24 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "GET",
+        "urlPattern": "/api/group/v1/crossview/5511994817997\\?group=5511946004601,5511994939361",
+        "headers": {
+            "Content-Type": {
+                "equalTo": "application/json"
+            },
+            "Authorization": {
+                "matches": "Basic (.+)"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "bodyFileName": "ApiGateway/Group/crossview.consumo.json"
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "nome": "JOSE OLIMPIO DA SILVA",
+  "cpf": "07491255949",
+  "dataNascimento": "31/03/1919",
+  "crmsCadastro": [
+    "SAC"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "4432341376",
+      "idContaFatura": "8005085204",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5500",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "4432341376",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5500",
+            "nomePlano": "PLANO FALE"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-14",
+          "valor": 25.03,
+          "codigoDeBarras": "84610000000-5 25030020800-7 50852020180-9 70114000000-4",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "441376-30",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": true,
+          "numeroFatura": "08005085204201807001000033732322",
+          "anoMesReferencia": "201807",
+          "ciclo": "001",
+          "vencida": false
+        }
+      ],
+      "dacc": true
+    }
+  ]
+}

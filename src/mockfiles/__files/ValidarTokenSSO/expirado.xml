@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <v1:ValidarTokenResponse xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ValidarToken/V1">
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>00024</code>
+            <reason>Token Expirado</reason>
+            <detail>O token encontrado está expirado</detail>
+         </esb:ResponseControl>
+      </v1:ValidarTokenResponse>
+   </soap:Body>
+</soapenv:Envelope>

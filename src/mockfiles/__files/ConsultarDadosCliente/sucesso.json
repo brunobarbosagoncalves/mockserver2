@@ -1,0 +1,8 @@
+{
+	"email": "um_email@qualquer.com",
+	"endereco": {
+		"logradouro": "UM_LOGRADOURO_QUALQUER",
+		"municipio": "UM_MUNICIPIO_QUALQUER",
+		"estado": "UM_ESTADO_QUALQUER"
+	}
+}

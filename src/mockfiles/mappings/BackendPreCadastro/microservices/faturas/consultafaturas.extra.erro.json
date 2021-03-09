@@ -1,0 +1,34 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "POST",
+        "url": "/api/microservice/faturas",
+        "headers": {
+            "x-cpf": {
+                "contains": "11111111111"
+            }
+        },
+        "bodyPatterns": [{
+                "matches": ".*numeroTerminal=739.*"
+            }, {
+                "matches": ".*idContaFatura=739.*"
+            }, {
+                "matches": ".*crmOrigem=SBL63.*"
+            }, {
+                "matches": ".*numeroTerminalFaturaExtra=739.*"
+            }, {
+                "matches": ".*idContaFaturaExtra=1111.*"
+            }
+        ]
+
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{ \"codigo\":400, \"mensagem\": \"Campos obrigatórios (FaturaExtra) não preenchidos.\"}"
+    }
+}

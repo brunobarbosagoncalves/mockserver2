@@ -1,0 +1,39 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "POST",
+        "url": "/api/servicos/recargaAutomatica/aderiralterar",
+        "headers": {
+            "x-origin-application": {
+                "matches": "(.+)"
+            },
+            "x-origin-channel": {
+                "matches": "(.+)"
+            },
+            "x-cpf": {
+                "matches": "(.+)"
+            }
+        },
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": "$[?(@.acao=='I')]",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            },
+            {
+                "matchesJsonPath": "$[?(@.numeromovel!='21987654322')]",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "bodyFileName": "MinhaOi30/RecargaAutomatica/AderirAlterar/aderir.json"
+    }
+}

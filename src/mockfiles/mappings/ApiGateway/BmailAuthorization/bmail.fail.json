@@ -1,0 +1,14 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/auth/oauth/v2/token?grant_type=client_credentials"
+    },
+    "response": {
+        "status": 401,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": "{\"error\":\"invalid_client\", \"error_description\":\"The given client credentials were not valid\"}"
+    }
+}

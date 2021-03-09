@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/ClienteOperacao/ConsultarCadastroCliente/V1/ConsultarCadastroClienteProxySoap",
+        "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/v1:ConsultarCadastroClienteRequest/v1:GrupoRequest[number(v1:CPF) and string-length(v1:CPF) = 11]",           
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "esb"  : "http://alsb.telemar/soap/esbUser",
+                "v1" : "http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroCliente/V1"
+            }
+        } ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarCadastroClienteSSO/sucesso.xml"
+    }
+}

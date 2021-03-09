@@ -1,0 +1,16 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "GET",
+        "url": "/ClienteOperacao/v2.0/ConsultarViabilidadeVeloxProxySoap?wsdl"
+    },
+    "response": {
+        "status": 200,
+        "headers":
+        {
+            "Content-Type": "text/xml; charset=utf-8",
+            "Server": "Apache"
+        },
+        "bodyFileName": "ConsultarViabilidadeVelox/wsdl.xml"
+    }
+}

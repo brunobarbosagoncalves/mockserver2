@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://osb.telemar/xsd/ClientesAprovisionamento/InformarSolicitacaoCancelamento/V1" xmlns:esb="http://alsb.telemar/soap/esb">
+       <soapenv:Header />
+       <soapenv:Body>
+             <v1:InformarSolicitacaoCancelamentoResponse>
+                    <esb:ResponseControl>
+                          <code>0</code>
+                          <reason>Solicitação gravada com sucesso</reason>
+                          <detail>Solicitação gravada com sucesso</detail>
+                    </esb:ResponseControl>
+             </v1:InformarSolicitacaoCancelamentoResponse>
+       </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,355 @@
+{
+  "nome": "SERGIO GUIMARAES GARCIA",
+  "cpf": "06260023898",
+  "dataNascimento": "04/07/1965",
+  "crmsCadastro": [
+    "SAC",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "64984434730",
+      "idContaFatura": "2770321166",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-FKBGCCA-1",
+        "nomePlano": "OI CONTA TOTAL PLUG 10GB DOWNGRADE"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "64984434730",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-FKBGCCA-1",
+            "nomePlano": "OI CONTA TOTAL PLUG 10GB DOWNGRADE"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "64984526169",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "64984526169",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "6436317003",
+      "idContaFatura": "1175921189",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "6417",
+        "nomePlano": "3_VELOX_IP_12M_NRES_1DESP_ZC_1601"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6436317003",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "6417",
+            "nomePlano": "3_VELOX_IP_12M_NRES_1DESP_ZC_1601"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "64984347004",
+      "idContaFatura": "2236194620",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-UYTHGNM-1",
+        "nomePlano": "Oi Total"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6436317004",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5445",
+            "nomePlano": "OI TOTAL F+PCMAIS+BL"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "64984347004",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGNM-1",
+            "nomePlano": "PLANO OI COMPLETO MAIS"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "64984357005",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-FKBGCCA-1",
+            "nomePlano": "OI CONTA TOTAL PLUG 10GB DOWNGRADE"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "64984017009",
+      "idContaFatura": "2110495329",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-UYTHGNM-1",
+        "nomePlano": "Oi Total"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6436317009",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5445",
+            "nomePlano": "OI TOTAL F+PCMAIS+BL"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "64984017009",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGNM-1",
+            "nomePlano": "PLANO OI COMPLETO MAIS"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "64984017010",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-FKBGCCA-1",
+            "nomePlano": "OI CONTA TOTAL PLUG 10GB DOWNGRADE"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "64984511238",
+      "idContaFatura": "2459766971",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-9PO1L0F-1",
+        "nomePlano": "Oi Conta Total 2"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "64984511238",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-9PO1L0F-1",
+            "nomePlano": "PLANO OI CONTA TOTAL 200 MAIS"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "64984521788",
+      "idContaFatura": "2512516025",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-UYTHGNM-1",
+        "nomePlano": "Oi Total"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6436341789",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5445",
+            "nomePlano": "OI TOTAL F+PCMAIS+BL"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "64984521788",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGNM-1",
+            "nomePlano": "PLANO OI COMPLETO MAIS"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "64984171787",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-FKBGCCA-1",
+            "nomePlano": "OI CONTA TOTAL PLUG 10GB DOWNGRADE"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "64984511544",
+      "idContaFatura": "2770321166",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-UYTHGNF-1",
+        "nomePlano": "Oi Total"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "64984511544",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGNF-1",
+            "nomePlano": "PLANO OI COMPLETO 500"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "6436364152",
+      "idContaFatura": "1100382876",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "0241",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6436364152",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "0241",
+            "nomePlano": "PLANO ALTERNAT 14 SOB MEDIDA DDD-1 TERM- 5000 MINU"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-14",
+          "valor": 113.72,
+          "codigoDeBarras": "84690000001-5 13720016110-7 03828720180-0 70116100000-8",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "644152-30",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01100382876201807001000029941126",
+          "anoMesReferencia": "201807",
+          "ciclo": "001",
+          "vencida": false
+        }
+      ],
+      "dacc": true
+    }
+  ]
+}

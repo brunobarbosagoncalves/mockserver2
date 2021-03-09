@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+      <man:ManterCadastroUsuarioOSBResponse xmlns:man="http://osb.telemar/xsd/ManterCadastroUsuarioOSB">
+         <protocolo/>
+         <codeResponse>2</codeResponse>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0</code>
+            <reason>O cadastro do cliente foi alterado com sucesso.</reason>
+            <detail>Os dados do cliente foram alterados com sucesso.</detail>
+         </esb:ResponseControl>
+      </man:ManterCadastroUsuarioOSBResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

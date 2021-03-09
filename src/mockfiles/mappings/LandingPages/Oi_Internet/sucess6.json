@@ -1,0 +1,16 @@
+{
+    "priority": 1,
+    "request": {
+      "method": "GET",
+      "urlPattern": "/eligibility/promotions/NETFLIX/05753123783"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "body": "{}"
+    }
+  }

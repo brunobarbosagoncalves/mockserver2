@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroCliente/V1" xmlns:esb="http://alsb.telemar/soap/esbUser"/>
+   <soapenv:Body xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroCliente/V1" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <v1:ConsultarCadastroClienteResponse>
+         <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+            <code>3001</code>
+            <reason>Dados Inexistentes</reason>
+            <detail>
+               <con:fault xmlns:con="http://www.bea.com/wli/sb/context">
+                  <con:errorCode>BEA-382505</con:errorCode>
+                  <con:reason>O cliente pesquisado não está cadastrado </con:reason>
+               </con:fault>
+            </detail>
+         </esb1:ResponseControl>
+      </v1:ConsultarCadastroClienteResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,134 @@
+{
+  "nome": "EUNICE LUCIO FERNANDES",
+  "cpf": "84827173672",
+  "dataNascimento": "25/08/1957",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "31910103440",
+      "idContaFatura": "2799434669",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-JCB538P-1",
+        "nomePlano": "Oi Total"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "31910103440",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-JCB538P-1",
+            "nomePlano": "PLANO OI INTERNET TOTAL HIGH"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-04-11",
+          "valor": 49.550000000000004,
+          "codigoDeBarras": "84600000000-6  49550113279-1  94346690915-8  11739500000-5",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "313440-11",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "915117395",
+          "anoMesReferencia": "201803",
+          "vencida": true
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "31987696558",
+      "idContaFatura": "2936573044",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-UYTHGNM-1",
+        "nomePlano": "Oi Total"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "31989202497",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-FKBGCCA-1",
+            "nomePlano": "OI CONTA TOTAL PLUG 10GB DOWNGRADE"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        },
+        {
+          "numeroTerminal": "31987696558",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGNM-1",
+            "nomePlano": "PLANO OI COMPLETO MAIS"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "3136264038",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011-1HABF-1-1",
+            "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "4058894",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043519129",
+            "nomePlano": "OI TV MAIS HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-11",
+          "valor": 383.58,
+          "codigoDeBarras": "84630000003-7  83580113293-6  65730440972-2  49114000000-2",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "316558-4",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": true,
+          "numeroFatura": "972491140",
+          "anoMesReferencia": "201806",
+          "vencida": true
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

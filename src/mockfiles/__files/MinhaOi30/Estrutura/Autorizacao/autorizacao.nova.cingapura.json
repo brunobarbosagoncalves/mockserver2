@@ -1,0 +1,17 @@
+{
+    "nova": true,
+    "produto": {
+        "terminal": "00000000002",
+        "token": "00000000002",
+        "nome": "Oi Mais",
+        "status": "active",
+        "categoria": "mobile",
+        "fibra": false,
+        "cingapura": false,
+        "tipoFaturamento": "pos",
+        "tipoVignette": "mvl",
+        "tipo": "mobile-pos",
+        "oferta": "Combo",
+        "plano": "Oi Mais"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/home/ocs/consultasaldo/",
+    "headers": {
+      "x-msisdn": {
+        "equalTo": "00015000004"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers":
+        "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "MinhaOi30/Homes/Ocs/consultaSaldo/00015000004.json"
+  }
+}

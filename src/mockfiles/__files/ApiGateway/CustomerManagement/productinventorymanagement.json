@@ -1,0 +1,189 @@
+[
+    {
+        "id": "DadosAD00001-1-1-1-1-1",
+        "customerId": "09039308705",
+        "name": "VELOX",
+        "customerAccountId": "2422912974",
+        "billingAccountId": "2422912974",
+        "category": "broadband",
+        "status": "inactive",
+        "bundleId": "2422912974",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "STC"
+            },
+            {
+                "name": "mainContact",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    },
+    {
+        "id": "Fixo011-1HABF-1-1",
+        "customerId": "09039308705",
+        "name": "LINHA INDIVIDUAL - RESIDENCIAL",
+        "customerAccountId": "2422912974",
+        "billingAccountId": "2422912974",
+        "category": "landline",
+        "status": "inactive",
+        "bundleId": "2422912974",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "STC"
+            },
+            {
+                "name": "mainContact",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    },
+    {
+        "id": "Tv7043621002",
+        "customerId": "09039308705",
+        "name": "OI TV TOTAL CINEMA HD",
+        "customerAccountId": "2985186",
+        "billingAccountId": "24988012120",
+        "category": "tv",
+        "status": "active",
+        "bundleId": "24988012120",
+        "planType": "4P",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SINN"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    },
+    {
+        "id": "Móvel1-14TY4HS-1",
+        "customerId": "09039308705",
+        "name": "PLANO OI COLABORADOR EXECUTIVO",
+        "customerAccountId": "21988769434",
+        "billingAccountId": "21988769434",
+        "category": "mobile",
+        "status": "active",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL63"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    },
+    {
+        "id": "Móvel1-JCB53CG-1",
+        "customerId": "09039308705",
+        "name": "PLANO OI COMPLETO SMALL",
+        "customerAccountId": "24988012120",
+        "billingAccountId": "24988012120",
+        "category": "mobile",
+        "status": "active",
+        "bundleId": "24988012120",
+        "planType": "4P",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL63"
+            },
+            {
+                "name": "mainContact",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    },
+    {
+        "id": "DadosAD00001-1-1-1-1-1",
+        "customerId": "09039308705",
+        "name": "VELOX",
+        "customerAccountId": "2422488503",
+        "billingAccountId": "24988012120",
+        "category": "broadband",
+        "status": "active",
+        "bundleId": "24988012120",
+        "planType": "4P",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "STC"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    },
+    {
+        "id": "Fixo011-1HABF-1-1",
+        "customerId": "09039308705",
+        "name": "LINHA INDIVIDUAL - RESIDENCIAL",
+        "customerAccountId": "2422488503",
+        "billingAccountId": "24988012120",
+        "category": "landline",
+        "status": "active",
+        "bundleId": "24988012120",
+        "planType": "4P",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "STC"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    },
+    {
+        "id": "Móvel1-JCB5394-1",
+        "customerId": "09039308705",
+        "name": "PLANO OI CONVERGENTE HIGH",
+        "customerAccountId": "24910052230",
+        "billingAccountId": "24910052230",
+        "category": "mobile",
+        "status": "inactive",
+        "bundleId": "24910052230",
+        "planType": "3P",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SBL63"
+            },
+            {
+                "name": "mainContact",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    },
+    {
+        "id": "Tv7043522242",
+        "customerId": "09039308705",
+        "name": "OI TV MAIS HBO/MAX HD 2013",
+        "customerAccountId": "30539968",
+        "billingAccountId": "30539968",
+        "category": "tv",
+        "status": "inactive",
+        "bundleId": "30539968",
+        "planType": "3P",
+        "characteristics": [
+            {
+                "name": "source",
+                "value": "SINN"
+            },
+            {
+                "name": "mainContact",
+                "value": "true"
+            }
+        ],
+        "createdDate": "2018-07-04T18:32:08Z",
+        "lastModified": "2018-07-04T18:32:08Z"
+    }
+]

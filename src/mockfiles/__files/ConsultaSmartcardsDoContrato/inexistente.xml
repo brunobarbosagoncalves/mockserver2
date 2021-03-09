@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"/>
+   <env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+      <con:consultarSmartCardsDoContratoResponse xmlns:con="http://alsb.telemar/xsd/consultarSmartCardsDoContrato">
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>2</code>
+            <reason>ContratoNaoEncontrado</reason>
+            <detail>Contrato não encontrado.</detail>
+         </esb:ResponseControl>
+      </con:consultarSmartCardsDoContratoResponse>
+   </env:Body>
+</soapenv:Envelope>

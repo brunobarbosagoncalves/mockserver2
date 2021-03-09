@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+
+   <soapenv:Header xmlns:esb="http://alsb.telemar/soap/esbUser" xmlns:ass="http://alsb.telemar/xsd/AssociarProtocolo"/>
+
+   <soapenv:Body xmlns:esb="http://alsb.telemar/soap/esbUser" xmlns:ass="http://alsb.telemar/xsd/AssociarProtocolo">
+
+      <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+
+         <code>1</code>
+
+         <reason>Associação realizada com sucesso.</reason>
+
+         <detail/>
+
+      </esb1:ResponseControl>
+
+   </soapenv:Body>
+
+</soapenv:Envelope>

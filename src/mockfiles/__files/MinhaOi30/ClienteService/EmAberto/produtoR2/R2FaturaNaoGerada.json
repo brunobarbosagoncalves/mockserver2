@@ -1,0 +1,103 @@
+{
+  "nome": "DAILENE REJANE GALVAO",
+  "cpf": "07432249814",
+  "dataNascimento": "03/05/1966",
+  "crmsCadastro": [
+    "SAC",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "25212070",
+      "idContaFatura": "25212070",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043519129",
+        "nomePlano": "OI TV MAIS HD 2013"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "25212070",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043519129",
+            "nomePlano": "OI TV MAIS HD 2013"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "4232266871",
+      "idContaFatura": "8227105759",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "S",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5636",
+        "nomePlano": "Oi Internet"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "4232266871",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5636",
+            "nomePlano": "CLEAN UP_VELOX 2 A 35MB JUL/16"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-06-14",
+          "valor": 0,
+          "codigoDeBarras": "84670000000-9 90980020822-7 71057520180-5 60119300000-2",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "426871-26",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": false,
+          "interina": false,
+          "numeroFatura": "08227105759201806001000148341322",
+          "anoMesReferencia": "201806",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-07-14",
+          "valor": 86.76,
+          "codigoDeBarras": "84620000000-4 86760020822-9 71057520180-5 70119800000-5",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "426871-27",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "08227105759201807001000146089322",
+          "anoMesReferencia": "201807",
+          "ciclo": "001",
+          "vencida": false
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

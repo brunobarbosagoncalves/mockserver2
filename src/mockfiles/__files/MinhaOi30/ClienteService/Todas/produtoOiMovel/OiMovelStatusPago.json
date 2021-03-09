@@ -1,0 +1,131 @@
+{
+  "nome": "LIORA BARMAK",
+  "cpf": "12226067710",
+  "dataNascimento": "07/04/1988",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "Liora.barmak@oi.net.br",
+  "produtos": [
+    {
+      "numeroTerminal": "21987721696",
+      "idContaFatura": "2823286848",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "21987721696",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2017-07-02",
+          "valor": 19.84,
+          "codigoDeBarras": "84690000000-7  19840113282-6  32868480789-9  87710800000-2",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "211696-1",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "789877108",
+          "anoMesReferencia": "201706",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-09-02",
+          "valor": 28.93,
+          "codigoDeBarras": "84680000000-8  28930113282-4  32868480805-3  67079100000-3",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "211696-2",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "805670791",
+          "anoMesReferencia": "201708",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-11-02",
+          "valor": 62.1,
+          "codigoDeBarras": "84670000000-9  62100113282-1  32868480822-8  42812200000-6",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "211696-3",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "822428122",
+          "anoMesReferencia": "201710",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-02-02",
+          "valor": 18.6,
+          "codigoDeBarras": "84660000000-0  18600113282-5  32868480876-4  38369900000-6",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "211696-4",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "876383699",
+          "anoMesReferencia": "201801",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-04-02",
+          "valor": 6.93,
+          "codigoDeBarras": "84650000000-1  06930113282-0  32868480909-3  34206400000-9",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "211696-5",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "909342064",
+          "anoMesReferencia": "201803",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-06-02",
+          "valor": 60.800000000000004,
+          "codigoDeBarras": "84600000000-6  60800113282-8  32868480945-7  21541800000-0",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "211696-6",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "945215418",
+          "anoMesReferencia": "201805",
+          "vencida": true
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

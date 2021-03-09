@@ -1,0 +1,22 @@
+{
+    "priority": 2,
+    "request": {
+      "method": "POST",
+      "url": "/aberta/faturas",
+      "bodyPatterns": [{
+          "equalToJson": "{\"cpf\":\"54026970787\"}",
+              "ignoreArrayOrder": true,
+              "ignoreExtraElements": true
+      }]
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "bodyFileName": "MinhaOi30/ReligarServico/sem.produto.associado.json"
+    }
+  }
+  

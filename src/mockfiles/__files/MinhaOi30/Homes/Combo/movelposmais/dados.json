@@ -1,0 +1,44 @@
+{
+    "disponivel": 67.19,
+    "consumido": 7.78,
+    "total": 75,
+    "unit": "GB",
+    "terminais": [
+        {
+            "terminal": "31988608488",
+            "titular": true,
+            "altoConsumo": false,
+            "disponivel": 36.41,
+            "renovacao": "23/01/2019",
+            "validoDe": "23/12/2018",
+            "validoAte": "22/01/2019",
+            "pacotes": [
+                {
+                    "extra": false,
+                    "consumido": 1.08,
+                    "total": 37.5,
+                    "disponivel": 36.41,
+                    "emUso": true
+                }
+            ]
+        },
+        {
+            "terminal": "21988262910",
+            "titular": false,
+            "altoConsumo": false,
+            "disponivel": 30.79,
+            "renovacao": "23/01/2019",
+            "validoDe": "23/12/2018",
+            "validoAte": "22/01/2019",
+            "pacotes": [
+                {
+                    "extra": false,
+                    "consumido": 6.7,
+                    "total": 37.5,
+                    "disponivel": 30.79,
+                    "emUso": true
+                }
+            ]
+        }
+    ]
+}

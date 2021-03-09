@@ -1,0 +1,248 @@
+{
+  "nome": "PEDRO SALES LOPES FERREIRA JUNIOR",
+  "cpf": "70483874167",
+  "dataNascimento": null,
+  "crmsCadastro": [
+    "SAC",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "6434117416",
+      "idContaFatura": "1196415614",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5510",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6434117416",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5510",
+            "nomePlano": "FALE - ASSINATURA SEM FR"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2017-08-19",
+          "valor": 101.43,
+          "codigoDeBarras": "84600000001-4 01430016119-8 64156120170-9 80114300000-9",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "647416-1",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01196415614201708001000196354126",
+          "anoMesReferencia": "201708",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-09-19",
+          "valor": 127.28,
+          "codigoDeBarras": "84620000001-2 27280016119-7 64156120170-9 90114800000-2",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "647416-2",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01196415614201709001000183795126",
+          "anoMesReferencia": "201709",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-10-19",
+          "valor": 104.39,
+          "codigoDeBarras": "84620000001-2 04390016119-1 64156120171-7 00114000000-9",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "647416-3",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01196415614201710001000192850126",
+          "anoMesReferencia": "201710",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-11-28",
+          "valor": 31.82,
+          "codigoDeBarras": "84610000000-5 31820016119-4 64156120171-7 10124200000-4",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "647416-4",
+          "ajustada": true,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01196415614201711001000175022126",
+          "anoMesReferencia": "201711",
+          "ciclo": "001",
+          "data": "2017-11-28",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-01-02",
+          "valor": 37.35,
+          "codigoDeBarras": "84660000000-0 37350016119-6 64156120171-7 20124700000-7",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "647416-5",
+          "ajustada": true,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01196415614201712001000173185126",
+          "anoMesReferencia": "201712",
+          "ciclo": "001",
+          "data": "2018-01-02",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-01-19",
+          "valor": 67.44,
+          "codigoDeBarras": "84630000000-3 67440016119-8 64156120180-8 10114400000-3",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "647416-6",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01196415614201801001000181641126",
+          "anoMesReferencia": "201801",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-02-25",
+          "valor": 62.910000000000004,
+          "codigoDeBarras": "84630000000-3 62910016119-5 64156120180-8 20114900000-6",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "647416-7",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01196415614201802001000179551126",
+          "anoMesReferencia": "201802",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-03-19",
+          "valor": 59.6,
+          "codigoDeBarras": "84690000000-7 59600016119-7 64156120180-8 30114300000-0",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "647416-8",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01196415614201803001000164174126",
+          "anoMesReferencia": "201803",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-04-19",
+          "valor": 59.6,
+          "codigoDeBarras": "84620000000-4 59600016119-7 64156120180-8 40114800000-3",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "647416-9",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01196415614201804001000171040126",
+          "anoMesReferencia": "201804",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-05-19",
+          "valor": 60.86,
+          "codigoDeBarras": "84620000000-4 60860016119-4 64156120180-8 50114200000-6",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "647416-10",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01196415614201805001000169462126",
+          "anoMesReferencia": "201805",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-06-19",
+          "valor": 59.6,
+          "codigoDeBarras": "84680000000-8 59600016119-7 64156120180-8 60114700000-9",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "647416-11",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01196415614201806001000168418126",
+          "anoMesReferencia": "201806",
+          "ciclo": "001",
+          "vencida": true
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "64984550873",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "64984550873",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

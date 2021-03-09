@@ -1,0 +1,17 @@
+{
+  "priority": 3,
+  "request": {
+    "method": "GET",
+    "url": "/api/dashboard/cardDados/21995250888"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 1000,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf,  x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "MinhaOi30/CardDados/sucesso-consumo-cingapura.json"
+  }
+}

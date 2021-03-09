@@ -1,0 +1,108 @@
+{
+	"planos": [
+		{
+			"terminalPrincipal": {
+				"terminal": "21999999999",
+				"oferta": "Combo",
+				"plano": "Banda Larga 200mbps",
+				"nome": "Oi Colaborador",
+				"nomeExibicao": "Oi Colaborador",
+				"status": "active",
+				"categoria": "mobile",
+				"fibra": false,
+				"cingapura": false,
+				"tipoFaturamento": "pre",
+				"tipoVignette": "mvl",
+				"tipo": "controle",
+				"tipoTerminal": "terminal"
+			},
+			"nomePlano": "Oi Conta Total",
+			"terminais": ["(21) 99999-9999"],
+			"dacc": false,
+			"faturas": [
+				{
+					"idFatura": "279819-1",
+					"valor": 100.5,
+					"vencimento": "14/05/2018",
+					"codigoBarras": "1001 1100 0011 1111",
+					"tem14Meses": false,
+					"faturaGerada": true,
+					"clienteTV": false,
+					"diasAVencer": 0
+				}
+			]
+		},
+		{
+			"terminalPrincipal": {
+				"terminal": "2798191",
+				"oferta": "Combo",
+				"plano": "Banda Larga 200mbps",
+				"nome": "Oi TV",
+				"nomeExibicao": "Oi TV",
+				"status": "active",
+				"categoria": "tv",
+				"fibra": false,
+				"cingapura": false,
+				"tipoFaturamento": "pos",
+				"tipoVignette": "ptv",
+				"tipo": "tv-pos",
+				"tipoTerminal": "contrato"
+			},
+			"nomePlano": "OI TV MAIS HD 2013",
+            "terminais": [
+                "Contrato: 15472357"
+            ],
+            "dacc": false,
+            "faturas": [
+                {
+                    "idFatura": "1557-1",
+                    "faturaGerada": false,
+                    "tem14Meses": false,
+                    "ajustada": false,
+                    "clienteTV": true,
+                    "tvFaturadaFixo": true
+                },
+                {
+                    "idFatura": "1557-2",
+                    "vencimento": "19/06/2018",
+                    "faturaGerada": false,
+                    "tem14Meses": false,
+                    "ajustada": false,
+                    "clienteTV": true,
+                    "tvFaturadaFixo": true
+                }
+            ]
+		},
+		{
+			"terminalPrincipal": {
+				"terminal": "21986637622",
+				"oferta": "Combo",
+				"plano": "Banda Larga 200mbps",
+				"nome": "Oi Colaborador",
+				"nomeExibicao": "Oi Colaborador",
+				"status": "active",
+				"categoria": "mobile",
+				"fibra": false,
+				"cingapura": false,
+				"tipoFaturamento": "pos",
+				"tipoVignette": "mvl",
+				"tipo": "mobile-pos",
+				"tipoTerminal": "terminal"
+			},
+			"nomePlano": "Oi Colaborador",
+			"terminais": ["(21) 99999-9999"],
+			"dacc": false,
+			"faturas": [
+				{
+					"idFatura": "279819-3",
+					"valor": 0,
+					"vencimento": "25/02/2018",
+					"codigoBarras": "1001 1100 0011 1111",
+					"tem14Meses": false,
+					"faturaGerada": false,
+					"clienteTV": false
+				}
+			]
+		}
+	]
+}

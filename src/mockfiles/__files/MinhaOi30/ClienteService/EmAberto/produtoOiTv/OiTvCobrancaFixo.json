@@ -1,0 +1,113 @@
+{
+  "nome": "ZILMA ROSANE CANEZ LEMOS DE SOUZA",
+  "cpf": "47331887068",
+  "dataNascimento": "15/08/1967",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "2536173",
+      "idContaFatura": "2536173",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043550638",
+        "nomePlano": "OI TV MAIS CINEMA HD 2013"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "2536173",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043550638",
+            "nomePlano": "OI TV MAIS CINEMA HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Fixo",
+          "status": "Em Aberto",
+          "valor": "134.02",
+          "dataVencimento": "2018-08-04",
+          "idExtrato": "2851692064",
+          "mesReferencia": "2018-07-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "253-1",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "51984011228",
+      "idContaFatura": "2197101056",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "51984011228",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "51986053288",
+      "idContaFatura": "2376073761",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-FKBGCLC-1",
+        "nomePlano": "OI VELOX 3G 2GB REDUÇÃO DE VELOCIDADE"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "51986053288",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-FKBGCLC-1",
+            "nomePlano": "OI VELOX PLUG 2GB DOWNGRADE"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": true
+    }
+  ]
+}

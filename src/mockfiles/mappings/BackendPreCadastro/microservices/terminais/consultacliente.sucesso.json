@@ -1,0 +1,16 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "GET",
+        "url": "/api/microservice/terminais"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },        
+        "body" : "{ \"codigo\":200, \"mensagem\":\"Sucesso\", \"terminais\" :[ {  \"numeroTerminal\": \"(21) \u2022\u2022\u2022\u20225535\", \"nrTerminalTitular\": \"(21) \u2022\u2022\u2022\u2022\u20223399\", \"idContaFatura\": \"7777\", \"crmOrigem\": \"SBL63\", \"numeroTerminalFaturaExtra\": \"(21) \u2022\u2022\u2022\u2022\u20223399\", \"idContaFaturaExtra\": \"1111\", \"crmOrigemFaturaExtra\": \"STC\"  } , { \"numeroTerminal\": \"(21) \u2022\u2022\u2022\u2022\u20224927\", \"nrTerminalTitular\": \"(21) \u2022\u2022\u2022\u2022\u20224927\", \"idContaFatura\": \"2620840073\", \"crmOrigem\": \"SBL63\", \"numeroTerminalFaturaExtra\": \"null\", \"idContaFaturaExtra\": \"null\", \"crmOrigemFaturaExtra\": \"null\"}, {\"numeroTerminal\": \"(21) \u2022\u2022\u2022\u2022\u20225294\", \"nrTerminalTitular\": \"(21) \u2022\u2022\u2022\u2022\u20225294\", \"idContaFatura\": \"2669059765\", \"crmOrigem\": \"SBL63\", \"numeroTerminalFaturaExtra\": \"null\", \"idContaFaturaExtra\": \"null\", \"crmOrigemFaturaExtra\": \"null\" },{\"numeroTerminal\": \"(31) \u2022\u2022\u2022\u2022\u20222387\" , \"nrTerminalTitular\": \"(31) \u2022\u2022\u2022\u2022\u20222387\", \"idContaFatura\": \"31549387\", \"crmOrigem\": \"SINN\",\"numeroTerminalFaturaExtra\": \"null\", \"idContaFaturaExtra\": \"null\", \"crmOrigemFaturaExtra\": \"null\" }  ] } "
+    }
+}

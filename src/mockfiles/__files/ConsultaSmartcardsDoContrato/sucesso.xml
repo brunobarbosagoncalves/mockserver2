@@ -1,0 +1,32 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"/>
+   <env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+      <con:consultarSmartCardsDoContratoResponse xmlns:con="http://alsb.telemar/xsd/consultarSmartCardsDoContrato">
+         <listaSmartcards>
+            <codigoSmartcard>000022498075</codigoSmartcard>
+            <localizacao>SALA</localizacao>
+            <tecnologia>HD PLUS</tecnologia>
+         </listaSmartcards>
+         <listaSmartcards>
+               <codigoSmartcard>000020339206</codigoSmartcard>
+               <localizacao>APARTAMENTO</localizacao>
+               <tecnologia>HD PLUS</tecnologia>
+            </listaSmartcards>
+            <listaSmartcards>
+               <codigoSmartcard>000022367775</codigoSmartcard>
+               <localizacao>APARTAMENTO</localizacao>
+               <tecnologia>HD PLUS</tecnologia>
+            </listaSmartcards>
+            <listaSmartcards>
+               <codigoSmartcard>000025499161</codigoSmartcard>
+               <localizacao>APARTAMENTO</localizacao>
+               <tecnologia>DVR</tecnologia>
+            </listaSmartcards>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0</code>
+            <reason>Sucesso</reason>
+            <detail>Operação realizada com sucesso!</detail>
+         </esb:ResponseControl>
+      </con:consultarSmartCardsDoContratoResponse>
+   </env:Body>
+</soapenv:Envelope>

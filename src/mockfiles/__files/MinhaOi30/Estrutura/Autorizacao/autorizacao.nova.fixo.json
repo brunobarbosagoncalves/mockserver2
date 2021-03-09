@@ -1,0 +1,18 @@
+{
+    "produto": {
+        "plano": "LINHA INDIVIDUAL - RESIDENCIAL",
+        "terminal": "0000000099",
+        "token": "0000000099",
+        "nome": "LINHA INDIVIDUAL - RESIDENCIAL",
+        "status": "active",
+        "categoria": "landline",
+        "fibra": false,
+        "cingapura": false,
+        "tipoFaturamento": "pos",
+        "tipoVignette": "oct",
+        "tipo": "combo",
+        "tipoTerminal": "terminal",
+        "oferta": "LINHA INDIVIDUAL - RESIDENCIAL"
+    },
+    "nova": true
+}

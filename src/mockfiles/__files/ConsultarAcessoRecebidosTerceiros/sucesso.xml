@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <v1:ConsultarAcessoRecebidosTerceirosResponse xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarAcessoRecebidosTerceiros/V1">
+         <v1:GrupoResponse>
+            <v1:listaProdutos/>
+         </v1:GrupoResponse>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0000</code>
+            <reason>Sucesso</reason>
+            <detail>Sucesso</detail>
+         </esb:ResponseControl>
+      </v1:ConsultarAcessoRecebidosTerceirosResponse>
+   </soap:Body>
+</soapenv:Envelope>

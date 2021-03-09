@@ -1,0 +1,26 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+      <lis:ListarTerminaisResponse xmlns:lis="http://esb.telemar/ClienteAprovisionamento/ListarTerminais/">
+         <lis:NumeroProtocolo/>
+         <lis:Telefones>
+            <lis:Telefone>
+               <lis:Numero>81987814953</lis:Numero>
+               <lis:Tipo>M</lis:Tipo>
+            </lis:Telefone>
+            <lis:Telefone>
+               <lis:Numero>81987665094</lis:Numero>
+               <lis:Tipo>M</lis:Tipo>
+            </lis:Telefone>
+         </lis:Telefones>
+         <lis:Retorno>
+            <lis:IdMensagem>0</lis:IdMensagem>
+            <lis:IdTransacao>0</lis:IdTransacao>
+         </lis:Retorno>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0</code>
+            <reason>S</reason>
+            <detail>Execução com sucesso URA</detail>
+         </esb:ResponseControl>
+      </lis:ListarTerminaisResponse>
+   </s:Body>
+</soapenv:Envelope>

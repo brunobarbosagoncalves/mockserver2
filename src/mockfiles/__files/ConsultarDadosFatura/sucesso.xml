@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:esb="http://alsb.telemar/soap/esbUser" xmlns:sol="http://osb.telemar/xsd/ClienteFaturamento/ConsultarDadosFaturaBilling/V1">
+      <soapenv:chaveConnectorSBL>ConfigSiebelContaSemPapel</soapenv:chaveConnectorSBL>
+   </soapenv:Header>
+   <soapenv:Body xmlns:esb="http://alsb.telemar/soap/esbUser" xmlns:sol="http://osb.telemar/xsd/ClienteFaturamento/ConsultarDadosFaturaBilling/V1">
+      <sol:ConsultarDadosFaturaBillingResponse>
+         <protocolo>201600163744389</protocolo>
+         <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+            <codeBar>567809876678909876678900987</codeBar>
+            <value>150.33</value>
+            <dueDate>10/11/2106</dueDate>
+            <dacc>S</dacc>
+            <detail/>
+         </esb1:ResponseControl>
+      </sol:ConsultarDadosFaturaBillingResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,9 @@
+<soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ValidarToken/V1" xmlns:esb="http://alsb.telemar/soap/esb">
+  <v1:ValidarTokenResponse>
+    <esb:ResponseControl>
+      <code>0000</code>
+      <reason>Sucesso</reason>
+      <detail>Sucesso</detail>
+    </esb:ResponseControl>
+  </v1:ValidarTokenResponse>
+</soap:Body>

@@ -1,0 +1,16 @@
+{
+  "priority": 6,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/api/dashboard/cardDados/(.*)"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf,  x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "MinhaOi30/CardDados/sucesso.json"
+  }
+}

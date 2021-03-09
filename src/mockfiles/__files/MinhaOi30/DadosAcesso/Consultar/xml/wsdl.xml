@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WL5G3N0:definitions xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:cmda="http://osb.telemar/xsd/ClienteOperacao/ConsultarMeusDadosAcesso/V1" xmlns:esb="http://alsb.telemar/soap/esb" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ClienteOperacao/ConsultarMeusDadosAcessoOSB/V1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://osb.telemar/wsdl/ClienteOperacao/ConsultarMeusDadosAcessoOSB/V1">
+   <soap:annotation>
+      <soap:documentation>
+        STI:80861 
+          Sistema: ConsultarMeusDadosAcesso 
+          Autor: JP Lorenzo
+          versão: 1.0 
+          Data Criação: 24/06/2014 
+          Data Alteração: 24/06/2014
+      </soap:documentation>
+   </soap:annotation>
+   <WL5G3N0:types>
+      <xsd:schema targetNamespace="http://osb.telemar/xsd/ClienteOperacao/ConsultarMeusDadosAcesso/V1">
+         <xsd:include schemaLocation="http://soasso.intranet:7200/ClienteOperacao/ConsultarMeusDadosAcesso/V1/ConsultarMeusDadosAcessoProxySoap?SCHEMA%2FClienteOperacao%2FConsultarMeusDadosAcesso%2FV1%2FInterfaces%2FSchemas%2FConsultarMeusDadosAcessoOSB" />
+         <xsd:element name="ConsultarMeusDadosAcessoRequest" type="cmda:ConsultarMeusDadosAcessoRequest" />
+         <xsd:element name="ConsultarMeusDadosAcessoResponse" type="cmda:ConsultarMeusDadosAcessoResponse" />
+      </xsd:schema>
+   </WL5G3N0:types>
+   <WL5G3N0:message name="ConsultarMeusDadosAcessoRequest">
+      <WL5G3N0:part element="cmda:ConsultarMeusDadosAcessoRequest" name="ConsultarMeusDadosAcessoRequest" />
+   </WL5G3N0:message>
+   <WL5G3N0:message name="ConsultarMeusDadosAcessoResponse">
+      <WL5G3N0:part element="cmda:ConsultarMeusDadosAcessoResponse" name="ConsultarMeusDadosAcessoResponse" />
+   </WL5G3N0:message>
+   <WL5G3N0:portType name="ConsultarMeusDadosAcesso">
+      <WL5G3N0:operation name="ConsultarMeusDadosAcesso">
+         <WL5G3N0:input message="tns:ConsultarMeusDadosAcessoRequest" />
+         <WL5G3N0:output message="tns:ConsultarMeusDadosAcessoResponse" />
+      </WL5G3N0:operation>
+   </WL5G3N0:portType>
+   <WL5G3N0:binding name="ConsultarMeusDadosAcessoSOAP" type="tns:ConsultarMeusDadosAcesso">
+      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+      <WL5G3N0:operation name="ConsultarMeusDadosAcesso">
+         <soap:operation soapAction="http://alsb.telemar/ConsultarMeusDadosAcesso/ConsultarMeusDadosAcesso" />
+         <WL5G3N0:input>
+            <soap:body use="literal" />
+         </WL5G3N0:input>
+         <WL5G3N0:output>
+            <soap:body use="literal" />
+         </WL5G3N0:output>
+      </WL5G3N0:operation>
+   </WL5G3N0:binding>
+   <WL5G3N0:service name="ConsultarMeusDadosAcessoSOAPQSService">
+      <WL5G3N0:port binding="tns:ConsultarMeusDadosAcessoSOAP" name="ConsultarMeusDadosAcessoSOAPQSPort">
+         <soap:address location="http://localhost:8070/ClienteOperacao/ConsultarMeusDadosAcesso/V1/ConsultarMeusDadosAcessoProxySoap" />
+      </WL5G3N0:port>
+   </WL5G3N0:service>
+</WL5G3N0:definitions>

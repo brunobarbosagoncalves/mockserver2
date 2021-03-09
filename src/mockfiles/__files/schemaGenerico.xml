@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:esbUser="http://alsb.telemar/soap/esbUser" xmlns:esb="http://alsb.telemar/soap/esb" >
+   <xsd:annotation>
+      <xsd:documentation>XSD default para MockServer</xsd:documentation>
+   </xsd:annotation>
+   <xsd:import namespace="http://alsb.telemar/soap/esbUser" schemaLocation="http://soasync01.telemar:7200/ClienteOperacao/ConsultarCadastroCliente/V1/ConsultarCadastroClienteProxySoap?SCHEMA%2FCommons%2FSchemas%2FEsbUser"/>
+   <xsd:import namespace="http://alsb.telemar/soap/esb" schemaLocation="http://soasync01.telemar:7200/ClienteOperacao/ConsultarCadastroCliente/V1/ConsultarCadastroClienteProxySoap?SCHEMA%2FCommons%2FSchemas%2FResponseControl"/>
+</xsd:schema>

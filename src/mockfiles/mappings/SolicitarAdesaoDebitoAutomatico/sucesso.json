@@ -1,0 +1,21 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/ContaSemPapel/SolicitarAdesaoDebitoAutomaticoProxySoap",
+        "bodyPatterns": [
+            {
+                "matches": ".*<numDocumento>.*</numDocumento>.*"
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/html",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "bodyFileName": "SolicitarAdesaoDebitoAutomatico/sucesso.xml"
+    }
+}

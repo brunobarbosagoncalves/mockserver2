@@ -1,0 +1,43 @@
+{
+    "terminal": "21995250888",
+    "dataCorrente": 1545530400000,
+    "extra": {
+        "terminal": "21995250888",
+        "riscoEsgotar": false,
+        "esgotado": false,
+        "dependentes": {
+            "esgotados": [],
+            "riscoEsgotar": []
+        },
+        "altoConsumo": true,
+        "cingapuraAlone": false,
+        "totalExtra": 0,
+        "consumo": {
+            "amount": 0.05,
+            "unit": "GB"
+        },
+        "totalFranquia": {
+            "amount": 37.5,
+            "unit": "GB"
+        },
+        "disponivel": {
+            "amount": 37.44,
+            "unit": "GB"
+        },
+        "consumoIlimitado": false,
+        "pre": false,
+        "cingapura": true
+    },
+    "dados": [
+        {
+            "restante": 39264106.02,
+            "total": 39321600,
+            "unidade": "kb",
+            "inicio": 1545530400000,
+            "renovacao": 1548208800000,
+            "tipo": "principal",
+            "uso": true
+        }
+    ],
+    "credito": {}
+}

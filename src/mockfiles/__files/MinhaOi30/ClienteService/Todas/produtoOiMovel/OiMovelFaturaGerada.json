@@ -1,0 +1,71 @@
+{
+  "nome": "THIAGO MARQUES TORRES",
+  "cpf": "14558862709",
+  "dataNascimento": "18/11/1998",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "21986937105",
+      "idContaFatura": "2061626445",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "21986937105",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-04-02",
+          "valor": 6.0200000000000005,
+          "codigoDeBarras": "84610000000-5  06020113206-9  16264450909-1  46591400000-0",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "217105-1",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "909465914",
+          "anoMesReferencia": "201803",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-05-02",
+          "valor": 39.21,
+          "codigoDeBarras": "84600000000-6  39210113206-7  16264450927-3  15205500000-3",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "217105-2",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "927152055",
+          "anoMesReferencia": "201804",
+          "vencida": true
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

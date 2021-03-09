@@ -1,0 +1,216 @@
+{
+    "sidebar-movel-pos-mais": {
+        "id": "sidebar-movel-pos-mais",
+        "itens": [
+            {
+                "nome": "OUTROS SERVIÇOS",
+                "url": "#",
+                "id": "outros-servicos",
+                "itens": [
+                    {
+                        "nome": "Bloqueio por perda ou roubo",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=perf_consumo&numTerminal=:terminal",
+                        "id": "bloqueio-perda-roubo",
+                        "icone":"internet",
+                        "terminais": [
+                            "61984363600"
+                        ],
+                        "tipos": {
+                            "61984363600": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            }
+                        }
+                    },
+                    {
+                        "nome": "Ativar/desativar serviços",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_dt_vencimento&numTerminal=:terminal",
+                        "id": "ativar-desativar-servicos",
+                        "icone":"tvhd",
+                        "terminais": [
+                            "61984363600"
+                        ],
+                        "tipos": {
+                            "61984363600": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            }
+                        }
+                    },
+                    {
+                        "nome": "Histórico de ações",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_end_cobranca&numTerminal=:terminal",
+                        "id": "historico-de-acoes",
+                        "icone":"internet",
+                        "terminais": [
+                            "61984363600"
+                        ],
+                        "tipos": {
+                            "61984363600": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            }
+                        }
+                    },
+                    {
+                        "nome": "Comprar mais Internet",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_end_cobranca&numTerminal=:terminal",
+                        "id": "comprar-mais-internet",
+                        "icone":"tvhd",
+                        "terminais": [
+                            "61984363600"
+                        ],
+                        "tipos": {
+                            "61984363600": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "sidebar-dacc": {
+        "id": "sidebar-dacc",
+        "itens": [
+            {
+                "nome": "Mais sobre minhas contas",
+                "url": "#",
+                "id": "mais-sobre-minhas-contas",
+                "itens": [
+                    {
+                        "nome": "CONTAS E PAGAMENTOS",
+                        "url": "https://poc.oi.net.br/minhaoi/codigo-de-barras/",
+                        "id": "contas-pagamentos"
+                    },
+                    {
+                        "nome": "Histórico de contas",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=ultimas_contas&numTerminal=:terminal",
+                        "subtitulo": "Consulte suas contas anteriores",
+                        "id": "sobre-suas-contas-historico-contas",
+                        "terminais": [
+                            "11994817997",
+                            "21987669418",
+                            "21988003131",
+                            "1-65D3B5"
+                        ],
+                        "tipos": {
+                            "11994817997": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            },
+                            "21987669418": {
+                                "categoria": "int",
+                                "tipoTerminal": "mobile_internet-pos"
+                            },
+                            "21988003131": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            },
+                            "1-65D3B5": {
+                                "categoria": "oct",
+                                "tipoTerminal": "combo"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "nome": "",
+                "apelido": "Dados usuario",
+                "url": "#",
+                "id": "dados-usuario-dacc",
+                "itens": [
+                    {
+                        "nome": "Perfil de consumo",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=perf_consumo&numTerminal=:terminal",
+                        "id": "facilidades-pra-voce-perfil-consumo",
+                        "terminais": [
+                            "11994817997",
+                            "21987669418",
+                            "21988003131",
+                            "1-65D3B5"
+                        ],
+                        "tipos": {
+                            "11994817997": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            },
+                            "21987669418": {
+                                "categoria": "int",
+                                "tipoTerminal": "mobile_internet-pos"
+                            },
+                            "21988003131": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            },
+                            "1-65D3B5": {
+                                "categoria": "oct",
+                                "tipoTerminal": "combo"
+                            }
+                        }
+                    },
+                    {
+                        "nome": "Alterar data de vencimento",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_dt_vencimento&numTerminal=:terminal",
+                        "id": "facilidades-pra-voce-alterar-data-vencimento",
+                        "terminais": [
+                            "11994817997",
+                            "21987669418",
+                            "21988003131",
+                            "1-65D3B5"
+                        ],
+                        "tipos": {
+                            "11994817997": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            },
+                            "21987669418": {
+                                "categoria": "int",
+                                "tipoTerminal": "mobile_internet-pos"
+                            },
+                            "21988003131": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            },
+                            "1-65D3B5": {
+                                "categoria": "oct",
+                                "tipoTerminal": "combo"
+                            }
+                        }
+                    },
+                    {
+                        "nome": "Alterar endereço de cobrança",
+                        "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_end_cobranca&numTerminal=:terminal",
+                        "id": "nome-usuario-alterar-endereco-cobranca",
+                        "terminais": [
+                            "11994817997",
+                            "21987669418",
+                            "21988003131",
+                            "1-65D3B5"
+                        ],
+                        "tipos": {
+                            "11994817997": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            },
+                            "21987669418": {
+                                "categoria": "int",
+                                "tipoTerminal": "mobile_internet-pos"
+                            },
+                            "21988003131": {
+                                "categoria": "mvl",
+                                "tipoTerminal": "mobile-pos"
+                            },
+                            "1-65D3B5": {
+                                "categoria": "oct",
+                                "tipoTerminal": "combo"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

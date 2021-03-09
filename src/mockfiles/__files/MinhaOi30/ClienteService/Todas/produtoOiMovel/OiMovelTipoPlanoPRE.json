@@ -1,0 +1,376 @@
+{
+  "nome": "LEIDE PATRICIA MARIA DOS SANTOS DUTRA",
+  "cpf": "05419293480",
+  "dataNascimento": "10/07/1984",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "81987628862",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "81987628862",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "81984493550",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "81984493550",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "81984373118",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "81984373118",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "81988969258",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "81988969258",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "81986212115",
+      "idContaFatura": "2632572180",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "S",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-UYTHGMO-1",
+        "nomePlano": "Plano Pós 1.000"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "81986212115",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-UYTHGMO-1",
+            "nomePlano": "PLANO OI CONTA NOVO 1.000"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2017-06-07",
+          "valor": 93.99,
+          "codigoDeBarras": "84640000000-2  93990113263-8  25721800784-3  47791900000-0",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "812115-1",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "784477919",
+          "anoMesReferencia": "201705",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-07-07",
+          "valor": 87.46000000000001,
+          "codigoDeBarras": "84670000000-9  87460113263-0  25721800792-6  32202300000-1",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "812115-2",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "792322023",
+          "anoMesReferencia": "201706",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-08-07",
+          "valor": 92.78,
+          "codigoDeBarras": "84670000000-9  92780113263-4  25721800799-1  60641400000-4",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "812115-3",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "799606414",
+          "anoMesReferencia": "201707",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-09-07",
+          "valor": 95.64,
+          "codigoDeBarras": "84670000000-9  95640113263-7  25721800808-0  02263000000-2",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "812115-4",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "808022630",
+          "anoMesReferencia": "201708",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-10-07",
+          "valor": 103.57000000000001,
+          "codigoDeBarras": "84630000001-1  03570113263-7  25721800816-3  41064800000-9",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "812115-5",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "816410648",
+          "anoMesReferencia": "201709",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-11-07",
+          "valor": 86.03,
+          "codigoDeBarras": "84660000000-0  86030113263-2  25721800833-8  88102200000-7",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "812115-6",
+          "ajustada": true,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "833881022",
+          "anoMesReferencia": "201710",
+          "data": "2017-12-18",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-12-07",
+          "valor": 98.67,
+          "codigoDeBarras": "84610000000-5  98670113263-1  25721800850-2  70558700000-5",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "812115-7",
+          "ajustada": true,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "850705587",
+          "anoMesReferencia": "201711",
+          "data": "2018-01-05",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-01-07",
+          "valor": 94.86,
+          "codigoDeBarras": "84680000000-8  94860113263-2  25721800865-0  37222900000-8",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "812115-8",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "865372229",
+          "anoMesReferencia": "201712",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-02-07",
+          "valor": 190.62,
+          "codigoDeBarras": "84650000001-9  90620113263-4  25721800881-7  74272200000-4",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "812115-9",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "881742722",
+          "anoMesReferencia": "201801",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-04-20",
+          "valor": 80.57000000000001,
+          "codigoDeBarras": "84660000000-0  80570113263-3  25721800919-5  50535500000-9",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "812115-10",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": true,
+          "numeroFatura": "919505355",
+          "anoMesReferencia": "201803",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-05-07",
+          "valor": 62.32,
+          "codigoDeBarras": "84650000000-1  62320113263-5  25721800932-8  89857400000-3",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "812115-11",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "932898574",
+          "anoMesReferencia": "201804",
+          "vencida": true
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "81985919946",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "81985919946",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "81988459079",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401-5IMI7C2",
+        "nomePlano": "Oi Controle Sem Fatura"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "81988459079",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401-5IMI7C2",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

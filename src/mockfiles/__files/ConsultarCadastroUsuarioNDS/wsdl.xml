@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WL5G3N0:definitions targetNamespace="http://osb.telemar/wsdl/ConsultarCadastroUsuarioNDSOSB" xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://osb.telemar/xsd/ConsultarCadastroUsuarioNDS" xmlns:WL5G3N2="http://osb.telemar/wsdl/ConsultarCadastroUsuarioNDSOSB" xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/">
+  <WL5G3N0:types>
+    <xsd:schema xmlns:esb="http://alsb.telemar/soap/esb" xmlns:ns="http://alsb.telemar/soap/esbUser" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ConsultarCadastroUsuarioNDSOSB" xmlns:tnsReq="http://osb.telemar/xsd/ConsultarCadastroUsuarioNDS" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:import namespace="http://osb.telemar/xsd/ConsultarCadastroUsuarioNDS" schemaLocation="http://soacc.intranet:80/LoginUnico/ConsultarCadastroUsuarioNDSProxySoap?SCHEMA%2FLoginUnico%2FSchemas%2FConsultarCadastroUsuario%2FConsultarCadastroUsuarioNDS"/>
+    </xsd:schema>
+  </WL5G3N0:types>
+  <WL5G3N0:message name="ConsultarCadastroUsuarioRequest">
+    <WL5G3N0:part element="WL5G3N1:ConsultarCadastroUsuarioRequest" name="ConsultarCadastroUsuarioRequest"/>
+  </WL5G3N0:message>
+  <WL5G3N0:message name="ConsultarCadastroUsuarioResponse">
+    <WL5G3N0:part element="WL5G3N1:ConsultarCadastroUsuarioResponse" name="ConsultarCadastroUsuarioResponse"/>
+  </WL5G3N0:message>
+  <WL5G3N0:portType name="ConsultarCadastroUsuarioNDS">
+    <WL5G3N0:operation name="ConsultarCadastroUsuarioNDS">
+      <WL5G3N0:input message="WL5G3N2:ConsultarCadastroUsuarioRequest"/>
+      <WL5G3N0:output message="WL5G3N2:ConsultarCadastroUsuarioResponse"/>
+    </WL5G3N0:operation>
+  </WL5G3N0:portType>
+  <WL5G3N0:binding name="ConsultarCadastroUsuarioNDSSOAP" type="WL5G3N2:ConsultarCadastroUsuarioNDS">
+    <WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <WL5G3N0:operation name="ConsultarCadastroUsuarioNDS">
+      <WL5G3N3:operation soapAction="http://osb.telemar/LoginUnico/ConsultarCadastroUsuarioNDS"/>
+      <WL5G3N0:input>
+        <WL5G3N3:body use="literal"/>
+      </WL5G3N0:input>
+      <WL5G3N0:output>
+        <WL5G3N3:body use="literal"/>
+      </WL5G3N0:output>
+    </WL5G3N0:operation>
+  </WL5G3N0:binding>
+  <WL5G3N0:service name="ConsultarCadastroUsuarioNDSSOAPQSService">
+    <WL5G3N0:port binding="WL5G3N2:ConsultarCadastroUsuarioNDSSOAP" name="ConsultarCadastroUsuarioNDSSOAPQSPort">
+      <WL5G3N3:address location="http://digpx12.interno:8070/LoginUnico/ConsultarCadastroUsuarioNDSProxySoap"/>
+    </WL5G3N0:port>
+  </WL5G3N0:service>
+</WL5G3N0:definitions>

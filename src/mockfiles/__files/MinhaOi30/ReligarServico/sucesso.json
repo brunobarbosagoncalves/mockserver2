@@ -1,0 +1,40 @@
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcGYiOiIwOTk3NDAwNTc5NSIsInJlY2FwdGNoYUtleSI6IjAzQUNnRkI5c3kwaUVQQ1B5c29YUTk4YXBva2o4Nkloci1Xc3VtNHRKcGwyRmpnNmlVQ29DNFdHUUtUZ1o4Zk5sMGtUQ0lpOHNQZ2dRUnVfSnFYVDdxTlBPY3JGdU5OaGpRdzlEZ1JCNXBFWXF5NmNfSEJTNHlHNlZsVUZZcTh4NUlITVkzRWhNVU8zbkVVcGs4R3dLSXFRLXpNN3hua1J6UE0xSldYM191Z3FudFc1TmJOaGNYd25fb04zRDRleFM4NlU2TlRvUGZ4YkladlRMNjlGZUt6VkdaTEV0c0x0MTd2WV9kZENDZFR2Zm16bTk4OWhEbFhId1VDMUNwMmNzNENaU0dSd0tUby1hRlgxSDBtWlZMNmg0REU4SUhoQWxpU2RlVGtVeWJxdGNrRGQzcFhwRXVNdm1GSmtUZC1KdHk5RkRMT2o3bVpLamFMaW41Mzl6bDlJWVJsbnFBZXpwQlRjWVdqWTFnZVNTQ2pkOFRuTW1pYTJtdjhySkVWX3lOeFFSRUtkdGpqMEp4M1B4Qm1SX2EyWUQ1elM3WUQ1bFdXcGFZeUN6Q01UcHNpRERpYUFQbHlFSmpvQTJ6NHotMFlLN0FVVFhENUdoZSIsImlhdCI6MTUzMDIwNzA1NSwiZXhwIjoxNTMwMjA3MjM1fQ.SDmH-xzwHSLPBX-1U75U9XQeD9B6EYLkbwMPWcekEgI",
+    "terminais": [
+        {
+            "tipo": "Combo - pagamento em dia",
+            "id": 0,
+            "terminal": "021****0698"
+        },
+        {
+            "tipo": "Móvel Pré - 1 fatura vencida elegivel",
+            "id": 1,
+            "terminal": "021****0555"
+        },
+        {
+            "tipo": "Móvel Pós - 2 faturas vencidas e recente ou nao elegível",
+            "id": 2,
+            "terminal": "021****0498"
+        },
+        {
+            "tipo": "Tv - oi tv",
+            "id": 3,
+            "terminal": "2***654"
+        },
+        {
+            "tipo": "Fixo - 2 faturas vencidas e recente ou elegível",
+            "id": 4,
+            "terminal": "021****0697"
+        },
+        {
+            "tipo": "Internet Banda Larga",
+            "id": 5,
+            "terminal": "021****1234"
+        },
+        {
+            "tipo": "Internet Móvel",
+            "id": 6,
+            "terminal": "021****0699"
+        }
+    ]
+}

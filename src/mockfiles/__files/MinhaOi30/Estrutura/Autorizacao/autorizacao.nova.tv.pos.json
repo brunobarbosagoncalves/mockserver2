@@ -1,0 +1,18 @@
+{
+    "produto": {
+        "plano": "Oi TV Mix HD",
+        "terminal": "00000000005",
+        "token": "00000000005",
+        "nome": "Oi TV Mix HD",
+        "status": "active",
+        "categoria": "tv",
+        "fibra": false,
+        "cingapura": false,
+        "tipoFaturamento": "pos",
+        "tipoVignette": "ptv",
+        "tipo": "tv-pos",
+        "tipoTerminal": "contrato",
+        "oferta": "Oi TV Mix HD"
+    },
+    "nova": true
+}

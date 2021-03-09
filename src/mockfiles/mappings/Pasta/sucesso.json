@@ -1,0 +1,19 @@
+{
+  "priority": 4,
+  "request": {
+    "method": "GET",
+    "url": "/consultarMassa",
+    "headers": {}
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers":
+        "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+    },
+    "bodyFileName":
+      "Pasta/sucesso_consultarMassa.json"
+  }
+}

@@ -1,0 +1,30 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap-env:Body xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+      <con:ConsultarBancosConveniadosResponse xmlns:con="http://alsb.telemar/xsd/ConsultarBancosConveniados">
+         <BancoConveniado>
+            <numeroBanco>1</numeroBanco>
+            <nomeBanco>BANCO DO BRASIL</nomeBanco>
+         </BancoConveniado>
+         <BancoConveniado>
+            <numeroBanco>033</numeroBanco>
+            <nomeBanco>BANCO SANTANDER</nomeBanco>
+         </BancoConveniado>
+         <BancoConveniado>
+            <numeroBanco>389</numeroBanco>
+            <nomeBanco>BMB</nomeBanco>
+         </BancoConveniado>
+         <BancoConveniado>
+            <numeroBanco>237</numeroBanco>
+            <nomeBanco>BRADESCO</nomeBanco>
+         </BancoConveniado>
+         <BancoConveniado>
+            <numeroBanco>104</numeroBanco>
+            <nomeBanco>CEF</nomeBanco>
+         </BancoConveniado>
+         <BancoConveniado>
+            <numeroBanco>341</numeroBanco>
+            <nomeBanco>ITAU</nomeBanco>
+         </BancoConveniado>
+      </con:ConsultarBancosConveniadosResponse>
+   </soap-env:Body>
+</soapenv:Envelope>

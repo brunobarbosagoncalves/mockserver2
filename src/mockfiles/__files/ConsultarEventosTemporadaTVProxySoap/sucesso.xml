@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"/>
+   <env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+      <v1:ConsultarEventosTemporadaTVResponse xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarEventosTemporadaTV/V1">
+         <v1:GrupoResponse>
+            <v1:numeroContrato>8500094</v1:numeroContrato>
+            <v1:listaDeEventos>
+               <v1:eventoTemporada>BIG BROTHER BRASIL 19</v1:eventoTemporada>
+            </v1:listaDeEventos>
+         </v1:GrupoResponse>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0</code>
+            <reason>Operação realizada com sucesso!</reason>
+            <detail>Operação realizada com sucesso!</detail>
+         </esb:ResponseControl>
+      </v1:ConsultarEventosTemporadaTVResponse>
+   </env:Body>
+</soapenv:Envelope>

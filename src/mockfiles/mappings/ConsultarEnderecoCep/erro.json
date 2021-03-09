@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/api/atendimento/consultarenderecocep",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"cep\":\"76543210\"}"
+            }
+        ]
+    },
+    "response": {
+        "status": 500,
+        "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+            "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "bodyFileName":
+        "ConsultarEnderecoCep/erro.json"
+    }
+}

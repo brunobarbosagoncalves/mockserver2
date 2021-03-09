@@ -1,0 +1,22 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:sso="http://sso.ws.nds/">
+   <soap:Header/>
+   <soap:Body>
+      <sso:validarEmailClienteResponse>
+         <!--Optional:-->
+         <response>
+            <!--Optional:-->
+            <code>37</code>
+            <!--Optional:-->
+            <codeResponse>?</codeResponse>
+            <!--Optional:-->
+            <detail>?</detail>
+            <!--Optional:-->
+            <keyResponse>?</keyResponse>
+            <!--Optional:-->
+            <protocolo>?</protocolo>
+            <!--Optional:-->
+            <reason>?</reason>
+         </response>
+      </sso:validarEmailClienteResponse>
+   </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+      <con:ConsultarCadastroUsuarioResponse xmlns:con="http://osb.telemar/xsd/ConsultarCadastroUsuarioNDS">
+         <status/>
+         <login/>
+         <nome/>
+         <emailContato/>
+         <codeResponse/>
+         <statusPendencia/>
+         <dataStatusPendencia/>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>8</code>
+            <reason>O CPF informado é inválido.</reason>
+            <detail>CPF informado não é válido.</detail>
+         </esb:ResponseControl>
+      </con:ConsultarCadastroUsuarioResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:esb="http://alsb.telemar/soap/esbUser" xmlns:man="http://osb.telemar/xsd/ManterContatoCliente"/>
+   <soapenv:Body>
+      <soapenv:Fault>
+         <faultcode>soapenv:Client</faultcode>
+         <faultstring>ESB-3001-ESB - Mensagem XML de entrada invalida</faultstring>
+         <detail>
+            <esb:EsbFault xmlns:esb="http://alsb.telemar/soap/esb">
+               <esb:code>ESB-3001</esb:code>
+               <esb:reason>Dados invalidos</esb:reason>
+               <esb:detail>Dados invalidos</esb:detail>
+               <esb:requestID>820945790713098612--d5d3142.1577b9ceea9.d65</esb:requestID>
+            </esb:EsbFault>
+         </detail>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>

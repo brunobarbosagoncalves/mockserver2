@@ -1,0 +1,16 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "OPTIONS",
+        "urlPattern": "/api/dashboard/intervencaoFibra/aceitar"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/html",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "body": "POST"
+    }
+}

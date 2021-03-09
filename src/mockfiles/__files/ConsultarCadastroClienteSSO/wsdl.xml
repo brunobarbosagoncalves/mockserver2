@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WL5G3N0:definitions targetNamespace="http://osb.telemar/wsdl/ClienteOperacao/ConsultarCadastroCliente/V1" xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:ccc="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroCliente/V1" xmlns:esb="http://alsb.telemar/soap/esb" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ClienteOperacao/ConsultarCadastroCliente/V1" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:annotation>
+    <soap:documentation>
+      		STI:80681
+            Sistema: ConsultarCadastroCliente
+            Autor: JP Lorenzo
+            versão: 1.0
+            Data Criação: 07/08/2014
+            Data Alteração: 07/08/2014
+      </soap:documentation>
+  </soap:annotation>
+  <WL5G3N0:types>
+    <xsd:schema targetNamespace="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroCliente/V1">
+      <xsd:include schemaLocation="http://soacc.intranet:80/ClienteOperacao/ConsultarCadastroCliente/V1/ConsultarCadastroClienteProxySoap?SCHEMA%2FClienteOperacao%2FConsultarCadastroCliente%2FV1%2FInterfaces%2FSchemas%2FConsultarCadastroClienteOSB"/>
+      <xsd:element name="ConsultarCadastroClienteRequest" type="ccc:ConsultarCadastroClienteRequest"/>
+      <xsd:element name="ConsultarCadastroClienteResponse" type="ccc:ConsultarCadastroClienteResponse"/>
+    </xsd:schema>
+  </WL5G3N0:types>
+  <WL5G3N0:message name="ConsultarCadastroClienteRequest">
+    <WL5G3N0:part element="ccc:ConsultarCadastroClienteRequest" name="ConsultarCadastroClienteRequest"/>
+  </WL5G3N0:message>
+  <WL5G3N0:message name="ConsultarCadastroClienteResponse">
+    <WL5G3N0:part element="ccc:ConsultarCadastroClienteResponse" name="ConsultarCadastroClienteResponse"/>
+  </WL5G3N0:message>
+  <WL5G3N0:portType name="ConsultarCadastroCliente">
+    <WL5G3N0:operation name="ConsultarCadastroCliente">
+      <WL5G3N0:input message="tns:ConsultarCadastroClienteRequest"/>
+      <WL5G3N0:output message="tns:ConsultarCadastroClienteResponse"/>
+    </WL5G3N0:operation>
+  </WL5G3N0:portType>
+  <WL5G3N0:binding name="ConsultarCadastroClienteSOAP" type="tns:ConsultarCadastroCliente">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <WL5G3N0:operation name="ConsultarCadastroCliente">
+      <soap:operation soapAction="http://alsb.telemar/ConsultarCadastroCliente/ConsultarCadastroCliente"/>
+      <WL5G3N0:input>
+        <soap:body use="literal"/>
+      </WL5G3N0:input>
+      <WL5G3N0:output>
+        <soap:body use="literal"/>
+      </WL5G3N0:output>
+    </WL5G3N0:operation>
+  </WL5G3N0:binding>
+  <WL5G3N0:service name="ConsultarCadastroCliente">
+    <WL5G3N0:port binding="tns:ConsultarCadastroClienteSOAP" name="ConsultarCadastroClienteSOAP">
+      <soap:address location="http://digpx12.interno:8070/ClienteOperacao/ConsultarCadastroCliente/V1/ConsultarCadastroClienteProxySoap"/>
+    </WL5G3N0:port>
+  </WL5G3N0:service>
+</WL5G3N0:definitions>

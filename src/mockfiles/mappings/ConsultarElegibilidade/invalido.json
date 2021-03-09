@@ -1,0 +1,23 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "POST",
+        "url": "/RecursoAprovisionamento/ConsultarElegibilidadeProxySoap",
+        "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/con:ConsultarElegibilidadeRequest/con:terminal",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "esb"  : "http://alsb.telemar/soap/esbUser",
+                "con" : "http://osb.telemar/xsd/ConsultarElegibilidade"
+            }
+        } ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarElegibilidade/invalido.xml"
+    }
+}

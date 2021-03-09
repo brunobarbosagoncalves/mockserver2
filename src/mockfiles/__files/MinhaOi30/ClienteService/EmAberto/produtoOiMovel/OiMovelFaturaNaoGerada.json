@@ -1,0 +1,89 @@
+{
+  "nome": "JOAO NERES NETO",
+  "cpf": "47073462604",
+  "dataNascimento": "16/03/1963",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "11998311921",
+      "idContaFatura": "2656767136",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-12Z56WR9-1",
+        "nomePlano": "Oi Mais"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "11973252323",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-12Z56WR9-1",
+            "nomePlano": "OI MAIS 10GB"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "11998311921",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-12Z56WR9-1",
+            "nomePlano": "OI MAIS 10GB"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "11996923053",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-12Z56WR9-1",
+            "nomePlano": "OI MAIS 10GB"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        },
+        {
+          "numeroTerminal": "11931456076",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-12Z56WR9-1",
+            "nomePlano": "OI MAIS 10GB"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-16",
+          "valor": 0,
+          "codigoDeBarras": "84670000001-7  54630113265-2  67671360979-7  24598700000-8",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "111921-14",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": false,
+          "interina": false,
+          "numeroFatura": "979245987",
+          "anoMesReferencia": "201807",
+          "vencida": false
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

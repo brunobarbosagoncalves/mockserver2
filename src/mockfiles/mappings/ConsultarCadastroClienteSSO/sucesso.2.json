@@ -1,0 +1,19 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/ClienteOperacao/ConsultarCadastroCliente/V1/ConsultarCadastroClienteProxySoap",
+        "bodyPatterns": [ {
+            "matches": "(.*)Minha Oi 3.0(.*)"
+        }
+      ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarCadastroClienteSSO/sucesso.2.xml"
+    }
+}

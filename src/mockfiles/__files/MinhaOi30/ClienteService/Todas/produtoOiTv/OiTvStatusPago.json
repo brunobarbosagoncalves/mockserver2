@@ -1,0 +1,366 @@
+{
+  "nome": "ENEIDA MARIA DE ASSUNCAO E SILVA",
+  "cpf": "86367129120",
+  "dataNascimento": "14/12/1956",
+  "crmsCadastro": [
+    "SAC",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "2844081",
+      "idContaFatura": "2844081",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043522410",
+        "nomePlano": "OI TV MAIS TELECINE HD 2013"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "2844081",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043522410",
+            "nomePlano": "OI TV MAIS TELECINE HD 2013"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Boleto",
+          "status": "Em Aberto",
+          "valor": "25.18",
+          "dataVencimento": "2017-12-12",
+          "idExtrato": "3198332057",
+          "mesReferencia": "2017-11-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "281-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Em Aberto",
+          "valor": "159.78",
+          "dataVencimento": "2017-08-12",
+          "idExtrato": "4679622053",
+          "mesReferencia": "2017-07-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "281-2",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Em Aberto",
+          "valor": "152.74",
+          "dataVencimento": "2017-07-12",
+          "idExtrato": "5763722052",
+          "mesReferencia": "2017-06-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "281-3",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Pago",
+          "valor": "131.42",
+          "dataVencimento": "2017-06-12",
+          "idExtrato": "6945252051",
+          "mesReferencia": "2017-05-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "281-4",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Pago",
+          "valor": "179.3",
+          "dataVencimento": "2017-05-12",
+          "idExtrato": "7361552050",
+          "mesReferencia": "2017-04-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "281-5",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Pago",
+          "valor": "125.62",
+          "dataVencimento": "2017-03-12",
+          "idExtrato": "9229552048",
+          "mesReferencia": "2017-02-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": true,
+          "vencida": true,
+          "idFatura": "281-6",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Pago",
+          "valor": "94.52",
+          "dataVencimento": "2017-02-12",
+          "idExtrato": "9328922047",
+          "mesReferencia": "2017-01-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": true,
+          "vencida": true,
+          "idFatura": "281-7",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Pago",
+          "valor": "211.51",
+          "dataVencimento": "2017-01-12",
+          "idExtrato": "9431462046",
+          "mesReferencia": "2016-12-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": true,
+          "vencida": true,
+          "idFatura": "281-8",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Pago",
+          "valor": "172.0",
+          "dataVencimento": "2016-12-12",
+          "idExtrato": "9619312045",
+          "mesReferencia": "2016-11-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": true,
+          "vencida": true,
+          "idFatura": "281-9",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Pago",
+          "valor": "171.96",
+          "dataVencimento": "2016-11-12",
+          "idExtrato": "9483742044",
+          "mesReferencia": "2016-10-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": true,
+          "vencida": true,
+          "idFatura": "281-10",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Pago",
+          "valor": "172.0",
+          "dataVencimento": "2016-10-12",
+          "idExtrato": "9135392043",
+          "mesReferencia": "2016-09-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": true,
+          "vencida": true,
+          "idFatura": "281-11",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Pago",
+          "valor": "171.99",
+          "dataVencimento": "2016-09-12",
+          "idExtrato": "8351512042",
+          "mesReferencia": "2016-08-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": true,
+          "vencida": true,
+          "idFatura": "281-12",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Pago",
+          "valor": "150.48",
+          "dataVencimento": "2016-08-12",
+          "idExtrato": "7876382041",
+          "mesReferencia": "2016-07-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": true,
+          "vencida": true,
+          "idFatura": "281-13",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "63984728613",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "63984728613",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "63984267550",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "63984267550",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "61984541241",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401+3B+273",
+        "nomePlano": "Oi Cartão"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "61984541241",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401+3B+273",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "6232153750",
+      "idContaFatura": "1179158846",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "S",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "0000",
+        "nomePlano": "Plano Básico"
+      },
+      "statusTerminal": "INATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6232153750",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "0000",
+            "nomePlano": "PLANO BASICO"
+          },
+          "statusTerminal": "INATIVO",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "6235165065",
+      "idContaFatura": "1186503022",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "S",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "0000",
+        "nomePlano": "Plano Básico"
+      },
+      "statusTerminal": "INATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6235165065",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "0000",
+            "nomePlano": "PLANO BASICO"
+          },
+          "statusTerminal": "INATIVO",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    }
+  ]
+}

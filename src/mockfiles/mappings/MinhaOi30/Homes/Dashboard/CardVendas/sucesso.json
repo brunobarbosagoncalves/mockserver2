@@ -1,0 +1,18 @@
+{
+  "priority": 4,
+  "request": {
+    "method": "GET",
+    "url": "/api/dashboard/cardVendas",
+    "headers": {}
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers":
+        "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+    },
+    "body": "{ \"banner\": \"8\", \"url\": \"https://carrinho.oi.com.br/?fidelizado=1&plano=50&adicional=23+39+14+2&productOrigin=combo&buttonOrigin=cart_all_ID8_combo3presidencialminhaoi&uf=RJ&cidade=Rio%20de%20Janeiro&ref=http://minha.oi.com.br/portal/site/MinhaOi/home\"  }"
+  }
+}

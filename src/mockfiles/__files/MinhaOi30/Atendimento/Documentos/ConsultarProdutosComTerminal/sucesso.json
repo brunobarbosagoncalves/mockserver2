@@ -1,0 +1,23 @@
+[
+    {
+        "nome": "Oi Total",
+        "tipo": "mobile",
+        "tipoFaturamento": "pos",
+        "isFibra": false,
+        "status": "active"
+    },
+    {
+        "nome": "Oi Total",
+        "tipo": "mobile",
+        "tipoFaturamento": "pos",
+        "isFibra": false,
+        "status": "active"
+    },
+    {
+        "nome": "Oi Fixo",
+        "tipo": "landline",
+        "tipoFaturamento": "pos",
+        "isFibra": false,
+        "status": "active"
+    }
+]

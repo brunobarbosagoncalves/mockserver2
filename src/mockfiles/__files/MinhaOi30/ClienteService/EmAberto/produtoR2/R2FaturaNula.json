@@ -1,0 +1,166 @@
+{
+  "nome": "ANA CRISTINA DIAS NARCIZO",
+  "cpf": "00016458974",
+  "dataNascimento": "23/03/1976",
+  "crmsCadastro": [
+    "SAC",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "47984676392",
+      "idContaFatura": "2036352251",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-1W5Y4MI-1",
+        "nomePlano": "Oi Conta Total Light"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "47984676392",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-1W5Y4MI-1",
+            "nomePlano": "PLANO OI CONTA TOTAL 50"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-01-16",
+          "valor": 99.48,
+          "codigoDeBarras": "84650000000-1  99480313203-8  63522510871-4  46945200000-0",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "476392-9",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "871469452",
+          "anoMesReferencia": "201801",
+          "vencida": true
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "4733615120",
+      "idContaFatura": "7174552600",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5510",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "4733615120",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5510",
+            "nomePlano": "FALE - ASSINATURA SEM FR"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-14",
+          "valor": 0,
+          "codigoDeBarras": "84670000001-7 44510027717-4 45526020180-7 70110400000-8",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "475120-27",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": false,
+          "interina": false,
+          "numeroFatura": "07174552600201807001000141793323",
+          "anoMesReferencia": "201807",
+          "ciclo": "001",
+          "vencida": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "4733936506",
+      "idContaFatura": "7105662868",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "S",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5510",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "4733936506",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5510",
+            "nomePlano": "FALE - ASSINATURA SEM FR"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-06-08",
+          "valor": 79.27,
+          "codigoDeBarras": "84650000000-1 79270027710-8 56628620180-1 50128800000-0",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "476506-9",
+          "ajustada": true,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "07105662868201805001000055794323",
+          "anoMesReferencia": "201805",
+          "ciclo": "001",
+          "data": "2018-06-08",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-06-14",
+          "valor": 149.48,
+          "codigoDeBarras": "84680000001-6 49480027710-0 56628620180-1 60118500000-2",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "476506-10",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "07105662868201806001000055196323",
+          "anoMesReferencia": "201806",
+          "ciclo": "001",
+          "vencida": true
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "voz": [
+        {
+            "consumido": 0,
+            "expirado": false,
+            "inicio": 1547344800000,
+            "nome": "Plano do Fixo",
+            "principal": true,
+            "renovacao": 1550023200000,
+            "restante": 2678400,
+            "tipo": "voice",
+            "total": 2678400,
+            "unidade": "minutes",
+            "uso": true
+        }
+    ]
+}

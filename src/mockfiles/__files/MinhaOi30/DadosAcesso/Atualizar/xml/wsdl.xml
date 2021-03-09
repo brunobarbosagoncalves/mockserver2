@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ada="http://osb.telemar/xsd/ClienteOperacao/AtualizarDadosAcesso/V1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ClienteOperacao/AtualizarDadosAcesso/V1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AtualizarDadosAcesso" targetNamespace="http://osb.telemar/wsdl/ClienteOperacao/AtualizarDadosAcesso/V1">
+   <soap:annotation>
+      <soap:documentation>STI:80861 Sistema: AtualizarDadosAcesso Autor: Tom Nolasco versão: 1.0 Data Criação: 24/06/14 Data Alteração: xxxxx</soap:documentation>
+   </soap:annotation>
+   <wsdl:types>
+      <xsd:schema targetNamespace="http://osb.telemar/xsd/ClienteOperacao/AtualizarDadosAcesso/V1">
+         <xsd:include schemaLocation="http://osbprd.telemar:7200/ClienteOperacao/AtualizarDadosAcesso/V1/AtualizarDadosAcessoProxySoap?SCHEMA%2FClienteOperacao%2FAtualizarDadosAcesso%2FV1%2FInterfaces%2FSchemas%2FAtualizarDadosAcessoOSB" />
+         <xsd:element name="AtualizarDadosAcessoRequest" type="ada:AtualizarDadosAcessoRequestType" />
+         <xsd:element name="AtualizarDadosAcessoResponse" type="ada:AtualizarDadosAcessoResponseType" />
+      </xsd:schema>
+   </wsdl:types>
+   <wsdl:message name="AtualizarDadosAcessoRequest">
+      <wsdl:part element="ada:AtualizarDadosAcessoRequest" name="AtualizarDadosAcessoRequest" />
+   </wsdl:message>
+   <wsdl:message name="AtualizarDadosAcessoResponse">
+      <wsdl:part element="ada:AtualizarDadosAcessoResponse" name="AtualizarDadosAcessoResponse" />
+   </wsdl:message>
+   <wsdl:portType name="AtualizarDadosAcesso">
+      <wsdl:operation name="AtualizarDadosAcesso">
+         <wsdl:input message="tns:AtualizarDadosAcessoRequest" />
+         <wsdl:output message="tns:AtualizarDadosAcessoResponse" />
+      </wsdl:operation>
+   </wsdl:portType>
+   <wsdl:binding name="AtualizarDadosAcessoSOAP" type="tns:AtualizarDadosAcesso">
+      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+      <wsdl:operation name="AtualizarDadosAcesso">
+         <soap:operation soapAction="http://osb.telemar/wsdl/ClienteOperacao/AtualizarDadosAcesso/V1" />
+         <wsdl:input>
+            <soap:body use="literal" />
+         </wsdl:input>
+         <wsdl:output>
+            <soap:body use="literal" />
+         </wsdl:output>
+      </wsdl:operation>
+   </wsdl:binding>
+   <wsdl:service name="AtualizarDadosAcessoSOAPQSService">
+      <wsdl:port binding="tns:AtualizarDadosAcessoSOAP" name="AtualizarDadosAcessoSOAPQSPort">
+         <soap:address location="http://localhost:8070/ClienteOperacao/AtualizarDadosAcesso/V1/AtualizarDadosAcessoProxySoap" />
+      </wsdl:port>
+   </wsdl:service>
+</wsdl:definitions>

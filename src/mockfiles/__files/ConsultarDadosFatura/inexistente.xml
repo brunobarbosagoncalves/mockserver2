@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:esb="http://alsb.telemar/soap/esbUser" xmlns:sol="http://osb.telemar/xsd/ClienteFaturamento/ConsultarDadosFaturaBilling/V1">
+      <soapenv:chaveConnectorSBL>ConfigSiebelContaSemPapel</soapenv:chaveConnectorSBL>
+   </soapenv:Header>
+   <soapenv:Body xmlns:esb="http://alsb.telemar/soap/esbUser" xmlns:sol="http://osb.telemar/xsd/ClienteFaturamento/ConsultarDadosFaturaBilling/V1">
+      <sol:ConsultarDadosFaturaBillingResponse>
+         <protocolo/>
+         <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+            <code>1</code>
+            <reason>CPF/conta fatura não encontrados.</reason>
+            <detail/>
+         </esb1:ResponseControl>
+      </sol:ConsultarDadosFaturaBillingResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

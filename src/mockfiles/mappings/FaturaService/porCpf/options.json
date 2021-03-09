@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "OPTIONS",
+        "url": "/faturas/porCpf"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/html",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "POST"
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "POST",
+    "urlPattern": "/api/atendimento/consultarprotocolos/",
+    "headers": {
+      "x-origin-application": {
+        "matches": "(.+)"
+      },
+      "x-origin-channel": {
+        "matches": "(.+)"
+      },
+      "x-cpf": {
+        "matches": "(.+)"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.periodo=='6')]",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      },
+      {
+        "matchesJsonPath": "$[?(@.tipo=='m')]",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      },
+      {
+        "matchesJsonPath": "$[?(@.terminal!='00000000000')]",
+        "ignoreArrayOrder": true,
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "MinhaOi30/Atendimento/Protocolos/ConsultarProtocolo/sucesso6meses.json"
+  }
+}

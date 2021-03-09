@@ -1,0 +1,36 @@
+{
+	"planos": [
+		{
+			"terminalPrincipal": {
+				"terminal": "21999999999",
+				"oferta": "Combo",
+				"plano": "Banda Larga 200mbps",
+				"nome": "Oi Colaborador",
+				"nomeExibicao": "Oi Colaborador",
+				"status": "active",
+				"categoria": "mobile",
+				"fibra": false,
+				"cingapura": false,
+				"tipoFaturamento": "pre",
+				"tipoVignette": "mvl",
+				"tipo": "controle",
+				"tipoTerminal": "terminal"
+			},
+			"nomePlano": "Oi Conta Total",
+			"terminais": ["(21) 99999-9999"],
+			"dacc": false,
+			"faturas": [
+				{
+					"idFatura": "279819-1",
+					"valor": 4,
+					"vencimento": "25/02/2018",
+					"codigoBarras": "1001 1100 0011 1111",
+					"tem14Meses": true,
+					"faturaGerada": true,
+					"clienteTV": false,
+					"diasVencidos": 500
+				}
+			]
+		}
+	]
+}

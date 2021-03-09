@@ -1,0 +1,18 @@
+{
+    "produto": {
+        "plano": "Oi Colaborador",
+        "terminal": "00000000004",
+        "token": "00000000004",
+        "nome": "Oi Colaborador",
+        "status": "active",
+        "categoria": "mobile",
+        "fibra": false,
+        "cingapura": false,
+        "tipoFaturamento": "pos",
+        "tipoVignette": "mvl",
+        "tipo": "mobile-pos",
+        "tipoTerminal": "terminal",
+        "oferta": "Oi Colaborador"
+    },
+    "nova": true
+}

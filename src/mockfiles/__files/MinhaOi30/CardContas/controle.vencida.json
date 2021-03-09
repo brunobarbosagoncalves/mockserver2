@@ -1,0 +1,83 @@
+{
+	"planos": [
+		{
+			"terminalPrincipal": {
+				"terminal": "21999999999",
+				"oferta": "Combo",
+				"plano": "Banda Larga 200mbps",
+				"nome": "Oi Colaborador",
+				"nomeExibicao": "Oi Colaborador",
+				"status": "active",
+				"categoria": "mobile",
+				"fibra": false,
+				"cingapura": false,
+				"tipoFaturamento": "pre",
+				"tipoVignette": "mvl",
+				"tipo": "controle",
+				"tipoTerminal": "terminal"
+			},
+			"nomePlano": "Oi Controle",
+			"terminais": [
+				"(99) 99999-9999"
+			],
+			"dacc": false,
+			"extras": {
+				"controle": true
+			},
+			"faturas": []
+		},
+		{
+			"terminalPrincipal": {
+				"terminal": "21999999999",
+				"oferta": "Combo",
+				"plano": "Banda Larga 200mbps",
+				"nome": "Oi Colaborador",
+				"nomeExibicao": "Oi Colaborador",
+				"status": "active",
+				"categoria": "mobile",
+				"fibra": false,
+				"cingapura": false,
+				"tipoFaturamento": "pre",
+				"tipoVignette": "mvl",
+				"tipo": "controle",
+				"tipoTerminal": "terminal"
+			},
+			"nomePlano": "Oi Conta Total",
+			"terminais": [
+				"(21) 99999-9999"
+			],
+			"dacc": false,
+			"faturas": [
+				{
+					"idFatura": "279819-1",
+					"valor": 121.5,
+					"vencimento": "04/05/2018",
+					"codigoBarras": "84690000001-5 95030113244-1 39087070882-8 40243500000-3",
+					"tem14Meses": false,
+					"faturaGerada": true,
+					"clienteTV": true,
+					"diasVencidos": 10
+				},
+				{
+					"idFatura": "279819-2",
+					"valor": 80.5,
+					"vencimento": "25/02/2018",
+					"codigoBarras": "84690000001-5 95030113244-1 39087070882-8 40243500000-3",
+					"tem14Meses": false,
+					"faturaGerada": false,
+					"clienteTV": true
+				},
+				{
+					"idFatura": "279819-3",
+					"valor": 132.9,
+					"vencimento": "25/02/2018",
+					"codigoBarras": "84690000001-5 95030113244-1 39087070882-8 40243500000-3",
+					"tem14Meses": false,
+					"faturaGerada": true,
+					"clienteTV": true,
+					"diasAVencer": 30
+				}
+			]
+		}
+	]
+}

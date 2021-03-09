@@ -1,0 +1,66 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroClienteSSO/v1" xmlns:esb="http://alsb.telemar/soap/esbUser"/>
+   <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <v1:ConsultarCadastroClienteResponse xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroClienteSSO/v1">
+         <v1:GrupoResponse>
+            <v1:DadosCliente>
+               <v1:cpf>25574214806</v1:cpf>
+               <v1:login>25574214806</v1:login>
+               <v1:ipUltimoAcesso>[10.22.236.40]:37199</v1:ipUltimoAcesso>
+               <v1:ipCriacao>[200.140.127.126]:44831</v1:ipCriacao>
+               <v1:dataCriacao>2016-09-13T00:00:00-03:00</v1:dataCriacao>
+               <v1:dataUltimoAcesso>2017-10-17T14:28:53-02:00</v1:dataUltimoAcesso>
+               <v1:tipoUsuario>POS</v1:tipoUsuario>
+               <v1:nome>MAURO AUGUSTO GONCALVES DE PAULA SIQUEIRA</v1:nome>
+               <v1:tipoCliente>TIT</v1:tipoCliente>
+               <v1:dataNascimento>1978-05-21</v1:dataNascimento>
+               <v1:email/>
+               <v1:flagIptinEmail>false</v1:flagIptinEmail>
+               <v1:numeroSMS/>
+               <v1:flagOptionSMS>false</v1:flagOptionSMS>
+               <v1:flagReplicacaoManual>true</v1:flagReplicacaoManual>
+               <v1:sexo>1</v1:sexo>
+               <v1:ListaProdutos>
+                  <v1:Produto>
+                     <v1:idProduto>prod25931ede-8c3b-48e0-bd1b-73b7202498e9</v1:idProduto>
+                     <v1:statusAssociacao>A</v1:statusAssociacao>
+                     <v1:statusProdutoTerceiro/>
+                     <v1:CPFTitular>25574214806</v1:CPFTitular>
+                     <v1:Plano>
+                        <v1:codigoPlano>Móvel1-14TY4HQ-1</v1:codigoPlano>
+                        <v1:nomePlano>Oi Colaborador</v1:nomePlano>
+                        <v1:tipoPlano>POS</v1:tipoPlano>
+                        <v1:codigoCategoriaPlano>MVL</v1:codigoCategoriaPlano>
+                        <v1:tipoBundle>N/A</v1:tipoBundle>
+                        <v1:codigoPlanoTV/>
+                        <v1:nomePlanoTV/>
+                     </v1:Plano>
+                     <v1:ListaTerminais>
+                        <v1:Terminal>
+                           <v1:idTerminal>trPr42ec17a6-09dd-431f-b6da-6e2276228d6a</v1:idTerminal>
+                           <v1:numeroTerminal>21993553671</v1:numeroTerminal>
+                           <v1:CPFParticipante/>
+                           <v1:idContaFatura>2787681589</v1:idContaFatura>
+                           <v1:tipoTerminal>MVL</v1:tipoTerminal>
+                           <v1:crmOrigem>SBL63</v1:crmOrigem>
+                           <v1:status>A</v1:status>
+                           <v1:uf>RJ</v1:uf>
+                           <v1:idLocalidade>0000</v1:idLocalidade>
+                           <v1:cidade>Rio de Janeiro</v1:cidade>
+                           <v1:flagTerminalTitular>true</v1:flagTerminalTitular>
+                           <v1:flagTerminalPositivado>false</v1:flagTerminalPositivado>
+                           <v1:flagTerminalMudo>false</v1:flagTerminalMudo>
+                        </v1:Terminal>
+                     </v1:ListaTerminais>
+                  </v1:Produto>
+               </v1:ListaProdutos>
+            </v1:DadosCliente>
+         </v1:GrupoResponse>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0000</code>
+            <reason>Sucesso</reason>
+            <detail>Sucesso</detail>
+         </esb:ResponseControl>
+      </v1:ConsultarCadastroClienteResponse>
+   </soap:Body>
+</soapenv:Envelope>

@@ -1,0 +1,79 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns2:ConsultarServicoResponse xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:cfg="http://www.oi.net.br/INFRA/SOAFW/SharedResources/Configuration/v1" xmlns:tns="http://www.oi.net.br/INFRA/SOAFW/Services/ReferenceData/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ser="http://www.oi.net.br/INFRA/SOAFW/Services/ReferenceData/v1" xmlns:ns0="http://www.oi.net.br/INFRA/SOAFW/SharedResources/Types/v1" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns2="http://www.oi.net.br/Servicos/GestaoServico/ConsultarServico/XSD/v2.0">
+         <msg:MessageHeader xmlns:typ="http://www.oi.net.br/INFRA/SOAFW/SharedResources/Types/v1" xmlns:msg="http://www.oi.net.br/INFRA/SOAFW/SharedResources/Messaging/v1">
+            <msg:TransactionId>51be6e33-b3e4-463b-8a71-69498a357885</msg:TransactionId>
+            <msg:Timestamp>2018-03-23T09:36:42.722-03:00</msg:Timestamp>
+            <msg:Credentials>
+               <msg:AppId>AN0308</msg:AppId>
+            </msg:Credentials>
+            <msg:Response>
+               <msg:Return xmlns:tns="http://www.oi.net.br/INFRA/SOAFW/Services/ErrorHandling/v1" xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+                  <msg:Type>S</msg:Type>
+                  <msg:Code>00000</msg:Code>
+                  <msg:Description>Sucesso</msg:Description>
+                  <msg:NativeReturn>
+                     <msg:Type>T</msg:Type>
+                     <msg:Code>0</msg:Code>
+                     <msg:Description>Sucesso</msg:Description>
+                     <msg:AppId>AN0449</msg:AppId>
+                  </msg:NativeReturn>
+               </msg:Return>
+            </msg:Response>
+         </msg:MessageHeader>
+         <ns2:ListaServico>
+            <ns2:Servico>
+               <ns2:IdServico>4-2453N55</ns2:IdServico>
+               <ns2:NumeroServico>4-2453N55</ns2:NumeroServico>
+               <ns2:IdSistemaOrigem>AN0449</ns2:IdSistemaOrigem>
+               <ns2:DataHoraModificacao>2018-03-19T14:10:03.000</ns2:DataHoraModificacao>
+               <ns2:StatusServico>Ativo</ns2:StatusServico>
+               <ns2:DataInstalacaoInicialServico>2018-03-16</ns2:DataInstalacaoInicialServico>
+               <ns2:DataTerminoServico/>
+               <ns2:IdAcessoGpon>4-244RIBF</ns2:IdAcessoGpon>
+               <ns2:IdCliente>4-229746N</ns2:IdCliente>
+               <ns2:TipoMeioAcesso>Dados</ns2:TipoMeioAcesso>
+               <ns2:CodigoProduto>BL</ns2:CodigoProduto>
+               <ns2:Tecnologia/>
+               <ns2:CodigoDacc>991700145219</ns2:CodigoDacc>
+               <ns2:Produto>
+                  <ns2:QtdPontosAdicionais/>
+                  <ns2:IdClientePontaA>4-229746N</ns2:IdClientePontaA>
+                  <ns2:DescricaoProduto>Oi Internet</ns2:DescricaoProduto>
+               </ns2:Produto>
+               <ns2:CatalogoProduto>
+                  <ns2:IdCatalogo>VELOC_50MBPS</ns2:IdCatalogo>
+               </ns2:CatalogoProduto>
+               <ns2:OfertaProduto>
+                  <ns2:DescricaoComercial>Banda Larga 50MBps</ns2:DescricaoComercial>
+               </ns2:OfertaProduto>
+               <ns2:EnderecoPontaA>
+                  <ns2:UF>MG</ns2:UF>
+                  <ns2:Municipio>BELO HORIZONTE</ns2:Municipio>
+                  <ns2:TipoLogradouro>AV</ns2:TipoLogradouro>
+                  <ns2:Logradouro>CELSO PORFIRIO MACHADO</ns2:Logradouro>
+                  <ns2:NumeroImovel>1225</ns2:NumeroImovel>
+                  <ns2:Bairro>BELVEDERE</ns2:Bairro>
+                  <ns2:CEP>30320400</ns2:CEP>
+                  <ns2:PontoReferencia>PROX A PADARIA BRASIL</ns2:PontoReferencia>
+                  <ns2:CodigoLocalidade>6101</ns2:CodigoLocalidade>
+                  <ns2:TipoComplemento1>CASA</ns2:TipoComplemento1>
+                  <ns2:NumeroComplemento1>003</ns2:NumeroComplemento1>
+                  <ns2:TipoComplemento2/>
+                  <ns2:NumeroComplemento2/>
+                  <ns2:TipoComplemento3/>
+                  <ns2:NumeroComplemento3/>
+               </ns2:EnderecoPontaA>
+               <ns2:ListaPacotesAdicionaisIPTV>
+                  <ns2:PacoteAdicional/>
+               </ns2:ListaPacotesAdicionaisIPTV>
+            </ns2:Servico>
+         </ns2:ListaServico>
+         <ns2:ParametrosOperacao>
+            <ns2:MaisRegistros>0</ns2:MaisRegistros>
+            <ns2:NumeroLinhaCDI/>
+         </ns2:ParametrosOperacao>
+      </ns2:ConsultarServicoResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

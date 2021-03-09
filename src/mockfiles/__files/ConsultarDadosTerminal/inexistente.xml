@@ -1,0 +1,45 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body xmlns:con="http://osb.telemar/xsd/ConsultarDadosTerminal" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <con:ConsultarDadosTerminalResponse>
+         <CRMOrigem>SBL63</CRMOrigem>
+         <stTerminal/>
+         <fgPrePago/>
+         <fgFraude/>
+         <fgSuspensaoRouboFurtoPerda/>
+         <tpTerminal/>
+         <cdPlano/>
+         <listaBeneficio/>
+         <tpIdPositivo/>
+         <idPositivo/>
+         <DadosContato>
+            <CPF/>
+            <dtNascimento/>
+            <email/>
+            <nrDocumento/>
+            <tpDocumento/>
+            <orgaoExp/>
+            <dtVinculacao/>
+         </DadosContato>
+         <DadosEndereco>
+            <CEP/>
+            <tpLogradouro/>
+            <logradouro/>
+            <numero/>
+            <bairro/>
+            <cidade/>
+            <tpCompl1/>
+            <compl1/>
+            <tpCompl2/>
+            <compl2/>
+            <tpCompl3/>
+            <compl3/>
+            <UF/>
+         </DadosEndereco>
+         <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+            <code>1</code>
+            <reason>Meio de acesso não existente</reason>
+            <detail/>
+         </esb1:ResponseControl>
+      </con:ConsultarDadosTerminalResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

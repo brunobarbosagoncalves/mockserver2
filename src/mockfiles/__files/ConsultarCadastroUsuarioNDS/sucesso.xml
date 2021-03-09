@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+      <con:ConsultarCadastroUsuarioResponse xmlns:con="http://osb.telemar/xsd/ConsultarCadastroUsuarioNDS">
+         <status>Ativo</status>
+         <login>dryc13carol</login>
+         <nome>ADRIA CAROLINE ANDRADE ALMEIDA</nome>
+         <emailContato>adrya.almeida@gmail.com</emailContato>
+         <codeResponse>4</codeResponse>
+         <statusPendencia/>
+         <dataStatusPendencia/>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0</code>
+            <reason>O cadastro do cliente foi validado com sucesso.</reason>
+            <detail>O cadastrado do cliente foi validado e os dados foram consultados com sucesso.</detail>
+         </esb:ResponseControl>
+      </con:ConsultarCadastroUsuarioResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

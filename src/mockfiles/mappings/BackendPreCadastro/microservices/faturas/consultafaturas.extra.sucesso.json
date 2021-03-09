@@ -1,0 +1,38 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/api/microservice/faturas",
+        "headers": {
+            "x-cpf": {
+                "contains": "00000000000"
+            }
+        }
+  
+        //  "bodyPatterns": [
+        //      {
+        //         "matches": ".*numeroTerminal=213.*"
+        //     }, {
+        //         "matches": ".*idContaFatura=7777.*"
+        //     }, {
+        //         "matches": ".*crmOrigem=SBL63.*"
+        //     }, {
+        //         "matches": ".*numeroTerminalFaturaExtra=219.*"
+        //     }, {
+        //         "matches": ".*idContaFaturaExtra=1111.*"
+        //     }, {
+        //         "matches": ".*crmOrigemFaturaExtra=STC.*"
+        //     }
+        // ]
+
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{ \"codigo\":200, \"mensagem\": \"Sucesso\", \"faturas\":[  {  \"data\": \"2017-09-20\",  \"valor\": 101.95,  \"dacc\": false,  \"codigoDeBarras\": \"87654000000-1  54320001234-4  65432100000-7  98765432100-5\",  \"status\": \"string\",  \"tem14Meses\": false  }] }"
+    }
+}

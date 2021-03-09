@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarAcessoRecebidosTerceiros/V1" xmlns:esb="http://alsb.telemar/soap/esbUser"/>
+   <soapenv:Body xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarAcessoRecebidosTerceiros/V1" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <v1:ConsultarAcessoRecebidosTerceirosResponse>
+         <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+            <code>3001</code>
+            <reason>CPF invalido</reason>
+            <detail>
+               <con:fault xmlns:con="http://www.bea.com/wli/sb/context">
+                  <con:errorCode>BEA-382505</con:errorCode>
+                  <con:reason>CPF invalido</con:reason>
+                  <con:details>
+                     <con1:ValidationFailureDetail xmlns:con1="http://www.bea.com/wli/sb/stages/transform/config">
+                        <con1:message>CPF invalido</con1:message>
+                     </con1:ValidationFailureDetail>
+                  </con:details>
+               </con:fault>
+            </detail>
+         </esb1:ResponseControl>
+      </v1:ConsultarAcessoRecebidosTerceirosResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

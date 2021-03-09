@@ -1,0 +1,21 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/ura/lembrete",
+        "headers": {
+            "x-cpf": {
+                "contains": "55555555555"
+            }
+        }
+    },
+    "response": {
+        "status": 500,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{ \"mensagem\": \"Erro ao recuperar lembrete.\" }"
+    }
+}

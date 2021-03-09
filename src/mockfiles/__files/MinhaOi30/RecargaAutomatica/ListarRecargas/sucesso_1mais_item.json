@@ -1,0 +1,43 @@
+{
+  "recargas": [
+    {
+      "idrecarga": "15509237",
+      "telefonefixo": "8134286954",
+      "telefonemovel": "81987665094",
+      "nomeoferta": "RECARGA OI ADTO FALE EM DOBRO LOCAL   R$ 10,00",
+      "valor": "10",
+      "canaladesao": "OiVende",
+      "usuarioadesao": "TR582091",
+      "nomeSolicitante": "SEVERINO RAMOS DA SILVA JUNIOR(NOVO CLIENTE)",
+      "comentario": "",
+      "numeroprotocolo": "",
+      "nomestatus": "5 - Solicitação aceita",
+      "ultimafatura": "",
+      "tipo": "A",
+      "valortaxaadesao": "",
+      "datasolicitacao": "21/01/19"
+    },
+    {
+      "idrecarga": "15509235",
+      "telefonefixo": "8134286952",
+      "telefonemovel": "81987665092",
+      "nomeoferta": "RECARGA OI ADTO   R$ 15,00",
+      "valor": "10",
+      "canaladesao": "OiVende",
+      "usuarioadesao": "TR582091",
+      "nomeSolicitante": "SEVERINO RAMOS DA SILVA JUNIOR(NOVO CLIENTE)",
+      "comentario": "",
+      "numeroprotocolo": "",
+      "nomestatus": "5 - Solicitação aceita",
+      "ultimafatura": "",
+      "tipo": "A",
+      "valortaxaadesao": "",
+      "datasolicitacao": "01/02/19"
+    }
+  ],
+  "response": {
+    "code": "0",
+    "detail": "S",
+    "reason": "Execução com sucesso URA"
+  }
+}

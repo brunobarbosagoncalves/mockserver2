@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/cadastro/reset/positivacao/validar",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"codigo\":\"SJHDJ8759J38\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"jwt\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250ZW50IjoiTjFONUdFNFVEUDsxMDY5NjYzNDc2NztkaW9nb2xtZW5lemVzQGdtYWlsLmNvbSIsImlhdCI6MTQ5NTA0OTk3OCwiZXhwIjoxNDk1MDUwNTc4fQ.wa98bS-Mi--nkrMawuIhmBEspQxQsgnkK_IvnymbUBQ\", \"mensagem\": \"A positivação do reset de senha foi realizada com sucesso.\" }"
+    }
+}

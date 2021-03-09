@@ -1,0 +1,4 @@
+{
+	"code": "PreconditionFailed",
+	"message": "O header x-origin-application é obrigatório."
+}

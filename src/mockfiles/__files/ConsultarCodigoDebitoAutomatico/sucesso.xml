@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:con="http://alsb.telemar/xsd/ConsultarCodigoDebitoAutomatico" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <soapenv:chaveConnectorSBL>ConfigSiebelContaSemPapel</soapenv:chaveConnectorSBL>
+   </soapenv:Header>
+   <soapenv:Body xmlns:con="http://alsb.telemar/xsd/ConsultarCodigoDebitoAutomatico" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <con:ConsultarCodigoDebitoAutomaticoResponse>
+         <DadosRetorno>
+            <idDACC>401515598302</idDACC>
+            <status>2</status>
+            <tipoCobranca>2</tipoCobranca>
+            <numeroBanco>033</numeroBanco>
+            <nomeBanco>BANESPA</nomeBanco>
+            <agencia>4593</agencia>
+            <numeroCC>010618269</numeroCC>
+            <fgPaggo>N</fgPaggo>
+            <local/>
+            <CJ/>
+            <SU/>
+         </DadosRetorno>
+         <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+            <code>0000</code>
+            <reason>Sucesso MOCK SERVER</reason>
+            <detail/>
+         </esb1:ResponseControl>
+      </con:ConsultarCodigoDebitoAutomaticoResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

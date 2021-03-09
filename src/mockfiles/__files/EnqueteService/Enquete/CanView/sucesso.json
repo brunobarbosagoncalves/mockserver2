@@ -1,0 +1,91 @@
+{
+    "_id": "59a47209cdc3303350b52b69",
+    "app": "CDB",
+    "max_views": 3,
+    "percentual_view": 100,
+    "id_pergunta_inicial": 1,
+    "funcionalidade": "funcionalidade_1",
+    "perguntas": [
+        {
+            "texto": "Você achou o serviço útil?",
+            "tipo": "UNICO",
+            "opcoes": [
+                {
+                    "icon": "like",
+                    "id_pergunta_proxima": 3,
+                    "resposta": "Sim"
+                },
+                {
+                    "icon": "dislike",
+                    "id_pergunta_proxima": 3,
+                    "resposta": "Não"
+                }
+            ],
+            "id": 1,
+            "percentual": "33"
+        },
+        {
+            "texto": "Por favor, detalhe o que você achou difícil no serviço.",
+            "tipo": "TEXTO",
+            "id": 2,
+            "id_pergunta_proxima": "4",
+            "percentual": "66"
+        },
+        {
+            "texto": "Qual foi o nível de dificuldade?",
+            "id": 3,
+            "tipo": "UNICO",
+            "opcoes": [
+                {
+                    "icon": "nivel1",
+                    "id_pergunta_proxima": "2",
+                    "resposta": "Muito Díficil"
+                },
+                {
+                    "icon": "nivel2",
+                    "id_pergunta_proxima": "2",
+                    "resposta": "Difícil"
+                },
+                {
+                    "icon": "nivel3",
+                    "id_pergunta_proxima": "4",
+                    "resposta": "Fácil"
+                },
+                {
+                    "icon": "nivel4",
+                    "id_pergunta_proxima": "4",
+                    "resposta": "Muito fácil"
+                }
+            ],
+            "percentual": "66"
+        },
+        {
+            "texto": "Conseguiu realizar todas as etapas do serviço?",
+            "tipo": "UNICO",
+            "id": 4,
+            "opcoes": [
+                {
+                    "avaliar_app": true,
+                    "id_pergunta_proxima": "0",
+                    "resposta": "Sim, consegui"
+                },
+                {
+                    "id_pergunta_proxima": "5",
+                    "avaliar_app": false,
+                    "resposta": "Não consegui"
+                }
+            ],
+            "percentual": "100"
+        },
+        {
+            "texto": "Por favor, entre em detalhes sobre o problema que você teve.",
+            "tipo": "TEXTO",
+            "id": 5,
+            "id_pergunta_proxima": "0",
+            "percentual": "100"
+        }
+    ],
+    "channels": [
+        "mobile"
+    ]
+}

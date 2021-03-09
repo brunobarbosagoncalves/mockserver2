@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/api/cadastro/reset/carregarprodutos",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"jwt\":\"03AIezHSZh6kGq8bEbqjM7l2Jo0gNjYaTe9hfyqAPxKkUDUus_tH9THORmor_zkpMWyAapyJ1epobNgYMEsEFqdooBc0NRQG6rLQ8SIORwiWXr1CbEiWcippJLiGC2pOz2VmEbRMTeoZGK7i4LWkJsg6PC0_sJZfOh4UKejiGwy6y5qoQeU-8pBr30sb2jtWPdtNLLcbfKknPxp6AaUpay6dTZjRXa46IYfA23hCnZsQQv1djMUzZbhMTVbUQvoPotv1il1TaiNL4ZU9gKhlpJ6abZxhbP7TBJahV8P9Lu64oTkiTvyUaGVCcf295XEfiwNXrdIrz7VZsJ\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 403,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"mensagem\": \"JWT inválido.\" }"
+    }
+}

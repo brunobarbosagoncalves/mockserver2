@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:con="http://osb.telemar/xsd/ConsultarDadosTerminal" xmlns:esb="http://alsb.telemar/soap/esbUser"/>
+   <soapenv:Body>
+      <soapenv:Fault>
+         <faultcode>soapenv:Client</faultcode>
+         <faultstring>ESB-3001-ESB - Mensagem XML de entrada invalida</faultstring>
+         <detail>
+            <esb:EsbFault xmlns:esb="http://alsb.telemar/soap/esb">
+               <esb:code>ESB-3001</esb:code>
+               <esb:reason>ESB - Mensagem XML de entrada invalida</esb:reason>
+               <esb:detail>Erro na validacao do XML de entrada contra o arquivo ConsultarDadosTerminal.xsd: string length (21) is greater than maxLength facet (10) for numeroTerminalType in namespace http://osb.telemar/xsd/ConsultarDadosTerminal</esb:detail>
+               <esb:requestID>8409700030610044407--17e53460.15ab47fa31d.2e17</esb:requestID>
+            </esb:EsbFault>
+         </detail>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>

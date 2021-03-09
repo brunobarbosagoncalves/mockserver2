@@ -1,0 +1,24 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/VendaOperacao/ConsultarSmartcardsDoContratoProxySoap",
+        "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/con:consultarSmartCardsDoContratoRequest/GrupoRequest[numeroContrato = '11111111']",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "con" : "http://alsb.telemar/xsd/consultarSmartCardsDoContrato",
+                "esb" : "http://alsb.telemar/soap/esbUser",
+                "wsse"  : "http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+            }
+        } ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultaSmartcardsDoContrato/inexistente.xml"
+    }
+}

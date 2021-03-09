@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/MensageriaVas/EnviarMTProxyService",      
+         "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/env:EnviarMTRequest/env1:destinatarios[env1:destinatario != 0]",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "env" : "http://br/com/oi/vas/mensageriaVAS/EnviarMTSOAP/",
+                "env1" : "http://br/com/oi/vas/mensageriaVAS/EnviarMTRequest"
+            }
+        } ]     
+    },
+       "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "EnviarMT/sucesso.xml"
+    }
+}

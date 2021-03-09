@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body xmlns:con="http://osb.telemar/xsd/ConsultarElegibilidade" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <con:ConsultarElegibilidadeResponse>
+         <con:GrupoResponse>
+            <con:flgElegibilidade>N</con:flgElegibilidade>
+         </con:GrupoResponse>
+         <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+            <code>D017</code>
+            <reason>O cliente não possui linha móvel ou fixa bloqueada por inadimplência.</reason>
+            <detail>O cliente não possui linha móvel ou fixa bloqueada por inadimplência.</detail>
+         </esb1:ResponseControl>
+      </con:ConsultarElegibilidadeResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

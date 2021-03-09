@@ -1,0 +1,6 @@
+{
+    "code": 1,
+    "faturas": [],
+    "message": "Realize o pagamento da fatura pendente e aguarde até dois dias úteis pra ter o serviço religado.",
+    "tipo": "AGUARDE"
+}

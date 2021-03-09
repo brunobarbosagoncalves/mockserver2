@@ -1,0 +1,58 @@
+{
+    "secoes": [
+        {
+            "idSecao": "1",
+            "secaoPai": null,
+            "titulosecao": "Serviços Especiais",
+            "itens": [
+                {
+                    "data": "15/03/2019",
+                    "hora": "14:39:15",
+                    "chamada": "Recarga Avulsa - R$25,00",
+                    "descricao": "Recarga Avulsa - R$25,00",
+                    "valor": "R$ 25,00"
+                }
+            ]
+        },
+        {
+            "idSecao": "5",
+            "secaoPai": "4",
+            "titulosecao": "Chamadas de franquia",
+            "itens": [
+                {
+                    "data": "09/03/2019",
+                    "hora": "00:11:19",
+                    "telefone": "03133988101968",
+                    "duracaoChamada": "00:01:00",
+                    "horario": "Reduzido",
+                    "chamada": "Celular Oi",
+                    "descricao": "Celular Oi",
+                    "valor": "Minutos 60",
+                    "consumoutilizado": "Oferta TudoPorDia"
+                },
+                {
+                    "data": "09/03/2019",
+                    "hora": "09:47:31",
+                    "telefone": "988484271",
+                    "duracaoChamada": "00:04:00",
+                    "horario": "Reduzido",
+                    "chamada": "Celular Oi",
+                    "descricao": "Celular Oi",
+                    "valor": "Minutos 240",
+                    "consumoutilizado": "Oferta TudoPorDia"
+                }
+            ]
+        },
+        {
+            "idSecao": "13",
+            "secaoPai": "11",
+            "titulosecao": "Serviços de GPRS",
+            "itens": []
+        }
+    ],
+    "response": {
+        "code": "0",
+        "reason": "BLL[Sucesso] FORT[]",
+        "detail": "BLL[] FORT[]"
+    }
+}

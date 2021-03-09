@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+      <sol:SolicitarAberturaProtocoloResponse xmlns:sol="http://alsb.telemar/xsd/SolicitarAberturaProtocolo">
+         <protocolo>2018198616789</protocolo>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0000</code>
+            <reason/>
+            <detail/>
+         </esb:ResponseControl>
+      </sol:SolicitarAberturaProtocoloResponse>
+   </S:Body>
+</soapenv:Envelope>

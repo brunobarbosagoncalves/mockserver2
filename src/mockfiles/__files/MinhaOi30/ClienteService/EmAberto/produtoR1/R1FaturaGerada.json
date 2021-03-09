@@ -1,0 +1,71 @@
+{
+  "nome": "VERA LUCIA PAES",
+  "cpf": "62658255772",
+  "dataNascimento": "28/01/1960",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "2125214778",
+      "idContaFatura": "05000|2125214778|0|6",
+      "CRMOrigem": "STC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Fixo011-1HABFNFVMIL-1",
+        "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "2125214778",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011-1HABFNFVMIL-1",
+            "nomePlano": "LINHA INDIVIDUAL - RESIDENCIAL"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-06-24",
+          "valor": 42.93,
+          "codigoDeBarras": "84610000000-5 42930024020-8 24050000252-4 14778061805-3",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "214778-28",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0500025214778  06201805",
+          "anoMesReferencia": "201805",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-07-24",
+          "valor": 51.57,
+          "codigoDeBarras": "84610000000-5 51570024020-0 24050000252-4 14778061806-1",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "214778-29",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "0500025214778  06201806",
+          "anoMesReferencia": "201806",
+          "vencida": false
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

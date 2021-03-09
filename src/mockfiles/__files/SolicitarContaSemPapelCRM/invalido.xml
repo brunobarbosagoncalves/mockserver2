@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:esb="http://alsb.telemar/soap/esbUser" xmlns:sol="http://alsb.telemar/xsd/SolicitarContaSemPapelCRM">
+      <soapenv:chaveConnectorSBL>ConfigSiebelContaSemPapel</soapenv:chaveConnectorSBL>
+   </soapenv:Header>
+   <soapenv:Body>
+      <soapenv:Fault>
+         <faultcode>soapenv:Server</faultcode>
+         <faultstring>ESB-2002-ESB - Erro no envio da mensagem ao destinatario - Request Pipeline</faultstring>
+         <detail>
+            <esb:EsbFault xmlns:esb="http://alsb.telemar/soap/esb">
+               <esb:code>ESB-2002</esb:code>
+               <esb:reason>ESB - Erro no envio da mensagem ao destinatario - Request Pipeline</esb:reason>
+               <esb:detail>Falha ao invocar o servico disponibilizado pelo Siebel 6.3</esb:detail>
+               <esb:requestID>4690022342323647899--582718f3.157a046a2ce.213c</esb:requestID>
+            </esb:EsbFault>
+         </detail>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>

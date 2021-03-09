@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/auth/oauth/v2/token?grant_type=client_credentials",
+        "headers":{
+            "Content-Type":{
+                "equalTo":"application/x-www-form-urlencoded"
+            },
+            "Authorization":{
+                "equalTo":"Basic NWIzNDhmNTItMjYwNy00YTFkLThhMzQtZWYzZDRiMjEwZWM3OjBmMjQyMWEzLWIwNTEtNDI2NS05ODlhLTZlZjI0NGVkODAwZQ=="
+            
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": "{\"access_token\":\"6ba69a1d-5709-4006-b57c-43173af50902\", \"token_type\":\"Bearer\", \"expires_in\":\"3600\", \"scope\":\"oob\"}"
+    }
+}

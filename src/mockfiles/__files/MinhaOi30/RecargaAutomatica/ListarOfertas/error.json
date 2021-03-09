@@ -1,0 +1,9 @@
+{
+  "numeroProtocolo": null, 
+  "ofertas": [],
+  "response": {
+    "code": "1",
+    "detail": "E",
+    "reason": "Terminal inelegível"
+  }
+}

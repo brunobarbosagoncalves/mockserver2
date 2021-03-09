@@ -1,0 +1,281 @@
+{
+    "name": "JEAN GOMES BANDEIRA",
+    "status": "active",
+    "cpf": "11636540783",
+    "digitalProfile": [
+        "minhaoi"
+    ],
+    "characteristic": [
+        {
+            "name": "motherName",
+            "value": "MARIA GOMES BENDEIRA"
+        },
+        {
+            "name": "birthDate",
+            "value": "0516-54-19"
+        },
+        {
+            "name": "gender",
+            "value": "masculino"
+        },
+        {
+            "name": "statusDocument",
+            "value": "regular"
+        }
+    ],
+    "contactMedium": [
+        {
+            "preferred": true,
+            "emailAddress": "paulo.santahelena@gmail.com",
+            "type": "personal"
+        }
+    ],
+    "products": [
+        {
+            "id": "DadosAD00001-1-1-1-1-1",
+            "name": "VELOX",
+            "customerAccountId": "2422488503",
+            "billingAccountId": "24988012120",
+            "category": "broadband",
+            "status": "active",
+            "bundleId": "24988012120",
+            "planType": "4P",
+            "characteristics": [
+                {
+                    "name": "source",
+                    "value": "STC"
+                }
+            ],
+            "lastModified": "2018-03-19T16:05:06.866-03:00"
+        },
+        {
+            "id": "DadosAD00001-1-1-1-1-1",
+            "name": "VELOX",
+            "customerAccountId": "2422912974",
+            "billingAccountId": "24910052230",
+            "category": "broadband",
+            "status": "active",
+            "bundleId": "24910052230",
+            "planType": "3P",
+            "characteristics": [
+                {
+                    "name": "source",
+                    "value": "STC"
+                }
+            ],
+            "lastModified": "2018-03-19T16:05:06.866-03:00"
+        },
+        {
+            "id": "Móvel1-14TY4HS-1",
+            "name": "PLANO OI COLABORADOR EXECUTIVO",
+            "customerAccountId": "21988769434",
+            "billingAccountId": "21988769434",
+            "category": "mobile",
+            "status": "active",
+            "characteristics": [
+                {
+                    "name": "source",
+                    "value": "SBL63"
+                }
+            ],
+            "lastModified": "2018-03-19T16:05:06.866-03:00"
+        },
+        {
+            "id": "Móvel1-JCB53CG-1",
+            "name": "PLANO OI COMPLETO SMALL",
+            "customerAccountId": "24988012120",
+            "billingAccountId": "24988012120",
+            "category": "mobile",
+            "status": "active",
+            "bundleId": "24988012120",
+            "planType": "4P",
+            "characteristics": [
+                {
+                    "name": "source",
+                    "value": "SBL63"
+                },
+                {
+                    "name": "mainContact",
+                    "value": "true"
+                }
+            ],
+            "lastModified": "2018-03-19T16:05:06.866-03:00"
+        },
+        {
+            "id": "Móvel1-JCB5394-1",
+            "name": "PLANO OI CONVERGENTE HIGH",
+            "customerAccountId": "24910052230",
+            "billingAccountId": "24910052230",
+            "category": "mobile",
+            "status": "active",
+            "bundleId": "24910052230",
+            "planType": "3P",
+            "characteristics": [
+                {
+                    "name": "source",
+                    "value": "SBL63"
+                },
+                {
+                    "name": "mainContact",
+                    "value": "true"
+                }
+            ],
+            "lastModified": "2018-03-19T16:05:06.866-03:00"
+        },
+        {
+            "id": "Fixo011-1HABF-1-1",
+            "name": "LINHA INDIVIDUAL - RESIDENCIAL",
+            "customerAccountId": "2422488503",
+            "billingAccountId": "24988012120",
+            "category": "landline",
+            "status": "active",
+            "bundleId": "24988012120",
+            "planType": "4P",
+            "characteristics": [
+                {
+                    "name": "source",
+                    "value": "STC"
+                }
+            ],
+            "lastModified": "2018-03-19T16:05:06.866-03:00"
+        },
+        {
+            "id": "Fixo011-1HABF-1-1",
+            "name": "LINHA INDIVIDUAL - RESIDENCIAL",
+            "customerAccountId": "2422912974",
+            "billingAccountId": "24910052230",
+            "category": "landline",
+            "status": "active",
+            "bundleId": "24910052230",
+            "planType": "3P",
+            "characteristics": [
+                {
+                    "name": "source",
+                    "value": "STC"
+                }
+            ],
+            "lastModified": "2018-03-19T16:05:06.866-03:00"
+        }
+    ],
+    "billingAccounts": [
+        {
+            "id": "24988012120",
+            "ratingType": "postpaid",
+            "bundleType": "oitotal",
+            "lastModified": "2018-03-19T16:05:06.865-03:00",
+            "externalIds": [
+                {
+                    "customerAccountId": "2422488503",
+                    "billingId": "08610|1964691||",
+                    "source": "STC"
+                },
+                {
+                    "customerAccountId": "24988012120",
+                    "billingId": "2707706071",
+                    "source": "SBL63"
+                },
+                {
+                    "customerAccountId": "2422488503",
+                    "billingId": "08610|2422488503|0|9",
+                    "source": "STC"
+                },
+                {
+                    "customerAccountId": "2985186",
+                    "billingId": "2985186",
+                    "source": "SINN"
+                }
+            ],
+            "billingAccountBalance": [
+                {
+                    "billingId": "08610|1964691||",
+                    "type": "paperAccount",
+                    "status": "due"
+                },
+                {
+                    "billingId": "2707706071",
+                    "type": "paperAccount",
+                    "status": "due"
+                },
+                {
+                    "billingId": "08610|2422488503|0|9",
+                    "type": "paperAccount",
+                    "status": "due"
+                },
+                {
+                    "billingId": "2985186",
+                    "type": "paperAccount",
+                    "status": "due"
+                }
+            ]
+        },
+        {
+            "id": "24910052230",
+            "ratingType": "postpaid",
+            "bundleType": "oitotal",
+            "lastModified": "2018-03-19T16:05:06.866-03:00",
+            "externalIds": [
+                {
+                    "customerAccountId": "2422912974",
+                    "billingId": "08610|2042375||",
+                    "source": "STC"
+                },
+                {
+                    "customerAccountId": "24910052230",
+                    "billingId": "2443908707",
+                    "source": "SBL63"
+                },
+                {
+                    "customerAccountId": "2422912974",
+                    "billingId": "08610|2422912974|0|2",
+                    "source": "STC"
+                },
+                {
+                    "customerAccountId": "30539968",
+                    "billingId": "30539968",
+                    "source": "SINN"
+                }
+            ],
+            "billingAccountBalance": [
+                {
+                    "billingId": "08610|2042375||",
+                    "type": "paperAccount",
+                    "status": "due"
+                },
+                {
+                    "billingId": "2443908707",
+                    "type": "paperAccount",
+                    "status": "due"
+                },
+                {
+                    "billingId": "08610|2422912974|0|2",
+                    "type": "paperAccount",
+                    "status": "due"
+                },
+                {
+                    "billingId": "30539968",
+                    "type": "paperAccount",
+                    "status": "due"
+                }
+            ]
+        },
+        {
+            "id": "21988769434",
+            "ratingType": "postpaid",
+            "lastModified": "2018-03-19T16:05:06.866-03:00",
+            "externalIds": [
+                {
+                    "customerAccountId": "21988769434",
+                    "billingId": "2200642883",
+                    "source": "SBL63"
+                }
+            ],
+            "billingAccountBalance": [
+                {
+                    "billingId": "2200642883",
+                    "type": "onlineAccount",
+                    "status": "due"
+                }
+            ]
+        }
+    ]
+}

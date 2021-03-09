@@ -1,0 +1,31 @@
+{
+    "terminal": "21989330498",
+    "dataCorrente": 1552446000000,
+    "extra": {
+        "consumoIlimitado": false,
+        "pre": false,
+        "pos": true,
+        "cingapura": false
+    },
+    "dados": [
+        {
+            "restante": 5047945.53,
+            "total": 10485760,
+            "unidade": "kb",
+            "inicio": 1552446000000,
+            "renovacao": 1555124400000,
+            "tipo": "principal",
+            "status": "active",
+            "uso": true,
+            "altoConsumo": false
+        }
+    ],
+    "credito": {
+        "restante": 0,
+        "total": 0,
+        "unidade": "R$",
+        "inicio": 1554754673133,
+        "renovacao": 1554754673133,
+        "tipo": "main"
+    }
+}

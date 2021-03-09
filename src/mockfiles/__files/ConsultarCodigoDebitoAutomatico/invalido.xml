@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:con="http://alsb.telemar/xsd/ConsultarCodigoDebitoAutomatico" xmlns:esb="http://alsb.telemar/soap/esbUser"/>
+   <soapenv:Body>
+      <soapenv:Fault>
+         <faultcode>soapenv:Client</faultcode>
+         <faultstring>ESB-3002-ESB - Operacao inexistente solicitada no XML de entrada</faultstring>
+         <detail>
+            <esb:EsbFault xmlns:esb="http://alsb.telemar/soap/esb">
+               <esb:code>ESB-3002</esb:code>
+               <esb:reason>ESB - Operacao inexistente solicitada no XML de entrada</esb:reason>
+               <esb:detail>Operacao inexistente solicitada no XML de entrada do proxy ConsultarCodigoDebitoAutomaticoProxySoap</esb:detail>
+               <esb:requestID>7028322186989189661-34d87caa.15a60bd2497.2621</esb:requestID>
+            </esb:EsbFault>
+         </detail>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>

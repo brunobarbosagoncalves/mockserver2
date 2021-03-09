@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <v1:ConsultarMeusDadosAcessoResponse xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarMeusDadosAcesso/V1">
+         <v1:GrupoResponse>
+            <v1:nomeServico/>
+            <v1:code/>
+            <v1:CPF>55999352053</v1:CPF>
+            <v1:login>renato.dias@oi.net.br</v1:login>
+            <v1:emailOptin>renato.dias@oi.net.br</v1:emailOptin>
+            <v1:terminalOptin>48984650435</v1:terminalOptin>
+            <v1:flagOptinEmail>true</v1:flagOptinEmail>
+            <v1:flagOptinSMS>true</v1:flagOptinSMS>
+         </v1:GrupoResponse>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0000</code>
+            <reason>Sucesso</reason>
+            <detail>Sucesso</detail>
+         </esb:ResponseControl>
+      </v1:ConsultarMeusDadosAcessoResponse>
+   </soap:Body>
+</soapenv:Envelope>

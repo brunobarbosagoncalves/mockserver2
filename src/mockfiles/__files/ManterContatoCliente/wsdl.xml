@@ -1,0 +1,36 @@
+<WL5G3N0:definitions xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://osb.telemar/xsd/ManterContatoCliente" xmlns:WL5G3N2="http://osb.telemar/wsdl/ManterContatoClienteOSB/" xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://osb.telemar/wsdl/ManterContatoClienteOSB/">
+<WL5G3N0:types>
+<xsd:schema xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ManterContatoClienteOSB/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsd1="http://osb.telemar/xsd/ManterContatoCliente">
+<xsd:import namespace="http://osb.telemar/xsd/ManterContatoCliente" schemaLocation="http://soapx05:7207/LoginUnico/ManterContatoClienteProxySoap?SCHEMA%2FLoginUnico%2FSchemas%2FManterContatoCliente%2FManterContatoCliente"></xsd:import>
+</xsd:schema>
+</WL5G3N0:types>
+<WL5G3N0:message name="ManterContatoClienteRequest">
+<WL5G3N0:part element="WL5G3N1:ManterContatoClienteRequest" name="ManterContatoClienteRequest"/>
+</WL5G3N0:message>
+<WL5G3N0:message name="ManterContatoClienteResponse">
+<WL5G3N0:part element="WL5G3N1:ManterContatoClienteResponse" name="ManterContatoClienteResponse"/>
+</WL5G3N0:message>
+<WL5G3N0:portType name="ManterContatoCliente">
+<WL5G3N0:operation name="ManterContatoCliente">
+<WL5G3N0:input message="WL5G3N2:ManterContatoClienteRequest"/>
+<WL5G3N0:output message="WL5G3N2:ManterContatoClienteResponse"/>
+</WL5G3N0:operation>
+</WL5G3N0:portType>
+<WL5G3N0:binding name="ManterContatoClienteSOAP" type="WL5G3N2:ManterContatoCliente">
+<WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<WL5G3N0:operation name="ManterContatoCliente">
+<WL5G3N3:operation soapAction="http://osb.telemar/LoginUnico/ManterContatoCliente"/>
+<WL5G3N0:input>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:input>
+<WL5G3N0:output>
+<WL5G3N3:body use="literal"/>
+</WL5G3N0:output>
+</WL5G3N0:operation>
+</WL5G3N0:binding>
+<WL5G3N0:service name="ManterContatoClienteSOAPQSService">
+<WL5G3N0:port binding="WL5G3N2:ManterContatoClienteSOAP" name="ManterContatoClienteSOAPQSPort">
+<WL5G3N3:address location="http://digpx12.interno:8070/LoginUnico/ManterContatoClienteProxySoap"/>
+</WL5G3N0:port>
+</WL5G3N0:service>
+</WL5G3N0:definitions>

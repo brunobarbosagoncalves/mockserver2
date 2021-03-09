@@ -1,0 +1,47 @@
+<WL5G3N0:definitions 
+    xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" 
+    xmlns:WL5G3N1="http://osb.telemar/xsd/ClienteOperacao/ConsultarDadosOSAgendamento/V1" 
+    xmlns:WL5G3N2="http://osb.telemar/wsdl/ClienteOperacao/ConsultarDadosOSAgendamento/V1/" 
+    xmlns:WL5G3N3="http://schemas.xmlsoap.org/wsdl/soap/" name="ConsultarDadosOSAgendamento" targetNamespace="http://osb.telemar/wsdl/ClienteOperacao/ConsultarDadosOSAgendamento/V1/">
+    <WL5G3N0:types>
+        <xsd:schema 
+            xmlns:cda="http://osb.telemar/xsd/ClienteOperacao/ConsultarDadosOSAgendamento/V1" 
+            xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+            xmlns:tns="http://osb.telemar/wsdl/ClienteOperacao/ConsultarDadosOSAgendamento/V1/" 
+            xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://osb.telemar/xsd/ClienteOperacao/ConsultarDadosOSAgendamento/V1">
+            <xsd:include schemaLocation="http://digpx12:8070/ClienteOperacao/ConsultarDadosOSAgendamento/v1/ConsultarDadosOSAgendamentoProxySoap?SCHEMA%2FClienteOperacao%2FConsultarDadosOSAgendamento%2FV1%2FInterfaces%2FSchemas%2FConsultarDadosOSAgendamento"/>
+            <xsd:element name="ConsultarDadosOSAgendamentoRequest" type="cda:ConsultarDadosOSAgendamentoRequest"/>
+            <xsd:element name="ConsultarDadosOSAgendamentoResponse" type="cda:ConsultarDadosOSAgendamentoResponse"/>
+        </xsd:schema>
+    </WL5G3N0:types>
+    <WL5G3N0:message name="ConsultarDadosOSAgendamentoRequest">
+        <WL5G3N0:part element="WL5G3N1:ConsultarDadosOSAgendamentoRequest" name="ConsultarDadosOSAgendamentoRequest"/>
+    </WL5G3N0:message>
+    <WL5G3N0:message name="ConsultarDadosOSAgendamentoResponse">
+        <WL5G3N0:part element="WL5G3N1:ConsultarDadosOSAgendamentoResponse" name="ConsultarDadosOSAgendamentoResponse"/>
+    </WL5G3N0:message>
+    <WL5G3N0:portType name="ConsultarDadosOSAgendamento">
+        <WL5G3N0:operation name="ConsultarDadosOSAgendamentoRequest">
+            <WL5G3N0:input message="WL5G3N2:ConsultarDadosOSAgendamentoRequest"/>
+            <WL5G3N0:output message="WL5G3N2:ConsultarDadosOSAgendamentoResponse"/>
+        </WL5G3N0:operation>
+    </WL5G3N0:portType>
+    <WL5G3N0:binding name="ConsultarDadosOSAgendamentoSOAP" type="WL5G3N2:ConsultarDadosOSAgendamento">
+        <WL5G3N3:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <WL5G3N0:operation name="ConsultarDadosOSAgendamentoRequest">
+            <WL5G3N3:operation soapAction="http://osb.telemar/wsdl/ClienteOperacao/ConsultarDadosOSAgendamento/V1/"/>
+            <WL5G3N0:input>
+                <WL5G3N3:body use="literal"/>
+            </WL5G3N0:input>
+            <WL5G3N0:output>
+                <WL5G3N3:body use="literal"/>
+            </WL5G3N0:output>
+        </WL5G3N0:operation>
+    </WL5G3N0:binding>
+    <WL5G3N0:service name="ConsultarDadosOSAgendamentoSOAPQSService">
+        <WL5G3N0:port binding="WL5G3N2:ConsultarDadosOSAgendamentoSOAP" name="ConsultarDadosOSAgendamentoSOAPQSPort">
+            <WL5G3N3:address location="http://digpx12:8070/ClienteOperacao/ConsultarDadosOSAgendamento/v1/ConsultarDadosOSAgendamentoProxySoap"/>
+        </WL5G3N0:port>
+    </WL5G3N0:service>
+</WL5G3N0:definitions>

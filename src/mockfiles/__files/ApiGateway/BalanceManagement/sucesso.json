@@ -1,0 +1,42 @@
+{
+    "id": "5531910116654",
+    "bucketBalance": [
+        {
+            "id": "10540",
+            "name": "Oi Total Completo 14GB",
+            "bucketType": "data",
+            "reservedAmount": 2411520,
+            "remainedAmount": 2411520,
+            "units": "kb",
+            "validFor": {
+                "startDateTime": "2018-03-13T00:00:00.000",
+                "endDateTime": "2018-04-13T00:00:00.000"
+            },
+            "status": "active"
+        },
+        {
+            "id": "10541",
+            "name": "Oi Total Completo 14GB",
+            "bucketType": "additional data",
+            "reservedAmount": 1024,
+            "remainedAmount": 1000,
+            "units": "kb",
+            "validFor": {
+                "startDateTime": "2018-03-14T00:00:00.000",
+                "endDateTime": "2018-04-13T00:00:00.000"
+            },
+            "status": "active"
+        },
+        {
+            "id": "10541",
+            "bucketType": "deposit",
+            "reservedAmount": 10,
+            "units": "R$",
+            "validFor": {
+                "startDateTime": "2018-03-13T00:00:00.000",
+                "endDateTime": "2018-04-13T00:00:00.000"
+            },
+            "status": "active"
+        }
+    ]
+}

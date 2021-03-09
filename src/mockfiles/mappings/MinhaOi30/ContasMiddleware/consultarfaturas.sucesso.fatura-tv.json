@@ -1,0 +1,14 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "GET",
+        "url": "/cliente/10394937694/produtos/faturas"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": "{\"nome\":\"ZILMA GOMES DA SILVA\",\"cpf\":\"10394937694\",\"dataNascimento\":\"23/06/1990\",\"crmsCadastro\":[\"CDI\"],\"emailContrato\":\"\",\"produtos\":[{\"numeroTerminal\":\"27179645\",\"idContaFatura\":\"27179645\",\"CRMOrigem\":\"SINN\",\"fgInadimplente\":\"N\",\"indicInternet\":\"N\",\"tipoTerminal\":\"T\",\"tipoPlano\":\"POS\",\"plano\":{\"codigoPlano\":\"Tv10127246547\",\"nomePlano\":\"OI TV LIVRE HD BRI\"},\"statusTerminal\":\"Ativo\",\"produtosCombo\":[{\"numeroTerminal\":\"27179645\",\"CRMOrigem\":\"SINN\",\"tpPlano\":\"POS\",\"plano\":{\"codigoPlano\":\"Tv10127246547\",\"nomePlano\":\"OI TV LIVRE HD BRI\"},\"statusTerminal\":\"Ativo\",\"indicInternet\":\"N\"}],\"faturas\":[{\"meioCobranca\":\"Boleto\",\"status\":\"Em Aberto\",\"valor\":\"190.55\",\"dataVencimento\":\"2018-03-09\",\"tem14Meses\":false,\"vencida\":false,\"idFatura\":\"2745-1\"},{\"meioCobranca\":\"Boleto\",\"status\":\"Em Aberto\",\"valor\":\"190.55\",\"dataVencimento\":\"2018-02-09\",\"tem14Meses\":false,\"vencida\":true,\"idFatura\":\"2745-2\"}]}]}"
+    }
+}

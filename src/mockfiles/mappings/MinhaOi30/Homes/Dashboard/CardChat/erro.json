@@ -1,0 +1,22 @@
+{
+    "priority": 1,
+    "request": {
+      "method": "GET",
+      "url": "/api/dashboard/cardChat",
+      "headers": {
+        "x-cpf": {
+          "equalTo": "17358978765"
+        }
+      }
+    },
+    "response": {
+      "status": 500,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+          "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "body": "{ \"erro\": \"Erro ao chamar o serviço \"}"
+    }
+  }

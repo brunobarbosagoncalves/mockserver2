@@ -1,0 +1,36 @@
+{
+    "priority": 1,
+    "request": {
+      "method": "POST",
+      "urlPattern": "/api/servicos/dacc/aderir/21989933758",
+      "headers": {
+        "x-origin-application": {
+            "matches": "(.+)"
+        },
+        "x-origin-channel": {
+            "matches": "(.+)"
+        },
+        "x-cpf": {
+            "matches": "(.+)"
+        }
+      },
+      "bodyPatterns": [
+        {
+            "matchesJsonPath": "$[?(!@.idDACC || !@.numBanco || !@.nomeBanco || !@.agencia || !@.numeroCC || !@.digitoVerificadorCC)]",
+            "ignoreArrayOrder": true,
+            "ignoreExtraElements": true
+        }
+    ]
+    },
+    "response": {
+      "status": 400,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+          "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "body": "{ \" mensagem\": \" Campos obrigatórios não enviados. \" }"
+    }
+  }
+  

@@ -1,0 +1,29 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "POST",
+        "url": "/seguranca/token/v1/solicitarBmail",
+        "headers": {
+            "Authorization": {
+                "equalTo": "Bearer 6ba69a1d-5709-4006-b57c-43173af50902"
+            },
+            "Content-Type" : {
+                "equalTo": "application/json"
+            }
+        },
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": "$.PositivarViaTokenRequest[?(@.contratoTv == '30539968')]",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]   
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": "{\"PositivarViaTokenResponse\":{\"codigo\":\"0\",\"detalhe\":\"Sucesso\",\"MessageHeader\":{\"Response\":{\"Return\":{\"NativeReturn\":{\"Description\":\"Sucesso\",\"AppId\":\"AN0464\",\"Code\":\"0\",\"Detail\":{\"detail\":\"Sucesso\"}}}}},\"razao\":\"Sucesso\",\"transactionId\":\"1234\"}}"
+    }
+}

@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"/>
+   <env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+      <env1:EnviarMensagemResponse xmlns:env="http://wsdl.broadcast.oi.com.br/xsd/EnviarMensagemResponse" xmlns:m="http://wsdl.broadcast.oi.com.br" xmlns:env1="http://alsb.telemar/xsd/EnviarMensagemResponse">
+         <env1:responseControl>
+            <res:code xmlns:res="http://alsb.telemar/xsd/ResponseControl">0</res:code>
+            <res:reason xmlns:res="http://alsb.telemar/xsd/ResponseControl">Operacao realizada com sucesso.</res:reason>
+            <res:detail xmlns:res="http://alsb.telemar/xsd/ResponseControl">No: ejbbrcpx27g,T=6624669161 T=No: ejbbrcpx27g,T=6624669161</res:detail>
+         </env1:responseControl>
+      </env1:EnviarMensagemResponse>
+   </env:Body>
+</soapenv:Envelope>

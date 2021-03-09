@@ -1,0 +1,25 @@
+{
+  "priority": 3,
+  "request": {
+    "method": "POST",
+    "url": "/api/dashboard/cardContas/enviarSMS",
+    "headers": {
+    },
+    "bodyPatterns": [
+      {
+          "matchesJsonPath": "$.[?(@.destinatario == '66666666666')]",
+          "ignoreArrayOrder": true,
+          "ignoreExtraElements": true
+      }
+  ]},
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers":
+        "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+    },
+    "body":"{\"mensagem\":\"Ocorreu um erro inesperado\"}"
+  }
+}

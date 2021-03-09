@@ -1,0 +1,15 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/ClienteOperacao/AtualizarDadosAcesso/V1/AtualizarDadosAcessoProxySoap"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "MinhaOi30/DadosAcesso/Atualizar/xml/sucesso.xml"
+    }
+}

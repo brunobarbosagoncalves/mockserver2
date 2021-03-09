@@ -1,0 +1,27 @@
+{
+	"length": 1,
+	"retorno": [
+		{
+			"cpf": "17358978765",
+			"nome": "Waldisney da Silva",
+			"qntProdutos": "produtos.length",
+			"perfil": "PRE-HOME",
+			"err": null,
+			"clientePositivado": false,
+			"produtos": [
+				{
+					"OiTv": false,
+					"pre": false,
+					"dacc": false,
+					"nomePlano": "Oi Colaborador",
+					"faturas": [
+						{
+							"valor": "100,00"
+						}
+					]
+				}
+			],
+			"dataAtualizacao": "2018-05-04T19:37:04.401Z"
+		}
+	]
+}

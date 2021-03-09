@@ -1,0 +1,23 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "POST",
+        "url": "/LoginUnico/ConsultarDadosOptinProxySoap",
+        "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/con:ConsultarDadosOptinRequest/CPF",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "esb"  : "http://alsb.telemar/soap/esbUser",
+                "con" : "http://osb.telemar/xsd/ConsultarDadosOptin"
+            }
+        } ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarDadosOptIn/invalido.xml"
+    }
+}

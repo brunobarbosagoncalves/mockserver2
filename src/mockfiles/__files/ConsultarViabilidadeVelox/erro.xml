@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <soapenv:Body>
+         <soapenv:Fault>
+            <faultcode>soapenv:SOAP-ENV:Server</faultcode>
+            <faultstring>ESB-1001-BEA-382030: Failure while unmarshalling message: Failed to parse XML text</faultstring>
+            <detail>
+               <esb:EsbFault xmlns:esb="http://alsb.telemar/soap/esb">
+                  <esb:code>ESB-1001</esb:code>
+                  <esb:reason>Erro Inesperado</esb:reason>
+                  <esb:detail>BEA-382030Failure while unmarshalling message: Failed to parse XML textPipelinePairPipelinePair_requestArmazernarRequisicaorequest-pipeline</esb:detail>
+                  <esb:requestID>1509494810159448101-1fb9deca.1661c3ca71c.-32a3</esb:requestID>
+               </esb:EsbFault>
+            </detail>
+         </soapenv:Fault>
+      </soapenv:Body>
+   </soapenv:Body>
+</soapenv:Envelope>

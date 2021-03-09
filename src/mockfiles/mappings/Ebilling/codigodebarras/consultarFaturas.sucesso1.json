@@ -1,0 +1,24 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/usuarionaologado/faturas",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"cpf\":\"88888888888\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 200,
+        "headers":
+        {
+            "Content-Type" : "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept"
+        },
+        "body": "{ \"faturas\": [ { \"data\": \"2012-04-23T18:25:43.511Z\", \"valor\": 63.38, \"dacc\": false, \"codigoDeBarras\": \"84630000000-3 63380024020-0 24088610336-7 70981041611-1\", \"tem14Meses\": true }, { \"data\": \"2017-04-23T18:25:43.511Z\", \"valor\": 80.38, \"dacc\": false, \"codigoDeBarras\": \"94630000000-3 63380024020-0 24088610336-7 70981041611-1\", \"tem14Meses\": true  }] }"
+    }
+}

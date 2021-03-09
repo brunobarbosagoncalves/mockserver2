@@ -1,0 +1,86 @@
+{
+  "nome": "JAYME MARCANZONI",
+  "cpf": "07442084915",
+  "dataNascimento": "28/01/1951",
+  "crmsCadastro": [
+    "SAC"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "6533761260",
+      "idContaFatura": "5000781038",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "0578",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6533761260",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "0578",
+            "nomePlano": "PLANO ALTERNATIVO 14 SOB MEDIDA DDD 30 MINUTOS"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-14",
+          "valor": 152.32,
+          "codigoDeBarras": "84650000001-9 52320017500-9 07810320180-8 70118300000-2",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "651260-30",
+          "ajustada": false,
+          "faturaExtra": true,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "05000781038201807001000002555236",
+          "anoMesReferencia": "201807",
+          "ciclo": "001",
+          "vencida": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "6536829473",
+      "idContaFatura": "5001215435",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "3905",
+        "nomePlano": "Oi Internet"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6536829473",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "3905",
+            "nomePlano": "RENT_ATR_SVA_FIDEL_5M A 35M"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": true
+    }
+  ]
+}

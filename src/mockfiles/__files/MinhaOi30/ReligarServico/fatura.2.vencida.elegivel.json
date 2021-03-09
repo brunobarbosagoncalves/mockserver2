@@ -1,0 +1,24 @@
+{
+    "code": 0,
+    "faturas": {
+        "crmOrigem": "STC",
+        "faturas": [
+            {
+                "data": "05/12/2017",
+                "idFatura": "201712",
+                "valor": 84.69
+            },
+            {
+                "data": "05/01/2018",
+                "idFatura": "201810",
+                "valor": 73.21
+            }
+        ],
+        "terminal": {
+            "id": 6,
+            "terminal": "Oi Fixo - (21) 3288-0697"
+        }
+    },
+    "message": "Sucesso",
+    "tipo": "SUCESSO"
+}

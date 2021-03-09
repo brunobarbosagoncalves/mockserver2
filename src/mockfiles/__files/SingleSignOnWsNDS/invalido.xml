@@ -1,0 +1,11 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <ns2:validarEmailClienteResponse xmlns:ns2="http://sso.ws.nds/">
+         <response>
+            <code>0</code>
+            <detail>O e-mail informado não é válido.</detail>
+            <reason>38</reason>
+         </response>
+      </ns2:validarEmailClienteResponse>
+   </soap:Body>
+</soap:Envelope>

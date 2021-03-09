@@ -1,0 +1,65 @@
+[
+    {
+        "nome": "Oi Fixo",
+        "tipo": "landline",
+        "tipoFaturamento": "pos",
+        "isFibra": false,
+        "status": "active"
+    },
+    {
+        "nome": "Oi Internet",
+        "tipo": "mobile_internet",
+        "tipoFaturamento": "pos",
+        "isFibra": false,
+        "status": "inactive"
+    },
+    {
+        "nome": "Oi Cartão",
+        "tipo": "mobile",
+        "tipoFaturamento": "pre",
+        "isFibra": false,
+        "status": "active"
+    },
+    {
+        "nome": "LINHA INDIVIDUAL - RESIDENCIAL",
+        "tipo": "landline",
+        "tipoFaturamento": "pos",
+        "isFibra": false,
+        "status": "active"
+    },
+    {
+        "nome": "Oi Tv Fibra",
+        "tipo": "tv",
+        "tipoFaturamento": "pos",
+        "isFibra": true,
+        "status": "inactive"
+    },
+    {
+        "nome": "Oi Internet na Fibra",
+        "tipo": "broadband",
+        "tipoFaturamento": "pos",
+        "isFibra": true,
+        "status": "inactive"
+    },
+    {
+        "nome": "Oi Fixo",
+        "tipo": "landline",
+        "tipoFaturamento": "pos",
+        "isFibra": false,
+        "status": "active"
+    },
+    {
+        "nome": "Oi Mais 500",
+        "tipo": "mobile",
+        "tipoFaturamento": "pos",
+        "isFibra": false,
+        "status": "active"
+    },
+    {
+        "nome": "Oi Mais",
+        "tipo": "mobile",
+        "tipoFaturamento": "pos",
+        "isFibra": false,
+        "status": "active"
+    }
+]

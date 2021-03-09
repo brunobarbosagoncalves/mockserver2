@@ -1,0 +1,16 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "GET",
+        "url": "/api/cadastro/positivacao/consultar"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{ \"codigo\": 0, \"mensagem\": \"Sucesso\", \"status\": 200, \"data\": {\"positivado\": false} }"
+    }
+}

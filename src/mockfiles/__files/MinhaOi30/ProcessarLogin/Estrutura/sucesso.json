@@ -1,0 +1,662 @@
+{
+    "ultimoAcesso": "1549819987000",
+    "protocolo": "",
+    "nome": "PAULO SANTA HELENA TAVARES",
+    "menus": [
+        {
+            "id": "principal",
+            "itens": [
+                {
+                    "nome": "INÍCIO",
+                    "url": "https://poc.oi.net.br/minhaoi/home/#/",
+                    "id": "inicio",
+                    "terminal": [
+                        {
+                            "categoria": "movel"
+                        }
+                    ]
+                },
+                {
+                    "nome": "CONTAS E PAGAMENTOS",
+                    "url": "https://poc.oi.net.br/minhaoi/codigo-de-barras/",
+                    "id": "contas-pagamentos"
+                },
+                {
+                    "nome": "MEUS PRODUTOS",
+                    "url": "#",
+                    "id": "meus-produtos",
+                    "colunas": [
+                        {
+                            "nome": "GERENCIE SEUS PRODUTOS",
+                            "id": "meus-produtos-gerencie-produtos",
+                            "itens": [
+                                {
+                                    "nome": "Móvel Pós",
+                                    "url": "/minhaoi/home/:terminal",
+                                    "id": "meus-produtos-movel-pos",
+                                    "terminais": [
+                                        "21988769434"
+                                    ],
+                                    "terminaisUrl": {},
+                                    "tipos": {
+                                        "21988769434": {
+                                            "categoria": "tv",
+                                            "cingapura": false,
+                                            "fibra": false,
+                                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                            "status": "inactive",
+                                            "terminal": "30539968",
+                                            "tipo": "combo",
+                                            "tipoFaturamento": "pos",
+                                            "tipoTerminal": "mudinho",
+                                            "tipoVignette": "oct"
+                                        }
+                                    }
+                                },
+                                {
+                                    "nome": "Combo",
+                                    "url": "/minhaoi/home/:terminal",
+                                    "id": "meus-produtos-combo",
+                                    "terminais": [
+                                        "24988012120"
+                                    ],
+                                    "terminaisUrl": {},
+                                    "tipos": {
+                                        "24988012120": {
+                                            "categoria": "tv",
+                                            "cingapura": false,
+                                            "fibra": false,
+                                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                            "status": "inactive",
+                                            "terminal": "30539968",
+                                            "tipo": "combo",
+                                            "tipoFaturamento": "pos",
+                                            "tipoTerminal": "mudinho",
+                                            "tipoVignette": "oct"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "RECARGA",
+                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=recarga_online",
+                    "id": "recarga"
+                },
+                {
+                    "nome": "AJUDA E SUPORTE",
+                    "url": "#",
+                    "id": "ajuda-suporte",
+                    "colunas": [
+                        {
+                            "nome": "AJUDA",
+                            "id": "ajuda-suporte-ajuda",
+                            "itens": [
+                                {
+                                    "nome": "Dúvidas frequentes",
+                                    "url": "http://faq.oi.com.br/",
+                                    "id": "ajuda-suporte-duvidas-frequentes",
+                                    "target": "blank"
+                                },
+                                {
+                                    "nome": "Chat",
+                                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=home_produto&numTerminal=:terminal",
+                                    "id": "ajuda-suporte-chat",
+                                    "terminais": [
+                                        "21988769434",
+                                        "24988012120"
+                                    ],
+                                    "horarioComercial": true,
+                                    "terminaisUrl": {},
+                                    "tipos": {
+                                        "21988769434": {
+                                            "categoria": "tv",
+                                            "cingapura": false,
+                                            "fibra": false,
+                                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                            "status": "inactive",
+                                            "terminal": "30539968",
+                                            "tipo": "combo",
+                                            "tipoFaturamento": "pos",
+                                            "tipoTerminal": "mudinho",
+                                            "tipoVignette": "oct"
+                                        },
+                                        "24988012120": {
+                                            "categoria": "tv",
+                                            "cingapura": false,
+                                            "fibra": false,
+                                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                            "status": "inactive",
+                                            "terminal": "30539968",
+                                            "tipo": "combo",
+                                            "tipoFaturamento": "pos",
+                                            "tipoTerminal": "mudinho",
+                                            "tipoVignette": "oct"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "ATENDIMENTO",
+                            "id": "ajuda-suporte-atendimento",
+                            "itens": [
+                                {
+                                    "nome": "Consulta de protocolo",
+                                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=cons_protocolo&numTerminal=:terminal",
+                                    "id": "ajuda-suporte-consulta-protocolo",
+                                    "terminais": [
+                                        "21988769434",
+                                        "24988012120"
+                                    ],
+                                    "terminaisUrl": {},
+                                    "tipos": {
+                                        "21988769434": {
+                                            "categoria": "tv",
+                                            "cingapura": false,
+                                            "fibra": false,
+                                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                            "status": "inactive",
+                                            "terminal": "30539968",
+                                            "tipo": "combo",
+                                            "tipoFaturamento": "pos",
+                                            "tipoTerminal": "mudinho",
+                                            "tipoVignette": "oct"
+                                        },
+                                        "24988012120": {
+                                            "categoria": "tv",
+                                            "cingapura": false,
+                                            "fibra": false,
+                                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                            "status": "inactive",
+                                            "terminal": "30539968",
+                                            "tipo": "combo",
+                                            "tipoFaturamento": "pos",
+                                            "tipoTerminal": "mudinho",
+                                            "tipoVignette": "oct"
+                                        }
+                                    }
+                                },
+                                {
+                                    "nome": "Encontre sua loja",
+                                    "url": "http://www.oi.com.br/oi/oi-pra-voce/atendimento/fale-com-a-oi/lojas-fisicas-da-oi",
+                                    "id": "ajuda-suporte-encontre-loja",
+                                    "target": "blank"
+                                },
+                                {
+                                    "nome": "Telefones e postos",
+                                    "url": "http://www.oi.com.br/minha-oi/fale-com-a-oi/",
+                                    "id": "ajuda-suporte-telefones-postos",
+                                    "target": "blank"
+                                },
+                                {
+                                    "nome": "Consultar documentos",
+                                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=cons_documentos&numTerminal=:terminal",
+                                    "id": "ajuda-suporte-consulta-documentos",
+                                    "terminais": [
+                                        "21988769434",
+                                        "24988012120"
+                                    ],
+                                    "terminaisUrl": {},
+                                    "tipos": {
+                                        "21988769434": {
+                                            "categoria": "tv",
+                                            "cingapura": false,
+                                            "fibra": false,
+                                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                            "status": "inactive",
+                                            "terminal": "30539968",
+                                            "tipo": "combo",
+                                            "tipoFaturamento": "pos",
+                                            "tipoTerminal": "mudinho",
+                                            "tipoVignette": "oct"
+                                        },
+                                        "24988012120": {
+                                            "categoria": "tv",
+                                            "cingapura": false,
+                                            "fibra": false,
+                                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                            "status": "inactive",
+                                            "terminal": "30539968",
+                                            "tipo": "combo",
+                                            "tipoFaturamento": "pos",
+                                            "tipoTerminal": "mudinho",
+                                            "tipoVignette": "oct"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "nome": "SUPORTE TÉCNICO",
+                            "id": "ajuda-suporte-suporte-tecnico",
+                            "itens": [
+                                {
+                                    "nome": "Técnico Virtual",
+                                    "url": "http://www.oi.com.br/app/tecnico-virtual/",
+                                    "id": "ajuda-suporte-tecnico-virtual",
+                                    "target": "blank"
+                                },
+                                {
+                                    "nome": "Visita Técnica",
+                                    "url": "https://poc.oi.net.br/minhaoi/suporte/",
+                                    "id": "ajuda-suporte-visita-tecnica"
+                                },
+                                {
+                                    "nome": "Melhoria de sinal de TV",
+                                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=melhoria_sinal&numTerminal=:terminal",
+                                    "id": "ajuda-suporte-melhorias-sinal-tv",
+                                    "terminais": [
+                                        "2985186"
+                                    ],
+                                    "terminaisUrl": {},
+                                    "tipos": {
+                                        "2985186": {
+                                            "categoria": "tv",
+                                            "cingapura": false,
+                                            "fibra": false,
+                                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                            "status": "inactive",
+                                            "terminal": "30539968",
+                                            "tipo": "combo",
+                                            "tipoFaturamento": "pos",
+                                            "tipoTerminal": "mudinho",
+                                            "tipoVignette": "oct"
+                                        }
+                                    }
+                                },
+                                {
+                                    "nome": "Acompanhamento de instalação Fixo",
+                                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=acomp_inst_fixo",
+                                    "id": "ajuda-suporte-acompanhamento-instalacao-fixo"
+                                },
+                                {
+                                    "nome": "Estou sem serviço",
+                                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=religar_servico&numTerminal=:terminal",
+                                    "id": "ajuda-suporte-estou-sem-servico",
+                                    "terminais": [
+                                        "21988769434",
+                                        "24988012120"
+                                    ],
+                                    "terminaisUrl": {},
+                                    "tipos": {
+                                        "21988769434": {
+                                            "categoria": "tv",
+                                            "cingapura": false,
+                                            "fibra": false,
+                                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                            "status": "inactive",
+                                            "terminal": "30539968",
+                                            "tipo": "combo",
+                                            "tipoFaturamento": "pos",
+                                            "tipoTerminal": "mudinho",
+                                            "tipoVignette": "oct"
+                                        },
+                                        "24988012120": {
+                                            "categoria": "tv",
+                                            "cingapura": false,
+                                            "fibra": false,
+                                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                            "status": "inactive",
+                                            "terminal": "30539968",
+                                            "tipo": "combo",
+                                            "tipoFaturamento": "pos",
+                                            "tipoTerminal": "mudinho",
+                                            "tipoVignette": "oct"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "nome": "+ VANTAGENS",
+                    "url": "#",
+                    "id": "mais-vantagens",
+                    "itens": [
+                        {
+                            "nome": "Oi Pontos",
+                            "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=oi_pontos",
+                            "id": "mais-vantagens-oi-pontos"
+                        },
+                        {
+                            "nome": "Oi Wifi",
+                            "url": "https://oiwifi.com.br/",
+                            "id": "mais-vantagens-oi-wifi",
+                            "target": "_blank"
+                        },
+                        {
+                            "nome": "Oi Play",
+                            "url": "https://www.oiplay.tv/",
+                            "id": "mais-vantagens-oi-play",
+                            "target": "blank"
+                        },
+                        {
+                            "nome": "Mais Serviços Oi",
+                            "url": "https://servicos.oi.com.br/?utm_source=Minha+Oi&utm_medium=Link&utm_content=Home&utm_campaign=Menu+Lateral",
+                            "id": "mais-vantagens-mais-servicos-oi",
+                            "target": "blank"
+                        }
+                    ]
+                },
+                {
+                    "nome": "OFERTAS PRA VOCÊ",
+                    "url": "#",
+                    "id": "ofertas-pra-voce",
+                    "colunas": [
+                        {
+                            "itens": [
+                                {
+                                    "nome": "Oi TV HD",
+                                    "url": "https://poc.oi.net.br/minhaoi/vendas/#/turbine-tv",
+                                    "id": "meus-produtos-turbine-tv-hd",
+                                    "subtitulo": "Adicione os melhores canais do mundo todo."
+                                },
+                                {
+                                    "nome": "Banda Larga",
+                                    "url": "https://poc.oi.net.br/minhaoi/vendas/#/turbine-banda-larga",
+                                    "subtitulo": "Aumente a velocidade da sua banda larga.",
+                                    "id": "meus-produtos-turbine-banda-larga"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "usuario",
+            "itens": [
+                {
+                    "nome": "Alterar dados de acesso",
+                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_dados_acesso",
+                    "id": "nome-usuario-alterar-dados-acesso"
+                },
+                {
+                    "nome": "Alterar endereço de cobrança",
+                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_end_cobranca&numTerminal=:terminal",
+                    "id": "nome-usuario-alterar-endereco-cobranca",
+                    "terminais": [
+                        "21988769434",
+                        "24988012120"
+                    ],
+                    "terminaisUrl": {},
+                    "tipos": {
+                        "21988769434": {
+                            "categoria": "mobile",
+                            "tipoTerminal": "terminal",
+                            "fibra": false,
+                            "tipo": "mobile-pos",
+                            "tipoVignette": "mvl"
+                        },
+                        "24988012120": {
+                            "categoria": "tv",
+                            "cingapura": false,
+                            "fibra": false,
+                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                            "status": "inactive",
+                            "terminal": "30539968",
+                            "tipo": "combo",
+                            "tipoFaturamento": "pos",
+                            "tipoTerminal": "mudinho",
+                            "tipoVignette": "oct"
+                        }
+                    }
+                },
+                {
+                    "nome": "Alterar endereço de instalação",
+                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alteracao_end_instl&numTerminal=:terminal",
+                    "id": "nome-usuario-alterar-endereco-instalacao",
+                    "terminais": [
+                        "24988012120"
+                    ],
+                    "terminaisUrl": {},
+                    "tipos": {
+                        "24988012120": {
+                            "categoria": "tv",
+                            "cingapura": false,
+                            "fibra": false,
+                            "nome": "OI TV MAIS HBO/MAX HD 2013",
+                            "status": "inactive",
+                            "terminal": "30539968",
+                            "tipo": "combo",
+                            "tipoFaturamento": "pos",
+                            "tipoTerminal": "mudinho",
+                            "tipoVignette": "oct"
+                        }
+                    }
+                },
+                {
+                    "nome": "Controle de acesso",
+                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=controle_terceiro",
+                    "id": "nome-usuario-controle-acesso"
+                },
+                {
+                    "nome": "Sair",
+                    "url": "https://poc.oi.net.br/portal/site/MinhaOi/realiza_logout",
+                    "id": "nome-usuario-sair"
+                }
+            ]
+        },
+        {
+            "id": "sidebar-logado",
+            "itens": [
+                {
+                    "nome": "SOBRE SUAS CONTAS",
+                    "id": "sobre-suas-contas",
+                    "itens": [
+                        {
+                            "nome": "Histórico de contas",
+                            "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=ultimas_contas&numTerminal=:terminal",
+                            "subtitulo": "Consulte suas contas anteriores",
+                            "id": "sobre-suas-contas-historico-contas",
+                            "terminais": [
+                                "21988769434",
+                                "24988012120"
+                            ],
+                            "terminaisUrl": {},
+                            "tipos": {
+                                "21988769434": {
+                                    "categoria": "tv",
+                                    "cingapura": false,
+                                    "fibra": false,
+                                    "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                    "status": "inactive",
+                                    "terminal": "30539968",
+                                    "tipo": "combo",
+                                    "tipoFaturamento": "pos",
+                                    "tipoTerminal": "mudinho",
+                                    "tipoVignette": "oct"
+                                },
+                                "24988012120": {
+                                    "categoria": "tv",
+                                    "cingapura": false,
+                                    "fibra": false,
+                                    "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                    "status": "inactive",
+                                    "terminal": "30539968",
+                                    "tipo": "combo",
+                                    "tipoFaturamento": "pos",
+                                    "tipoTerminal": "mudinho",
+                                    "tipoVignette": "oct"
+                                }
+                            }
+                        },
+                        {
+                            "nome": "Pagar minha conta",
+                            "url": "https://poc.oi.net.br/minhaoi/codigo-de-barras/",
+                            "subtitulo": "Peça seu código de barras",
+                            "id": "sobre-suas-contas-pagar-minha-conta"
+                        },
+                        {
+                            "nome": "Avisar pagamento",
+                            "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=religar_servico&numTerminal=:terminal",
+                            "subtitulo": "Religue o seu serviço bloqueado",
+                            "id": "sobre-suas-contas-avisar-pagamento",
+                            "terminais": [
+                                "21988769434",
+                                "24988012120"
+                            ],
+                            "terminaisUrl": {},
+                            "tipos": {
+                                "21988769434": {
+                                    "categoria": "tv",
+                                    "cingapura": false,
+                                    "fibra": false,
+                                    "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                    "status": "inactive",
+                                    "terminal": "30539968",
+                                    "tipo": "combo",
+                                    "tipoFaturamento": "pos",
+                                    "tipoTerminal": "mudinho",
+                                    "tipoVignette": "oct"
+                                },
+                                "24988012120": {
+                                    "categoria": "tv",
+                                    "cingapura": false,
+                                    "fibra": false,
+                                    "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                    "status": "inactive",
+                                    "terminal": "30539968",
+                                    "tipo": "combo",
+                                    "tipoFaturamento": "pos",
+                                    "tipoTerminal": "mudinho",
+                                    "tipoVignette": "oct"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nome": "FACILIDADES PRA VOCÊ",
+                    "id": "facilidades-pra-voce",
+                    "itens": [
+                        {
+                            "nome": "Perfil de consumo",
+                            "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=perf_consumo&numTerminal=:terminal",
+                            "id": "facilidades-pra-voce-perfil-consumo",
+                            "terminais": [
+                                "21988769434",
+                                "24988012120"
+                            ],
+                            "terminaisUrl": {},
+                            "tipos": {
+                                "21988769434": {
+                                    "categoria": "tv",
+                                    "cingapura": false,
+                                    "fibra": false,
+                                    "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                    "status": "inactive",
+                                    "terminal": "30539968",
+                                    "tipo": "combo",
+                                    "tipoFaturamento": "pos",
+                                    "tipoTerminal": "mudinho",
+                                    "tipoVignette": "oct"
+                                },
+                                "24988012120": {
+                                    "categoria": "tv",
+                                    "cingapura": false,
+                                    "fibra": false,
+                                    "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                    "status": "inactive",
+                                    "terminal": "30539968",
+                                    "tipo": "combo",
+                                    "tipoFaturamento": "pos",
+                                    "tipoTerminal": "mudinho",
+                                    "tipoVignette": "oct"
+                                }
+                            }
+                        },
+                        {
+                            "nome": "Alterar data de vencimento",
+                            "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_dt_vencimento&numTerminal=:terminal",
+                            "id": "facilidades-pra-voce-alterar-data-vencimento",
+                            "terminais": [
+                                "21988769434",
+                                "24988012120"
+                            ],
+                            "terminaisUrl": {},
+                            "tipos": {
+                                "21988769434": {
+                                    "categoria": "tv",
+                                    "cingapura": false,
+                                    "fibra": false,
+                                    "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                    "status": "inactive",
+                                    "terminal": "30539968",
+                                    "tipo": "combo",
+                                    "tipoFaturamento": "pos",
+                                    "tipoTerminal": "mudinho",
+                                    "tipoVignette": "oct"
+                                },
+                                "24988012120": {
+                                    "categoria": "tv",
+                                    "cingapura": false,
+                                    "fibra": false,
+                                    "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                    "status": "inactive",
+                                    "terminal": "30539968",
+                                    "tipo": "combo",
+                                    "tipoFaturamento": "pos",
+                                    "tipoTerminal": "mudinho",
+                                    "tipoVignette": "oct"
+                                }
+                            }
+                        },
+                        {
+                            "nome": "Alterar endereço de cobrança",
+                            "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=alt_end_cobranca&numTerminal=:terminal",
+                            "id": "facilidades-pra-voce-alterar-endereco-cobranca",
+                            "terminais": [
+                                "21988769434",
+                                "24988012120"
+                            ],
+                            "terminaisUrl": {},
+                            "tipos": {
+                                "21988769434": {
+                                    "categoria": "tv",
+                                    "cingapura": false,
+                                    "fibra": false,
+                                    "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                    "status": "inactive",
+                                    "terminal": "30539968",
+                                    "tipo": "combo",
+                                    "tipoFaturamento": "pos",
+                                    "tipoTerminal": "mudinho",
+                                    "tipoVignette": "oct"
+                                },
+                                "24988012120": {
+                                    "categoria": "tv",
+                                    "cingapura": false,
+                                    "fibra": false,
+                                    "nome": "OI TV MAIS HBO/MAX HD 2013",
+                                    "status": "inactive",
+                                    "terminal": "30539968",
+                                    "tipo": "combo",
+                                    "tipoFaturamento": "pos",
+                                    "tipoTerminal": "mudinho",
+                                    "tipoVignette": "oct"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "nome": "EVITE MULTAS E ATRASO",
+                    "id": "evite-multas-atraso",
+                    "subtitulo": "Ative o Débito Automático e ainda ganhe descontos e pontos.",
+                    "itens": [
+                        {
+                            "nome": "Ativar o Débito Automático",
+                            "url": "https://poc.oi.net.br/portal/site/MinhaOi/AcessoFunc?idfunc=debito_automatico",
+                            "id": "evite-multas-atraso-ativar-dacc"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/recaptcha/api/siteverify"
+    },
+    "response": {
+        "status": 500,
+        "headers":
+        {
+            "Content-Type": "application/json"
+        },
+        "body": "{ \"message\": \"Internal Server Error\" }"
+    }
+}

@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <v1:ConsultarMeusDadosAcessoResponse xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarMeusDadosAcesso/V1">
+         <v1:GrupoResponse xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0003</code>
+            <reason>Cliente não encontrado</reason>
+            <detail>O cliente não foi encontrado na base do Single Sign-On</detail>
+         </esb:ResponseControl>
+      </v1:ConsultarMeusDadosAcessoResponse>
+   </soap:Body>
+</soapenv:Envelope>

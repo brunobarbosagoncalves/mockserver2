@@ -1,0 +1,15 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/auditoria-webservice/services/AuditoriaServiceImpl"
+    },
+    "response": {
+        "status": 202,
+        "headers": {
+            "Content-Type": "text/html",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/ContaSemPapel/SolicitarContaSemPapelCRMProxySoap",
+        "bodyPatterns": [{
+            "matchesXPath": "/soapenv:Envelope/soapenv:Body/ns4:SolicitarContaSemPapelCRMRequest[number(numDocumento) and string-length(numDocumento) = 11]",
+            "xPathNamespaces": {
+                "soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+                "esb": "http://alsb.telemar/soap/esbUser",
+                "ns4": "http://alsb.telemar/xsd/SolicitarContaSemPapelCRM"
+            }
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "SolicitarContaSemPapelCRM/sucesso.xml"
+    }
+}

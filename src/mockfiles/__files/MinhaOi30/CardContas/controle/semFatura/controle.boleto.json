@@ -1,0 +1,29 @@
+{
+    "planos": [
+        {
+            "terminais": [
+                "51984450400"
+            ],
+            "nomePlano": "Oi Controle",
+            "dacc": false,
+            "extra": {
+                "controle": true
+            },
+            "faturas": [],
+            "terminalPrincipal": {
+                "plano": "Oi Controle Sem Fatura",
+                "terminal": "51984450400",
+                "nome": "Oi Controle Sem Fatura",
+                "status": "active",
+                "categoria": "mobile",
+                "fibra": false,
+                "cingapura": false,
+                "tipoFaturamento": "pre",
+                "tipoVignette": "mvl",
+                "tipo": "controle",
+                "tipoTerminal": "terminal",
+                "oferta": "Oi Controle Sem Fatura"
+            }
+        }
+    ]
+}

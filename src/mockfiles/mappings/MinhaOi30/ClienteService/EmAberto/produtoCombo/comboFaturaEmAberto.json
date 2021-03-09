@@ -1,0 +1,17 @@
+{   
+    "request": {
+      "method": "GET",
+      "url": "/cliente/31565531744/produtos/faturas?status=aberto" 
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+          "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "bodyFileName":
+        "MinhaOi30/ClienteService/EmAberto/produtoCombo/comboFaturaEmAberto.json"
+    }
+  }

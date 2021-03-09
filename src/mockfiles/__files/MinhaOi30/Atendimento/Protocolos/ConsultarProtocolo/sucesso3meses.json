@@ -1,0 +1,117 @@
+{
+    "protocolos": [
+        {
+            "numeroChamado": "201900032060123",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Aberto",
+            "dataHoraResolucao": "",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900030002960",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Fatura sem Papel",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/18 16:40:00",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900028652264",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:16:52",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900032060123",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Aberto",
+            "dataHoraResolucao": "",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900030002960",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Fatura sem Papel",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/18 16:40:00",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900028652264",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:16:52",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900032060123",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Aberto",
+            "dataHoraResolucao": "",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900030002960",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Fatura sem Papel",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/18 16:40:00",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900028652264",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:16:52",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900032060123",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Aberto",
+            "dataHoraResolucao": "",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900030002960",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Fatura sem Papel",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/18 16:40:00",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900028652264",
+            "dataHoraAbertura": "17/04/2019",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:16:52",
+            "terminal": ""
+        }
+    ],
+    "response": {
+        "code": "00000",
+        "detail": "Sucesso",
+        "reason": "Sucesso"
+    }
+}

@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:con="http://osb.telemar/xsd/ConsultarElegibilidade" xmlns:esb="http://alsb.telemar/soap/esbUser"/>
+   <soapenv:Body>
+      <soapenv:Fault>
+         <faultcode>soapenv:Client</faultcode>
+         <faultstring>ESB-3001-Mensagem de entrada invalida</faultstring>
+         <detail>
+            <esb:EsbFault xmlns:esb="http://alsb.telemar/soap/esb">
+               <esb:code>ESB-3001</esb:code>
+               <esb:reason>Mensagem de entrada invalida</esb:reason>
+               <esb:detail>Erro na validacao do XML contra o arquivo ConsultarElegibilidade.xsd: Invalid decimal value: unexpected char '113'</esb:detail>
+               <esb:requestID>8461781072314454243-3fc92844.15b3ac57d01.2360</esb:requestID>
+            </esb:EsbFault>
+         </detail>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>

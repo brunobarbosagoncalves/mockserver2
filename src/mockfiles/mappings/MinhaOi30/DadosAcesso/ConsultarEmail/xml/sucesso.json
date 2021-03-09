@@ -1,0 +1,15 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/SingleSignOnWsNDS/SingleSignOnWsNDS"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "MinhaOi30/DadosAcesso/ConsultarEmail/xml/sucesso.xml"
+    }
+}

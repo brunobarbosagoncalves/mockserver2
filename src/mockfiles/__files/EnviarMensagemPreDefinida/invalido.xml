@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"/>
+   <env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+      <env1:EnviarMensagemResponse xmlns:env="http://wsdl.broadcast.oi.com.br/xsd/EnviarMensagemResponse" xmlns:m="http://wsdl.broadcast.oi.com.br" xmlns:env1="http://alsb.telemar/xsd/EnviarMensagemResponse">
+         <env1:responseControl>
+            <res:code xmlns:res="http://alsb.telemar/xsd/ResponseControl">2011</res:code>
+            <res:reason xmlns:res="http://alsb.telemar/xsd/ResponseControl">[2011] O(s) parametro(s) passado(s) "?" esta(o) invalido(s)</res:reason>
+            <res:detail xmlns:res="http://alsb.telemar/xsd/ResponseControl">[ejbbrcpx28a][2011] O(s) parametro(s) passado(s) "?" esta(o) invalido(s) T=[ejbbrcpx28a][2011] O(s) parametro(s) passado(s) "?" esta(o) invalido(s)</res:detail>
+         </env1:responseControl>
+      </env1:EnviarMensagemResponse>
+   </env:Body>
+</soapenv:Envelope>

@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/api/atualizacao/validaremail",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"token\":\"ZZZXXX123\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 403,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem, x-cpf, x-origin"
+        },
+        "body": "{ \"mensagem\": \"Token inválido.\" }"
+    }
+}

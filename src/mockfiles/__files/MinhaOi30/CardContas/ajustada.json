@@ -1,0 +1,98 @@
+{
+  "planos": [
+    {
+      "terminalPrincipal": {
+          "terminal": "24988012120",
+          "oferta": "Combo",
+          "plano": "Banda Larga 200mbps",
+          "nome": "Oi Conta Total",
+          "nomeExibicao": "Oi Conta Total",
+          "status": "active",
+          "categoria": "mobile",
+          "fibra": false,
+          "cingapura": false,
+          "tipoFaturamento": "pos",
+          "tipoVignette": "oct",
+          "tipo": "combo",
+          "tipoTerminal": "mudinho"
+      },
+      "nomePlano": "Oi Conta Total",
+      "terminais": [
+        "(24) 98801-2120"
+      ],
+      "dacc": false,
+      "faturas": [
+        {
+          "idFatura": "279819-3",
+          "valor": 132.9,
+          "vencimento": "14/05/2018",
+          "codigoBarras": "1001 1100 0011 1111",
+          "tem14Meses": false,
+          "faturaGerada": true,
+          "clienteTV": false,
+          "diasVencidos": 30,
+          "ajustada": false
+        },
+        {
+          "idFatura": "279819-3",
+          "valor": 135,
+          "vencimento": "14/05/2018",
+          "codigoBarras": "1001 1100 0011 1111",
+          "tem14Meses": false,
+          "faturaGerada": true,
+          "diasVencidos": 30,
+          "clienteTV": true,
+          "ajustada": true
+        }
+      ]
+    },
+    {
+      "terminalPrincipal": {
+          "terminal": "2422912974",
+          "oferta": "Combo",
+          "plano": "Banda Larga 200mbps",
+          "nome": "Oi TV",
+          "nomeExibicao": "Oi TV",
+          "status": "active",
+          "categoria": "tv",
+          "fibra": false,
+          "cingapura": false,
+          "tipoFaturamento": "pos",
+          "tipoVignette": "ptv",
+          "tipo": "tv-pos",
+          "tipoTerminal": "contrato"
+      },
+      "nomePlano": "Oi TV",
+      "terminais": [
+        "Contrato: 2422912974"
+      ],
+      "dacc": true,
+      "faturas": [
+        {
+          "idFatura": "25839-1",
+          "valor": 51.5,
+          "vencimento": "25/02/2017",
+          "codigoBarras": "1001 1100 0011 1111",
+          "tem14Meses": true,
+          "faturaGerada": true,
+          "clienteTV": true,
+          "tvFaturadaFixo": false,
+          "diasVencidos": 10,
+          "ajustada": true
+        },
+        {
+          "idFatura": "279819-2",
+          "valor": 55.5,
+          "vencimento": "25/02/2018",
+          "codigoBarras": "1001 1100 0011 1111",
+          "tem14Meses": false,
+          "faturaGerada": true,
+          "diasVencidos": 10,
+          "tvFaturadaFixo": false,
+          "clienteTV": true,
+          "ajustada": false
+        }
+      ]
+    }
+  ]
+}

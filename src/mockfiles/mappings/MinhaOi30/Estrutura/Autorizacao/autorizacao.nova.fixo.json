@@ -1,0 +1,21 @@
+{
+    "priority": 2,
+    "request": {
+      "method": "POST",
+      "urlPattern": "/minhaoi/estrutura/api/autorizacao/",
+      "bodyPatterns": [{
+        "equalToJson": "{\"home\": \"fixo\", \"id\": \"0000000099\"}"
+      }]
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers":
+          "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "bodyFileName": "MinhaOi30/Estrutura/Autorizacao/autorizacao.nova.fixo.json"
+    }
+  }
+  

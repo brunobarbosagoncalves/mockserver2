@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/LoginUnico/ConsultarDadosTerminalProxySoap",      
+         "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/con:ConsultarDadosTerminalRequest[numeroTerminal = '22222222']",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "con" : "http://osb.telemar/xsd/ConsultarDadosTerminal",
+                "esb"  : "http://alsb.telemar/soap/esbUser"
+            }
+        } ]     
+    },
+       "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarDadosTerminal/inexistente.xml"
+    }
+}

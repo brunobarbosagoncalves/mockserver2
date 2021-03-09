@@ -1,0 +1,21 @@
+{
+  "priority": 3,
+  "request": {
+    "method": "GET",
+    "url": "/api/dashboard/cardDados",
+    "headers": {
+      "x-cpf": {
+        "equalTo": "11111111111"
+      }
+    }
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf,  x-origin-application, x-origin-channel"
+    },
+    "body": "{\"mensagem\":\"O cpf informado é inválido\"}"
+  }
+}

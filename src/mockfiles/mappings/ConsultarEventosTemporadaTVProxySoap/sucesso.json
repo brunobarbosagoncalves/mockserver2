@@ -1,0 +1,15 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/ClienteOperacao/ConsultarEventosTemporadaTV/V1/ConsultarEventosTemporadaTVProxySoap"
+    },
+       "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarEventosTemporadaTVProxySoap/sucesso.xml"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "GET",
+        "url": "/central_atendimento/Modulos/OiVelox/InformacoesTerminal.aspx?ddd=21&terminal=55556666"
+    },
+    "response": {
+        "status": 200,
+        "headers":
+        {
+            "Content-Type": "text/html; charset=iso-8859-1",
+            "Server": "Microsoft-IIS/6.0",
+            "X-AspNet-Version": "2.0.50727",
+            "X-Powered-By": "ASP.NET"
+        },
+        "body": "1|33334444|21|RJ|8650|00412|JOAO SILVA|205|1|0|1|||65MB|526|QU12 LT8|00012345678910|CLAUDINEI SOUZA|PDAN|1937689|10.0||0|0|1|65MB|0"
+    }
+}

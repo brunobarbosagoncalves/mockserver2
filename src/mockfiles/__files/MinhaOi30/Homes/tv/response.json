@@ -1,0 +1,37 @@
+{
+    "pontosAdicionais": 3,
+    "canaisExtras": [
+        {
+            "nome": "Sexy Hot + Playboy TV",
+            "id": "sexy-hot-+-playboy-tv"
+        },
+        {
+            "nome": "Coleção Oi TV",
+            "id": "colecao-oi-tv"
+        },
+        {
+            "nome": "Sexy Privê",
+            "id": "sexy-prive"
+        },
+        {
+            "nome": "PACOTE MONITORIA",
+            "id": "pacote-monitoria"
+        },
+        {
+            "nome": "Combate",
+            "id": "combate"
+        },
+        {
+            "nome": "Étnico/PenVR",
+            "id": "etnicopenvr"
+        },
+        {
+            "nome": "Premiere G",
+            "id": "premiere-g"
+        },
+        {
+            "nome": "BIG BROTHER BRASIL 19",
+            "id": "big-brother-brasil-19"
+        }
+    ]
+}

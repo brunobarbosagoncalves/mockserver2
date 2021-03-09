@@ -1,0 +1,29 @@
+
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/faturas/enviar-sms",
+        "bodyPatterns": [
+            {
+                "matchesJsonPath": "$.[?($.cpf == '00000000002')]",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 500,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{\"message\":\"Erro inesperado no servidor.\"}"
+    }
+}
+
+
+
+
+

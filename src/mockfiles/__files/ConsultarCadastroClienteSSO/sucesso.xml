@@ -1,0 +1,277 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+      <v1:ConsultarCadastroClienteResponse xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroCliente/V1">
+         <v1:GrupoResponse>
+            <v1:cpf>09166953790</v1:cpf>
+            <v1:login>carlos</v1:login>
+            <v1:ipUltimoAcesso>[10.32.206.254]:1283</v1:ipUltimoAcesso>
+            <v1:ipCriacao>[10.32.152.67]:49691</v1:ipCriacao>
+            <v1:dataCriacao>2015-06-12T00:00:00-03:00</v1:dataCriacao>
+            <v1:dataUltimoAcesso>2016-10-03T18:34:42-03:00</v1:dataUltimoAcesso>
+            <v1:tipoUsuario>POS</v1:tipoUsuario>
+            <v1:nome>CARLOS EDUARDO ARANTES FERREIRA</v1:nome>
+            <v1:tipoCliente>TIT</v1:tipoCliente>
+            <v1:dataNascimento>1983-02-22</v1:dataNascimento>
+            <v1:email/>
+            <v1:flagIptinEmail>false</v1:flagIptinEmail>
+            <v1:numeroSMS/>
+            <v1:flagOptinSMS>false</v1:flagOptinSMS>
+            <v1:flagReplicacaoManual>true</v1:flagReplicacaoManual>
+            <v1:sexo>1</v1:sexo>
+            <v1:flagAssociacaoPendente>true</v1:flagAssociacaoPendente>
+            <v1:Produto>
+               <v1:itemProduto>
+                  <v1:idProduto>prod427e8231-3293-45e2-9a66-6af0093c97b3</v1:idProduto>
+                  <v1:statusAssociacao>A</v1:statusAssociacao>
+                  <v1:statusProdutoTerceiro/>
+                  <v1:CPFTitular>09166953790</v1:CPFTitular>
+                  <v1:tipoProduto>TIT</v1:tipoProduto>
+                  <v1:statusProduto/>
+                  <v1:Planos>
+                     <v1:codigoPlano>Móvel1+3B+3401+3B+273</v1:codigoPlano>
+                     <v1:nomePlano>Oi Cartão</v1:nomePlano>
+                     <v1:tipoPlano>PRE</v1:tipoPlano>
+                     <v1:codigoCategoriaPlano>MVL</v1:codigoCategoriaPlano>
+                     <v1:nomeCategoriaPlano>Oi Móvel</v1:nomeCategoriaPlano>
+                     <v1:tipoBundle>N/A</v1:tipoBundle>
+                     <v1:codigoPlanoTV/>
+                     <v1:nomePlanoTV/>
+                  </v1:Planos>
+                  <v1:GrupoTerminal>
+                     <v1:itemTerminal>
+                        <v1:idTerminal>trPr7434b0e9-6abc-4b52-bc80-cd85034236b5</v1:idTerminal>
+                        <v1:numeroTerminal>11969379204</v1:numeroTerminal>
+                        <v1:CPFParticipante/>
+                        <v1:idContaFatura/>
+                        <v1:tipoTerminal>MVL</v1:tipoTerminal>
+                        <v1:crmOrigem>SBL63</v1:crmOrigem>
+                        <v1:status>A</v1:status>
+                        <v1:uf>SP</v1:uf>
+                        <v1:idLocalidade>0000</v1:idLocalidade>
+                        <v1:cidade>São Paulo</v1:cidade>
+                        <v1:flagTerminalTitular>true</v1:flagTerminalTitular>
+                        <v1:flagTerminalPositivado>false</v1:flagTerminalPositivado>
+                        <v1:flagTerminalMudo>false</v1:flagTerminalMudo>
+                     </v1:itemTerminal>
+                  </v1:GrupoTerminal>
+               </v1:itemProduto>
+               <v1:itemProduto>
+                  <v1:idProduto>prod4f80b825-69c8-4217-b93b-d3efae610c1e</v1:idProduto>
+                  <v1:statusAssociacao>A</v1:statusAssociacao>
+                  <v1:statusProdutoTerceiro/>
+                  <v1:CPFTitular>09166953790</v1:CPFTitular>
+                  <v1:tipoProduto>TIT</v1:tipoProduto>
+                  <v1:statusProduto/>
+                  <v1:Planos>
+                     <v1:codigoPlano>Móvel1+3B+3401+3B+273</v1:codigoPlano>
+                     <v1:nomePlano>Oi Cartão</v1:nomePlano>
+                     <v1:tipoPlano>PRE</v1:tipoPlano>
+                     <v1:codigoCategoriaPlano>MVL</v1:codigoCategoriaPlano>
+                     <v1:nomeCategoriaPlano>Oi Móvel</v1:nomeCategoriaPlano>
+                     <v1:tipoBundle>N/A</v1:tipoBundle>
+                     <v1:codigoPlanoTV/>
+                     <v1:nomePlanoTV/>
+                  </v1:Planos>
+                  <v1:GrupoTerminal>
+                     <v1:itemTerminal>
+                        <v1:idTerminal>trPr889822b5-f426-4939-a64a-1439a0ee4fdf</v1:idTerminal>
+                        <v1:numeroTerminal>21988069149</v1:numeroTerminal>
+                        <v1:CPFParticipante/>
+                        <v1:idContaFatura/>
+                        <v1:tipoTerminal>MVL</v1:tipoTerminal>
+                        <v1:crmOrigem>SBL63</v1:crmOrigem>
+                        <v1:status>A</v1:status>
+                        <v1:uf>RJ</v1:uf>
+                        <v1:idLocalidade>0000</v1:idLocalidade>
+                        <v1:cidade>Rio de Janeiro</v1:cidade>
+                        <v1:flagTerminalTitular>true</v1:flagTerminalTitular>
+                        <v1:flagTerminalPositivado>false</v1:flagTerminalPositivado>
+                        <v1:flagTerminalMudo>false</v1:flagTerminalMudo>
+                     </v1:itemTerminal>
+                  </v1:GrupoTerminal>
+               </v1:itemProduto>
+               <v1:itemProduto>
+                  <v1:idProduto>prod6a28c06d-d0e7-406c-a6dd-5535ef72320b</v1:idProduto>
+                  <v1:statusAssociacao>A</v1:statusAssociacao>
+                  <v1:statusProdutoTerceiro/>
+                  <v1:CPFTitular>09166953790</v1:CPFTitular>
+                  <v1:tipoProduto>TIT</v1:tipoProduto>
+                  <v1:statusProduto/>
+                  <v1:Planos>
+                     <v1:codigoPlano>Móvel1+3B+3401+3B+273</v1:codigoPlano>
+                     <v1:nomePlano>Oi Cartão</v1:nomePlano>
+                     <v1:tipoPlano>PRE</v1:tipoPlano>
+                     <v1:codigoCategoriaPlano>MVL</v1:codigoCategoriaPlano>
+                     <v1:nomeCategoriaPlano>Oi Móvel</v1:nomeCategoriaPlano>
+                     <v1:tipoBundle>N/A</v1:tipoBundle>
+                     <v1:codigoPlanoTV/>
+                     <v1:nomePlanoTV/>
+                  </v1:Planos>
+                  <v1:GrupoTerminal>
+                     <v1:itemTerminal>
+                        <v1:idTerminal>trPr01953387-b3a3-4127-813d-0067122c82ca</v1:idTerminal>
+                        <v1:numeroTerminal>11957226081</v1:numeroTerminal>
+                        <v1:CPFParticipante/>
+                        <v1:idContaFatura/>
+                        <v1:tipoTerminal>MVL</v1:tipoTerminal>
+                        <v1:crmOrigem>SBL63</v1:crmOrigem>
+                        <v1:status>A</v1:status>
+                        <v1:uf>SP</v1:uf>
+                        <v1:idLocalidade>0000</v1:idLocalidade>
+                        <v1:cidade>São Paulo</v1:cidade>
+                        <v1:flagTerminalTitular>true</v1:flagTerminalTitular>
+                        <v1:flagTerminalPositivado>false</v1:flagTerminalPositivado>
+                        <v1:flagTerminalMudo>false</v1:flagTerminalMudo>
+                     </v1:itemTerminal>
+                  </v1:GrupoTerminal>
+               </v1:itemProduto>
+               <v1:itemProduto>
+                  <v1:idProduto>prod7c52433f-d06e-44ee-9080-6daecd0eeca0</v1:idProduto>
+                  <v1:statusAssociacao>A</v1:statusAssociacao>
+                  <v1:statusProdutoTerceiro/>
+                  <v1:CPFTitular>09166953790</v1:CPFTitular>
+                  <v1:tipoProduto>TIT</v1:tipoProduto>
+                  <v1:statusProduto/>
+                  <v1:Planos>
+                     <v1:codigoPlano>Fixo011-1HABFBRET03-1</v1:codigoPlano>
+                     <v1:nomePlano>Minha Linha</v1:nomePlano>
+                     <v1:tipoPlano>POS</v1:tipoPlano>
+                     <v1:codigoCategoriaPlano>FXO</v1:codigoCategoriaPlano>
+                     <v1:nomeCategoriaPlano>Oi Fixo</v1:nomeCategoriaPlano>
+                     <v1:tipoBundle>N/A</v1:tipoBundle>
+                     <v1:codigoPlanoTV/>
+                     <v1:nomePlanoTV/>
+                  </v1:Planos>
+                  <v1:GrupoTerminal>
+                     <v1:itemTerminal>
+                        <v1:idTerminal>trPr29f1af1c-ec2a-44cf-9f39-02ba4c7cf0bc</v1:idTerminal>
+                        <v1:numeroTerminal>2122562433</v1:numeroTerminal>
+                        <v1:CPFParticipante/>
+                        <v1:idContaFatura>05000|2122562433|0|7</v1:idContaFatura>
+                        <v1:tipoTerminal>FXO</v1:tipoTerminal>
+                        <v1:crmOrigem>STC</v1:crmOrigem>
+                        <v1:status>I</v1:status>
+                        <v1:uf>RJ</v1:uf>
+                        <v1:idLocalidade>0000</v1:idLocalidade>
+                        <v1:cidade>Rio de Janeiro</v1:cidade>
+                        <v1:flagTerminalTitular>true</v1:flagTerminalTitular>
+                        <v1:flagTerminalPositivado>false</v1:flagTerminalPositivado>
+                        <v1:flagTerminalMudo>false</v1:flagTerminalMudo>
+                     </v1:itemTerminal>
+                  </v1:GrupoTerminal>
+               </v1:itemProduto>
+               <v1:itemProduto>
+                  <v1:idProduto>prodd211e024-8078-447c-998a-cd4b73d57358</v1:idProduto>
+                  <v1:statusAssociacao>A</v1:statusAssociacao>
+                  <v1:statusProdutoTerceiro/>
+                  <v1:CPFTitular>09166953790</v1:CPFTitular>
+                  <v1:tipoProduto>TIT</v1:tipoProduto>
+                  <v1:statusProduto/>
+                  <v1:Planos>
+                     <v1:codigoPlano>Móvel1-14TY4HQ-1</v1:codigoPlano>
+                     <v1:nomePlano>Oi Colaborador</v1:nomePlano>
+                     <v1:tipoPlano>POS</v1:tipoPlano>
+                     <v1:codigoCategoriaPlano>MVL</v1:codigoCategoriaPlano>
+                     <v1:nomeCategoriaPlano>Oi Móvel</v1:nomeCategoriaPlano>
+                     <v1:tipoBundle>N/A</v1:tipoBundle>
+                     <v1:codigoPlanoTV/>
+                     <v1:nomePlanoTV/>
+                  </v1:Planos>
+                  <v1:GrupoTerminal>
+                     <v1:itemTerminal>
+                        <v1:idTerminal>trPrdeb7fc3a-e654-4f4b-80e3-4b169841672d</v1:idTerminal>
+                        <v1:numeroTerminal>21988011232</v1:numeroTerminal>
+                        <v1:CPFParticipante/>
+                        <v1:idContaFatura>2556180715</v1:idContaFatura>
+                        <v1:tipoTerminal>MVL</v1:tipoTerminal>
+                        <v1:crmOrigem>SBL63</v1:crmOrigem>
+                        <v1:status>A</v1:status>
+                        <v1:uf>RJ</v1:uf>
+                        <v1:idLocalidade>0000</v1:idLocalidade>
+                        <v1:cidade>Rio de Janeiro</v1:cidade>
+                        <v1:flagTerminalTitular>true</v1:flagTerminalTitular>
+                        <v1:flagTerminalPositivado>false</v1:flagTerminalPositivado>
+                        <v1:flagTerminalMudo>false</v1:flagTerminalMudo>
+                     </v1:itemTerminal>
+                  </v1:GrupoTerminal>
+               </v1:itemProduto>
+               <v1:itemProduto>
+                  <v1:idProduto>prodd50f7ef5-1980-403d-94ed-812fa835fdc9</v1:idProduto>
+                  <v1:statusAssociacao>A</v1:statusAssociacao>
+                  <v1:statusProdutoTerceiro/>
+                  <v1:CPFTitular>09166953790</v1:CPFTitular>
+                  <v1:tipoProduto>TIT</v1:tipoProduto>
+                  <v1:statusProduto/>
+                  <v1:Planos>
+                     <v1:codigoPlano>Móvel1+3B+3401+3B+273</v1:codigoPlano>
+                     <v1:nomePlano>Oi Cartão</v1:nomePlano>
+                     <v1:tipoPlano>PRE</v1:tipoPlano>
+                     <v1:codigoCategoriaPlano>MVL</v1:codigoCategoriaPlano>
+                     <v1:nomeCategoriaPlano>Oi Móvel</v1:nomeCategoriaPlano>
+                     <v1:tipoBundle>N/A</v1:tipoBundle>
+                     <v1:codigoPlanoTV/>
+                     <v1:nomePlanoTV/>
+                  </v1:Planos>
+                  <v1:GrupoTerminal>
+                     <v1:itemTerminal>
+                        <v1:idTerminal>trPr75dc885c-29b6-41a1-b07d-93bb11c1cd00</v1:idTerminal>
+                        <v1:numeroTerminal>21986288980</v1:numeroTerminal>
+                        <v1:CPFParticipante/>
+                        <v1:idContaFatura/>
+                        <v1:tipoTerminal>MVL</v1:tipoTerminal>
+                        <v1:crmOrigem>SBL63</v1:crmOrigem>
+                        <v1:status>A</v1:status>
+                        <v1:uf>RJ</v1:uf>
+                        <v1:idLocalidade>0000</v1:idLocalidade>
+                        <v1:cidade>Rio de Janeiro</v1:cidade>
+                        <v1:flagTerminalTitular>true</v1:flagTerminalTitular>
+                        <v1:flagTerminalPositivado>false</v1:flagTerminalPositivado>
+                        <v1:flagTerminalMudo>false</v1:flagTerminalMudo>
+                     </v1:itemTerminal>
+                  </v1:GrupoTerminal>
+               </v1:itemProduto>
+               <v1:itemProduto>
+                  <v1:idProduto>prodff04fb03-0419-416f-8e30-937cea0bdff4</v1:idProduto>
+                  <v1:statusAssociacao>A</v1:statusAssociacao>
+                  <v1:statusProdutoTerceiro/>
+                  <v1:CPFTitular>09166953790</v1:CPFTitular>
+                  <v1:tipoProduto>TIT</v1:tipoProduto>
+                  <v1:statusProduto/>
+                  <v1:Planos>
+                     <v1:codigoPlano>Fixo011B42HABFNFR200-1</v1:codigoPlano>
+                     <v1:nomePlano>OI FIXO 200 FIM DE SEMANA</v1:nomePlano>
+                     <v1:tipoPlano>POS</v1:tipoPlano>
+                     <v1:codigoCategoriaPlano>FXO</v1:codigoCategoriaPlano>
+                     <v1:nomeCategoriaPlano>Oi Fixo</v1:nomeCategoriaPlano>
+                     <v1:tipoBundle>N/A</v1:tipoBundle>
+                     <v1:codigoPlanoTV/>
+                     <v1:nomePlanoTV/>
+                  </v1:Planos>
+                  <v1:GrupoTerminal>
+                     <v1:itemTerminal>
+                        <v1:idTerminal>trPr5a23bbad-d25b-449c-ab7c-57f8d0aced11</v1:idTerminal>
+                        <v1:numeroTerminal>2226474660</v1:numeroTerminal>
+                        <v1:CPFParticipante/>
+                        <v1:idContaFatura>08161|2226474660|0|4</v1:idContaFatura>
+                        <v1:tipoTerminal>FXO</v1:tipoTerminal>
+                        <v1:crmOrigem>STC</v1:crmOrigem>
+                        <v1:status>A</v1:status>
+                        <v1:uf>RJ</v1:uf>
+                        <v1:idLocalidade>0000</v1:idLocalidade>
+                        <v1:cidade>Rio de Janeiro</v1:cidade>
+                        <v1:flagTerminalTitular>true</v1:flagTerminalTitular>
+                        <v1:flagTerminalPositivado>false</v1:flagTerminalPositivado>
+                        <v1:flagTerminalMudo>false</v1:flagTerminalMudo>
+                     </v1:itemTerminal>
+                  </v1:GrupoTerminal>
+               </v1:itemProduto>
+            </v1:Produto>
+         </v1:GrupoResponse>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0000</code>
+            <reason>Sucesso</reason>
+            <detail>Sucesso</detail>
+         </esb:ResponseControl>
+      </v1:ConsultarCadastroClienteResponse>
+   </soap:Body>
+</soapenv:Envelope>

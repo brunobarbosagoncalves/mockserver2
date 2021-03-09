@@ -1,0 +1,46 @@
+<WL5G3N0:definitions xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://br/com/oi/vas/mensageriaVAS/EnviarMTSOAP/" xmlns:WL5G3N2="http://schemas.xmlsoap.org/wsdl/soap/" name="EnviarMTSOAP" targetNamespace="http://br/com/oi/vas/mensageriaVAS/EnviarMTSOAP/">
+<WL5G3N0:types>
+<xsd:schema xmlns:Q1="http://alsb.telemar/soap/esb" xmlns:Q2="http://br/com/oi/vas/mensageriaVAS/EnviarMTRequest" xmlns:ems="http://br/com/oi/vas/mensageriaVAS/EnviarMTSOAP/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://br/com/oi/vas/mensageriaVAS/EnviarMTSOAP/">
+<xsd:import namespace="http://alsb.telemar/soap/esb" schemaLocation="http://brcpx13:7203/MensageriaVas/EnviarMTProxyService?SCHEMA%2FMensageriaVas%2FEnviarMT%2FSchemas%2FResponseControl"/>
+<xsd:import namespace="http://br/com/oi/vas/mensageriaVAS/EnviarMTRequest" schemaLocation="http://brcpx13:7203/MensageriaVas/EnviarMTProxyService?SCHEMA%2FMensageriaVas%2FEnviarMT%2FSchemas%2FEnviarMTRequest"/>
+<xsd:element name="EnviarMTRequest" type="Q2:EnviarMTRequestType"/>
+<xsd:element name="EnviarMTResponse">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="1" minOccurs="1" name="responseControl" type="Q1:ResponseControlType"/>
+<xsd:element maxOccurs="1" minOccurs="1" name="identificadorSessao" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+</WL5G3N0:types>
+<WL5G3N0:message name="EnviarMTRequest">
+<WL5G3N0:part element="WL5G3N1:EnviarMTRequest" name="parameters"/>
+</WL5G3N0:message>
+<WL5G3N0:message name="EnviarMTResponse">
+<WL5G3N0:part element="WL5G3N1:EnviarMTResponse" name="parameters"/>
+</WL5G3N0:message>
+<WL5G3N0:portType name="EnviarMTSOAPPortType">
+<WL5G3N0:operation name="EnviarMT">
+<WL5G3N0:input message="WL5G3N1:EnviarMTRequest"/>
+<WL5G3N0:output message="WL5G3N1:EnviarMTResponse"/>
+</WL5G3N0:operation>
+</WL5G3N0:portType>
+<WL5G3N0:binding name="EnviarMTSOAPSOAPBinding" type="WL5G3N1:EnviarMTSOAPPortType">
+<WL5G3N2:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<WL5G3N0:operation name="EnviarMT">
+<WL5G3N2:operation soapAction="http://br/com/oi/vas/mensageriaVAS/EnviarMTSOAP/EnviarMT"/>
+<WL5G3N0:input>
+<WL5G3N2:body use="literal"/>
+</WL5G3N0:input>
+<WL5G3N0:output>
+<WL5G3N2:body use="literal"/>
+</WL5G3N0:output>
+</WL5G3N0:operation>
+</WL5G3N0:binding>
+<WL5G3N0:service name="EnviarMTSOAPService">
+<WL5G3N0:port binding="WL5G3N1:EnviarMTSOAPSOAPBinding" name="EnviarMTSOAP">
+<WL5G3N2:address location="http://digpx12.interno:8070/MensageriaVas/EnviarMTProxyService"/>
+</WL5G3N0:port>
+</WL5G3N0:service>
+</WL5G3N0:definitions>

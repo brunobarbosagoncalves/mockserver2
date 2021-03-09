@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body xmlns:con="http://osb.telemar/xsd/ConsultarElegibilidade" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <con:ConsultarElegibilidadeResponse>
+         <con:GrupoResponse>
+            <con:flgElegibilidade>N</con:flgElegibilidade>
+         </con:GrupoResponse>
+         <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+            <code>D005</code>
+            <reason>SOLICITACAO NAO PERMITIDA. NUMERO DO TERMINAL NAO PREENCHIDO</reason>
+            <detail/>
+         </esb1:ResponseControl>
+      </con:ConsultarElegibilidadeResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

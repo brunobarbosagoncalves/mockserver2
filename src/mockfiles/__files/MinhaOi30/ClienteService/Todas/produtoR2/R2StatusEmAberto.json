@@ -1,0 +1,283 @@
+{
+  "nome": "MARCOS AURELIO BARBOSA",
+  "cpf": "27067260833",
+  "dataNascimento": "04/04/1978",
+  "crmsCadastro": [
+    "SAC",
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "62985231234",
+      "idContaFatura": "2048313160",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-IS5Z4VG-1",
+        "nomePlano": "Oi Conta 50"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "62985231234",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-IS5Z4VG-1",
+            "nomePlano": "PLANO OI CONTA 50"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-06-11",
+          "valor": 38.25,
+          "codigoDeBarras": "84640000000-2  38250313204-7  83131600951-1  15557500000-7",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "621234-1",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "951155575",
+          "anoMesReferencia": "201805",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-07-11",
+          "valor": 41.57,
+          "codigoDeBarras": "84630000000-3  41570313204-3  83131600972-7  11975500000-5",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "621234-2",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "972119755",
+          "anoMesReferencia": "201806",
+          "vencida": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "41984011154",
+      "idContaFatura": "2012778341",
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Móvel1-14TY4HQ-1",
+        "nomePlano": "Oi Colaborador"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "41984011154",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Móvel1-14TY4HQ-1",
+            "nomePlano": "PLANO OI COLABORADOR"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2017-09-11",
+          "valor": 5.94,
+          "codigoDeBarras": "84610000000-5  05940313201-8  27783410808-0  84587900000-6",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "411154-1",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "808845879",
+          "anoMesReferencia": "201708",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2017-10-11",
+          "valor": 5.8500000000000005,
+          "codigoDeBarras": "84610000000-5  05850313201-9  27783410817-1  46332700000-6",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "411154-2",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "817463327",
+          "anoMesReferencia": "201709",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-03-11",
+          "valor": 5.82,
+          "codigoDeBarras": "84610000000-5  05820313201-2  27783410898-1  79819800000-1",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "411154-3",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "898798198",
+          "anoMesReferencia": "201802",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-04-11",
+          "valor": 19.29,
+          "codigoDeBarras": "84680000000-8  19290313201-2  27783410916-1  32526600000-0",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "411154-4",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "916325266",
+          "anoMesReferencia": "201803",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-05-11",
+          "valor": 5.88,
+          "codigoDeBarras": "84680000000-8  05880313201-6  27783410934-4  62725900000-8",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "411154-5",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "934627259",
+          "anoMesReferencia": "201804",
+          "vencida": true
+        }
+      ],
+      "dacc": true
+    },
+    {
+      "numeroTerminal": "62984661234",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401-5IMI7C2",
+        "nomePlano": "Oi Controle Sem Fatura"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "62984661234",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401-5IMI7C2",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "6235944710",
+      "idContaFatura": "1195598090",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5510",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6235944710",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5510",
+            "nomePlano": "FALE - ASSINATURA SEM FR"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-05-14",
+          "valor": 35.14,
+          "codigoDeBarras": "84630000000-3 35140016119-3 55980920180-4 50110100000-5",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "624710-1",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01195598090201805001000097449126",
+          "anoMesReferencia": "201805",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-06-14",
+          "valor": 126.13000000000001,
+          "codigoDeBarras": "84670000001-7 26130016119-5 55980920180-4 60110600000-8",
+          "status": "Paga",
+          "tem14Meses": false,
+          "idFatura": "624710-2",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01195598090201806001000095931126",
+          "anoMesReferencia": "201806",
+          "ciclo": "001",
+          "vencida": true
+        },
+        {
+          "dataVencimento": "2018-07-14",
+          "valor": 100.78,
+          "codigoDeBarras": "84630000001-1 00780016119-7 55980920180-4 70110000000-2",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "624710-3",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "01195598090201807001000094839126",
+          "anoMesReferencia": "201807",
+          "ciclo": "001",
+          "vencida": false
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

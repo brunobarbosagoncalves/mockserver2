@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroClienteSSO/v1" xmlns:esb="http://alsb.telemar/soap/esbUser"/>
+   <soapenv:Body xmlns:v1="http://osb.telemar/xsd/ClienteOperacao/ConsultarCadastroClienteSSO/v1" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <con:ConsultarCadastroClienteResponse xmlns:con="http://ClienteOperacao/xsd/ConsultarCadastroClienteSSO">
+         <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+            <code>3001</code>
+            <reason>Mensagem XML de entrada invalida</reason>
+         </esb1:ResponseControl>
+      </con:ConsultarCadastroClienteResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,24 @@
+{
+    "priority": 2,
+    "request": {
+      "method": "POST",
+      "url": "/aberta/solicitar",
+      "bodyPatterns": [
+        {
+          "equalToJson": "{\"terminal\":\"021****0498\",\"idFaturas\":[\"201810-05/02/2018\"]}",
+          "ignoreArrayOrder": true,
+          "ignoreExtraElements": true
+        }
+      ]
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+      },
+      "bodyFileName": "MinhaOi30/ReligarServico/religar.fatura.recente.json"
+    }
+  }
+  

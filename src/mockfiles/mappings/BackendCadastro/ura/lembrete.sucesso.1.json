@@ -1,0 +1,22 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/ura/lembrete",
+          "headers": {
+            "x-cpf": {
+                "contains": "99999999999"
+            }
+        }
+       
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+        },
+        "body": "{ \"diasRestantes\": 10, \"podeAdiar\": true, \"emailValidado\": false }"
+    }
+}

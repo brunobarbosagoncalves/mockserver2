@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://service.mobile.voxage.com.br/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="tokenService" targetNamespace="http://service.mobile.voxage.com.br/">
+<wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://service.mobile.voxage.com.br/" elementFormDefault="unqualified" targetNamespace="http://service.mobile.voxage.com.br/" version="1.0">
+<xs:element name="getFileInfo" type="tns:getFileInfo"/>
+<xs:element name="getFileInfoResponse" type="tns:getFileInfoResponse"/>
+<xs:element name="insertToken" type="tns:insertToken"/>
+<xs:element name="insertTokenResponse" type="tns:insertTokenResponse"/>
+<xs:complexType name="insertToken">
+<xs:sequence>
+<xs:element name="idRequest" type="xs:string"/>
+<xs:element name="idCampagin" type="xs:string"/>
+<xs:element name="msisdn" type="xs:string"/>
+<xs:element name="idMessage" type="xs:string"/>
+<xs:element name="token" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="insertTokenResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getFileInfo">
+<xs:sequence>
+<xs:element name="idImportMailingInfo" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="getFileInfoResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
+</wsdl:types>
+<wsdl:message name="getFileInfoResponse">
+<wsdl:part element="tns:getFileInfoResponse" name="parameters"></wsdl:part>
+</wsdl:message>
+<wsdl:message name="insertTokenResponse">
+<wsdl:part element="tns:insertTokenResponse" name="parameters"></wsdl:part>
+</wsdl:message>
+<wsdl:message name="insertToken">
+<wsdl:part element="tns:insertToken" name="parameters"></wsdl:part>
+</wsdl:message>
+<wsdl:message name="getFileInfo">
+<wsdl:part element="tns:getFileInfo" name="parameters"></wsdl:part>
+</wsdl:message>
+<wsdl:portType name="TokenWS">
+<wsdl:operation name="insertToken">
+<wsdl:input message="tns:insertToken" name="insertToken"></wsdl:input>
+<wsdl:output message="tns:insertTokenResponse" name="insertTokenResponse"></wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getFileInfo">
+<wsdl:input message="tns:getFileInfo" name="getFileInfo"></wsdl:input>
+<wsdl:output message="tns:getFileInfoResponse" name="getFileInfoResponse"></wsdl:output>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="tokenServiceSoapBinding" type="tns:TokenWS">
+<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="insertToken">
+<soap:operation soapAction="" style="document"/>
+<wsdl:input name="insertToken">
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="insertTokenResponse">
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="getFileInfo">
+<soap:operation soapAction="" style="document"/>
+<wsdl:input name="getFileInfo">
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="getFileInfoResponse">
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="tokenService">
+<wsdl:port binding="tns:tokenServiceSoapBinding" name="TokenWSPort">
+<soap:address location="http://digpx12.interno:8070/TokenWS/tokenService"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

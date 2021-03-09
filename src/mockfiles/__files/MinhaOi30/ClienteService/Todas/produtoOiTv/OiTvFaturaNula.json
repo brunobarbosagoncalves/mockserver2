@@ -1,0 +1,97 @@
+{
+  "nome": "LUCIANA MARIA LEMOS PINHEIRO",
+  "cpf": "76975835500",
+  "dataNascimento": "25/01/1973",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "2350145",
+      "idContaFatura": "2350145",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv7043522410",
+        "nomePlano": "OI TV MAIS TELECINE HD 2013"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "2350145",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv7043522410",
+            "nomePlano": "OI TV MAIS TELECINE HD 2013"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Boleto",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "2018-07-08",
+          "idExtrato": "9255302061",
+          "mesReferencia": "2018-05-01",
+          "ajustada": true,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": false,
+          "idFatura": "235-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Em Aberto",
+          "valor": "",
+          "dataVencimento": "2018-07-01",
+          "idExtrato": "3741242063",
+          "mesReferencia": "2018-06-01",
+          "ajustada": false,
+          "faturaGerada": false,
+          "tem14Meses": false,
+          "vencida": true,
+          "idFatura": "235-2",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "71987668590",
+      "idContaFatura": null,
+      "CRMOrigem": "SBL63",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "M",
+      "tipoPlano": "PRE",
+      "plano": {
+        "codigoPlano": "Móvel1+3B+3401-5IMI7C2",
+        "nomePlano": "Oi Controle Sem Fatura"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "71987668590",
+          "CRMOrigem": "SBL63",
+          "tpPlano": "PRE",
+          "plano": {
+            "codigoPlano": "Móvel1+3B+3401-5IMI7C2",
+            "nomePlano": "PLANO OI CARTAO"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "dacc": false
+    }
+  ]
+}

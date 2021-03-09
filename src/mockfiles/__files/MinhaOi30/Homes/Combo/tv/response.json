@@ -1,0 +1,37 @@
+{
+    "canaisExtras": [
+        {
+            "id": "hbo-go",
+            "nome": "BBB Pay-per-view"
+        },
+        {
+            "id": "noggin",
+            "nome": "Cartoon Network"
+        },
+        {
+            "id": "discovery-kids",
+            "nome": "Jetix"
+        },
+        {
+            "id": "watch-espn",
+            "nome": "Harpa Cristã"
+        },
+        {
+            "id": "fox-mais",
+            "nome": "Jetix"
+        },
+        {
+            "id": "fox-premium",
+            "nome": "Harpa Cristã"
+        },
+        {
+            "id": "playboy-tv",
+            "nome": "Jetix"
+        },
+        {
+            "id": "telecine",
+            "nome": "Harpa Cristã"
+        }
+    ],
+    "pontosAdicionais": 1
+}

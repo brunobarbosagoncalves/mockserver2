@@ -1,0 +1,16 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/atualizacao/finalizarintervencao"
+    },
+    "response": {
+        "status": 200,
+         "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin"
+        },
+        "bodyFileName": "IntervencaoCadastral/finalizarIntervencao/sucesso.loginDuplicado.json"
+    }
+}

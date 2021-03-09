@@ -1,0 +1,39 @@
+{
+    "nome": "CAMILA SILVA MANETTI DOS ANJOS",
+    "cpf": "39147591862",
+    "dataNascimento": "17/12/1987",
+    "crmsCadastro": [
+    "CDI"
+    ],
+    "emailContrato": "",
+    "produtos": [
+    {
+    "numeroTerminal": "1339909869",
+    "idContaFatura": "6000017832",
+    "CRMOrigem": "SBL8",
+    "fgInadimplente": "S",
+    "indicInternet": "N",
+    "tipoTerminal": "F",
+    "tipoPlano": "POS",
+    "plano": {
+    "nomePlano": "Fibra"
+    },
+    "statusTerminal": "Ativo",
+    "produtosCombo": [
+    {
+    "numeroTerminal": "1339909869",
+    "CRMOrigem": "SBL8",
+    "tpPlano": "POS",
+    "plano": {
+    "codigoPlano": "Fixo-1-1-1-1-11-FCD7",
+    "nomePlano": "PASOO ALTERNATIVO NAO RESIDENCIAL VOZ"
+    },
+    "statusTerminal": "Ativo",
+    "indicInternet": "N"
+    }
+    ],
+    "faturas": [],
+    "dacc": false
+    }
+    ]
+    }

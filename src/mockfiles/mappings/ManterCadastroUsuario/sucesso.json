@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/LoginUnico/ManterCadastroUsuarioNDSProxySoap",
+        "bodyPatterns": [{
+            "matchesXPath": "/soapenv:Envelope/soapenv:Body/man:ManterCadastroUsuarioOSBRequest[number(CPF) and string-length(CPF) = 11]",
+            "xPathNamespaces": {
+                "soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+                "esb": "http://alsb.telemar/soap/esbUser",
+                "man": "http://osb.telemar/xsd/ManterCadastroUsuarioOSB"
+            }
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ManterCadastroUsuario/sucesso.xml"
+    }
+}

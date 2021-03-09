@@ -1,0 +1,16 @@
+{
+    "priority": 1,
+    "request": {
+      "method": "GET",
+      "urlPattern": "/minha-api-viabilidade/(.*)"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf"
+      },
+      "bodyFileName": "MinhaOi30/viabilidade.json"
+    }
+  }

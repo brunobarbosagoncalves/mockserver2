@@ -1,0 +1,25 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:esb="http://alsb.telemar/soap/esbUser" xmlns:man="http://osb.telemar/xsd/ManterContatoCliente"/>
+   <soapenv:Body xmlns:esb="http://alsb.telemar/soap/esbUser" xmlns:man="http://osb.telemar/xsd/ManterContatoCliente">
+      <tns:ManterContatoClienteResponse xmlns:tns="http://osb.telemar/xsd/ManterContatoCliente" xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+         <GrupoDadosOptin>
+            <ManterContatoCliente>
+               <crmOrigem>CDI</crmOrigem>
+               <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+                  <code>0</code>
+                  <reason>1-1A6GF4PT</reason>
+                  <detail>Sucesso</detail>
+               </esb1:ResponseControl>
+            </ManterContatoCliente>
+            <ManterContatoCliente>
+               <crmOrigem>SAC</crmOrigem>
+               <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+                  <code>116</code>
+                  <reason>CLIENTE INEXISTENTE NO SAC</reason>
+                  <detail/>
+               </esb1:ResponseControl>
+            </ManterContatoCliente>
+         </GrupoDadosOptin>
+      </tns:ManterContatoClienteResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

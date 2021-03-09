@@ -1,0 +1,142 @@
+[
+    {
+        "dados": [
+            {
+                "ilimitado": false,
+                "principal": false,
+                "categoria": "benefit",
+                "nome": "Plano Oi Colaborador",
+                "total": 512000,
+                "restante": 0,
+                "consumido": 512000,
+                "unidade": "kb",
+                "renovacao": 1555124400000,
+                "inicio": null,
+                "tipo": "additional data",
+                "expirado": false,
+                "caracteristicas": [],
+                "altoConsumo": false
+            },
+            {
+                "ilimitado": false,
+                "principal": true,
+                "categoria": "main",
+                "nome": "Plano Oi Colaborador",
+                "total": 10485760,
+                "restante": 0,
+                "consumido": 10485760,
+                "unidade": "kb",
+                "renovacao": 1555124400000,
+                "inicio": 1552446000000,
+                "tipo": "data",
+                "expirado": false,
+                "caracteristicas": [],
+                "altoConsumo": false
+            }
+        ],
+        "sms": [],
+        "voz": [
+            {
+                "ilimitado": false,
+                "principal": false,
+                "categoria": "benefit",
+                "total": 528,
+                "restante": 528,
+                "consumido": 0,
+                "unidade": "minutes",
+                "renovacao": 1555124400000,
+                "inicio": null,
+                "tipo": "additional voice",
+                "expirado": false,
+                "caracteristicas": []
+            },
+            {
+                "ilimitado": false,
+                "principal": true,
+                "categoria": "main",
+                "nome": "Franquia Oi Colaborador",
+                "total": 44640,
+                "restante": 44403.8,
+                "consumido": 236.1999999999971,
+                "unidade": "minutes",
+                "renovacao": 1555124400000,
+                "inicio": 1552446000000,
+                "tipo": "voice",
+                "expirado": false,
+                "caracteristicas": []
+            }
+        ],
+        "extra": {},
+        "terminal": "00000000004"
+    },
+    {
+        "dados": [
+            {
+                "ilimitado": false,
+                "principal": false,
+                "categoria": "benefit",
+                "nome": "Plano Oi Colaborador",
+                "total": 512000,
+                "restante": 0,
+                "consumido": 512000,
+                "unidade": "kb",
+                "renovacao": 1555124400000,
+                "inicio": null,
+                "tipo": "additional data",
+                "expirado": false,
+                "caracteristicas": [],
+                "altoConsumo": false
+            },
+            {
+                "ilimitado": false,
+                "principal": true,
+                "categoria": "main",
+                "nome": "Plano Oi Colaborador",
+                "total": 10485760,
+                "restante": 0,
+                "consumido": 10485760,
+                "unidade": "kb",
+                "renovacao": 1555124400000,
+                "inicio": 1552446000000,
+                "tipo": "data",
+                "expirado": false,
+                "caracteristicas": [],
+                "altoConsumo": false
+            }
+        ],
+        "sms": [],
+        "voz": [
+            {
+                "ilimitado": false,
+                "principal": false,
+                "categoria": "benefit",
+                "total": 528,
+                "restante": 528,
+                "consumido": 0,
+                "unidade": "minutes",
+                "renovacao": 1555124400000,
+                "inicio": null,
+                "tipo": "additional voice",
+                "expirado": false,
+                "caracteristicas": []
+            },
+            {
+                "ilimitado": false,
+                "principal": true,
+                "categoria": "main",
+                "nome": "Franquia Oi Colaborador",
+                "total": 44640,
+                "restante": 44403.8,
+                "consumido": 236.1999999999971,
+                "unidade": "minutes",
+                "renovacao": 1555124400000,
+                "inicio": 1552446000000,
+                "tipo": "voice",
+                "expirado": false,
+                "caracteristicas": []
+            }
+        ],
+        "extra": {},
+        "terminal": "00000000004"
+    }
+]

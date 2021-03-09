@@ -1,0 +1,86 @@
+{
+  "nome": "REGIANE DA SILVA DINIZ",
+  "cpf": "02221839188",
+  "dataNascimento": "30/04/1988",
+  "crmsCadastro": [
+    "SAC"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "6732474054",
+      "idContaFatura": "6136898180",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "0622",
+        "nomePlano": "Oi Fixo"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6732474054",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "0622",
+            "nomePlano": "PLANO PERFIL 14 NOITE E FIM DE SEMANA"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [
+        {
+          "dataVencimento": "2018-07-14",
+          "valor": 136.74,
+          "codigoDeBarras": "84660000001-8 36740019613-8 68981820180-8 70110200000-0",
+          "status": "Em Aberto",
+          "tem14Meses": false,
+          "idFatura": "674054-11",
+          "ajustada": false,
+          "faturaExtra": false,
+          "faturaGerada": true,
+          "interina": false,
+          "numeroFatura": "06136898180201807001000037023225",
+          "anoMesReferencia": "201807",
+          "ciclo": "001",
+          "vencida": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "6634962264",
+      "idContaFatura": "5048716694",
+      "CRMOrigem": "SAC",
+      "fgInadimplente": "N",
+      "indicInternet": "S",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "5910",
+        "nomePlano": "Oi Fixo Controle"
+      },
+      "statusTerminal": "ATIVO",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "6634962264",
+          "CRMOrigem": "SAC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "5910",
+            "nomePlano": "OFC - ASSINATURA SEM FRANQUIA"
+          },
+          "statusTerminal": "ATIVO",
+          "indicInternet": "S"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    }
+  ]
+}

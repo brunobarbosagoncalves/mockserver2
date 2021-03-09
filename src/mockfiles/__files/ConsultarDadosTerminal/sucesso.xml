@@ -1,0 +1,45 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body xmlns:con="http://osb.telemar/xsd/ConsultarDadosTerminal" xmlns:esb="http://alsb.telemar/soap/esbUser">
+      <con:ConsultarDadosTerminalResponse>
+         <CRMOrigem>SBL63</CRMOrigem>
+         <stTerminal>Ativo</stTerminal>
+         <fgPrePago>N</fgPrePago>
+         <fgFraude>N</fgFraude>
+         <fgSuspensaoRouboFurtoPerda>N</fgSuspensaoRouboFurtoPerda>
+         <tpTerminal>M</tpTerminal>
+         <cdPlano>Móvel1-JCB53CG-1</cdPlano>
+         <listaBeneficio/>
+         <tpIdPositivo>1</tpIdPositivo>
+         <idPositivo>401499639176</idPositivo>
+         <DadosContato>
+            <CPF>00001234509876</CPF>
+            <dtNascimento>01/01/1981</dtNascimento>
+            <email>maria@gmail.com</email>
+            <nrDocumento>1259411111</nrDocumento>
+            <tpDocumento>Carteira de Identidade</tpDocumento>
+            <orgaoExp>IFP</orgaoExp>
+            <dtVinculacao/>
+         </DadosContato>
+         <DadosEndereco>
+            <CEP>20005000</CEP>
+            <tpLogradouro>RUA</tpLogradouro>
+            <logradouro>RIO BRANCO</logradouro>
+            <numero>160</numero>
+            <bairro>CENTRO</bairro>
+            <cidade>RIO DE JANEIRO</cidade>
+            <tpCompl1/>
+            <compl1/>
+            <tpCompl2/>
+            <compl2/>
+            <tpCompl3/>
+            <compl3/>
+            <UF>RJ</UF>
+         </DadosEndereco>
+         <esb1:ResponseControl xmlns:esb1="http://alsb.telemar/soap/esb">
+            <code>0</code>
+            <reason>Sucesso</reason>
+            <detail>Executado com sucesso</detail>
+         </esb1:ResponseControl>
+      </con:ConsultarDadosTerminalResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,24 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "GET",
+        "urlPattern": "/api/customermanagement/v2/customer/78354485722",
+        "headers": {
+            "Content-Type": {
+                "equalTo": "application/json"
+            },
+            "Authorization": {
+                "matches": "Basic (.+)"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "body": "{\"name\": \"REGINALDO GOMES BANDEIRA\",\"characteristic\": [{\"name\": \"motherName\",\"value\": \"MARIA GOMES BENDEIRA\"},{\"name\": \"birthDate\",\"value\": \"19540516\"},{\"name\": \"gender\",\"value\": \"masculino\"},{\"name\": \"statusDocument\",\"value\": \"R\"}],\"products\": [{\"id\": \"Tv7043621002\",\"name\": \"OI TV TOTAL CINEMA HD\",\"customerAccountId\": \"2985186\",\"billingAccountId\": \"24988012120\",\"category\": \"tv\",\"status\": \"active\",\"planType\": \"4P\",\"characteristics\": [{\"name\": \"source\",\"value\": \"SINN\"}],\"lastModified\": \"2018-02-28T17:24:53.389-03:00\"}],\"billingAccounts\": [{\"id\": \"24988012120\",\"externalIds\": [{\"id\": \"2985186\",\"source\": \"SINN\"}],\"ratingType\": \"postpaid\",\"billingAccountBalance\": {\"status\": \"due\"},\"lastModified\": \"2018-02-28T17:24:53.389-03:00\"}]}"
+    }
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WL5G3N0:definitions targetNamespace="http://osb.telemar/wsdl/ClienteFaturamento/ConsultarDadosFaturaBilling/V1" xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:crp="http://osb.telemar/xsd/ClienteFaturamento/ConsultarDadosFaturaBilling/V1" xmlns:esb="http://alsb.telemar/soap/esb" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://osb.telemar/wsdl/ClienteFaturamento/ConsultarDadosFaturaBilling/V1" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:annotation>
+    <soap:documentation> 
+                                    STI: PRJ00002072 
+                                    Sistema: Mobicare 
+                                    Autor: Rodel T. Labata 
+                                    versao: 1.0 
+                                    Data Criacao: 12/16/2015 
+                                    Data Alteracao: xx/xx/xx 
+		</soap:documentation>
+  </soap:annotation>
+  <WL5G3N0:types>
+    <xsd:schema targetNamespace="http://osb.telemar/xsd/ClienteFaturamento/ConsultarDadosFaturaBilling/V1">
+      <xsd:include schemaLocation="http://soapx28:27203/ClienteFaturamento/ConsultarDadosFaturaBilling/V1/ConsultarDadosFaturaBillingProxySoap?SCHEMA%2FClienteFaturamento%2FConsultarDadosFaturaBilling%2FV1%2FInterfaces%2FSchemas%2FConsultarDadosFaturaBillingOSB"/>
+      <xsd:element name="ConsultarDadosFaturaBillingRequest" type="crp:ConsultarDadosFaturaBillingRequest"/>
+      <xsd:element name="ConsultarDadosFaturaBillingResponse" type="crp:ConsultarDadosFaturaBillingResponse"/>
+    </xsd:schema>
+  </WL5G3N0:types>
+  <WL5G3N0:message name="ConsultarDadosFaturaBillingRequest">
+    <WL5G3N0:part element="crp:ConsultarDadosFaturaBillingRequest" name="ConsultarDadosFaturaBillingRequest"/>
+  </WL5G3N0:message>
+  <WL5G3N0:message name="ConsultarDadosFaturaBillingResponse">
+    <WL5G3N0:part element="crp:ConsultarDadosFaturaBillingResponse" name="ConsultarDadosFaturaBillingResponse"/>
+  </WL5G3N0:message>
+  <WL5G3N0:portType name="ConsultarDadosFaturaBilling">
+    <WL5G3N0:operation name="ConsultarDadosFaturaBilling">
+      <WL5G3N0:input message="tns:ConsultarDadosFaturaBillingRequest"/>
+      <WL5G3N0:output message="tns:ConsultarDadosFaturaBillingResponse"/>
+    </WL5G3N0:operation>
+  </WL5G3N0:portType>
+  <WL5G3N0:binding name="ConsultarDadosFaturaBillingSOAP" type="tns:ConsultarDadosFaturaBilling">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <WL5G3N0:operation name="ConsultarDadosFaturaBilling">
+      <soap:operation soapAction="http://osb.telemar/ConsultarDadosFaturaBilling/ConsultarDadosFaturaBilling"/>
+      <WL5G3N0:input>
+        <soap:body use="literal"/>
+      </WL5G3N0:input>
+      <WL5G3N0:output>
+        <soap:body use="literal"/>
+      </WL5G3N0:output>
+    </WL5G3N0:operation>
+  </WL5G3N0:binding>
+  <WL5G3N0:service name="ConsultarDadosFaturaBillingSOAPQSService">
+    <WL5G3N0:port binding="tns:ConsultarDadosFaturaBillingSOAP" name="ConsultarDadosFaturaBillingSOAPQSPort">
+      <soap:address location="http://digpx12.interno:8070/ClienteFaturamento/ConsultarDadosFaturaBilling/V1/ConsultarDadosFaturaBillingProxySoap"/>
+    </WL5G3N0:port>
+  </WL5G3N0:service>
+</WL5G3N0:definitions>

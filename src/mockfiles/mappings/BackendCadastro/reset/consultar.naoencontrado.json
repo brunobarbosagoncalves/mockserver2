@@ -1,0 +1,16 @@
+{
+    "priority": 4,
+    "request": {
+        "method": "POST",
+        "url": "/api/cadastro/reset/consultar"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"cliente\": {}, \"jwt\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcGYiOiIyNTU3NDIxNDgwNiIsImlhdCI6MTQ5MDI4MDU3NywiZXhwIjoxNDkwMjgxMTc3fQ.DD5sGtjP1VNHGtbCNOAmdgcJOR-e396tQploTnu1jHg\" }"
+    }
+}

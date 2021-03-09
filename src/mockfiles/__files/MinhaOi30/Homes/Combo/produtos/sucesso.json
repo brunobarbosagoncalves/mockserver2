@@ -1,0 +1,80 @@
+{
+    "movelPos": [
+        {
+            "plano": "Oi Total",
+            "terminal": "31988608488",
+            "nome": "Oi Total",
+            "status": "active",
+            "categoria": "mobile",
+            "fibra": false,
+            "cingapura": false,
+            "tipoFaturamento": "pos",
+            "tipoVignette": "oct",
+            "tipo": "combo",
+            "tipoTerminal": "terminal",
+            "oferta": "Oi Total"
+        }
+    ],
+    "internet": [
+        {
+            "plano": "Oi Velox 10 MEGA",
+            "terminal": "2186049890",
+            "nome": "Oi Velox 10 MEGA",
+            "status": "active",
+            "categoria": "broadband",
+            "fibra": false,
+            "cingapura": false,
+            "tipoFaturamento": "pos",
+            "tipoVignette": "oct",
+            "tipo": "combo",
+            "tipoTerminal": "terminal",
+            "oferta": "Oi Velox 10 MEGA"
+        },
+        {
+            "plano": "Oi Velox 3G 2GB Redução de Velocidade",
+            "terminal": "2486049890",
+            "nome": "Oi Velox 3G 2GB Redução de Velocidade",
+            "status": "active",
+            "categoria": "mobile_internet",
+            "fibra": false,
+            "cingapura": false,
+            "tipoFaturamento": "pos",
+            "tipoVignette": "oct",
+            "tipo": "combo",
+            "tipoTerminal": "terminal",
+            "oferta": "Oi Internet na Fibra"
+        }
+    ],
+    "fixo": [
+        {
+            "plano": "Oi Fixo",
+            "terminal": "3132868488",
+            "nome": "Oi Fixo",
+            "status": "active",
+            "categoria": "landline",
+            "fibra": true,
+            "cingapura": false,
+            "tipoFaturamento": "pos",
+            "tipoVignette": "oct",
+            "tipo": "combo",
+            "tipoTerminal": "terminal",
+            "oferta": "Oi Total"
+        }
+    ],
+    "tv": [
+        {
+            "plano": "Oi Tv Fibra",
+            "terminal": "2486049890",
+            "nome": "Oi Tv Fibra",
+            "status": "active",
+            "categoria": "tv",
+            "fibra": true,
+            "cingapura": false,
+            "tipoFaturamento": "pos",
+            "tipoVignette": "oct",
+            "tipo": "combo",
+            "tipoTerminal": "contrato",
+            "oferta": "Oi Tv Fibra"
+        }
+    ]
+}

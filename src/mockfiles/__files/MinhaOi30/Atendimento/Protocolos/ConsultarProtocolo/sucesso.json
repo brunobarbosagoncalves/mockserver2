@@ -1,0 +1,522 @@
+{
+    "protocolos": [
+        {
+            "numeroChamado": "201900032060123",
+            "dataHoraAbertura": "2019/04/24 10:32:43",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Aberto",
+            "dataHoraResolucao": "",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900030002960",
+            "dataHoraAbertura": "2019/02/18 16:40:00",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Fatura sem Papel",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/18 16:40:00",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900028652264",
+            "dataHoraAbertura": "2019/02/15 12:16:52",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:16:52",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900028244483",
+            "dataHoraAbertura": "2019/02/14 16:11:47",
+            "categoria": "Atendimento",
+            "subCategoria": "Abertura de TT",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/14 16:11:47",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028507741",
+            "dataHoraAbertura": "2019/02/15 08:00:13",
+            "categoria": "Retenção Mobilidade",
+            "subCategoria": "ID Agente",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:00:13",
+            "terminal": "85988795750"
+        },
+        {
+            "numeroChamado": "201900028507740",
+            "dataHoraAbertura": "2019/02/15 08:00:13",
+            "categoria": "Retenção Mobilidade",
+            "subCategoria": "ID Agente",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:00:13",
+            "terminal": "85988795750"
+        },
+        {
+            "numeroChamado": "201900028509304",
+            "dataHoraAbertura": "2019/02/15 08:24:41",
+            "categoria": "Retenção Oi Total",
+            "subCategoria": "Cancelamento do plano",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:25:21",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900029128170",
+            "dataHoraAbertura": "2019/02/16 11:10:58",
+            "categoria": "CRV Oi Total Receptivo",
+            "subCategoria": "Erro sistêmico",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/03/01 16:07:40",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900020603038",
+            "dataHoraAbertura": "2019/02/01 12:18:58",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Alteração endereço",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/01 12:18:58",
+            "terminal": "85988482118"
+        },
+        {
+            "numeroChamado": "201900028650639",
+            "dataHoraAbertura": "2019/02/15 12:10:27",
+            "categoria": "Retenção LOJA",
+            "subCategoria": "Informação",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:11:14",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900028651453",
+            "dataHoraAbertura": "2019/02/15 12:13:38",
+            "categoria": "Retenção Mobilidade",
+            "subCategoria": "ID Agente",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:13:38",
+            "terminal": "85988795750"
+        },
+        {
+            "numeroChamado": "201900028651476",
+            "dataHoraAbertura": "2019/02/15 12:13:43",
+            "categoria": "Retenção LOJA",
+            "subCategoria": "Informação",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:14:46",
+            "terminal": "85988795750"
+        },
+        {
+            "numeroChamado": "201900028650608",
+            "dataHoraAbertura": "2019/02/15 12:10:19",
+            "categoria": "Retenção Mobilidade",
+            "subCategoria": "ID Agente",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:10:19",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900028652246",
+            "dataHoraAbertura": "2019/02/15 12:16:49",
+            "categoria": "Retenção Mobilidade",
+            "subCategoria": "ID Agente",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:16:49",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028652288",
+            "dataHoraAbertura": "2019/02/15 12:16:58",
+            "categoria": "Retenção LOJA",
+            "subCategoria": "Informação",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:36:50",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028509840",
+            "dataHoraAbertura": "2019/02/15 08:02:47",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:02:47",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900028682244",
+            "dataHoraAbertura": "2019/02/15 13:07:46",
+            "categoria": "SVA Cx Postal",
+            "subCategoria": "Inclusão SVA",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 13:07:46",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900028682331",
+            "dataHoraAbertura": "2019/02/15 13:08:03",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 13:08:03",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900028684790",
+            "dataHoraAbertura": "2019/02/15 13:08:37",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 13:08:37",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900028684649",
+            "dataHoraAbertura": "2019/02/15 13:07:56",
+            "categoria": "SVA Cx Postal",
+            "subCategoria": "Inclusão SVA",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 13:07:56",
+            "terminal": "85988795750"
+        },
+        {
+            "numeroChamado": "201900028684674",
+            "dataHoraAbertura": "2019/02/15 13:08:04",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 13:08:04",
+            "terminal": "85988795750"
+        },
+        {
+            "numeroChamado": "201900029128247",
+            "dataHoraAbertura": "2019/02/16 11:11:21",
+            "categoria": "CRV Oi Total Receptivo",
+            "subCategoria": "Erro sistêmico",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/27 12:28:22",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900028265185",
+            "dataHoraAbertura": "2019/02/14 16:40:45",
+            "categoria": "Retenção Oi Total",
+            "subCategoria": "Cancelamento",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:26:04",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028506289",
+            "dataHoraAbertura": "2019/02/15 08:01:21",
+            "categoria": "Serviços",
+            "subCategoria": "Inclusão/Exclusão Dependentes",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:01:21",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028506302",
+            "dataHoraAbertura": "2019/02/15 08:01:33",
+            "categoria": "SVA Cx Postal",
+            "subCategoria": "Inclusão SVA",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:01:33",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900028506318",
+            "dataHoraAbertura": "2019/02/15 08:01:40",
+            "categoria": "Serviços",
+            "subCategoria": "Inclusão/Exclusão Dependentes",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:01:40",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900032368098",
+            "dataHoraAbertura": "2019/02/22 18:27:31",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Alteração endereço",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/22 18:27:31",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028506321",
+            "dataHoraAbertura": "2019/02/15 08:01:42",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:01:42",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900028630949",
+            "dataHoraAbertura": "2019/02/15 11:47:39",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Alterar data de vencimento",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 11:47:38",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900020671561",
+            "dataHoraAbertura": "2019/02/01 14:03:01",
+            "categoria": "Retenção Oi Total",
+            "subCategoria": "Cancelamento",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/02 12:01:02",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900029366009",
+            "dataHoraAbertura": "2019/02/16 19:36:06",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Alteração endereço",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/16 19:36:06",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900024025289",
+            "dataHoraAbertura": "2019/02/07 11:35:51",
+            "categoria": "Retenção Oi Total",
+            "subCategoria": "Retenção Argumentação/Serviços",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/07 11:38:54",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900027693108",
+            "dataHoraAbertura": "2019/02/13 17:00:45",
+            "categoria": "Retenção Oi Total",
+            "subCategoria": "Contato BO",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/13 17:01:23",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028506279",
+            "dataHoraAbertura": "2019/02/15 08:01:13",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:01:13",
+            "terminal": "85988795750"
+        },
+        {
+            "numeroChamado": "201900028506281",
+            "dataHoraAbertura": "2019/02/15 08:01:14",
+            "categoria": "SVA Cx Postal",
+            "subCategoria": "Inclusão SVA",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:01:14",
+            "terminal": "85988795750"
+        },
+        {
+            "numeroChamado": "201900028506287",
+            "dataHoraAbertura": "2019/02/15 08:01:19",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:01:19",
+            "terminal": "85988795750"
+        },
+        {
+            "numeroChamado": "201900028506288",
+            "dataHoraAbertura": "2019/02/15 08:01:19",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:01:19",
+            "terminal": "85988795750"
+        },
+        {
+            "numeroChamado": "201900028506300",
+            "dataHoraAbertura": "2019/02/15 08:01:32",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:01:32",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900028506315",
+            "dataHoraAbertura": "2019/02/15 08:01:38",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:01:38",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900028506316",
+            "dataHoraAbertura": "2019/02/15 08:01:38",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 08:01:38",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900028843003",
+            "dataHoraAbertura": "2019/02/15 17:09:40",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 17:09:40",
+            "terminal": "85988315188"
+        },
+        {
+            "numeroChamado": "201900028843020",
+            "dataHoraAbertura": "2019/02/15 17:09:44",
+            "categoria": "Serviços",
+            "subCategoria": "Inclusão/Exclusão Dependentes",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 17:09:44",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028842762",
+            "dataHoraAbertura": "2019/02/15 17:08:25",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 17:08:25",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028842861",
+            "dataHoraAbertura": "2019/02/15 17:08:58",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 17:08:58",
+            "terminal": "85988795750"
+        },
+        {
+            "numeroChamado": "201900028842875",
+            "dataHoraAbertura": "2019/02/15 17:09:02",
+            "categoria": "Serviços",
+            "subCategoria": "Inclusão/Exclusão Dependentes",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 17:09:02",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028656233",
+            "dataHoraAbertura": "2019/02/15 12:33:26",
+            "categoria": "Serviços",
+            "subCategoria": "Consumo 3G via e-mail/SMS",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:33:26",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028656203",
+            "dataHoraAbertura": "2019/02/15 12:33:17",
+            "categoria": "SVA Cx Postal",
+            "subCategoria": "Inclusão SVA",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 12:33:17",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900028682560",
+            "dataHoraAbertura": "2019/02/15 13:09:06",
+            "categoria": "Fatura/Conta",
+            "subCategoria": "Débito automático",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/15 13:09:06",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900021168709",
+            "dataHoraAbertura": "2019/02/02 11:57:49",
+            "categoria": "Retenção Oi Total",
+            "subCategoria": "Acompanhamento BO",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/13 17:02:41",
+            "terminal": "85988486569"
+        },
+        {
+            "numeroChamado": "201900020603048",
+            "dataHoraAbertura": "2019/02/01 12:19:00",
+            "categoria": "Alteração/Contato",
+            "subCategoria": "Alteração Cadastral",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/01 12:19:00",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900032367883",
+            "dataHoraAbertura": "2019/02/22 18:26:18",
+            "categoria": "Alteração/Contato",
+            "subCategoria": "Alteração Cadastral",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/22 18:26:18",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900032367957",
+            "dataHoraAbertura": "2019/02/22 18:26:45",
+            "categoria": "Alteração/Contato",
+            "subCategoria": "Alteração Cadastral",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/22 18:26:45",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900029366023",
+            "dataHoraAbertura": "2019/02/16 19:36:15",
+            "categoria": "Alteração/Contato",
+            "subCategoria": "Alteração Cadastral",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/16 19:36:14",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900033095144",
+            "dataHoraAbertura": "2019/02/25 08:52:06",
+            "categoria": "Alteração/Contato",
+            "subCategoria": "Alteração Cadastral",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/25 08:52:06",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900033101707",
+            "dataHoraAbertura": "2019/02/25 08:54:12",
+            "categoria": "Alteração/Contato",
+            "subCategoria": "Alteração Cadastral",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/25 08:54:12",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900031779463",
+            "dataHoraAbertura": "2019/02/21 17:08:51",
+            "categoria": "Alteração/Contato",
+            "subCategoria": "Alteração Cadastral",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/21 17:08:51",
+            "terminal": ""
+        },
+        {
+            "numeroChamado": "201900031785493",
+            "dataHoraAbertura": "2019/02/21 17:08:58",
+            "categoria": "Alteração/Contato",
+            "subCategoria": "Alteração Cadastral",
+            "status": "Fechado",
+            "dataHoraResolucao": "2019/02/21 17:08:58",
+            "terminal": ""
+        }
+    ],
+    "response": {
+        "code": "00000",
+        "detail": "Sucesso",
+        "reason": "Sucesso"
+    }
+}

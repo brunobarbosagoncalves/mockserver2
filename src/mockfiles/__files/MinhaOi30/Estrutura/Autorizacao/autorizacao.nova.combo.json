@@ -1,0 +1,19 @@
+{
+    "produto": {
+        "plano": "Oi Total",
+        "terminal": "00000000005",
+        "token": "00000000005",
+        "nome": "Oi Total",
+        "status": "active",
+        "categoria": "landline",
+        "fibra": false,
+        "cingapura": false,
+        "tipoFaturamento": "pos",
+        "tipoVignette": "oct",
+        "tipo": "combo",
+        "tipoTerminal": "terminal",
+        "oferta": "Oi Total"
+    },
+    "nova": true,
+    "url": "https://minha.oi.com.br/portal/site/MinhaOi/AcessoFunc?idfunc=home_produto&numTerminal=21985683210&categoriaPlano=mvl"
+}

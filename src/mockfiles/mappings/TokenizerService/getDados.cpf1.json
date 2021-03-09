@@ -1,0 +1,27 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/tokenizer/getDados",
+        "headers": {
+            "Content-Type": {
+                "equalTo": "application/x-www-form-urlencoded"
+            },
+            "chave": {
+                "equalTo": "000000"
+            },
+            "accesskey": {
+                "equalTo": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIwNGNjODk3Ni01OTc5LTRkMTctYTZhMC01NWEyZTFmZTcwZDciLCJpc3MiOiJPSSBNb3ZlbCBEaWdpdGFsIiwiY3JpYWNhbyI6IjIwMTgtMDItMjhUMTk6NTI6MjAuNzU5WiIsImlhdCI6MTUxOTg0NzU0MH0.qq2ab-Lc66a0fD0U3Thj5l5OkVqwSMViwHiTZpGHhlM"
+            }
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers":"Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "body": "{\"user\": {\"nome\": \"Diogo Leitão\",\"msisdn\": \"21987654321\",\"cpf\": \"10696634767\",\"email\": \"diogo.leitao@oi.net.br\"}}"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "disponivel": 10.52,
+    "consumido": 1.49,
+    "total": 12.09,
+    "unit": "GB",
+    "novoTotal": 2.9,
+    "terminais": [
+        {
+            "terminal": "11998311921",
+            "titular": true,
+            "altoConsumo": false,
+            "disponivel": 14.62,
+            "renovacao": "03/11/2018",
+            "validoDe": "03/10/2018",
+            "validoAte": "02/11/2018",
+            "pacotes": [
+                {
+                    "extra": false,
+                    "consumido": 1.37,
+                    "total": 17.91,
+                    "disponivel": 14.62,
+                    "emUso": true
+                }
+            ]
+        },
+        {
+            "terminal": "11996923053",
+            "titular": false,
+            "altoConsumo": true,
+            "disponivel": 0.76,
+            "renovacao": "03/11/2018",
+            "validoDe": "03/10/2018",
+            "validoAte": "02/11/2018",
+            "pacotes": [
+                {
+                    "extra": false,
+                    "consumido": 4.58,
+                    "total": 2.09,
+                    "disponivel": 0.76,
+                    "emUso": true
+                }
+            ]
+        },
+        {
+            "terminal": "11973252323",
+            "titular": false,
+            "altoConsumo": true,
+            "disponivel": 1.92,
+            "renovacao": "03/11/2018",
+            "validoDe": "03/10/2018",
+            "validoAte": "02/11/2018",
+            "pacotes": [
+                {
+                    "extra": false,
+                    "consumido": 1.07,
+                    "total": 3,
+                    "disponivel": 1.92,
+                    "emUso": true
+                }
+            ]
+        },
+        {
+            "terminal": "11931456076",
+            "titular": false,
+            "altoConsumo": true,
+            "disponivel": 0.26,
+            "renovacao": "03/11/2018",
+            "validoDe": "03/10/2018",
+            "validoAte": "02/11/2018",
+            "pacotes": [
+                {
+                    "extra": true,
+                    "consumido": 1.73,
+                    "total": 2,
+                    "disponivel": 0.26,
+                    "emUso": true
+                },
+                {
+                    "extra": false,
+                    "consumido": 2,
+                    "total": 2,
+                    "disponivel": 0,
+                    "emUso": true
+                }
+            ]
+        }
+    ]
+}

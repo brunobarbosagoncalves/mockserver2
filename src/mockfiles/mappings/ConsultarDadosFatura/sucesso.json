@@ -1,0 +1,23 @@
+{
+    "priority": 2,
+    "request": {
+        "method": "POST",
+        "url": "/ClienteFaturamento/ConsultarDadosFaturaBilling/V1/ConsultarDadosFaturaBillingProxySoap",
+        "bodyPatterns": [{
+            "matchesXPath": "/soapenv:Envelope/soapenv:Body/v1:ConsultarDadosFaturaBillingRequest/v1:GrupoRequest[number(v1:cpf) and string-length(v1:cpf) = 11]",
+            "xPathNamespaces": {
+                "soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+                "v1": "http://osb.telemar/xsd/ClienteFaturamento/ConsultarDadosFaturaBilling/V1",
+                "esb": "http://alsb.telemar/soap/esbUser"
+            }
+        }]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "ConsultarDadosFatura/sucesso.xml"
+    }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WL5G3N0:definitions targetNamespace="http://alsb.telemar/wsdl/EnviarMensagemPreDefinida" xmlns:WL5G3N0="http://schemas.xmlsoap.org/wsdl/" xmlns:WL5G3N1="http://alsb.telemar/xsd/EnviarMensagemPreDefinidaRequest" xmlns:WL5G3N2="http://alsb.telemar/xsd/EnviarMensagemResponse" xmlns:WL5G3N3="http://alsb.telemar/wsdl/EnviarMensagemPreDefinida" xmlns:WL5G3N4="http://schemas.xmlsoap.org/wsdl/soap/">
+  <WL5G3N0:types>
+    <xsd:schema xmlns:s0="http://schemas.xmlsoap.org/wsdl/" xmlns:s1="http://alsb.telemar/xsd/EnviarMensagemPreDefinidaRequest" xmlns:s2="http://alsb.telemar/xsd/EnviarMensagemResponse" xmlns:s3="http://alsb.telemar/wsdl/EnviarMensagemPreDefinida" xmlns:s4="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://alsb.telemar/wsdl/EnviarMensagemPreDefinida" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:import namespace="http://alsb.telemar/xsd/EnviarMensagemPreDefinidaRequest" schemaLocation="http://brcpx32.telemar:7203/Broadcast/EnviarMensagemPreDefinidaProxySoap?SCHEMA%2FBroadcast%2FSchemas%2FEnviarMensagemPreDefinidaRequest"/>
+      <xsd:import namespace="http://alsb.telemar/xsd/EnviarMensagemResponse" schemaLocation="http://brcpx32.telemar:7203/Broadcast/EnviarMensagemPreDefinidaProxySoap?SCHEMA%2FBroadcast%2FSchemas%2FEnviarMensagemResponse"/>
+    </xsd:schema>
+  </WL5G3N0:types>
+  <WL5G3N0:message name="EnviarMensagemPreDefinidaRequest">
+    <WL5G3N0:part element="WL5G3N1:EnviarMensagemPreDefinidaRequest" name="EnviarMensagemPreDefinidaRequest"/>
+  </WL5G3N0:message>
+  <WL5G3N0:message name="EnviarMensagemResponse">
+    <WL5G3N0:part element="WL5G3N2:EnviarMensagemResponse" name="EnviarMensagemResponse"/>
+  </WL5G3N0:message>
+  <WL5G3N0:portType name="EnviarMensagemPreDefinidaPort">
+    <WL5G3N0:operation name="EnviarMensagemPreDefinida">
+      <WL5G3N0:input message="WL5G3N3:EnviarMensagemPreDefinidaRequest"/>
+      <WL5G3N0:output message="WL5G3N3:EnviarMensagemResponse"/>
+    </WL5G3N0:operation>
+  </WL5G3N0:portType>
+  <WL5G3N0:binding name="EnviarMensagemPreDefinidaSoap" type="WL5G3N3:EnviarMensagemPreDefinidaPort">
+    <WL5G3N4:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <WL5G3N0:operation name="EnviarMensagemPreDefinida">
+      <WL5G3N4:operation soapAction="http://alsb.telemar/xsd/EnviarMensagemPreDefinida"/>
+      <WL5G3N0:input>
+        <WL5G3N4:body use="literal"/>
+      </WL5G3N0:input>
+      <WL5G3N0:output>
+        <WL5G3N4:body use="literal"/>
+      </WL5G3N0:output>
+    </WL5G3N0:operation>
+  </WL5G3N0:binding>
+  <WL5G3N0:service name="EnviarMensagem">
+    <WL5G3N0:port binding="WL5G3N3:EnviarMensagemPreDefinidaSoap" name="EnviarMensagemPreDefinidaSoap">
+      <WL5G3N4:address location="http://digpx12.interno:8070/Broadcast/EnviarMensagemPreDefinidaProxySoap"/>
+    </WL5G3N0:port>
+  </WL5G3N0:service>
+</WL5G3N0:definitions>

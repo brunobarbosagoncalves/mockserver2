@@ -1,0 +1,224 @@
+{
+    "nome": "RAFAEL SILVA DE AZEVEDO",
+    "cpf": "09609744745",
+    "dataNascimento": "23/04/1983",
+    "emailContrato": null,
+    "crmsCadastro": [
+      "SBL63"
+    ],
+    "produtos": [
+      {
+        "CRMOrigem": "SBL63",
+        "statusTerminal": "Inativo",
+        "indicInternet": "N",
+        "numeroTerminal": "21989926552",
+        "idContaFatura": "2014310174",
+        "fgInadimplente": "N",
+        "tipoTerminal": "M",
+        "tipoPlano": "POS",
+        "plano": {
+          "codigoPlano": "Móvel1-12Z56WRG-1",
+          "nomePlano": "Oi Mais",
+          "combo": false
+        },
+        "CRMProduto": "SBL63",
+        "fibraControle": false,
+        "produtosCombo": [
+          {
+            "numeroTerminal": "21989926552",
+            "CRMOrigem": "SBL63",
+            "tpPlano": "POS",
+            "statusTerminal": "Inativo",
+            "indicInternet": "N",
+            "idContaFatura": "2014310174",
+            "tipoTerminal": "M",
+            "plano": {
+              "codigoPlano": "Móvel1-12Z56WRG-1",
+              "nomePlano": "OI MAIS 20GB"
+            }
+          }
+        ],
+        "dacc": false,
+        "faturas": [
+          {
+            "dataVencimento": "2020-10-07",
+            "valor": 76.25,
+            "codigoDeBarras": "84640000000-2  76250113201-8  43101740549-6  18197900100-3",
+            "status": "Em Aberto",
+            "dacc": false,
+            "tem14Meses": false,
+            "idFatura": "216552-2",
+            "ajustada": false,
+            "faturaExtra": false,
+            "faturaGerada": true,
+            "interina": false,
+            "numeroFatura": "549181979",
+            "anoMesReferencia": "202009",
+            "tpDocumento": 0,
+            "vencida": true
+          },
+          {
+            "dataVencimento": "2020-09-07",
+            "valor": 134.86,
+            "codigoDeBarras": "84610000001-3  34860113201-5  43101740525-6  34918500100-6",
+            "status": "Em Aberto",
+            "dacc": false,
+            "tem14Meses": false,
+            "idFatura": "216552-3",
+            "ajustada": false,
+            "faturaExtra": false,
+            "faturaGerada": true,
+            "interina": false,
+            "numeroFatura": "525349185",
+            "anoMesReferencia": "202008",
+            "tpDocumento": 0,
+            "vencida": true
+          }
+        ]
+      },
+      {
+        "CRMOrigem": "SBL63",
+        "statusTerminal": "Ativo",
+        "indicInternet": "N",
+        "numeroTerminal": "21989929808",
+        "idContaFatura": "",
+        "fgInadimplente": "N",
+        "tipoTerminal": "M",
+        "tipoPlano": "PRE",
+        "plano": {
+          "codigoPlano": "Móvel1+3B+3401+3B+273",
+          "nomePlano": "Oi Cartão",
+          "combo": false
+        },
+        "CRMProduto": "SBL63",
+        "fibraControle": false,
+        "produtosCombo": [
+          {
+            "numeroTerminal": "21989929808",
+            "CRMOrigem": "SBL63",
+            "tpPlano": "PRE",
+            "statusTerminal": "Ativo",
+            "indicInternet": "N",
+            "idContaFatura": "",
+            "tipoTerminal": "M",
+            "plano": {
+              "codigoPlano": "Móvel1+3B+3401+3B+273",
+              "nomePlano": "PLANO OI CARTAO"
+            }
+          }
+        ]
+      },
+      {
+        "CRMOrigem": "SBL63",
+        "statusTerminal": "Inativo",
+        "indicInternet": "N",
+        "numeroTerminal": "21112073955",
+        "idContaFatura": "2011129150",
+        "fgInadimplente": "N",
+        "tipoTerminal": "M",
+        "tipoPlano": "POS",
+        "plano": {
+          "codigoPlano": "Móvel1-WL70C2O-1",
+          "nomePlano": "Oi Total",
+          "combo": false
+        },
+        "CRMProduto": "SBL63",
+        "fibraControle": false,
+        "produtosCombo": [
+          {
+            "numeroTerminal": "21112073955",
+            "CRMOrigem": "SBL63",
+            "tpPlano": "POS",
+            "statusTerminal": "Inativo",
+            "indicInternet": "N",
+            "idContaFatura": "2011129150",
+            "tipoTerminal": "M",
+            "plano": {
+              "codigoPlano": "Móvel1-WL70C2O-1",
+              "nomePlano": "OI TOTAL FIXO + BANDA LARGA 1"
+            }
+          }
+        ],
+        "dacc": true,
+        "faturas": []
+      },
+      {
+        "CRMOrigem": "SBL63",
+        "statusTerminal": "Ativo",
+        "indicInternet": "N",
+        "numeroTerminal": "2124318953",
+        "idContaFatura": "2015140744",
+        "fgInadimplente": "N",
+        "tipoTerminal": "F",
+        "tipoPlano": "POS",
+        "plano": {
+          "codigoPlano": "Móvel1-WL70C2O-1",
+          "nomePlano": "Oi Fibra",
+          "combo": true
+        },
+        "CRMProduto": "SBL8",
+        "fibraControle": false,
+        "produtosCombo": [
+          {
+            "numeroTerminal": "4-EKRZH5D",
+            "CRMOrigem": "SBL8",
+            "tpPlano": "POS",
+            "statusTerminal": "Ativo",
+            "indicInternet": "S",
+            "idContaFatura": "2015140744",
+            "tipoTerminal": "I",
+            "plano": {
+              "codigoPlano": "1-2SR1AD",
+              "nomePlano": "Banda Larga 200MBps"
+            }
+          },
+          {
+            "numeroTerminal": "21112087209",
+            "CRMOrigem": "SBL63",
+            "tpPlano": "POS",
+            "statusTerminal": "Ativo",
+            "indicInternet": "N",
+            "idContaFatura": "2015140744",
+            "tipoTerminal": "M",
+            "plano": {
+              "codigoPlano": "Móvel1-WL70C2O-1",
+              "nomePlano": "OI TOTAL FIXO + BANDA LARGA 1"
+            }
+          },
+          {
+            "numeroTerminal": "2124318953",
+            "CRMOrigem": "SBL8",
+            "tpPlano": "POS",
+            "statusTerminal": "Ativo",
+            "indicInternet": "N",
+            "idContaFatura": "2015140744",
+            "tipoTerminal": "F",
+            "plano": {
+              "codigoPlano": "4-J1IHNR",
+              "nomePlano": "Fixo sem limites"
+            }
+          }
+        ],
+        "dacc": false,
+        "faturas": [
+          {
+            "dataVencimento": "2020-12-07",
+            "valor": 123,
+            "codigoDeBarras": "84690000001-5  23000113201-1  51407440589-5  75442800100-4",
+            "status": "Em Aberto",
+            "dacc": false,
+            "tem14Meses": false,
+            "idFatura": "217209-1",
+            "ajustada": false,
+            "faturaExtra": false,
+            "faturaGerada": true,
+            "interina": false,
+            "numeroFatura": "589754428",
+            "anoMesReferencia": "202011",
+            "tpDocumento": 0,
+            "vencida": true
+          }
+        ]
+      }
+    ]
+  }

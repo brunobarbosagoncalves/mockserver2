@@ -1,0 +1,21 @@
+{
+  "priority": 2,
+  "request": {
+    "method": "GET",
+    "url": "/enquete/consultaIds",
+    "headers": {
+      "x-origin-channel": {
+        "equalTo": "desktop"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf,  x-origin-application, x-origin-channel"
+    },
+    "bodyFileName": "EnqueteService/Enquete/ConsultaIds/sucesso-channel-desktop.json"
+  }
+}

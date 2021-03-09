@@ -1,0 +1,36 @@
+{
+	"planos": [
+		{
+			"terminalPrincipal": {
+				"terminal": "2422912974",
+				"oferta": "Combo",
+				"plano": "Banda Larga 200mbps",
+				"nome": "Oi TV",
+				"nomeExibicao": "Oi TV",
+				"status": "active",
+				"categoria": "tv",
+				"fibra": false,
+				"cingapura": false,
+				"tipoFaturamento": "pos",
+				"tipoVignette": "ptv",
+				"tipo": "tv-pos",
+				"tipoTerminal": "contrato"
+			},
+			"nomePlano": "Oi TV",
+			"terminais": ["Contrato: 2422912974"],
+			"dacc": false,
+			"faturas": [
+				{
+					"idFatura": "279819-1",
+					"valor": 121.5,
+					"vencimento": "25/02/2018",
+					"codigoBarras": "1001 1100 0011 1111",
+					"tem14Meses": false,
+					"faturaGerada": true,
+					"clienteTV": true,
+					"diasAVencer": 11
+				}
+			]
+		}
+	]
+}

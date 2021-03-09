@@ -1,0 +1,12 @@
+{
+  "RealizarPedidoVendaResponse": {
+    "GrupoResponse": {
+      "timestamp": "2018-05-11T00:55:20.226-03:00"
+    },
+    "ResponseControl": {
+      "code": "0",
+      "reason": "Sucesso",
+      "detail": ""
+    }
+  }
+}

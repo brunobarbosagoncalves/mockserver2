@@ -1,0 +1,496 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <tnsXsd:ContaDetalhadaPreResponse xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tnsXsd="http://alsb.telemar/xsd/ContaDetalhadaPre">
+         <cliente>
+            <msisdn>5533988557789</msisdn>
+            <numTT>DETPREPAGO_1553802035316</numTT>
+         </cliente>
+         <secoes>
+            <secao>
+               <idSecao>1</idSecao>
+               <detalheSecao>
+                  <itemdetalhe>
+                     <dataHora>15/03/2019 14:39:16</dataHora>
+                     <valor>0</valor>
+                     <tipoUnidade>MOEDA</tipoUnidade>
+                     <descricao>Rec Grant ACM Rights</descricao>
+                     <tpRequisicao>02</tpRequisicao>
+                     <canal>Não identificado</canal>
+                     <subcanal>ACM</subcanal>
+                     <Direitos>
+                        <tipo>1</tipo>
+                        <nome>Oi Torpedo</nome>
+                        <valor>30</valor>
+                        <unidade>Moeda</unidade>
+                        <bolso>5</bolso>
+                     </Direitos>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <dataHora>15/03/2019 14:39:18</dataHora>
+                     <valor>0</valor>
+                     <tipoUnidade>MOEDA</tipoUnidade>
+                     <descricao>Rec Grant ACM Rights</descricao>
+                     <tpRequisicao>02</tpRequisicao>
+                     <canal>Não identificado</canal>
+                     <subcanal>ACM</subcanal>
+                     <Direitos>
+                        <tipo>1</tipo>
+                        <nome>3G Pre Pago Ajuste</nome>
+                        <valor>1228800</valor>
+                        <unidade>Moeda</unidade>
+                        <bolso>19</bolso>
+                     </Direitos>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <dataHora>15/03/2019 14:39:15</dataHora>
+                     <valor>2500</valor>
+                     <tipoUnidade>MOEDA</tipoUnidade>
+                     <descricao>Recarga Avulsa - R$25,00</descricao>
+                     <tpRequisicao>02</tpRequisicao>
+                     <canal>Não identificado</canal>
+                     <subcanal>PDV</subcanal>
+                     <Direitos>
+                        <tipo>1</tipo>
+                        <nome>Recarga</nome>
+                        <valor>2500</valor>
+                        <unidade>Moeda</unidade>
+                        <bolso>1</bolso>
+                     </Direitos>
+                  </itemdetalhe>
+               </detalheSecao>
+            </secao>
+            <secao>
+               <idSecao>5</idSecao>
+               <ordemSecao>5</ordemSecao>
+               <secaoPai>4</secaoPai>
+               <nomeSecao>Na área Oi - dentro da sua área</nomeSecao>
+               <detalheSecao>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>03133988101968</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>00:11:19</hora>
+                     <dataHora>09/03/2019 00:11:19</dataHora>
+                     <tpTarifa>Reduzido</tpTarifa>
+                     <valor>60</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:01:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>31</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>988484271</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>09:47:31</hora>
+                     <dataHora>09/03/2019 09:47:31</dataHora>
+                     <tpTarifa>Reduzido</tpTarifa>
+                     <valor>240</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:04:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>00</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>988469226</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>08:19:37</hora>
+                     <dataHora>12/03/2019 08:19:37</dataHora>
+                     <tpTarifa>Normal</tpTarifa>
+                     <valor>60</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:01:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>00</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>988703260</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>14:39:57</hora>
+                     <dataHora>12/03/2019 14:39:57</dataHora>
+                     <tpTarifa>Normal</tpTarifa>
+                     <valor>60</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:01:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>00</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>988473955</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>15:12:23</hora>
+                     <dataHora>12/03/2019 15:12:23</dataHora>
+                     <tpTarifa>Normal</tpTarifa>
+                     <valor>120</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:02:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>00</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>988703260</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>09:09:27</hora>
+                     <dataHora>13/03/2019 09:09:27</dataHora>
+                     <tpTarifa>Normal</tpTarifa>
+                     <valor>60</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:01:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>00</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>988473955</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>11:04:01</hora>
+                     <dataHora>13/03/2019 11:04:01</dataHora>
+                     <tpTarifa>Normal</tpTarifa>
+                     <valor>60</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:01:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>00</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>988484271</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>17:29:05</hora>
+                     <dataHora>13/03/2019 17:29:05</dataHora>
+                     <tpTarifa>Normal</tpTarifa>
+                     <valor>240</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:04:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>00</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>988432062</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>15:52:23</hora>
+                     <dataHora>14/03/2019 15:52:23</dataHora>
+                     <tpTarifa>Normal</tpTarifa>
+                     <valor>300</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:05:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>00</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>988703260</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>08:27:01</hora>
+                     <dataHora>15/03/2019 08:27:01</dataHora>
+                     <tpTarifa>Normal</tpTarifa>
+                     <valor>12</valor>
+                     <tipoUnidade>MOEDA</tipoUnidade>
+                     <duracaoChamada>00:00:25</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Recarga</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>00</cdOperLngDistancia>
+                     <codBolso>1</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>988290816</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>17:48:43</hora>
+                     <dataHora>15/03/2019 17:48:43</dataHora>
+                     <tpTarifa>Normal</tpTarifa>
+                     <valor>180</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:03:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>00</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>988555069</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>19:41:25</hora>
+                     <dataHora>15/03/2019 19:41:25</dataHora>
+                     <tpTarifa>Normal</tpTarifa>
+                     <valor>120</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:02:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>00</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>03133988101968</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>21:43:57</hora>
+                     <dataHora>15/03/2019 21:43:57</dataHora>
+                     <tpTarifa>Reduzido</tpTarifa>
+                     <valor>60</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:01:00</duracaoChamada>
+                     <descricao>Celular Oi</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VCAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>31</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+               </detalheSecao>
+            </secao>
+            <secao>
+               <idSecao>9</idSecao>
+               <ordemSecao>10</ordemSecao>
+               <secaoPai>3</secaoPai>
+               <nomeSecao>Chamadas para Outras Cidades</nomeSecao>
+               <detalheSecao>
+    <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>03111960526335</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>11:43:56</hora>
+                     <dataHora>09/03/2019 11:43:56</dataHora>
+                     <tpTarifa>Normal</tpTarifa>
+                     <valor>60</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:01:00</duracaoChamada>
+                     <descricao>LD usando 31</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VC3OiAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>31</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>03111960526335</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>21:18:20</hora>
+                     <dataHora>12/03/2019 21:18:20</dataHora>
+                     <tpTarifa>Reduzido</tpTarifa>
+                     <valor>480</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:08:00</duracaoChamada>
+                     <descricao>LD usando 31</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VC3OiAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>31</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>03111960526335</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>21:59:34</hora>
+                     <dataHora>13/03/2019 21:59:34</dataHora>
+                     <tpTarifa>Reduzido</tpTarifa>
+                     <valor>960</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:16:00</duracaoChamada>
+                     <descricao>LD usando 31</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VC3OiAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>31</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+                  <itemdetalhe>
+                     <fgPossuiBolso>true</fgPossuiBolso>
+                     <fgPossuiTotal>false</fgPossuiTotal>
+                     <cdMsisdnChamado>03111960526335</cdMsisdnChamado>
+                     <ufOrigemChamado>Minas Gerais</ufOrigemChamado>
+                     <hora>21:00:48</hora>
+                     <dataHora>14/03/2019 21:00:48</dataHora>
+                     <tpTarifa>Reduzido</tpTarifa>
+                     <valor>720</valor>
+                     <tipoUnidade>Minutos</tipoUnidade>
+                     <duracaoChamada>00:12:00</duracaoChamada>
+                     <descricao>LD usando 31</descricao>
+                     <tpRequisicao/>
+                     <tpTarifacao>VC3OiAr4MG</tpTarifacao>
+                     <tpChamada>1</tpChamada>
+                     <descRoam>NAO ROAMING</descRoam>
+                     <descChamadaCobrar>0</descChamadaCobrar>
+                     <ufZonaOrigem>33</ufZonaOrigem>
+                     <descBolso>Oferta TudoPorDia</descBolso>
+                     <icms>0</icms>
+                     <cdTipoPproduto>00</cdTipoPproduto>
+                     <cdOperLngDistancia>31</cdOperLngDistancia>
+                     <codBolso>21</codBolso>
+                  </itemdetalhe>
+               </detalheSecao>
+            </secao>
+         </secoes>
+         <indPossuiRegistros>false</indPossuiRegistros>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0</code>
+            <reason>BLL[Sucesso] FORT[]</reason>
+            <detail>BLL[] FORT[]</detail>
+         </esb:ResponseControl>
+      </tnsXsd:ContaDetalhadaPreResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

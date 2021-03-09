@@ -1,0 +1,9 @@
+{
+  "numeroprotocolo": "",
+  "dataAdesao": "",
+  "response": {
+    "code": "1",
+    "detail": "Erro ao tentar aderir ou alterar oferta",
+    "reason": "Sucess"
+  }
+}

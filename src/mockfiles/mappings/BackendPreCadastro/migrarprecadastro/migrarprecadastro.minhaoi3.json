@@ -1,0 +1,23 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "GET",
+        "url": "/api/migrarprecadastro",
+        "headers": {
+            "x-cpf": {
+                "equalTo": "48484384705"
+            }
+        }
+    },
+    "response": {
+        "status": 302,
+        "headers":
+        {
+            "Content-Type" : "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept",
+            "Location": "https://minha.oi.com.br/minhaoi/digital/#/transicao/TESTE1"
+        },
+        "body": ""
+    }
+}

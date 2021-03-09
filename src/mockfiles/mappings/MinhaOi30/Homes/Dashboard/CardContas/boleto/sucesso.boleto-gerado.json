@@ -1,0 +1,16 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "GET",
+        "url": "/api/dashboard/cardContas/boleto/99999999999"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/html",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-cpf, x-origin-application, x-origin-channel"
+        },
+        "bodyFileName": "MinhaOi30/CardContas/boleto/boleto.html"
+    }
+}

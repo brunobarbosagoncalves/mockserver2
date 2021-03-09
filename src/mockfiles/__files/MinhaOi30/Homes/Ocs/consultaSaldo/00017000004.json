@@ -1,0 +1,373 @@
+{
+    "id": "00017000004",
+    "source": "OCS",
+    "bucketSummary": [
+        {
+            "type": "data",
+            "remainedAmount": 9,
+            "units": "mb",
+            "unlimited": false
+        },
+        {
+            "type": "voice",
+            "remainedAmount": 400,
+            "units": "minutes",
+            "unlimited": true
+        },
+        {
+            "type": "sms",
+            "remainedAmount": 320,
+            "units": "sms",
+            "unlimited": false
+        }
+    ],
+    "bucketBalance": [
+        {
+            "id": "701000000000000960",
+            "bucketType": "data",
+            "currentOffer": true,
+            "status": "active",
+            "origin": "offering",
+            "orderedAmount": 700,
+            "remainedAmount": 520,
+            "units": "mb",
+            "name": "Oi colaborador",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-05-19T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": false
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "Oi mais"
+                },
+                {
+                    "name": "convert",
+                    "value": true
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_gprs_local"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_gprs_local"
+                }
+            ]
+        },
+        {
+            "id": "701000000000000959",
+            "bucketType": "voice",
+            "currentOffer": true,
+            "status": "active",
+            "origin": "package",
+            "orderedAmount": 150,
+            "remainedAmount": 150,
+            "units": "minutes",
+            "name": "Oi colaborador",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-05-19T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": false
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "Oi mais"
+                },
+                {
+                    "name": "convert",
+                    "value": true
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_voice_onnet"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_voice_onnet"
+                }
+            ]
+        },
+        {
+            "id": "701000000000000959",
+            "bucketType": "voice",
+            "currentOffer": true,
+            "status": "active",
+            "origin": "package",
+            "orderedAmount": 200,
+            "remainedAmount": 50,
+            "units": "minutes",
+            "name": "Oi colaborador",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-05-19T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": false
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "Oi mais"
+                },
+                {
+                    "name": "convert",
+                    "value": true
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_voice_onnet"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_voice_onnet"
+                }
+            ]
+        },
+        {
+            "id": "701000000000000957",
+            "bucketType": "sms",
+            "currentOffer": true,
+            "status": "active",
+            "origin": "package",
+            "orderedAmount": 100,
+            "remainedAmount": 20,
+            "units": "sms",
+            "name": "Oi colaborador",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-05-19T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": true
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "Oi mais"
+                },
+                {
+                    "name": "convert",
+                    "value": true
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_sms_local"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_sms_local"
+                }
+            ]
+        },
+        {
+            "id": "701000000000000967",
+            "bucketType": "sms",
+            "currentOffer": true,
+            "status": "active",
+            "origin": "package",
+            "orderedAmount": 200,
+            "remainedAmount": 200,
+            "units": "sms",
+            "name": "Oi colaborador",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-05-19T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": true
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "Oi mais"
+                },
+                {
+                    "name": "convert",
+                    "value": true
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_sms_local"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_sms_local"
+                }
+            ]
+        },
+        {
+            "id": "701000000000000959",
+            "bucketType": "voice",
+            "currentOffer": true,
+            "status": "active",
+            "origin": "package",
+            "orderedAmount": 200,
+            "remainedAmount": 200,
+            "units": "minutes",
+            "name": "Oi colaborador",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-05-19T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": false
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "Oi mais"
+                },
+                {
+                    "name": "convert",
+                    "value": true
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_voice_onnet"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_voice_onnet"
+                }
+            ]
+        },
+        {
+            "id": "701000000000000957",
+            "bucketType": "sms",
+            "currentOffer": true,
+            "status": "active",
+            "origin": "package",
+            "orderedAmount": 100,
+            "remainedAmount": 100,
+            "units": "sms",
+            "name": "Oi colaborador",
+            "description": "",
+            "validFor": {
+                "startDateTime": "2019-04-19T00:00:00.000",
+                "endDateTime": "2019-05-19T00:00:00.000"
+            },
+            "characteristic": [
+                {
+                    "name": "unlimited",
+                    "value": true
+                },
+                {
+                    "name": "businessNameUseType",
+                    "value": "Oi mais"
+                },
+                {
+                    "name": "convert",
+                    "value": true
+                },
+                {
+                    "name": "bucketItemType",
+                    "value": "test_sms_local"
+                },
+                {
+                    "name": "bucketItemTypeName",
+                    "value": "test_sms_local"
+                }
+            ]
+        }
+    ],
+    "amountSummary": {
+        "totalAmount": 399,
+        "creditPendencyFlag": true,
+        "creditPendencyAmount": 299,
+        "amounts": [
+            {
+                "id": "C_MAIN_ACCOUNT",
+                "type": "main",
+                "total": 100,
+                "expirationDate": "2020-04-03T00:00:00.000",
+                "characteristic": [
+                    {
+                        "name": "businessName",
+                        "value": ""
+                    }
+                ]
+            },
+            {
+                "id": "C_ONNET_BONUS_FUND",
+                "type": "ajust",
+                "total": 299,
+                "expirationDate": "2020-04-03T00:00:00.000",
+                "characteristic": [
+                    {
+                        "name": "businessName",
+                        "value": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "plan": {
+        "businessNameCurrentOffer": "",
+        "signInDateCurrentOffer": "2020-04-03T00:00:00.000",
+        "characteristic": [
+            {
+                "name": "rulesDescriptionCurrentOffer",
+                "value":"Sua promoção é Oi Ligador. Faça uma recarga acima de 32"
+            }
+        ]
+    },
+    "freeData": [
+        {
+            "id": "102304",
+            "origin": "offering",
+            "items": [
+                {
+                    "freeDataIdentifier": "WHATSAPP",
+                    "expirationDate": "2020-04-03T00:00:00.000",
+                    "order": "1",
+                    "name": "Whatsapp"
+                },
+                {
+                    "freeDataIdentifier": "FACEBOOK",
+                    "expirationDate": "2020-04-03T00:00:00.000",
+                    "order": "2",
+                    "name": "Facebook"
+                }
+            ]
+        },
+        {
+            "id": "102305",
+            "origin": "package",
+            "items": [
+                {
+                    "freeDataIdentifier": "NETFLIX",
+                    "expirationDate": "2019-04-03T00:00:00.000",
+                    "order": "1",
+                    "name": "Netflix"
+                },
+                {
+                    "freeDataIdentifier": "NETFLIX",
+                    "expirationDate": "2019-04-03T00:00:00.000",
+                    "order": "1",
+                    "name": "Netflix"
+                }
+            ]
+        }
+    ],
+    "errorCode": "",
+    "errorDescription": ""
+}

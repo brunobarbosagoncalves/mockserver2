@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/api/atualizacao/validaremail",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"token\":\"AAABBB123\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 500,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem, x-cpf, x-origin"
+        },
+        "body": "{ \"mensagem\": \"Erro ao validar e-mail.\" }"
+    }
+}

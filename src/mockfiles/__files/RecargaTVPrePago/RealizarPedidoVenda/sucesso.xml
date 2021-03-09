@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"/>
+   <env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+      <v1:RealizarPedidoVendaResponse xmlns:v1="http://osb.telemar/xsd/VendaOperacao/RealizarPedidoVenda/V1">
+         <v1:GrupoResponse>
+            <v1:timestamp>2018-09-17T19:44:39.850-03:00</v1:timestamp>
+         </v1:GrupoResponse>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0</code>
+            <reason>Sucesso</reason>
+            <detail/>
+         </esb:ResponseControl>
+      </v1:RealizarPedidoVendaResponse>
+   </env:Body>
+</soapenv:Envelope>

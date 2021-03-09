@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions name="SingleSignOnWsNDS" targetNamespace="http://sso.ws.nds/" xmlns:ns1="http://cxf.apache.org/bindings/xformat" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:tns="http://sso.ws.nds/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+<xs:schema elementFormDefault="unqualified" targetNamespace="http://sso.ws.nds/" version="1.0" xmlns:tns="http://sso.ws.nds/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="efetivarCadastro" type="tns:efetivarCadastro" />
+<xs:element name="efetivarCadastroResponse" type="tns:efetivarCadastroResponse" />
+<xs:element name="isActiveService" type="tns:isActiveService" />
+<xs:element name="isActiveServiceResponse" type="tns:isActiveServiceResponse" />
+<xs:element name="manterCadastroCliente" type="tns:manterCadastroCliente" />
+<xs:element name="manterCadastroClienteResponse" type="tns:manterCadastroClienteResponse" />
+<xs:element name="validarCadastroCliente" type="tns:validarCadastroCliente" />
+<xs:element name="validarCadastroClienteResponse" type="tns:validarCadastroClienteResponse" />
+<xs:element name="validarEmailCliente" type="tns:validarEmailCliente" />
+<xs:element name="validarEmailClienteResponse" type="tns:validarEmailClienteResponse" />
+<xs:element name="validarSenhaCliente" type="tns:validarSenhaCliente" />
+<xs:element name="validarSenhaClienteResponse" type="tns:validarSenhaClienteResponse" />
+<xs:complexType name="manterCadastroCliente">
+<xs:sequence>
+<xs:element minOccurs="0" name="manterCadastroClienteXML" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="manterCadastroClienteResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="efetivarCadastro">
+<xs:sequence>
+<xs:element minOccurs="0" name="efetivarCadastroXML" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="efetivarCadastroResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validarEmailCliente">
+<xs:sequence>
+<xs:element minOccurs="0" name="validarEmailClienteXML" type="tns:requestValidarEmail" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="requestValidarEmail">
+<xs:sequence>
+<xs:element minOccurs="0" name="email" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validarEmailClienteResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="response" type="tns:responseValidarEmail" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="responseValidarEmail">
+<xs:sequence>
+<xs:element minOccurs="0" name="code" type="xs:string" />
+<xs:element minOccurs="0" name="codeResponse" type="xs:string" />
+<xs:element minOccurs="0" name="detail" type="xs:string" />
+<xs:element minOccurs="0" name="keyResponse" type="xs:string" />
+<xs:element minOccurs="0" name="protocolo" type="xs:string" />
+<xs:element minOccurs="0" name="reason" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validarSenhaCliente">
+<xs:sequence>
+<xs:element minOccurs="0" name="validarSenhaClienteXML" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validarSenhaClienteResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validarCadastroCliente">
+<xs:sequence>
+<xs:element minOccurs="0" name="validarCadastroClienteXML" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="validarCadastroClienteResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:complexType name="isActiveService">
+<xs:sequence />
+</xs:complexType>
+<xs:complexType name="isActiveServiceResponse">
+<xs:sequence>
+<xs:element minOccurs="0" name="return" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="manterCadastroCliente">
+    <wsdl:part element="tns:manterCadastroCliente" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="validarSenhaCliente">
+    <wsdl:part element="tns:validarSenhaCliente" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="validarEmailCliente">
+    <wsdl:part element="tns:validarEmailCliente" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="isActiveService">
+    <wsdl:part element="tns:isActiveService" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="validarCadastroCliente">
+    <wsdl:part element="tns:validarCadastroCliente" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="validarEmailClienteResponse">
+    <wsdl:part element="tns:validarEmailClienteResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="efetivarCadastroResponse">
+    <wsdl:part element="tns:efetivarCadastroResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="manterCadastroClienteResponse">
+    <wsdl:part element="tns:manterCadastroClienteResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="validarCadastroClienteResponse">
+    <wsdl:part element="tns:validarCadastroClienteResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="validarSenhaClienteResponse">
+    <wsdl:part element="tns:validarSenhaClienteResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="efetivarCadastro">
+    <wsdl:part element="tns:efetivarCadastro" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="isActiveServiceResponse">
+    <wsdl:part element="tns:isActiveServiceResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="SingleSignOnWsNDS">
+    <wsdl:operation name="manterCadastroCliente">
+      <wsdl:input message="tns:manterCadastroCliente" name="manterCadastroCliente">
+    </wsdl:input>
+      <wsdl:output message="tns:manterCadastroClienteResponse" name="manterCadastroClienteResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="efetivarCadastro">
+      <wsdl:input message="tns:efetivarCadastro" name="efetivarCadastro">
+    </wsdl:input>
+      <wsdl:output message="tns:efetivarCadastroResponse" name="efetivarCadastroResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validarEmailCliente">
+      <wsdl:input message="tns:validarEmailCliente" name="validarEmailCliente">
+    </wsdl:input>
+      <wsdl:output message="tns:validarEmailClienteResponse" name="validarEmailClienteResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validarSenhaCliente">
+      <wsdl:input message="tns:validarSenhaCliente" name="validarSenhaCliente">
+    </wsdl:input>
+      <wsdl:output message="tns:validarSenhaClienteResponse" name="validarSenhaClienteResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validarCadastroCliente">
+      <wsdl:input message="tns:validarCadastroCliente" name="validarCadastroCliente">
+    </wsdl:input>
+      <wsdl:output message="tns:validarCadastroClienteResponse" name="validarCadastroClienteResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isActiveService">
+      <wsdl:input message="tns:isActiveService" name="isActiveService">
+    </wsdl:input>
+      <wsdl:output message="tns:isActiveServiceResponse" name="isActiveServiceResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SingleSignOnWsNDSSoapBinding" type="tns:SingleSignOnWsNDS">
+    <soap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="manterCadastroCliente">
+      <soap12:operation soapAction="" style="document" />
+      <wsdl:input name="manterCadastroCliente">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="manterCadastroClienteResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="efetivarCadastro">
+      <soap12:operation soapAction="" style="document" />
+      <wsdl:input name="efetivarCadastro">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="efetivarCadastroResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validarEmailCliente">
+      <soap12:operation soapAction="" style="document" />
+      <wsdl:input name="validarEmailCliente">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="validarEmailClienteResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validarSenhaCliente">
+      <soap12:operation soapAction="" style="document" />
+      <wsdl:input name="validarSenhaCliente">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="validarSenhaClienteResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="validarCadastroCliente">
+      <soap12:operation soapAction="" style="document" />
+      <wsdl:input name="validarCadastroCliente">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="validarCadastroClienteResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isActiveService">
+      <soap12:operation soapAction="" style="document" />
+      <wsdl:input name="isActiveService">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="isActiveServiceResponse">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SingleSignOnWsNDS">
+    <wsdl:port binding="tns:SingleSignOnWsNDSSoapBinding" name="SingleSignOnWsNDSImplPort">
+      <soap:address location="http://digpx12.interno:8070/SingleSignOnWsNDS/SingleSignOnWsNDS" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,79 @@
+{
+    "msisdn": "5521998329988",
+    "hasData": true,
+    "hasVoice": true,
+    "hasSms": true,
+    "dataCard": {
+        "value": "6.33 GB",
+        "packages": [
+            {
+                "id": "701000000000000960",
+                "value": "520 MB",
+                "type": "Internet da oferta",
+                "validTo": "2019-01-11T00:00:00.000"
+            }
+        ],
+        "alert": {
+            "show": false,
+            "title": ""
+        },
+        "freeData": {
+            "validTo": "2020-04-03T00:00:00.000",
+            "items": [
+                "Whatsapp",
+                "Facebook"
+            ]
+        },
+        "services": {
+            "validTo": "2019-04-03T00:00:00.000",
+            "items": [
+                "Netflix",
+                "Fox Premium"
+            ]
+        }
+    },
+    "voiceSmsCard": {
+        "voice": {
+            "value": "Minutos Ilimitados",
+            "packages": [
+                {
+                    "id": "701000000000000959",
+                    "value": "150 MIN",
+                    "type": "Para qualquer operadora do Brasil",
+                    "validTo": "2019-01-11T00:00:00.000"
+                }
+            ]
+        },
+        "sms": {
+            "value": "817 SMS",
+            "packages": [
+                {
+                    "id": "701000000000000957",
+                    "value": "SMS Ilimitados",
+                    "type": "De 0 SMS da sua oferta",
+                    "validTo": "2019-01-11T00:00:00.000"
+                }
+            ]
+        }
+    },
+    "amount": {
+        "balance": "R$ 399,00",
+        "credits": [
+            {
+                "type": "main",
+                "value": "R$ 100,00",
+                "validTo": "2020-04-03T00:00:00.000"
+            },
+            {
+                "type": "ajust",
+                "value": "R$ 299,00",
+                "validTo": "2020-04-03T00:00:00.000"
+            }
+        ],
+        "alert": {
+            "show": false,
+            "title": "",
+            "subtitle": ""
+        }
+    }
+}

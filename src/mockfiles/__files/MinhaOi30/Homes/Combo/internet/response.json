@@ -1,0 +1,22 @@
+{
+    "dados": [
+        {
+            "ilimitado": false,
+            "principal": true,
+            "categoria": "main",
+            "nome": "Oi Total Completo 20GB",
+            "total": 17479680,
+            "restante": 16601640.95,
+            "consumido": 878039.0500000007,
+            "unidade": "kb",
+            "renovacao": 1555988400000,
+            "inicio": 1553310000000,
+            "tipo": "data",
+            "expirado": false,
+            "caracteristicas": [],
+            "uso": true,
+            "altoConsumo": false
+        }
+    ],
+    "extra": {}
+}

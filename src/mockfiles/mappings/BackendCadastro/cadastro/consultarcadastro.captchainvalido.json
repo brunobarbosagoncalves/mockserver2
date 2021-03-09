@@ -1,0 +1,23 @@
+{
+    "priority": 3,
+    "request": {
+        "method": "POST",
+        "urlPattern": "/api/cadastro/consultar",
+        "bodyPatterns": [
+            {
+                "equalToJson": "{\"captcha\":\"03AIezHSZg7S5RwAQx52UaKFp9Jqy1CLmxyroaQXba5DfWZNjxPJSLYmsuoSlKCF1izgt8rIjfFIYMCfMhoOM0jjxJ1d6QyjBzyzYdkdaLujQcmVmVd_8S3O_VntvD66u__dR1zDeXozbzK3fj92eR8TaDVFscX5M0Kj-W8LwTZ8e5q0HhipLJql_i6F0MR2et90InFSs_XwrJolI24VUp0Zdsp_gltHkZ4Bsq7pEG_2alcnUJ0rqk69AXtSwUlEGlycE2of0JyYJJzxsPwylr8_3tYtbt4C2I3j4-f0cg756LpWM92izgtnc-FNuC73nGG2sD_bRgipPv\"}",
+                "ignoreArrayOrder": true,
+                "ignoreExtraElements": true
+            }
+        ]
+    },
+    "response": {
+        "status": 403,
+        "headers": {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Authorization, Origin, X-Requested-With, Content-Type, Accept, x-origem"
+        },
+        "body": "{ \"mensagem\": \"Captcha inválido.\" }"
+    }
+}

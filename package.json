@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=testing nodemon --exec babel-node src/server/index.js",
-    "dev": "NODE_ENV=development nodemon --exec babel-node src/server/index.js",
-    "stage": "NODE_ENV=staging nodemon --exec babel-node src/server/index.js",
-    "prod": "NODE_ENV=production pm2 start --watch --interpreter babel-node src/server/index.js"
+    "test": "NODE_ENV=test nodemon --exec babel-node src/server/index.js",
+    "development": "NODE_ENV=development nodemon --exec babel-node src/server/index.js",
+    "stage": "NODE_ENV=stage nodemon --exec babel-node src/server/index.js",
+    "production": "NODE_ENV=production pm2 start --watch --interpreter babel-node src/server/index.js"
   },
   "repository": {
       "type": "git",

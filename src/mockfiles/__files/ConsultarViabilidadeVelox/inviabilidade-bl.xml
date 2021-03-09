@@ -1,0 +1,57 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+      <con:ConsultarViabilidadeVeloxResponse xmlns:con="http://osb.telemar/xsd/ConsultarViabilidadeVelox">
+         <con:DDD>27</con:DDD>
+         <con:terminal>33614776</con:terminal>
+         <con:UF>ES</con:UF>
+         <con:codigoLocalidade>5963</con:codigoLocalidade>
+         <con:siglaLocalidade>GRI</con:siglaLocalidade>
+         <con:nomeLogradouro>BRILHANTINO LOPES PEREIRA</con:nomeLogradouro>
+         <con:codigoLogradouro>20369</con:codigoLogradouro>
+         <con:numeroLogradouro>266</con:numeroLogradouro>
+         <con:complementoLogradouro>AP102</con:complementoLogradouro>
+         <con:CPF>00012345678910</con:CPF>
+         <con:nomeAssinante>MARIA CORRADI</con:nomeAssinante>
+         <con:qtdPortasLivres>54</con:qtdPortasLivres>
+         <con:indicadorVeloxInstalado>0</con:indicadorVeloxInstalado>
+         <con:circuito/>
+         <con:banda>10.0</con:banda>
+         <con:msgPCP/>
+         <con:flagAberturaAnalise>0</con:flagAberturaAnalise>
+         <con:flagVisualizarAnalise>0</con:flagVisualizarAnalise>
+         <con:flagInadimplente>0</con:flagInadimplente>
+         <con:codigoSolicitacao>0</con:codigoSolicitacao>
+         <con:siglaArmarioABL>PM2A0</con:siglaArmarioABL>
+         <con:motivoNaoAbertura/>
+         <con:codigoFluxoClassificacao>ABCDEFILHS1</con:codigoFluxoClassificacao>
+         <con:classificacao>0</con:classificacao>
+         <con:velocidadeMaxima></con:velocidadeMaxima>
+         <con:nomeVelocidade/>
+         <con:PortasDispEstacao>
+            <con:velocidadeMaximaMenor1MB>0</con:velocidadeMaximaMenor1MB>
+            <con:velocidadeMaxima1MB>0</con:velocidadeMaxima1MB>
+            <con:velocidadeMaxima5MB>0</con:velocidadeMaxima5MB>
+            <con:velocidadeMaxima15MB>1918</con:velocidadeMaxima15MB>
+            <con:velocidadeMaximaMaior15MB>0</con:velocidadeMaximaMaior15MB>
+         </con:PortasDispEstacao>
+         <con:PortasDispArmario>
+            <con:velocidadeMaximaMenor1MB>0</con:velocidadeMaximaMenor1MB>
+            <con:velocidadeMaxima1MB>0</con:velocidadeMaxima1MB>
+            <con:velocidadeMaxima5MB>0</con:velocidadeMaxima5MB>
+            <con:velocidadeMaxima15MB>0</con:velocidadeMaxima15MB>
+            <con:velocidadeMaximaMaior15MB>0</con:velocidadeMaximaMaior15MB>
+         </con:PortasDispArmario>
+         <con:NovasFacilidades/>
+         <con:Outros>
+            <con:classifConsolidada>1</con:classifConsolidada>
+            <con:velocConsolidada></con:velocConsolidada>
+         </con:Outros>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0000</code>
+            <reason/>
+            <detail/>
+         </esb:ResponseControl>
+      </con:ConsultarViabilidadeVeloxResponse>
+   </S:Body>
+</soapenv:Envelope>

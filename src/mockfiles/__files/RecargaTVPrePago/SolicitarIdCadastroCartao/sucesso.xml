@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"/>
+   <env:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+      <v1:SolicitarIdCadastroCartaoResponse xmlns:v1="http://osb.telemar/xsd/VendaOperacao/SolicitarIdCadastroCartao/V1">
+         <v1:GrupoResponse>
+            <v1:transacaoId>243</v1:transacaoId>
+         </v1:GrupoResponse>
+         <esb:ResponseControl xmlns:esb="http://alsb.telemar/soap/esb">
+            <code>0</code>
+            <reason/>
+            <detail/>
+         </esb:ResponseControl>
+      </v1:SolicitarIdCadastroCartaoResponse>
+   </env:Body>
+</soapenv:Envelope>

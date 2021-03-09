@@ -1,0 +1,23 @@
+{
+    "priority": 1,
+    "request": {
+        "method": "POST",
+        "url": "/Broadcast/EnviarMensagemPreDefinidaProxySoap",
+        "bodyPatterns" : [ {
+            "matchesXPath" : "/soapenv:Envelope/soapenv:Body/env:EnviarMensagemPreDefinidaRequest[env:destinatario = 'abc@gmail.com']",
+            "xPathNamespaces" : {
+                "soapenv" : "http://schemas.xmlsoap.org/soap/envelope/",
+                "esb"  : "http://alsb.telemar/soap/esbUser",
+                "env" : "http://alsb.telemar/xsd/EnviarMensagemPreDefinidaRequest"
+            }
+        } ]
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "Content-Type": "text/xml",
+            "Cache-Control": "no-cache"
+        },
+        "bodyFileName": "EnviarMensagemPreDefinida/inexistente.xml"
+    }
+}

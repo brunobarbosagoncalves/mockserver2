@@ -1,0 +1,98 @@
+{
+  "nome": "DILACI ALVES DE MEDEIROS",
+  "cpf": "00020360703",
+  "dataNascimento": "14/09/1946",
+  "crmsCadastro": [
+    "CDI"
+  ],
+  "emailContrato": "",
+  "produtos": [
+    {
+      "numeroTerminal": "29266745",
+      "idContaFatura": "29266745",
+      "CRMOrigem": "SINN",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "T",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Tv11398284092",
+        "nomePlano": "OI TV TOTAL HD DVR"
+      },
+      "statusTerminal": "Inativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "29266745",
+          "CRMOrigem": "SINN",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Tv11398284092",
+            "nomePlano": "OI TV TOTAL HD DVR"
+          },
+          "statusTerminal": "Inativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [
+        {
+          "meioCobranca": "Boleto",
+          "status": "Em Aberto",
+          "valor": "199.8",
+          "dataVencimento": "2017-02-11",
+          "idExtrato": "4387142051",
+          "mesReferencia": "2017-05-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": true,
+          "vencida": true,
+          "idFatura": "2945-1",
+          "interina": false
+        },
+        {
+          "meioCobranca": "Boleto",
+          "status": "Em Aberto",
+          "valor": "367.38",
+          "dataVencimento": "2017-01-11",
+          "idExtrato": "5282242050",
+          "mesReferencia": "2017-04-01",
+          "ajustada": false,
+          "faturaGerada": true,
+          "tem14Meses": true,
+          "vencida": true,
+          "idFatura": "2945-2",
+          "interina": false
+        }
+      ],
+      "dacc": false
+    },
+    {
+      "numeroTerminal": "2433414666",
+      "idContaFatura": "08817|2433414666|0|7",
+      "CRMOrigem": "STC",
+      "fgInadimplente": "N",
+      "indicInternet": "N",
+      "tipoTerminal": "F",
+      "tipoPlano": "POS",
+      "plano": {
+        "codigoPlano": "Fixo011B45-1NFRMIL-1",
+        "nomePlano": "OI FIXO SEM LIMITES"
+      },
+      "statusTerminal": "Ativo",
+      "produtosCombo": [
+        {
+          "numeroTerminal": "2433414666",
+          "CRMOrigem": "STC",
+          "tpPlano": "POS",
+          "plano": {
+            "codigoPlano": "Fixo011B45-1NFRMIL-1",
+            "nomePlano": "OI FIXO SEM LIMITES"
+          },
+          "statusTerminal": "Ativo",
+          "indicInternet": "N"
+        }
+      ],
+      "faturas": [],
+      "dacc": false
+    }
+  ]
+}

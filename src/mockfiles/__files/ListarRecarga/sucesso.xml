@@ -1,0 +1,34 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+      <lis:ListarRecargaPortalOiResponse xmlns:lis="http://esb.telemar/soap/schemas/ListarRecargaPortalOi">
+         <lis:recargas>
+            <lis:recarga>
+               <lis:idrecarga>15509237</lis:idrecarga>
+               <lis:datasolicitacao>2017-02-06T00:00:00</lis:datasolicitacao>
+               <lis:telefonefixo>8134286954</lis:telefonefixo>
+               <lis:telefonemovel>81987665094</lis:telefonemovel>
+               <lis:nomeoferta>R$10 Voz Total Ilimitado Local+LDN</lis:nomeoferta>
+               <lis:valor>10</lis:valor>
+               <lis:canaladesao>NBA</lis:canaladesao>
+               <lis:usuarioadesao>TR582091</lis:usuarioadesao>
+               <lis:nomeSolicitante>SEVERINO RAMOS DA SILVA JUNIOR(NOVO CLIENTE)</lis:nomeSolicitante>
+               <lis:comentario/>
+               <lis:numeroprotocolo/>
+               <lis:nomestatus>5 - Solicitação aceita</lis:nomestatus>
+               <lis:ultimafatura/>
+               <lis:tipo>A</lis:tipo>
+               <lis:valortaxaadesao/>
+            </lis:recarga>
+         </lis:recargas>
+         <lis:retorno>
+            <lis:idtransacao>0</lis:idtransacao>
+            <lis:idmensagem>0</lis:idmensagem>
+         </lis:retorno>
+         <lis:ResponseControl>
+            <code>0</code>
+            <reason>S</reason>
+            <detail>Execução com sucesso URA</detail>
+         </lis:ResponseControl>
+      </lis:ListarRecargaPortalOiResponse>
+   </s:Body>
+</soapenv:Envelope>
